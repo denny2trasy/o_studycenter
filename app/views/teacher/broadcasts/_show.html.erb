@@ -1,0 +1,10 @@
+<% if @broad_records.blank? %>
+	<%= t(:no_student) %>
+<% else %>
+	<% users = [] %>
+	<% @broad_records.each do |br|%>
+		<% users << br.user.login %>
+	<% end %>
+	<h1>Student Count : <%= users.count %></h1>
+	<p><%= users.join("  ")%> <br /> <%#= popup " more >>",teacher_broadcast_path(@schedule) ,:class=>"more"%></p>
+<% end %>

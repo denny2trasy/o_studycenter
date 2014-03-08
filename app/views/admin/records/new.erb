@@ -1,0 +1,11 @@
+ <%# form_for :user, :url=>admin_records_path, :html => { :multipart => true } do |f| %>   	
+   <%#= file_field :user, :file, :id=>'csvfile' %>
+   <%#= submit_tag 'Submit' %>
+<%# end %>
+
+
+<%  form_tag admin_records_url, :multipart => true do %>
+  <%= label_tag "File to Upload" %>
+  <%= file_field_tag "file" %>
+  <%= submit_tag 'Submit' %>
+<% end %>

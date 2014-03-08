@@ -1,0 +1,209 @@
+3617	Click on the BEST ANSWER to fill in the blank.	NULL	A:  Is there any ____?<br />B:  Yes, there are some apples.	NULL	214	-5.17	0	14
+3618	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	What time does the library <span class='prompt_blue'>open</span>?	NULL	214	-5.17	0	50
+3619	Click on the BEST ANSWER to fill in the blank.	NULL	Greg's going to bed. He's really ____.	NULL	214	-4.48	0	5
+3620	Click on the BEST ANSWER to fill in the blank.	NULL	How is the ____ today?  Should I take my umbrella?	NULL	214	-4.27	0	23
+3621	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	Sam <span class='prompt_blue'>forgot</span> to bring money.	NULL	214	-4.27	0	39
+3622	Click on the BEST ANSWER to fill in the blank.	NULL	A:  How ____ do you go swimming?<br />B:  Every day.	NULL	214	-4.06	0	7
+3623	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	I don't have any more <span class='prompt_blue'>clean</span> shirts.	NULL	214	-4.06	0	53
+3624	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	This restaurant is very <span class='prompt_blue'>noisy</span>, isn't it?	NULL	214	-4.06	0	54
+3625	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	Why are your clothes so <span class='prompt_blue'>wet</span>?	NULL	214	-3.77	0	51
+3626	Click on the BEST ANSWER to fill in the blank.	NULL	Which ____ can you come? Monday or Tuesday?	NULL	214	-3.54	0	4
+3627	Click on the BEST ANSWER to fill in the blank.	NULL	A:  What's your ____?<br/>B:   It's 2390 Harris Street.	NULL	214	-3.54	0	15
+3628	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	The bookstore isn't very <span class='prompt_blue'>far</span>.	NULL	214	-3.36	0	58
+3629	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	When we found the dog, it was already <span class='prompt_blue'>dead</span>.	NULL	214	-3.34	0	38
+3630	Click on the BEST ANSWER to fill in the blank.	NULL	A:  How ____ are you?<br />B:  I'm 20 in August.	NULL	214	-3.2	0	6
+3631	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	It's a little <span class='prompt_blue'>hot</span> in here, don't you think?	NULL	214	-2.94	0	52
+3632	Click on the BEST ANSWER to fill in the blank.	NULL	How many languages do you ____?	NULL	214	-2.82	0	16
+3633	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	It's a very <span class='prompt_blue'>narrow</span> room with a low ceiling.	NULL	214	-2.79	0	48
+3634	Click on the BEST ANSWER to fill in the blank.	NULL	My ____ month of the year is October.	NULL	214	-2.67	0	30
+3635	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	My house is the <span class='prompt_blue'>last</span> one on the left.	NULL	214	-2.67	0	40
+3636	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	This homework is too <span class='prompt_blue'>hard</span>.	NULL	214	-2.55	0	56
+3637	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	Why didn't you <span class='prompt_blue'>accept</span> their invitation?	NULL	214	-2.51	0	42
+3638	Click on the BEST ANSWER to fill in the blank.	NULL	I don't know the ____ to that question.	NULL	214	-2.47	0	20
+3639	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	The <span class='prompt_blue'>entrance</span> to the park was hard to find.	NULL	214	-2.47	0	43
+3640	Click on the BEST ANSWER to fill in the blank.	NULL	How many ____ have you read so far?	NULL	214	-2.47	0	10
+3641	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	I couldn't go because I was <span class='prompt_blue'>sick</span>.	NULL	214	-2.39	0	61
+3642	Click on the BEST ANSWER to fill in the blank.	NULL	I can't lift this box. It's too ____ for me.	NULL	214	-2.38	0	18
+3643	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	This car is very <span class='prompt_blue'>dangerous</span>.	NULL	214	-2.33	0	47
+3644	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	It was still <span class='prompt_blue'>light</span> when we got home.	NULL	214	-2.32	0	60
+3645	Click on the BEST ANSWER to fill in the blank.	NULL	These shoes are too big. I need a smaller ____.	NULL	214	-2.2	0	2
+3646	Click on the BEST ANSWER to fill in the blank.	NULL	Have you ____ the news about Kevin?	NULL	214	-2.07	0	123
+3647	Click on the BEST ANSWER to fill in the blank.	NULL	I can't eat another thing. I'm too ____.	NULL	214	-1.97	1	77
+3648	Click on the BEST ANSWER to fill in the blank.	NULL	John was very ____ about the test.	NULL	214	-1.95	1	33
+3649	Click on the BEST ANSWER to fill in the blank.	NULL	The ____ of the sky is blue.	NULL	214	-1.93	1	1
+3650	Click on the BEST ANSWER to fill in the blank.	NULL	I'm too ____ to go with you right now.	NULL	214	-1.93	1	68
+3651	Click on the BEST ANSWER to fill in the blank.	NULL	I want to work for a computer software company when I ____ from college.	NULL	214	-1.85	1	122
+3652	Click on the BEST ANSWER to fill in the blank.	NULL	Don't ____ your finger at him.  That's rude.	NULL	214	-1.83	1	22
+3653	Click on the BEST ANSWER to fill in the blank.	NULL	Unless you ____ me the truth, I will never trust you again.	NULL	214	-1.7	1	127
+3654	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	This is an <span class='prompt_blue'>old</span> car.	NULL	214	-1.62	1	57
+3655	Click on the BEST ANSWER to fill in the blank.	NULL	Cindy is always joking, but her sister is always ____.	NULL	214	-1.48	1	27
+3656	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	These two jeans are <span class='prompt_blue'>the same</span> size.	NULL	214	-1.39	1	45
+3657	Click on the BEST ANSWER to fill in the blank.	NULL	Not many people ____ the lecture. The hall was half empty.	NULL	214	-1.33	1	128
+3658	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	It's important to <span class='prompt_green'>select</span> the best material.	NULL	214	-1.31	1	100
+3659	Click on the BEST ANSWER to fill in the blank.	NULL	A:  How much does this book ____?<br />B:  It's on sale for $3.95.	NULL	214	-1.3	1	19
+3660	Click on the BEST ANSWER to fill in the blank.	NULL	We're late!  We should ____ right now.	NULL	214	-1.3	1	26
+3661	Click on the BEST ANSWER to fill in the blank.	NULL	You need to ____ up your mind by tomorrow.	NULL	214	-1.29	1	136
+3662	Click on the BEST ANSWER to fill in the blank.	NULL	What ____ of pizza do you like?	NULL	214	-1.26	1	72
+3663	Click on the BEST ANSWER to fill in the blank.	NULL	The school's new computers are very ____ .	NULL	214	-1.26	1	32
+3664	Click on the BEST ANSWER to fill in the blank.	NULL	We will ____ you while you are away at school.	NULL	214	-1.24	1	73
+3665	Click on the BEST ANSWER to fill in the blank.	NULL	I liked the first ____ of the movie, but not the rest of it.	NULL	214	-1.23	1	25
+3666	Click on the BEST ANSWER to fill in the blank.	NULL	I don't like to travel in a ____.  It's much nicer with only one friend.	NULL	214	-1.21	1	24
+3667	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	Did you <span class='prompt_blue'>pass</span> the exam?	NULL	214	-1.19	1	49
+3668	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	We are going to <span class='prompt_green'>consider</span> your proposal.	NULL	214	-1.17	1	105
+3669	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	I'm getting too <span class='prompt_blue'>fat</span>.	NULL	214	-1.08	1	35
+3670	Click on the BEST ANSWER to fill in the blank.	NULL	As you ____, it takes a long time to learn a foreign language.	NULL	214	-1.04	1	78
+3671	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	I think this picture is <span class='prompt_blue'>ugly</span>.	NULL	214	-1.01	1	55
+3672	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	You take the first road on the <span class='prompt_blue'>right</span>.	NULL	214	-1	1	37
+3673	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Please <span class='prompt_green'>remain</span> for a few more minutes.	NULL	214	-0.97	1	102
+3674	Click on the BEST ANSWER to fill in the blank.	NULL	He won't be at work today.  He's ____.	NULL	214	-0.96	1	143
+3675	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	Dan is not as <span class='prompt_blue'>tall</span> as his brother.	NULL	214	-0.95	1	36
+3676	Click on the BEST ANSWER to fill in the blank.	NULL	Where did you ____ your husband?	NULL	214	-0.94	1	70
+3677	Click on the BEST ANSWER to fill in the blank.	NULL	I have to study tonight. I'm ____ a biology test tomorrow.	NULL	214	-0.88	1	89
+3678	Click on the BEST ANSWER to fill in the blank.	NULL	If you need to get in ____ with me, you can always e-mail me.	NULL	214	-0.82	1	124
+3679	Click on the BEST ANSWER to fill in the blank.	NULL	Your hands are so cold. Why don't you wear your ____?	NULL	214	-0.82	1	3
+3680	Click on the BEST ANSWER to fill in the blank.	NULL	Could you let me ____ your car this evening? I have to go out.	NULL	214	-0.79	1	88
+3681	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	The farmer tried to plant seeds in the <span class='prompt_blue'>hard</span> ground.	NULL	214	-0.71	1	62
+3682	Click on the BEST ANSWER to fill in the blank.	NULL	Will you ____ enough money to be able to live in San Francisco?	NULL	214	-0.63	1	86
+3683	Click on the BEST ANSWER to fill in the blank.	NULL	She's not ____ with her latest test score.	NULL	214	-0.63	1	140
+3684	Click on the BEST ANSWER to fill in the blank.	NULL	It wasn't Matt's ____. He wasn't even there.	NULL	214	-0.58	2	83
+3685	Click on the BEST ANSWER to fill in the blank.	NULL	Try to be ____ when you shake his hand.  He hurt it yesterday.	NULL	214	-0.58	2	141
+3686	Click on the BEST ANSWER to fill in the blank.	NULL	Ashley ____ her juice on her new dress.	NULL	214	-0.56	2	21
+3687	Click on the BEST ANSWER to fill in the blank.	NULL	I got 100 percent on the test. It was ____.	NULL	214	-0.56	2	13
+3688	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	Our plane <span class='prompt_blue'>took off</span> twenty minutes late.	NULL	214	-0.52	2	44
+3689	Click on the BEST ANSWER to fill in the blank.	NULL	Have you ____ your mind yet or are you still deciding?	NULL	214	-0.5	2	126
+3690	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	That lamp is <span class='prompt_green'>costly</span>.	NULL	214	-0.5	2	104
+3691	Click on the BEST ANSWER to fill in the blank.	NULL	Take this map with you in case you get ____.	NULL	214	-0.49	2	74
+3692	Click on the BEST ANSWER to fill in the blank.	NULL	Do you ____ sugar with your coffee?	NULL	214	-0.46	2	75
+3693	Click on the BEST ANSWER to fill in the blank.	NULL	How long does it ____ to get to the beach from here?	NULL	214	-0.45	2	125
+3694	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	We see them <span class='prompt_green'>frequently</span>.	NULL	214	-0.4	2	106
+3695	Click on the BEST ANSWER to fill in the blank.	NULL	We need four ____ to the game.	NULL	214	-0.38	2	137
+3696	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	I <span class='prompt_blue'>found</span> my keys.	NULL	214	-0.34	2	41
+3697	Click on the BEST ANSWER to fill in the blank.	NULL	Is that the time? I didn't ____ it was so late.	NULL	214	-0.25	2	76
+3698	Click on the BEST ANSWER to fill in the blank.	NULL	With a wife and four young children to ____, Brad was forced to quit teaching and get a job selling computers.	NULL	214	-0.22	2	94
+3699	Click on the BEST ANSWER to fill in the blank.	NULL	We ____ the top of the mountain in under two hours.	NULL	214	-0.19	2	131
+3700	Click on the BEST ANSWER to fill in the blank.	NULL	The easiest way to ____ weight is to take in fewer calories.	NULL	214	-0.16	2	121
+3701	Click on the BEST ANSWER to fill in the blank.	NULL	Let's buy the ____ expensive car we can find.	NULL	214	-0.16	2	29
+3702	Click on the BEST ANSWER to fill in the blank.	NULL	The restrooms are around the ____ and to your left.	NULL	214	-0.1	2	28
+3703	Click on the choice that is the OPPOSITE IN MEANING of the word in blue.	NULL	That lake is very <span class='prompt_blue'>deep</span>.	NULL	214	-0.03	2	34
+3704	Click on the BEST ANSWER to fill in the blank.	NULL	Greg gave me a useful ____ of advice on how to improve my English.	NULL	214	0	2	65
+3705	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	His business <span class='prompt_green'>partner</span> is very important to him.	NULL	214	0.02	2	149
+3706	Click on the BEST ANSWER to fill in the blank.	NULL	Jenna loves meeting new people. She's much more ____ than I am.	NULL	214	0.05	2	71
+3707	Click on the BEST ANSWER to fill in the blank.	NULL	Her experience gave her a great ____.	NULL	214	0.05	2	111
+3708	Click on the BEST ANSWER to fill in the blank.	NULL	Have you made ____ with the dentist yet?	NULL	214	0.1	2	82
+3709	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Her <span class='prompt_green'>forecasts</span> are usually very good.	NULL	214	0.12	2	150
+3710	Click on the BEST ANSWER to fill in the blank.	NULL	When the ____ broke, there was a huge flood.	NULL	214	0.15	2	142
+3711	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	That's <span class='prompt_green'>a key</span> factor.	NULL	214	0.16	2	156
+3712	Click on the BEST ANSWER to fill in the blank.	NULL	Cindy had a rather frightening ____ last night walking back from the theater.	NULL	214	0.17	2	81
+3713	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	I had a big <span class='prompt_green'>break</span> last summer.	NULL	214	0.2	2	107
+3714	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	It is generally accepted that the use of robots in industry is <span class='prompt_green'>beneficial</span>.	NULL	214	0.21	2	202
+3715	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	She got a lot of <span class='prompt_green'>praise</span> for her performance.	NULL	214	0.25	2	152
+3716	Click on the BEST ANSWER to fill in the blank.	NULL	He can do anything.  He's very ____.	NULL	214	0.25	2	110
+3717	Click on the BEST ANSWER to fill in the blank.	NULL	I've decided not to go after all. I've ____ my mind.	NULL	214	0.3	2	114
+3718	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	We were <span class='prompt_green'>amazed</span> by his speech.	NULL	214	0.33	2	145
+3719	Click on the BEST ANSWER to fill in the blank.	NULL	They're so ____.  They don't like anything new.	NULL	214	0.35	2	144
+3720	Click on the BEST ANSWER to fill in the blank.	NULL	We need to get another ____ of toothpaste.	NULL	214	0.37	2	66
+3721	Click on the BEST ANSWER to fill in the blank.	NULL	Nick ____ his own business in the evenings as well as having a full-time job during the day.	NULL	214	0.38	3	69
+3722	Click on the BEST ANSWER to fill in the blank.	NULL	There's no ____ for his rude behavior.	NULL	214	0.39	3	90
+3723	Click on the BEST ANSWER to fill in the blank.	NULL	That's too much money to ____ on this car.	NULL	214	0.39	3	139
+3724	Click on the BEST ANSWER to fill in the blank.	NULL	I have a toothache. I have to go to the ____.	NULL	214	0.41	3	17
+3725	Click on the BEST ANSWER to fill in the blank.	NULL	Always ____ over your paper and fix any mistakes.	NULL	214	0.41	3	135
+3726	Click on the BEST ANSWER to fill in the blank.	NULL	Melanie has been badly ____ in a car accident.	NULL	214	0.41	3	174
+3727	Click on the BEST ANSWER to fill in the blank.	NULL	I needed some very ____ information, but the answer he gave me was quite general.	NULL	214	0.49	3	194
+3728	Click on the BEST ANSWER to fill in the blank.	NULL	After the football game the ____ ran onto the field.	NULL	214	0.5	3	80
+3729	Click on the BEST ANSWER to fill in the blank.	NULL	I think I'll stay home today.  I have a ____ throat.	NULL	214	0.5	3	31
+3730	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	They <span class='prompt_green'>carried out</span> his plan.	NULL	214	0.51	3	151
+3731	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	What is your favorite <span class='prompt_green'>pastime</span>?	NULL	214	0.52	3	101
+3732	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Pavarotti's 1963 debut at Covent Garden <span class='prompt_green'>launched</span> his international career.	NULL	214	0.52	3	163
+3733	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	She <span class='prompt_green'>realizes</span> what he has said.	NULL	214	0.55	3	154
+3734	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	After her accident, she had a <span class='prompt_green'>swift</span> recovery.	NULL	214	0.59	3	103
+3735	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Acupressure uses manipulation to <span class='prompt_green'>alleviate</span> pain.	NULL	214	0.62	3	159
+3736	Click on the BEST ANSWER to fill in the blank.	NULL	Last month a group of ____ employees won a lawsuit against one of the leading automobile manufacturers.	NULL	214	0.62	3	171
+3737	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	She's <span class='prompt_green'>exhausted</span>.	NULL	214	0.64	3	148
+3738	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The National Geographic Society <span class='prompt_green'>sponsors</span> many expeditions to all parts of the world.	NULL	214	0.73	3	158
+3739	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Limestone is a common type of sedimentary rock composed <span class='prompt_green'>principally</span> of calcite.	NULL	214	0.81	3	211
+3740	Click on the BEST ANSWER to fill in the blank.	NULL	Have you ____ from your flu yet?	NULL	214	0.82	3	130
+3741	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Tom felt very <span class='prompt_green'>tense</span> while his brother was speaking.	NULL	214	0.83	3	108
+3742	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The ability to <span class='prompt_green'>withstand</span> intense cold is one of the penguin's greatest assets.	NULL	214	0.83	3	165
+3743	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The exhibition shows how weapons of war have <span class='prompt_green'>evolved</span> over the centuries.	NULL	214	0.85	3	199
+3744	Click on the BEST ANSWER to fill in the blank.	NULL	For those of you not ____ with the aims of this organization, let me give you a brief introduction.	NULL	214	0.86	3	183
+3745	Click on the BEST ANSWER to fill in the blank.	NULL	This toaster is ____-new.	NULL	214	0.88	3	63
+3746	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The battle of Lexington, a <span class='prompt_green'>brief</span> skirmish that marked the first military clash in the American Revolution, took place in April 1775.	NULL	214	0.89	3	215
+3747	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	We instantly noticed the unusual <span class='prompt_green'>odor</span>.	NULL	214	0.91	3	153
+3748	Click on the BEST ANSWER to fill in the blank.	NULL	Jessica is thinking about postponing the wedding. She's getting cold ____.	NULL	214	0.94	3	129
+3749	Click on the BEST ANSWER to fill in the blank.	NULL	What do you do for a ____?	NULL	214	0.96	3	67
+3750	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Parole is usually granted to a prisoner in recognition of good <span class='prompt_green'>conduct</span>.	NULL	214	0.96	3	161
+3751	Click on the BEST ANSWER to fill in the blank.	NULL	The suspect ____ stealing the money.	NULL	214	0.99	3	91
+3752	Click on the BEST ANSWER to fill in the blank.	NULL	You can ____ that there is nothing wrong or you can face up to the reality of the situation and do something about it.	NULL	214	1.03	3	175
+3753	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Except for limited medical purposes, <span class='prompt_green'>cultivating</span> marijuana is illegal in all but a few countries.	NULL	214	1.04	3	157
+3754	Click on the BEST ANSWER to fill in the blank.	NULL	Our magazine ____ are costing us too much money.	NULL	214	1.04	3	198
+3755	Click on the BEST ANSWER to fill in the blank.	NULL	This contract is not ____ because it has not been signed.	NULL	214	1.05	4	196
+3756	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Did he <span class='prompt_green'>boast</span> about it?	NULL	214	1.06	4	155
+3757	Click on the BEST ANSWER to fill in the blank.	NULL	The government is due to make a public ____ about the collapse of the negotiations.	NULL	214	1.1	4	173
+3758	Click on the BEST ANSWER to fill in the blank.	NULL	We've had to ____ the meeting till next week.	NULL	214	1.1	4	85
+3759	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The word "marathon" commemorated the legendary <span class='prompt_green'>feat</span> of the Athenian soldier who carried the news of victory from the battle to Athens.	NULL	214	1.12	4	205
+3760	Click on the BEST ANSWER to fill in the blank.	NULL	Don't say anything about that ____ now.	NULL	214	1.15	4	138
+3761	Click on the BEST ANSWER to fill in the blank.	NULL	Because Alex had no ____ relatives, he gave his money to charitable organizations.	NULL	214	1.15	4	172
+3762	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The Lewis and Clark expedition mapped the <span class='prompt_green'>vast</span> territory west of the Mississippi River.	NULL	214	1.16	4	210
+3763	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Blood contains white blood cells, which <span class='prompt_green'>combat</span> infection.	NULL	214	1.17	4	208
+3764	Click on the BEST ANSWER to fill in the blank.	NULL	It was ____ agreed to postpone the meeting till we had more information.	NULL	214	1.18	4	112
+3765	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	One of the <span class='prompt_green'>indicators</span> that helps seismologists predict earthquakes is the emission of greater quantities of radon.	NULL	214	1.19	4	201
+3766	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	That's <span class='prompt_green'>exactly</span> what I want.	NULL	214	1.2	4	98
+3767	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Aluminum is the most <span class='prompt_green'>abundant</span> metallic constituent in the crust of the earth.	NULL	214	1.2	4	167
+3768	Click on the BEST ANSWER to fill in the blank.	NULL	It goes without ____ that we will support you. You can count on us.	NULL	214	1.21	4	118
+3769	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Legionnaires disease, a <span class='prompt_green'>severe</span> form of pneumonia, is characterized by headache, chest pain, and high fever.	NULL	214	1.23	4	214
+3770	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	He was involved in several <span class='prompt_green'>questionable</span> dealings.	NULL	214	1.26	4	146
+3771	Click on the BEST ANSWER to fill in the blank.	NULL	Let's hope for the best. I'm keeping my ____ crossed.	NULL	214	1.28	4	117
+3772	Click on the BEST ANSWER to fill in the blank.	NULL	Linda has ____ views on capital punishment.	NULL	214	1.28	4	79
+3773	Click on the BEST ANSWER to fill in the blank.	NULL	____ me a line sometime if you get the time. I'd love to hear from you.	NULL	214	1.31	4	115
+3774	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	While you are in class, it's important to be <span class='prompt_green'>respectful</span>.	NULL	214	1.34	4	99
+3775	Click on the BEST ANSWER to fill in the blank.	NULL	I think you need to buy a more ____ car.	NULL	214	1.34	4	197
+3776	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Sinclair Lewis was an American novelist whose style was much <span class='prompt_green'>imitated</span> by later writers.	NULL	214	1.34	4	204
+3777	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	President Wilson was a member of the committee that <span class='prompt_green'>drafted</span> the Covenant of the League of Nations.	NULL	214	1.36	4	209
+3778	Click on the BEST ANSWER to fill in the blank.	NULL	You've been ripped off, I'm afraid. That's just ____ junk.	NULL	214	1.38	4	184
+3779	Click on the BEST ANSWER to fill in the blank.	NULL	There is a ____ belief that we are already paying too many taxes.	NULL	214	1.38	4	187
+3780	Click on the BEST ANSWER to fill in the blank.	NULL	This report is accurate and complete to the best of my ____.	NULL	214	1.4	4	97
+3781	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	That jacket is <span class='prompt_green'>fabulous</span>.	NULL	214	1.43	4	147
+3782	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Evidence for the earliest migrations into the Americas is <span class='prompt_green'>scarce</span>.	NULL	214	1.44	4	170
+3783	Click on the BEST ANSWER to fill in the blank.	NULL	We're ____ to hear about what happened at the interview. Please tell us.	NULL	214	1.46	4	132
+3784	Click on the BEST ANSWER to fill in the blank.	NULL	The explosion caused ____ damage to the property.	NULL	214	1.46	4	93
+3785	Click on the BEST ANSWER to fill in the blank.	NULL	The entire school had to be ____ because of the fire in the kitchen.	NULL	214	1.46	4	181
+3786	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Abraham Lincoln sought to maintain harmony with the <span class='prompt_green'>disparate</span> elements of his party by giving them representation in his cabinet.	NULL	214	1.46	4	217
+3787	Click on the BEST ANSWER to fill in the blank.	NULL	The Brown's haven't had a ____ income since Brad lost his job last year.	NULL	214	1.47	4	188
+3788	Click on the BEST ANSWER to fill in the blank.	NULL	There's no ____ rule about this. It just depends on the situation.	NULL	214	1.47	4	119
+3789	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Holograms are used on credit cards as security devices, because the pictures are almost impossible to <span class='prompt_green'>forge</span>.	NULL	214	1.53	4	169
+3790	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Albert Einstein was a 20th century German scientist whose work <span class='prompt_green'>ranked with</span> Isaac Newton.	NULL	214	1.57	5	207
+3791	Click on the BEST ANSWER to fill in the blank.	NULL	One of the climbers suffered ____ injuries when he fell 100 feet from the top of the mountain.	NULL	214	1.58	5	179
+3792	Click on the BEST ANSWER to fill in the blank.	NULL	Paul ____ something under his breath but I couldn't make out exactly what he was saying.	NULL	214	1.6	5	95
+3793	Click on the BEST ANSWER to fill in the blank.	NULL	It's all ____ for you to say that, but you don't work for my boss.	NULL	214	1.61	5	96
+3794	Click on the BEST ANSWER to fill in the blank.	NULL	I'll have two ____ of ice cream, please.	NULL	214	1.66	5	134
+3795	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Mushrooms are cultivated in dark cellars with a <span class='prompt_green'>fixed</span> humidity and temperature.	NULL	214	1.71	5	206
+3796	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Penguins are <span class='prompt_green'>gregarious</span> birds that gather in colonies that sometimes number in the thousands.	NULL	214	1.76	5	200
+3797	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	We need to <span class='prompt_green'>confirm</span> the date.	NULL	214	1.78	5	109
+3798	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The writer Gertrude Stein <span class='prompt_green'>coined</span> the term "Lost Generation" to describe a group of American writers residing in Paris during the 1920's.	NULL	214	1.82	5	212
+3799	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	While <span class='prompt_green'>practicing</span> as an architect, le Corbusier was also active as a painter and writer.	NULL	214	1.84	5	213
+3800	Click on the BEST ANSWER to fill in the blank.	NULL	The whole project cost nearly $2 million, ____ a couple of thousand.	NULL	214	1.87	5	120
+3801	Click on the BEST ANSWER to fill in the blank.	NULL	I can't see myself moving from here in the ____ future.	NULL	214	1.87	5	185
+3802	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Thomas Malthus' theory <span class='prompt_green'>contradicted</span> the optimistic belief in economic progress prevailing in the early 19th century.	NULL	214	1.92	5	160
+3803	Click on the BEST ANSWER to fill in the blank.	NULL	One of the most ____ places on earth is the Galapagos Islands in the Pacific Ocean.	NULL	214	1.92	5	92
+3804	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Leather is animal skin that has been chemically <span class='prompt_green'>modified</span> by various processes.	NULL	214	1.96	5	203
+3805	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The French magician Houdini revolutionized the art of magic with his <span class='prompt_green'>ingenious</span> stage mechanisms.	NULL	214	2.03	5	218
+3806	Click on the BEST ANSWER to fill in the blank.	NULL	If worst ____ to worst, we can always call a cab.	NULL	214	2.05	5	192
+3807	Click on the BEST ANSWER to fill in the blank.	NULL	The gun ____ when he dropped it on the ground.	NULL	214	2.05	5	193
+3808	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Sigmund Freud believed the value of art was in its <span class='prompt_green'>therapeutic</span> use.	NULL	214	2.07	5	166
+3809	Click on the BEST ANSWER to fill in the blank.	NULL	James likes spicy foods, but his wife only eats ____ foods.	NULL	214	2.07	5	195
+3810	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	I'm <span class='prompt_green'>famished</span>.	NULL	214	2.12	5	162
+3811	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	The complex nature of pain is illustrated by <span class='prompt_green'>anecdotes</span> of soldiers who are severely wounded and do not complain of pain.	NULL	214	2.18	5	219
+3812	Click on the BEST ANSWER to fill in the blank.	NULL	____ a week goes by without some awful accident happening on that stretch of road.	NULL	214	2.21	5	186
+3813	Click on the BEST ANSWER to fill in the blank.	NULL	The kitchen is small and badly equipped but ____ clean.	NULL	214	2.29	5	190
+3814	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Babies have taste buds in nearly every part of their mouths, whereas the taste buds of an adult are <span class='prompt_green'>confined</span> mainly to the tongue.	NULL	214	2.33	5	164
+3815	Click on the BEST ANSWER to fill in the blank.	NULL	If you join the club, you will also be ____ for special member discounts.	NULL	214	2.33	5	182
+3816	Click on the BEST ANSWER to fill in the blank.	NULL	I couldn't believe my eyes. The robbery took place in ____ daylight.	NULL	214	2.35	5	64
+3817	Click on the BEST ANSWER to fill in the blank.	NULL	Traffic had to be ____ because of the burst water mains.	NULL	214	2.39	5	178
+3818	Click on the BEST ANSWER to fill in the blank.	NULL	We don't seem to be making any progress here. Let's ____ it a day.	NULL	214	2.4	5	113
+3819	Click on the BEST ANSWER to fill in the blank.	NULL	Stephanie wouldn't stop talking. I couldn't get a word in ____.	NULL	214	2.41	5	116
+3820	Click on the choice that is the CLOSEST IN MEANING to the word in green.	NULL	Geologists have <span class='prompt_green'>concluded</span> that the Earth has a small, solid region at the center, surrounded by a liquid core.	NULL	214	2.47	5	168
+3821	Click on the BEST ANSWER to fill in the blank.	NULL	Ben ____ accepted my apology and was willing to forget the whole thing.	NULL	214	2.6	5	191
+3822	Click on the BEST ANSWER to fill in the blank.	NULL	Let's make ____ effort to be punctual.	NULL	214	2.8	5	189
+3823	Click on the BEST ANSWER to fill in the blank.	NULL	The kids were playing in the backyard and then they just vanished into ____ air.	NULL	214	2.86	5	133
+3824	Click on the BEST ANSWER to fill in the blank.	NULL	Your uncle Charles refused to fight in the war. He was what they call a ____ objector.	NULL	214	2.88	5	180
+3825	Click on the BEST ANSWER to fill in the blank.	NULL	Capital punishment is meant to act as a ____.	NULL	214	3.25	5	176

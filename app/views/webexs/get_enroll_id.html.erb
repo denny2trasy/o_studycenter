@@ -1,0 +1,72 @@
+<style>
+	.input_error {
+		color: red;
+		display: none;
+		padding-left: 66px;
+	}
+</style>
+<div style="margin:40px 0px 0px 40px; font-weight:blod; font-size:14px;">
+	<%= form_tag(re_enroll_webexs_path,:id=>"enroll_form") do%>
+		<%= t(:enroll_id)%><span style="color:red">*</span>:
+	<%= number_field_tag 'EI',:max=>6 %>
+	<p class="input_error" id="enroll_id_error" >
+		注册ID不得超过6位
+	</p>
+	<%= hidden_field_tag 'SID',@schedule_id%>
+	<input type="button"  id="enroll_id_submit" name="commit" value="提交">
+	<% end%>
+
+</div>
+<div id="bcastcasthelp">
+	<h1>从哪里获取注册ID？</h1>
+	<li>1、登陆您的注册邮箱，<a href="#" onclick="display_email()">点击查看注册邮箱</a><span id="email_span" style="display:none;color:red;"><%= current_user.mail%></span></li>
+	<li>2、您将会收到一封来自messenger@webex.com.cn的注册邮件，找到“注册标识”或者“Registration ID”。</li>
+	<li>3、将注册标识ID输入以上输入框，点击提交。</li>
+	<h1>如果您有问题请与我们联系</h1>
+	<li>客服邮箱：teachcast@eleutian.com</li>
+	<li>客服QQ： 1534068434 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1534068434&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1534068434:41 &r=0.16142657199908655" alt="点击这里联系客服" title="点击这里联系客服"></a>
+	</li>
+</div>
+
+<script >
+	function display_email(){
+		document.getElementById("email_span").style.display = "block";
+	}
+	
+	var register_validate = true;
+
+	function enroll_id_validate() {
+		var enroll_id = $("#EI").val();
+		var patrn = /^(\w){1,6}$/;
+		if(!patrn.exec(enroll_id)) {
+			register_validate = false;
+			$("#enroll_id_error").show();
+		} else {
+			register_validate = true;
+			$("#enroll_id_error").hide();
+		}
+	}
+
+
+	$(document).ready(function() {
+
+		$("#EI").blur(function() {
+			enroll_id_validate();
+		});
+	
+		$("#enroll_id_submit").click(function() {
+			enroll_id_validate();
+			if(register_validate == true) {
+				$("#enroll_form").submit()
+			}
+		});
+		$(window).keypress(function(e) {
+			if(e.keyCode == 13) {
+				enroll_id_validate();
+				if(register_validate == true) {
+					$("#enroll_form").submit()
+				}
+			}
+		});
+	})
+</script>

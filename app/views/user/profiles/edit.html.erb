@@ -1,0 +1,44 @@
+<h1 class="reset_hedlineh1"><%=t(:setting)%></h1>	   
+<div class="reset_boder usual"  id="usual1" >
+	<ul class="tab_nav">
+		<li>
+			<a class="selected" href="#reset_all"><%=t(:user_info)%></a>
+		</li>
+		<li>
+			<a href="#reset_password"><%=t(:change_password)%></a>
+		</li>
+	</ul>
+	<div class="clearer"></div>
+	<div id="reset_all">
+		<%= simple_form_for @user, :as => :profile, :class => 'user_profile', :url => url_of(:el_user, :update_profile_service) do |f| %>
+		<%= f.input :login,	:disabled => true,:hint => "You cannot change your login.", :input_html => {:size => 20} %>
+		<%= f.input :mail , :input_html => {:size => 41} %>
+		<%= f.input :given_name, :input_html => {:size => 41} %>
+		<%= f.input :mobile, :input_html => {:size => 41} %>
+		<%= f.input :msn, :input_html => {:size => 41} %>
+		<%= f.input :qq, :input_html => {:size => 41} %>
+		<%= f.input :locale do%>
+			<%= f.select( "locale", { "中国大陆" => "zh", "English Countries" => 'en', "한국" =>"ko" , "Português" =>"pt" ,"español" =>"es"},{:include_blank => true}) %>
+	<% end%>
+
+			<%= f.time_zone_select("time_zone")%>
+
+		<%= f.button :submit, :class => 'reset_button' %>
+
+		<%= hidden_field_tag :forward, profile_url %>
+		<% end %>
+	</div>
+	<div id="reset_password">
+		<h3>&nbsp;</h3>
+		<%= simple_form_for @user, :url => url_of(:el_user, :update_password_service), :method => :put do |f| %>
+		<%= f.input :original_password do %>
+		<%= password_field_tag 'original_password' %>
+		<% end %>
+		<%= f.input :password, :input_html => {:name => 'password'} %>
+		<%= f.input :password_confirmation, :input_html => {:name => 'password_confirmation'} %>
+		<%= f.button :submit, :class => 'reset_button' %>
+		<%= hidden_field_tag 'login', current_user.login %>
+		<% end %>
+	</div>
+	<div class="clearer"></div>
+</div>

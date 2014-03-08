@@ -1,0 +1,51 @@
+<div class="content_right">
+	<% if @notices.present?%>
+	<div id="course_notice" class="mar_b15">
+		<h1 class="headline_h1a_notice"><%= t(:course_notice)%></h1>
+		
+	        <% @notices.each do |n|%>
+		<p style=" ">
+		<%= n.content%></p>
+		<% end%>
+	
+	</div><!--通知-->
+	<% end%>
+	<% unless (p = current_user.from_partner) and p.downcase == "cdel"%>
+	<div id="activate_course" class="mar_b15">
+		<h1 class="headline_h1a"><%= t(:course_activation)%></h1>
+		<p><%=t(:input_your_active_code)%>：</p>
+		<%= form_tag activate_course_packages_path do %>
+		<input name="code" id="code" type="text" class="activation_text">
+		<%= submit_tag t(:activate) , :class => 'blue_button'%>
+		<% end %>
+		<%=raw show_flash %>
+	</div><!--激活-->
+	<% end%>
+	<% if @course_package%>
+	<div id="live_class">
+	         <h1  class="headline_h1a">Live Class:</h1>
+	<span class="live_class_content"><%= @next_schedule_lesson.course_start_at.to_s(:long) unless @next_schedule_lesson.blank? %></span>
+		<%= link_to @next_schedule_lesson.blank? ? "No Class!" : @next_schedule_lesson.title,:webexs,:class=>"more"%>
+		<!-- <br /> -->
+		<%#= link_to "Let's go", "http://thinkingcap.eleutian.asia/Student/Course/ViewCourse.aspx?CourseID=c158b486-11e6-408c-bca9-b62c1e2366fc&ProgramID=" , :target => "_blank"%>
+		<!-- <br /> -->
+		<%#= link_to "Business ventures", "http://thinkingcap.eleutian.asia//Student/Course/ViewCourse.aspx?CourseID=7c92634f-0659-4e95-a76c-c919b1ef823e&ProgramID=", :target => "_blank"%>
+	</div>
+	<% end%>
+	<% if current_user.from_partner == "cambridge"%>		
+		<div id="report_issue" class="mar_b15"><h1 class="headline_h1a">报告建议</h1>
+		<div class="report_issue_wrap">
+			您在学习过程中如遇到问题，或对我们的课程有任何意见或建议，请致信我们的官方邮箱：<a href="mailto:jianqiaoqingshao@gmail.com">jianqiaoqingshao@gmail.com</a>，我们将及时对您的问题给予答复。 </div></div>
+	<% else%>
+	<div id="test_course" class="mar_b15">		
+		<%= javascript_tag("ajaxLoad('test_course', '#{replaces_path()}')")%>		
+	</div><!--SpeakENG Test-->
+	<% end%>
+	<!--
+	<div id="report_issue" class="mar_b15">
+		<%=raw show_report %>
+		<%= javascript_tag("ajaxLoad('report_issue', '#{new_issue_path()}')")%>		
+	</div>
+	-->
+	<!--issue-->
+</div><!--right-->

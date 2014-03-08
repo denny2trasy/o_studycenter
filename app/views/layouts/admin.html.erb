@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin</title>
+
+    <%= stylesheet_link_tag 'el_base', 'fullcalendar','frame_el' %>
+    <%= javascript_include_tag :defaults %>
+    <%= javascript_include_tag 'fullcalendar', 'gcal', 'application','jquery/jquery-ui', 'jquery/jquery_tab' %>
+    <%= stylesheet_link_tag 'jquery-ui', 'dialog' %>
+	<%= javascript_include_tag 'frame'%>
+    <%= csrf_meta_tag %>
+    <%= yield(:head)%>
+  </head>
+
+
+  <body onLoad="ajaxLoad();">
+		<div id="headerbg"></div>
+		<div class="clear_float" id="globalheader">
+			<h1 id="globallogo"><a href="#">Eleutian</a></h1>
+			<div class="clear_float" id="globalnav">
+    			<div class="leftfloat">
+        			<!-- #{user.blank? ? "" : idp_nav_links} -->
+    			</div>
+   				<div class="rightfloat">
+        				<ul class="miscnav">
+				            <% if current_user %>
+				              <li><%= link_to t(:setting), profile_path%></li>
+				              <li><%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + signin_url, :method => :get %></li>
+				            <% else %>
+				              <li><%= link_to t(:signin), signin_path %></li>
+				              <li><%= link_to t(:signup), signup_path %></li>
+				            <% end %>
+        				</ul>
+    			</div>
+			</div>
+		</div>
+		
+		<div>
+			
+			<div class="hmenu2" style="margin-bottom:10px;">
+			        <ul>
+			            <li <% if params[:controller] =~ /slides/ %>class="active"<% end %>><%= link_to t(:slide), admin_slides_path%></li>
+			            <li <% if params[:controller] =~ /schedules/ %>class="active"<% end %>><%= link_to t(:schedule), admin_schedules_path %></li>
+						<li <% if params[:controller] =~ /users/ %>class="active"<% end %>><%= link_to t(:user), admin_users_path %></li>
+						<li <% if params[:controller] =~ /customers/ %>class="active"<% end %>><%= link_to t(:customer), admin_customers_path %></li>
+						<li <% if params[:controller] =~ /questions|answers/ %>class="active"<% end %>><%= link_to t(:question), admin_questions_path %></li>
+						<li <% if params[:controller] =~ /issues/ %>class="active"<% end %>><%= link_to t(:issue), issues_path %></li>
+						<li <% if params[:controller] =~ /notices/ %>class="active"<% end %>><%= link_to t(:notice), admin_notices_path %></li>
+						<li <% if params[:controller] =~ /records/ %>class="active"<% end %>><%= link_to t(:record), admin_records_path %></li>
+						<li <% if params[:controller] =~ /quizzes/ %>class="active"<% end %>><%= link_to t(:quiz), admin_quizzes_path %></li>
+						<li <% if params[:controller] =~ /mail_templates/ %>class="active"<% end %>><%= link_to t(:mail_template), admin_mail_templates_path %></li>
+			        </ul>
+			</div>
+		
+		
+			<%= yield %>
+			
+		</div>
+	
+	 </body>
+</html>

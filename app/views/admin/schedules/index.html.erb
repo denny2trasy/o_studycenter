@@ -1,0 +1,124 @@
+<p>
+  <%= link_to (t :create_schedule), nnew_admin_schedules_path, :remote => true%>
+
+<%= link_to (t :down_template) , download_admin_schedules_path%>
+	<% form_tag('schedules/upload',:multipart=> true) do%> 
+	   <%= file_field("file", "file") %>
+	   <%= submit_tag("Upload file") %> 
+	<% end%>
+	<%= form_for "search", :url => admin_schedules_path, :html => {:method => :get} do |f| %>
+
+		<%= f.label "customer", t(:customer)  %> 
+	 	<%= f.select 'customer_id',Customer.all.collect {|p| [ p.short_name, p.id ] } ,{ :include_blank => true }%> <br />
+	 	<%= f.submit t(:search) %>
+	<% end %>
+</p>
+
+<div class="wrapper">
+     <div class="subPageContent">
+       <% if flash[:notice] -%>
+       <div id = 'flash_notice'>
+         <%= flash[:notice] %>
+       </div>
+       <% end -%>
+       <% if flash[:error] -%>
+       <div id = 'flash_error'>
+         <%= flash[:error] %>
+       </div>
+       <%end -%>
+       <span>
+         <div id = 'loading'>
+           Loading...
+         </div>
+       </span>
+       <div class="aplicationContent">
+         <div class="appRightContent">
+           <%= yield %>
+         </div>
+       </div>
+     </div>
+   </div>
+   <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+       var pageTracker = _gat._getTracker("UA-1010763-3");
+       pageTracker._trackPageview();
+       } catch(err) {}</script>
+
+<script>
+  
+  $(document).ready(function(){
+      // page is now ready, initialize the calendar...
+      $('#fullcalendar').fullCalendar({
+          editable: true,
+          header: {
+              left: 'prev,next today',
+              center: 'title',
+              right: 'month,agendaWeek,agendaDay'
+          },
+          defaultView: 'agendaWeek',
+          height: 500,
+          slotMinutes: 15,
+          loading: function(bool){
+              if (bool) 
+                  $('#loading').show();
+              else 
+                  $('#loading').hide();
+          },
+          events: "/el_studycenter/admin/schedules/get_course",
+          timeFormat: 'h:mm t{ - h:mm t} ',
+          dragOpacity: "0.5",
+          eventDrop: function(event, dayDelta, minuteDelta, allDay, revertFunc){
+//              if (confirm("Are you sure about this change?")) {
+                  moveEvent(event, dayDelta, minuteDelta, allDay);
+//              }
+//              else {
+//                  revertFunc();
+//              }
+          },
+          
+          eventResize: function(event, dayDelta, minuteDelta, revertFunc){
+//              if (confirm("Are you sure about this change?")) {
+                  resizeEvent(event, dayDelta, minuteDelta);
+//              }
+//              else {
+//                  revertFunc();
+//              }
+          },
+          
+          eventClick: function(event, jsEvent, view){
+              showEventDetails(event);
+          }
+      
+      
+      
+      
+      });
+  });
+</script>
+<div>
+  <div id='fullcalendar'>
+  </div>
+</div>
+
+<div id = "desc_dialog" >
+  <div id = "event_desc">
+  </div>
+<br/>
+  <br/>
+  <div id = "event_actions">
+    <span id = "edit_event"></span>
+	<span id = "add_customer_event"></span>
+    <span id = "delete_event"></span>
+	<span id = "enter_user_list"></span>
+	<span id = "webex_user_list"></span>
+	
+  </div>
+
+<div id = "create_event_dialog" style ="display:none;">
+  <div id = "create_event">
+  </div>
+</div>

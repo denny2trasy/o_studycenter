@@ -1,0 +1,31 @@
+<%= content_tag :head do %>
+  <script src="http://static.opentok.com/v0.91/js/TB.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    var apiKey = <%= OpenTok::API_KEY %>;
+    var sessionId = '<%= @schedule.session_id %>';
+    var token = '<%= @token %>';
+
+	function show_schedule(){if(document.getElementById("schedule").style.display !="none")
+    document.getElementById("schedule").style.display="none";
+    else
+		document.getElementById("schedule").style.display="block";}
+  </script>
+  <%= javascript_include_tag 'opentok_student' %>
+  <%= render :partial => 'messages/refresh_js' %>
+<% end %>
+<div id="schedule" <%if @is_course_time %> style="display:none"<%end%>>
+	<%= render :partial => 'user/schedules/schedule' %>
+</div>
+<div class="span-12">
+  <h3><%= t :live_broadcasting %></h3>
+  <div id="subscribers" class="publisherContainer">
+    <p id="info" style="padding-top:50px">
+      <%= t :broadcast_not_in_time, :time => l(@schedule.course_start_at, :format => :long) %>
+    </p>
+  </div>
+</div>
+
+<div class="span-12 last">
+  <h3><%= t :live_discussion %></h3>
+  <%= render :partial => "messages/form" %>
+</div>

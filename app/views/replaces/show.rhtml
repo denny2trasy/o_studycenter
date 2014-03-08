@@ -1,0 +1,44 @@
+<div class="content_left">
+    <div id="test_questions">
+      <h1  class="headline_h1a"><%= t(:replace_test)%></h1>
+
+	  <h2><%= show_skill(@skill)%></h2>
+
+<%= form_tag(replaces_path(:id => @id,:skill=>@skill),:method => :post) do %>
+
+<ol>
+	<% @q_results.each_with_index do |q_result| %>
+		<% question = q_result.question %>
+		<li>
+			<dl class='dl_style2'>
+				<dd>
+					<%= question.prompt.try(:html_safe)%>
+					<%= show_question_audio(question.instruction_sounds)%>
+					<%= show_question_audio(question.sounds) %>					
+					<%= hidden_field_tag("questions_#{q_result.id}",q_result.id)%>
+				</dd>
+				<% question.answers.each do |answer| %>	
+					<% l_name = "answers_#{q_result.id}_#{answer.id}" %>
+					<% choose = (q_result.answer_id == answer.id)%>
+					<dt>
+						<%= radio_button_tag("answers[#{q_result.id}]",answer.id,choose)%>
+						<%=label_tag(l_name,"#{answer.name}")%>
+					</dt>	
+				<% end %>
+			</dl>
+		</li>	
+	<% end %>
+</ol>
+
+
+	<span><%= submit_tag (@skill == "216" ? t(:submit) : t(:next)), :class=>"blue_button"%></span>
+<% end %>
+<div class="headline_bottom"></div>
+</div></div>
+
+<div class="content_right">
+	<div class="mar_b15" id="test_01">
+			<h1 class="headline_h1a"><%= t(:assessment)%></h1>
+			<p><%= t(:assessment_introduction).to_html%></p>		
+		</div>
+</div>

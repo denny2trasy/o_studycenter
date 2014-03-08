@@ -1,0 +1,25 @@
+<div id="list">
+
+        <div id="pptlist">
+        	<ul>
+				<% if @course_type == "ellis"%>
+				<%= ellis_sort(@slides)%>
+				<% elsif @course_type == "business venture"%>
+				<%= bus_venture_sort(@slides)%>
+				<% elsif @course_type == "lets go"%>
+				<%= lets_go_sort(@slides)%>
+				<% end%>
+			</ul>
+        </div>
+</div>
+
+<div id="ppt">
+	<%= javascript_tag("ajaxLoad('ppt', '#{ppt_path(@slides.first.id)}')")%>
+</div>
+
+
+<script type="text/javascript">  
+  function get_ppt(value){  
+    $("#ppt").load("ppts/"+value)
+  }  
+</script>

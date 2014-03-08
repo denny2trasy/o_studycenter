@@ -1,0 +1,2514 @@
+﻿Id	Text	IsCorrect	PlacementQuestionId
+0	is	1	0
+1	are	0	0
+2	am	0	0
+3	be	0	0
+4	are	1	1
+5	is	0	1
+6	am	0	1
+7	be	0	1
+8	are	1	2
+9	is	0	2
+10	am	0	2
+11	be	0	2
+12	Are you	1	3
+13	You	0	3
+14	Are	0	3
+15	Is	0	3
+16	You	1	4
+17	I	0	4
+18	He	0	4
+19	She	0	4
+20	Where	1	5
+21	When	0	5
+22	What	0	5
+23	Why	0	5
+24	I	1	6
+25	He	0	6
+26	You	0	6
+27	They	0	6
+28	isn't	1	7
+29	not	0	7
+30	no is	0	7
+31	are not	0	7
+32	me	1	8
+33	my	0	8
+34	mine	0	8
+35	I	0	8
+36	are trying	1	9
+37	trying	0	9
+38	am trying	0	9
+39	tries	0	9
+40	Why	1	10
+41	What	0	10
+42	Where	0	10
+43	Who	0	10
+44	are you doing	1	11
+45	you are doing	0	11
+46	you do	0	11
+47	do you	0	11
+48	Is she	1	12
+49	She	0	12
+50	Is	0	12
+51	Are	0	12
+52	His	1	13
+53	Her	0	13
+54	Our	0	13
+55	Their	0	13
+56	your	1	14
+57	you're	0	14
+58	yours	0	14
+59	you	0	14
+60	them	1	15
+61	they	0	15
+62	their	0	15
+63	theirs	0	15
+64	us	1	16
+65	we	0	16
+66	his	0	16
+67	they	0	16
+68	an	1	17
+69	a	0	17
+70	any	0	17
+71	two	0	17
+72	ago	1	18
+73	away	0	18
+74	along	0	18
+75	awhile	0	18
+76	him	1	19
+77	she	0	19
+78	he	0	19
+79	you	0	19
+80	He's	1	20
+81	He	0	20
+82	I	0	20
+83	Is	0	20
+84	at	1	21
+85	in	0	21
+86	on	0	21
+87	since	0	21
+88	some	1	22
+89	any	0	22
+90	a little	0	22
+91	plenty	0	22
+92	aren't	1	23
+93	is not	0	23
+94	no	0	23
+95	not	0	23
+96	His	1	24
+97	Hers	0	24
+98	Yours	0	24
+99	Ours	0	24
+100	on	1	25
+101	at	0	25
+102	in	0	25
+103	since	0	25
+104	aren't they	1	26
+105	don't they	0	26
+106	isn't it	0	26
+107	isn't he?	0	26
+108	isn't it	1	27
+109	aren't it	0	27
+110	couldn't it	0	27
+111	doesn't it	0	27
+112	do you	1	28
+113	you	0	28
+114	does	0	28
+115	are you	0	28
+116	quickly as	1	29
+117	quicker than	0	29
+118	quickly than	0	29
+119	quicker as	0	29
+120	another	1	30
+121	other	0	30
+122	others	0	30
+123	the others	0	30
+124	It's	1	31
+125	Its	0	31
+126	It	0	31
+127	Is	0	31
+128	They're	1	32
+129	He's	0	32
+130	It's	0	32
+131	We're	0	32
+132	do	1	33
+133	did	0	33
+134	does	0	33
+135	doing	0	33
+136	taking	1	34
+137	takes	0	34
+138	take	0	34
+139	is taking	0	34
+140	are looking	1	35
+141	looking	0	35
+142	looks	0	35
+143	is looking	0	35
+144	Your	1	36
+145	You're	0	36
+146	Yours	0	36
+147	You	0	36
+148	that	1	37
+149	who	0	37
+150	whose	0	37
+151	this	0	37
+152	whether	1	38
+153	if	0	38
+154	when	0	38
+155	otherwise	0	38
+156	their	1	39
+157	there	0	39
+158	they're	0	39
+159	theirs	0	39
+160	any	1	40
+161	some	0	40
+162	a	0	40
+163	many	0	40
+164	Those	1	41
+165	That	0	41
+166	This	0	41
+167	There	0	41
+168	at	1	42
+169	in	0	42
+170	on	0	42
+171	for	0	42
+172	Did you have	1	43
+173	Have you had	0	43
+174	Are you having	0	43
+175	Do you have	0	43
+176	Are	1	44
+177	Is	0	44
+178	Do	0	44
+179	Does	0	44
+180	leaving	1	45
+181	leave	0	45
+182	to leave	0	45
+183	left	0	45
+184	whether	1	46
+185	that	0	46
+186	when	0	46
+187	if	0	46
+188	an umbrella	1	47
+189	a umbrella	0	47
+190	umbrella	0	47
+191	some umbrella	0	47
+192	a few	1	48
+193	a little	0	48
+194	any	0	48
+195	one	0	48
+196	surprised	1	49
+197	surprising	0	49
+198	surprises	0	49
+199	surprise	0	49
+200	coming	1	50
+201	come	0	50
+202	comes	0	50
+203	be coming	0	50
+204	since	1	51
+205	when	0	51
+206	then	0	51
+207	while	0	51
+208	was running	1	52
+209	used to run	0	52
+210	has run	0	52
+211	runs	0	52
+212	are you always	1	53
+213	always are you	0	53
+214	you are always	0	53
+215	you always are	0	53
+216	the most delicious	1	54
+217	more delicious	0	54
+218	most delicious	0	54
+219	delicious	0	54
+220	banging	1	55
+221	to bang	0	55
+222	bang	0	55
+223	from banging	0	55
+224	some	1	56
+225	any	0	56
+226	an	0	56
+227	one	0	56
+228	doesn't he	1	57
+229	he does	0	57
+230	isn't he	0	57
+231	is he	0	57
+232	cheaper than	1	58
+233	cheap as	0	58
+234	cheaper as	0	58
+235	as cheap than	0	58
+236	were	1	59
+237	am	0	59
+238	will be	0	59
+239	would be	0	59
+240	prefers	1	60
+241	is preferring	0	60
+242	prefer	0	60
+243	preferring	0	60
+244	did you get	1	61
+245	have you gotten	0	61
+246	were you getting	0	61
+247	you have gotten	0	61
+248	are you	1	62
+249	do you	0	62
+250	you	0	62
+251	you're	0	62
+252	the best	1	63
+253	best	0	63
+254	better	0	63
+255	most good	0	63
+256	to take	1	64
+257	taking	0	64
+258	take	0	64
+259	to taking	0	64
+260	did they leave	1	65
+261	they did left	0	65
+262	they did leave	0	65
+263	did they left	0	65
+264	Learning	1	66
+265	Having learned	0	66
+266	Learn	0	66
+267	For learning	0	66
+268	about finding	1	67
+269	to find	0	67
+270	with finding	0	67
+271	on finding	0	67
+272	for	1	68
+273	to	0	68
+274	towards	0	68
+275	on	0	68
+276	haven't you	1	69
+277	didn't you	0	69
+278	aren't you	0	69
+279	weren't you	0	69
+280	Who do you want	1	70
+281	Who you want	0	70
+282	Who you do want	0	70
+283	Who wants you	0	70
+284	after	1	71
+285	up	0	71
+286	into	0	71
+287	for	0	71
+288	an interesting	1	72
+289	a interesting	0	72
+290	interesting	0	72
+291	the interesting	0	72
+292	believe	1	73
+293	am believing	0	73
+294	believing	0	73
+295	is believing	0	73
+296	used	1	74
+297	ought	0	74
+298	has	0	74
+299	is able	0	74
+300	leaving	1	75
+301	that he left	0	75
+302	leave	0	75
+303	to leave	0	75
+304	much	1	76
+305	a lot	0	76
+306	many	0	76
+307	some	0	76
+308	're leaving	1	77
+309	leaving	0	77
+310	're leave	0	77
+311	leaves	0	77
+312	some	1	78
+313	any	0	78
+314	few	0	78
+315	a little	0	78
+316	unless	1	79
+317	in case	0	79
+318	providing	0	79
+319	however	0	79
+320	go	1	80
+321	going	0	80
+322	are going	0	80
+323	are going to	0	80
+324	boring	1	81
+325	bored	0	81
+326	bore	0	81
+327	boredom	0	81
+328	married	1	82
+329	marry	0	82
+330	marriage	0	82
+331	marrying	0	82
+332	was raining	1	83
+333	rained	0	83
+334	has rained	0	83
+335	rains	0	83
+336	get	1	84
+337	got	0	84
+338	gets	0	84
+339	getting	0	84
+340	as	1	85
+341	more	0	85
+342	the most	0	85
+343	such	0	85
+344	to turn	1	86
+345	turning	0	86
+346	having turned	0	86
+347	to have turned	0	86
+348	for	1	87
+349	during	0	87
+350	since	0	87
+351	in	0	87
+352	Her	1	88
+353	His	0	88
+354	He	0	88
+355	She	0	88
+356	is	1	89
+357	are	0	89
+358	have	0	89
+359	has	0	89
+360	do you weigh	1	90
+361	are you weighing	0	90
+362	you weigh	0	90
+363	weigh you	0	90
+364	other	1	91
+365	others	0	91
+366	another	0	91
+367	the other	0	91
+368	does it cost	1	92
+369	it costs	0	92
+370	is it cost	0	92
+371	this costs	0	92
+372	the others	1	93
+373	others	0	93
+374	other	0	93
+375	the other	0	93
+376	the same	1	94
+377	same	0	94
+378	a same	0	94
+379	this same	0	94
+380	are you	1	95
+381	you are	0	95
+382	aren't you	0	95
+383	are you not	0	95
+384	up	1	96
+385	out	0	96
+386	on	0	96
+387	at	0	96
+388	am I	1	97
+389	aren't I	0	97
+390	can I	0	97
+391	do I	0	97
+392	you	1	98
+393	your	0	98
+394	yours	0	98
+395	you're	0	98
+396	whose music is	1	99
+397	that his music	0	99
+398	which is	0	99
+399	who the music is	0	99
+400	whose	1	100
+401	who's	0	100
+402	who his	0	100
+403	whom	0	100
+404	is never	1	101
+405	never	0	101
+406	be never	0	101
+407	never be	0	101
+408	isn't she	1	102
+409	doesn't she	0	102
+410	isn't it	0	102
+411	doesn't it	0	102
+412	in	1	103
+413	on	0	103
+414	at	0	103
+415	for	0	103
+416	must	1	104
+417	can	0	104
+418	should	0	104
+419	would	0	104
+420	does this expression mean	1	105
+421	means this expression	0	105
+422	is this expression meaning	0	105
+423	this expression means	0	105
+424	Would	1	106
+425	Could	0	106
+426	Should	0	106
+427	Will	0	106
+428	He's	1	107
+429	He	0	107
+430	His	0	107
+431	Is	0	107
+432	The air	1	108
+433	Air	0	108
+434	An air	0	108
+435	Some air	0	108
+436	which	1	109
+437	that	0	109
+438	this	0	109
+439	it	0	109
+440	did you get	1	110
+441	had you gotten	0	110
+442	have you gotten	0	110
+443	were you getting	0	110
+444	going	1	111
+445	to go	0	111
+446	go	0	111
+447	goes	0	111
+448	think	1	112
+449	thinks	0	112
+450	are thinking	0	112
+451	do think	0	112
+452	who	1	113
+453	which	0	113
+454	whose	0	113
+455	what	0	113
+456	would go	1	114
+457	went	0	114
+458	will go	0	114
+459	was going	0	114
+460	were sleeping	1	115
+461	sleeping	0	115
+462	had slept	0	115
+463	slept	0	115
+464	has never been	1	116
+465	is never	0	116
+466	was never	0	116
+467	had never been	0	116
+468	in	1	117
+469	on	0	117
+470	at	0	117
+471	since	0	117
+472	has been	1	118
+473	is	0	118
+474	had been	0	118
+475	will be	0	118
+476	didn't you call	1	119
+477	hadn't you been calling	0	119
+478	hadn't you called	0	119
+479	weren't you calling	0	119
+480	whenever you want	1	120
+481	whenever do you want	0	120
+482	when do you want	0	120
+483	when you do want	0	120
+484	shopping	1	121
+485	to shop	0	121
+486	shop	0	121
+487	to shopping	0	121
+488	were	1	122
+489	was	0	122
+490	are	0	122
+491	is	0	122
+492	have been waiting	1	123
+493	was waited	0	123
+494	am waiting	0	123
+495	had waited	0	123
+496	is supported	1	124
+497	supported	0	124
+498	supports	0	124
+499	is supporting	0	124
+500	often goes	1	125
+501	goes often	0	125
+502	often go	0	125
+503	go often	0	125
+504	even though	1	126
+505	because	0	126
+506	in spite of	0	126
+507	however	0	126
+508	ought	1	127
+509	should	0	127
+510	had better	0	127
+511	must	0	127
+512	such a	1	128
+513	so	0	128
+514	the	0	128
+515	too	0	128
+516	must have	1	129
+517	had	0	129
+518	would have	0	129
+519	may	0	129
+520	of	1	130
+521	with	0	130
+522	from	0	130
+523	at	0	130
+524	However	1	131
+525	Although	0	131
+526	Provided that	0	131
+527	In spite of	0	131
+528	Because	1	132
+529	Due to	0	132
+530	Therefore	0	132
+531	Although	0	132
+532	had left	1	133
+533	has left	0	133
+534	leaves	0	133
+535	has been leaving	0	133
+536	have to	1	134
+537	had to	0	134
+538	should	0	134
+539	need	0	134
+540	if you had	1	135
+541	did you have	0	135
+542	do you have	0	135
+543	that you had	0	135
+544	flew	1	136
+545	flied	0	136
+546	flown	0	136
+547	flying	0	136
+548	There is	1	137
+549	There are	0	137
+550	It is	0	137
+551	It are	0	137
+552	knew	1	138
+553	would know	0	138
+554	know	0	138
+555	was known	0	138
+556	won't be	1	139
+557	am not being	0	139
+558	am not	0	139
+559	not going to be	0	139
+560	to do	1	140
+561	to doing	0	140
+562	do	0	140
+563	doing	0	140
+564	some others	1	141
+565	other some	0	141
+566	one another	0	141
+567	other one	0	141
+568	a little	1	142
+569	a few	0	142
+570	any	0	142
+571	several	0	142
+572	the prettiest	1	143
+573	a prettiest	0	143
+574	a very pretty	0	143
+575	the very pretty	0	143
+576	going out	1	144
+577	to go	0	144
+578	go out	0	144
+579	to go out	0	144
+580	Most of the	1	145
+581	The most	0	145
+582	Most of	0	145
+583	The most of	0	145
+584	might	1	146
+585	may	0	146
+586	must	0	146
+587	should	0	146
+588	applicable	1	147
+589	application	0	147
+590	applicably	0	147
+591	apply	0	147
+592	have finished	1	148
+593	am finished	0	148
+594	have been finishing	0	148
+595	had finished	0	148
+596	unless	1	149
+597	although	0	149
+598	even if	0	149
+599	provided that	0	149
+600	call	1	150
+601	were calling	0	150
+602	called	0	150
+603	are called	0	150
+604	will be lying	1	151
+605	lie	0	151
+606	are lying	0	151
+607	have lain	0	151
+608	this tour will be	1	152
+609	will this tour be	0	152
+610	will be this tour	0	152
+611	will this tour	0	152
+612	to deposit	1	153
+613	for depositing	0	153
+614	for deposit	0	153
+615	deposit	0	153
+616	to carry	1	154
+617	who carry	0	154
+618	carrying	0	154
+619	that carry	0	154
+620	fixed	1	155
+621	fix	0	155
+622	to fix	0	155
+623	fixing	0	155
+624	One	1	156
+625	All	0	156
+626	Some	0	156
+627	Much	0	156
+628	a little	1	157
+629	a few	0	157
+630	several	0	157
+631	a	0	157
+632	Were you able to	1	158
+633	Should you	0	158
+634	Would you	0	158
+635	Have you been able to	0	158
+636	work	1	159
+637	worked	0	159
+638	to work	0	159
+639	working	0	159
+640	are you	1	160
+641	do you	0	160
+642	aren't you	0	160
+643	don't you	0	160
+644	must	1	161
+645	can	0	161
+646	will	0	161
+647	would	0	161
+648	decide	1	162
+649	will decide	0	162
+650	decided	0	162
+651	would decide	0	162
+652	ran	1	163
+653	was running	0	163
+654	have run	0	163
+655	run	0	163
+656	has sprained	1	164
+657	is spraining	0	164
+658	was spraining	0	164
+659	had sprained	0	164
+660	supposed	1	165
+661	suppose	0	165
+662	supposing	0	165
+663	to suppose	0	165
+664	had never driven	1	166
+665	has never driven	0	166
+666	was never driving	0	166
+667	never drove	0	166
+668	what time it is	1	167
+669	what time is it	0	167
+670	what time is	0	167
+671	what is the time	0	167
+672	well designed architecture	1	168
+673	its architecture is well designed	0	168
+674	architecture is designed well	0	168
+675	designed architecture well	0	168
+676	is used	1	169
+677	is use	0	169
+678	used	0	169
+679	uses	0	169
+680	a little	1	170
+681	a few	0	170
+682	many	0	170
+683	a	0	170
+684	drunk	1	171
+685	drank	0	171
+686	drunken	0	171
+687	drinked	0	171
+688	graduates	1	172
+689	graduated	0	172
+690	will graduate	0	172
+691	will have graduated	0	172
+692	she arrives	1	173
+693	arrives she	0	173
+694	will she arrive	0	173
+695	does she arrive	0	173
+696	but	1	174
+697	so	0	174
+698	and also	0	174
+699	as well as	0	174
+700	up	1	175
+701	off	0	175
+702	down	0	175
+703	on	0	175
+704	was written	1	176
+705	written	0	176
+706	has written	0	176
+707	wrote	0	176
+708	have	1	177
+709	be	0	177
+710	had	0	177
+711	being	0	177
+712	a fire	1	178
+713	fire	0	178
+714	some fire	0	178
+715	the fire	0	178
+716	even if	1	179
+717	although	0	179
+718	otherwise	0	179
+719	in case of	0	179
+720	should	1	180
+721	might	0	180
+722	could	0	180
+723	must	0	180
+724	had told, could have done	1	181
+725	told, had done	0	181
+726	have told, could do	0	181
+727	would tell, could do	0	181
+728	as though	1	182
+729	even though	0	182
+730	although	0	182
+731	though	0	182
+732	had	1	183
+733	has	0	183
+734	have	0	183
+735	having	0	183
+736	had never been	1	184
+737	have never been	0	184
+738	never went	0	184
+739	never was	0	184
+740	The	1	185
+741	In the	0	185
+742	It was the	0	185
+743	During the	0	185
+744	being	1	186
+745	to have been	0	186
+746	to be	0	186
+747	be	0	186
+748	didn't eat, would have	1	187
+749	don't eat, would have	0	187
+750	wouldn't eat, had	0	187
+751	won't eat, will have	0	187
+752	we	1	188
+753	which	0	188
+754	to which we	0	188
+755	that	0	188
+756	due to	1	189
+757	because	0	189
+758	despite	0	189
+759	in case of	0	189
+760	have taken	1	190
+761	had taken	0	190
+762	have been taking	0	190
+763	took	0	190
+764	too	1	191
+765	so	0	191
+766	very	0	191
+767	almost	0	191
+768	use to	1	192
+769	use	0	192
+770	used	0	192
+771	used to	0	192
+772	am taking	1	193
+773	take	0	193
+774	taking	0	193
+775	takes	0	193
+776	to have lost	1	194
+777	having lost	0	194
+778	losing	0	194
+779	to lose	0	194
+780	in solving	1	195
+781	to solve	0	195
+782	on solving	0	195
+783	solving	0	195
+784	to completing	1	196
+785	to complete	0	196
+786	for completing	0	196
+787	completing	0	196
+788	would come	1	197
+789	came	0	197
+790	had come	0	197
+791	can come	0	197
+792	were finishing, arrived	1	198
+793	finished, was arriving	0	198
+794	were finishing, was arriving	0	198
+795	finished, had arrived	0	198
+796	Walking	1	199
+797	To walk	0	199
+798	I was walking	0	199
+799	I walked	0	199
+800	turns	1	200
+801	turned	0	200
+802	would turn	0	200
+803	would have turned	0	200
+804	were involved	1	201
+805	involved	0	201
+806	were involving	0	201
+807	had involved	0	201
+808	would meet	1	202
+809	will meet	0	202
+810	meets	0	202
+811	met	0	202
+812	will have been	1	203
+813	have been	0	203
+814	will be	0	203
+815	were	0	203
+816	had practiced, could have	1	204
+817	practiced, could have	0	204
+818	practiced, would have	0	204
+819	would have practiced, would have	0	204
+820	I'm going to be	1	205
+821	I'm to be	0	205
+822	I'll be	0	205
+823	I'll become	0	205
+824	had gone, might have	1	206
+825	went, could have	0	206
+826	had gone, will have	0	206
+827	went, had	0	206
+828	across	1	207
+829	into	0	207
+830	down with	0	207
+831	along	0	207
+832	whose	1	208
+833	her	0	208
+834	who	0	208
+835	any	0	208
+836	a great deal of	1	209
+837	a few	0	209
+838	a number of	0	209
+839	any	0	209
+840	Now that	1	210
+841	Although	0	210
+842	So that	0	210
+843	Whenever	0	210
+844	Though it was	1	211
+845	However, it was	0	211
+846	Being	0	211
+847	Although	0	211
+848	to	1	212
+849	against	0	212
+850	with	0	212
+851	from	0	212
+852	repair	1	213
+853	repairs	0	213
+854	repaired	0	213
+855	repairing	0	213
+856	to seeing	1	214
+857	to see	0	214
+858	seeing	0	214
+859	see	0	214
+860	had found	1	215
+861	has found	0	215
+862	would find	0	215
+863	will find	0	215
+864	Must	1	216
+865	May	0	216
+866	Should	0	216
+867	Have	0	216
+868	is she	1	217
+869	she is	0	217
+870	she arrives	0	217
+871	she is arriving	0	217
+872	will have	1	218
+873	has	0	218
+874	had	0	218
+875	would	0	218
+876	Should	1	219
+877	Unless	0	219
+878	Had	0	219
+879	Were	0	219
+880	hoping	1	220
+881	had been hoping	0	220
+882	were hoping	0	220
+883	hoped	0	220
+884	some valuable equipment	1	221
+885	some valuable equipments	0	221
+886	a valuable equipment	0	221
+887	the valuable equipments	0	221
+888	million of the	1	222
+889	millions of the	0	222
+890	million of	0	222
+891	millions of	0	222
+892	were we able	1	223
+893	we were able	0	223
+894	we had	0	223
+895	had we	0	223
+896	did we get	1	224
+897	we got	0	224
+898	had we gotten	0	224
+899	we have gotten	0	224
+900	one of whom	1	225
+901	one of which	0	225
+902	one of them	0	225
+903	one of who	0	225
+904	I have a boy and two girls.	1	226
+905	She's playing outside.	0	226
+906	It's in the bedroom.	0	226
+907	That's a good idea.	0	226
+908	A little bit.	1	227
+909	I'm from Canada.	0	227
+910	You're welcome.	0	227
+911	He's speaking tonight.	0	227
+912	For almost 10 years.	1	228
+913	In two weeks time.	0	228
+914	It takes 20 minutes.	0	228
+915	It was in 1992.	0	228
+916	Argentina.	1	229
+917	Work.	0	229
+918	9 to 5.	0	229
+919	Matt.	0	229
+920	I'm busy right now.	1	230
+921	She's coming soon.	0	230
+922	They don't like gum.	0	230
+923	We already have one.	0	230
+924	I put it in the fridge.	1	231
+925	Bill's at work.	0	231
+926	I think I would.	0	231
+927	It's good for you.	0	231
+928	I can't find my glasses.	1	232
+929	I feel much better, thanks.	0	232
+930	I don't know Luke.	0	232
+931	Walt isn't here.	0	232
+932	Next Tuesday.	1	233
+933	At 4 o'clock.	0	233
+934	In 1993.	0	233
+935	Congratulations!	0	233
+936	It sure is.	1	234
+937	It isn't too late.	0	234
+938	Thank you.	0	234
+939	Yes, she is.	0	234
+940	No, I've haven't.	1	235
+941	Yes, please.	0	235
+942	No, I wouldn't like some.	0	235
+943	Yes, we're leaving in 5 minutes.	0	235
+944	I'm single.	1	236
+945	It was 1993.	0	236
+946	I'm Jane.	0	236
+947	I work.	0	236
+948	Around 7:30.	1	237
+949	Every morning.	0	237
+950	It's 4 o'clock.	0	237
+951	Cereal and coffee.	0	237
+952	She's the same age as I am.	1	238
+953	She bought it yesterday.	0	238
+954	She is feeling a lot better.	0	238
+955	She's still in the bathroom.	0	238
+956	It wasn't your fault.	1	239
+957	I'd be glad to.	0	239
+958	I'm afraid I can't.	0	239
+959	That sounds great.	0	239
+960	There's one just round the corner.	1	240
+961	He is from Italy.	0	240
+962	The restrooms are on the second floor.	0	240
+963	I've been to Venice.	0	240
+964	I will if I have the time.	1	241
+965	I was too busy yesterday.	0	241
+966	I wasn't able to go.	0	241
+967	It's coming soon.	0	241
+968	Fine, thanks.	1	242
+969	I'm working.	0	242
+970	You too.	0	242
+971	By car.	0	242
+972	Around 9:30.	1	243
+973	On Saturday.	0	243
+974	Next week.	0	243
+975	It's 2 o'clock.	0	243
+976	I love it.	1	244
+977	I usually take a cab.	0	244
+978	I like it well done.	0	244
+979	I came by bus.	0	244
+980	I need more time, please.	1	245
+981	I like the red one, too.	0	245
+982	I can't smell anything.	0	245
+983	Yes, it was delicious.	0	245
+984	Fairly well.	1	246
+985	In 5 minutes.	0	246
+986	A taxi.	0	246
+987	I'm not.	0	246
+988	She's doing much better, thanks.	1	247
+989	She's going to be 25.	0	247
+990	She's about 5 1/2 feet tall.	0	247
+991	She's the one wearing a blue sweater.	0	247
+992	I'm feeling fine.	1	248
+993	Nice to meet you, too.	0	248
+994	Yes, that's right.	0	248
+995	I'm just looking, thanks.	0	248
+996	At 9 o'clock.	1	249
+997	On Tuesday.	0	249
+998	It's 2:30.	0	249
+999	After 1988.	0	249
+1000	I think we have enough.	1	250
+1001	Mexican food is my favorite.	0	250
+1002	Lunch will be at one o'clock.	0	250
+1003	It tasted delicious.	0	250
+1004	I'd rather you didn't.	1	251
+1005	I gave up last year.	0	251
+1006	I'd love one, thanks.	0	251
+1007	I've changed my mind.	0	251
+1008	He's not here.	1	252
+1009	He speaks well.	0	252
+1010	No thank you.	0	252
+1011	I'm just looking.	0	252
+1012	In a library.	1	253
+1013	In a bookstore.	0	253
+1014	In a school.	0	253
+1015	In a house.	0	253
+1016	They're probably in the kitchen.	1	254
+1017	I haven't decided yet.	0	254
+1018	I saw Mike yesterday.	0	254
+1019	They're in Hong Kong.	0	254
+1020	It was harder than I thought.	1	255
+1021	We all went together.	0	255
+1022	Sam is going tomorrow.	0	255
+1023	It's in the testing center.	0	255
+1024	Accepting and unwrapping a gift.	1	256
+1025	Eating lunch with a friend.	0	256
+1026	Visiting someone's home for the first time.	0	256
+1027	Going for a car ride.	0	256
+1028	Get a drink for the man.	1	257
+1029	Cook some food for herself.	0	257
+1030	Turn on the heat.	0	257
+1031	Buy groceries.	0	257
+1032	I will be busy.	1	258
+1033	I am a teacher.	0	258
+1034	I had a great time.	0	258
+1035	I was sick.	0	258
+1036	A salad would be great.	1	259
+1037	It doesn't start until 8 o'clock.	0	259
+1038	I'm not very hungry.	0	259
+1039	Don't mention it.	0	259
+1040	She went to see some friends.	1	260
+1041	She cooked dinner for some visitors.	0	260
+1042	She went shopping.	0	260
+1043	She had to work.	0	260
+1044	Yours is more comfortable.	1	261
+1045	We're leaving right away.	0	261
+1046	I'm going to buy one next week.	0	261
+1047	They're parked outside.	0	261
+1048	His watch isn't working.	1	262
+1049	The train has stopped.	0	262
+1050	She has to wait for a long time.	0	262
+1051	The train will come soon.	0	262
+1052	I'm a sales assistant.	1	263
+1053	I'm doing fine.	0	263
+1054	I'm living in Denver.	0	263
+1055	I'm leaving right away.	0	263
+1056	He could have helped if he had known about her problem.	1	264
+1057	He wanted to help her prepare for the exam.	0	264
+1058	He wasn't able to help her get to the exam on time.	0	264
+1059	He could have helped her start her car.	0	264
+1060	Less than two hours.	1	265
+1061	Three miles.	0	265
+1062	We ended up taking a taxi.	0	265
+1063	I'm taking the day off.	0	265
+1064	In a supermarket.	1	266
+1065	At a restaurant.	0	266
+1066	On a farm.	0	266
+1067	Near a mall.	0	266
+1068	Start using the man's computer.	1	267
+1069	Ask someone else for help.	0	267
+1070	Wait for the man to decide.	0	267
+1071	Repeat her question.	0	267
+1072	The weather might change.	1	268
+1073	It's raining right now.	0	268
+1074	He's too tired.	0	268
+1075	It's too far.	0	268
+1076	I'd be happy to.	1	269
+1077	It's not far from here.	0	269
+1078	I'd love to stay.	0	269
+1079	I come in at 7:30.	0	269
+1080	He just got a new job and it's his first day.	1	270
+1081	He has placed an order with a big company.	0	270
+1082	He's changing to a new school.	0	270
+1083	He's in a hospital visiting someone.	0	270
+1084	Unfortunately I missed it.	1	271
+1085	I don't know how to play.	0	271
+1086	I'm washing it on the weekend.	0	271
+1087	My watch is broken.	0	271
+1088	Finishing their studies.	1	272
+1089	Their search for new jobs.	0	272
+1090	The rules at their apartment building.	0	272
+1091	How far they need to travel.	0	272
+1092	Outside the theater.	1	273
+1093	In the fridge.	0	273
+1094	Next Tuesday.	0	273
+1095	Not meat.	0	273
+1096	To give him her decision the following morning.	1	274
+1097	To go to bed early and get enough sleep.	0	274
+1098	To return the following day.	0	274
+1099	To put first things first in her life.	0	274
+1100	I used to, but I'm not very good.	1	275
+1101	Yes, I liked the play.	0	275
+1102	I don't know where Dennis is.	0	275
+1103	I'm not sure what you think.	0	275
+1104	To get to Washington Avenue as fast as possible.	1	276
+1105	To know what time Bus 45 arrives.	0	276
+1106	To use the least expensive bus.	0	276
+1107	To use the same bus that the man is going to use.	0	276
+1108	The teacher does not believe the girl's excuse.	1	277
+1109	The teacher thinks the girl is honest.	0	277
+1110	The girl thinks her homework is impossible.	0	277
+1111	The girl wants her father to do her homework.	0	277
+1112	Not quite.	1	278
+1113	Two days ago.	0	278
+1114	Please.	0	278
+1115	I don't have one.	0	278
+1116	Yes, and he is happy to help her.	1	279
+1117	Yes, but he is not happy about it.	0	279
+1118	No, but he wishes he could help her.	0	279
+1119	No, and he is not interested in helping her.	0	279
+1120	Jennifer wants you to call her.	1	280
+1121	Please take a message.	0	280
+1122	We're all out of them.	0	280
+1123	Clean up your mess.	0	280
+1124	She doesn't like pineapple on pizza.	1	281
+1125	She doesn't like sausage on pizza.	0	281
+1126	She doesn't like Italian style pizza.	0	281
+1127	She doesn't like any kind of pizza.	0	281
+1128	He is surprised by the news.	1	282
+1129	He does not believe the woman.	0	282
+1130	He wants to take the test soon.	0	282
+1131	He can't hear very well.	0	282
+1132	He is happy to wait for the woman.	1	283
+1133	He doesn't have a lot of time.	0	283
+1134	He doesn't want to go anywhere.	0	283
+1135	He doesn't want her to waste time.	0	283
+1136	At a bank.	1	284
+1137	At a post office.	0	284
+1138	At a picture gallery.	0	284
+1139	At a dry cleaner's.	0	284
+1140	Making arrangements to meet.	1	285
+1141	Discussing a recent trip.	0	285
+1142	Reserving a table at a restaurant.	0	285
+1143	Remembering who to call.	0	285
+1144	Unfortunately we don't.	1	286
+1145	It's on the 4th floor.	0	286
+1146	I want to see the sights.	0	286
+1147	Number 12 arrives in 10 minutes.	0	286
+1148	Who should pay the bill for a meal.	1	287
+1149	How much to leave for a tip.	0	287
+1150	Who paid for the theater tickets.	0	287
+1151	What to do on a date.	0	287
+1152	I can manage.	1	288
+1153	He can help you.	0	288
+1154	They were on sale.	0	288
+1155	The boss is not here.	0	288
+1156	I wouldn't like anything.	1	289
+1157	That's too much for me.	0	289
+1158	You can get me on my cell phone.	0	289
+1159	You must be thirsty.	0	289
+1160	That's a good idea.	1	290
+1161	I don't like crab.	0	290
+1162	She doesn't like pie.	0	290
+1163	I bought it yesterday.	0	290
+1164	An author.	1	291
+1165	An assignment.	0	291
+1166	A hotel room.	0	291
+1167	A mutual friend.	0	291
+1168	The man didn't have information about the orientation.	1	292
+1169	The man knew about the orientation but decided not to go.	0	292
+1170	The orientation was postponed until a later date.	0	292
+1171	The orientation was only for female students.	0	292
+1172	He can't find the report.	1	293
+1173	He hates his messy desk.	0	293
+1174	The woman is afraid of him.	0	293
+1175	He always says the wrong things.	0	293
+1176	Leave the room.	1	294
+1177	Open the window.	0	294
+1178	Close the window.	0	294
+1179	Turn on a fan.	0	294
+1180	They don't agree about what happened.	1	295
+1181	They have both been seriously injured.	0	295
+1182	Robert is much younger than the woman.	0	295
+1183	They are going to be married.	0	295
+1184	Where his office is located.	1	296
+1185	Where she should park.	0	296
+1186	What time the meeting starts.	0	296
+1187	What they are going to do after the game.	0	296
+1188	In a restaurant.	1	297
+1189	In a store.	0	297
+1190	In a bank.	0	297
+1191	In a kitchen.	0	297
+1192	Saturday morning.	1	298
+1193	Saturday afternoon.	0	298
+1194	Sometime during the week.	0	298
+1195	Sometime next week.	0	298
+1196	Meeting an ex-boyfriend.	1	299
+1197	Going to the movies.	0	299
+1198	Breaking an athletics record.	0	299
+1199	Inviting someone to a play.	0	299
+1200	He was active as a composer, pianist and conductor.	1	300
+1201	He was busy composing pieces throughout his career.	0	300
+1202	As a composer, he wrote only for the piano.	0	300
+1203	I only found out about it yesterday.	1	301
+1204	I usually come by bus.	0	301
+1205	I didn't think so.	0	301
+1206	I have an interview.	0	301
+1207	He had transportation problems.	1	302
+1208	He witnessed an accident.	0	302
+1209	He fell and injured himself.	0	302
+1210	He was late and missed his ride.	0	302
+1211	He took the advice of a girl.	1	303
+1212	All his brothers wore beards.	0	303
+1213	He wanted to look older.	0	303
+1214	It's probably all gone.	1	304
+1215	Peter left a few minutes ago.	0	304
+1216	No, you turn right.	0	304
+1217	I'd like a large one, please.	0	304
+1218	She was dissatisfied.	1	305
+1219	She was offered another job.	0	305
+1220	She wanted more money.	0	305
+1221	She was fired.	0	305
+1222	Use her bike after she returns.	1	306
+1223	Borrow someone else's bike.	0	306
+1224	Take her bike right now.	0	306
+1225	Start walking.	0	306
+1226	He works in a shoe store.	1	307
+1227	He is a painter.	0	307
+1228	He sells furniture.	0	307
+1229	He designs clothes.	0	307
+1230	To give citizens information about voter registration.	1	308
+1231	To persuade people to vote.	0	308
+1232	To provide information about community resources.	0	308
+1233	At a phone company.	1	309
+1234	At an airport.	0	309
+1235	At a supermarket.	0	309
+1236	At a doctor's office.	0	309
+1237	He is a smoker who is trying to give up.	1	310
+1238	He will probably try nicotine patches.	0	310
+1239	He needs medication to fight depression.	0	310
+1240	She wants to get her money back.	1	311
+1241	She wants to hear a different kind of music.	0	311
+1242	She wants the man to apologize to her.	0	311
+1243	She wants to take a break from work.	0	311
+1244	She's too busy to go to the meeting.	1	312
+1245	She doesn't know if she's going to the meeting.	0	312
+1246	She's going to the meeting because she isn't busy.	0	312
+1247	She has already missed the meeting.	0	312
+1248	She doesn't have enough time to help.	1	313
+1249	She thinks he is telling a joke.	0	313
+1250	She doesn't understand what he is saying.	0	313
+1251	She is willing to help him.	0	313
+1252	Going out for a meal.	1	314
+1253	Traffic safety.	0	314
+1254	Their busy lifestyle.	0	314
+1255	Shopping for furniture.	0	314
+1256	The difficulty of learning foreign languages.	1	315
+1257	The differences between the French and the Italians.	0	315
+1258	Choosing which foreign language to learn.	0	315
+1259	Traveling to France and Italy.	0	315
+1260	Go to work.	1	316
+1261	Visit his friends.	0	316
+1262	Get some rest.	0	316
+1263	Stay at home.	0	316
+1264	He was expecting the report earlier.	1	317
+1265	He wants to know what time it is.	0	317
+1266	He asks when the report was started.	0	317
+1267	He explains what the report is about.	0	317
+1268	Teaching the man how to do his new job.	1	318
+1269	Ordering lunch in a fast-food restaurant.	0	318
+1270	Deciding what she wants to drink.	0	318
+1271	Cooking dinner for some friends.	0	318
+1272	Flight attendant.	1	319
+1273	Librarian.	0	319
+1274	Waitress.	0	319
+1275	Store clerk.	0	319
+1276	Tablets.	1	320
+1277	Patches.	0	320
+1278	Gum.	0	320
+1279	It depends on which one.	1	321
+1280	I'm not moving.	0	321
+1281	The movie was great.	0	321
+1282	We'll see you tomorrow.	0	321
+1283	She did not watch the election results.	1	322
+1284	She turned her television off.	0	322
+1285	She always votes in elections.	0	322
+1286	She likes to joke around.	0	322
+1287	It should be here soon.	1	323
+1288	Sometime in June.	0	323
+1289	It's almost 3 o'clock.	0	323
+1290	Nick's not here.	0	323
+1291	I want to go out to eat.	1	324
+1292	I feel sad about the problem.	0	324
+1293	I like watching old movies.	0	324
+1294	I am doing much better.	0	324
+1295	Applying for a job.	1	325
+1296	Taking an important test.	0	325
+1297	Traveling to another country.	0	325
+1298	Teaching a class.	0	325
+1299	She thinks it will be enjoyable.	1	326
+1300	She might not be able to go to it.	0	326
+1301	She wishes it would start sooner.	0	326
+1302	She doesn't know where it will be.	0	326
+1303	Perhaps the keys are in the car.	1	327
+1304	There may be a problem with the ignition.	0	327
+1305	Matt can borrow her car.	0	327
+1306	She has left her keys in the car.	0	327
+1307	They watch less TV.	1	328
+1308	They read less.	0	328
+1309	They listen to less music.	0	328
+1310	We grew up together.	1	329
+1311	I didn't know that.	0	329
+1312	Let's go on a date.	0	329
+1313	He feels very well.	0	329
+1314	To pay some of the rent.	1	330
+1315	To keep her from being lonely.	0	330
+1316	To make the apartment safer.	0	330
+1317	To help with the cooking.	0	330
+1318	About obtaining a driver's license.	1	331
+1319	About getting a car registration.	0	331
+1320	About taking a driver education course.	0	331
+1321	I think I'll have the fish.	1	332
+1322	I'm going to play tennis.	0	332
+1323	I need her to do the dishes.	0	332
+1324	I just got back today.	0	332
+1325	She gets nervous about taking tests.	1	333
+1326	She thinks she will pass her driving test.	0	333
+1327	She has already taken the test.	0	333
+1328	She doesn't think the man will pass the test.	0	333
+1329	The director of a charitable organization.	1	334
+1330	A leader of the Navajo Nation.	0	334
+1331	An Episcopalian priest.	0	334
+1332	A school assignment.	1	335
+1333	A letter to their parents.	0	335
+1334	A book they want to read.	0	335
+1335	A speech that the man has to give.	0	335
+1336	I am just looking.	1	336
+1337	I don't need any cans.	0	336
+1338	I want to help.	0	336
+1339	I can see you.	0	336
+1340	A job that he used to have.	1	337
+1341	The school that he used to attend.	0	337
+1342	The problems he is having at work.	0	337
+1343	A friend that he hasn't seen for three years.	0	337
+1344	He got disconnected.	1	338
+1345	He had the wrong number.	0	338
+1346	He cut himself.	0	338
+1347	He was put on hold.	0	338
+1348	Home loans.	1	339
+1349	Real estate.	0	339
+1350	Inexpensive houses.	0	339
+1351	Fix her car.	1	340
+1352	Drive more slowly.	0	340
+1353	Turn down the volume on the stereo.	0	340
+1354	Call the police.	0	340
+1355	I'm afraid so.	1	341
+1356	I can't see them.	0	341
+1357	It takes four people.	0	341
+1358	I bought it today.	0	341
+1359	She gives us too much homework.	1	342
+1360	She liked it very much.	0	342
+1361	She has always hated math	0	342
+1362	She likes coffee.	0	342
+1363	Ten minutes or less.	1	343
+1364	Fifteen minutes or more.	0	343
+1365	Exactly five minutes.	0	343
+1366	Only one minute.	0	343
+1367	She is unhappy with the food.	1	344
+1368	She doesn't like the pink napkin.	0	344
+1369	She didn't order any vegetables.	0	344
+1370	She wants a different table.	0	344
+1371	Tuesday.	1	345
+1372	Wednesday.	0	345
+1373	Thursday.	0	345
+1374	Friday.	0	345
+1375	She thinks he is doing the wrong thing.	1	346
+1376	She thinks he is a dangerous politician.	0	346
+1377	She believes he is smart to encourage his son.	0	346
+1378	Brazil.	1	347
+1379	Russia.	0	347
+1380	Colombia.	0	347
+1381	Just before he became president.	1	348
+1382	After he became president.	0	348
+1383	Sometime in 1861.	0	348
+1384	People who try to give up smoking.	1	349
+1385	Why people smoke.	0	349
+1386	Diseases that kill people.	0	349
+1387	It doesn't look very inviting but the food is good.	1	350
+1388	She has only seen the outside of the restaurant.	0	350
+1389	The food wasn't very good and neither was the service.	0	350
+1390	The atmosphere and the food are both excellent.	0	350
+1391	On the phone.	1	351
+1392	In a restaurant.	0	351
+1393	By a movie theater.	0	351
+1394	At work.	0	351
+1395	6:15	1	352
+1396	6:30	0	352
+1397	4:00	0	352
+1398	7:45	0	352
+1399	He has been to France, but didn't see very much of it.	1	353
+1400	He has never been to France.	0	353
+1401	He is from Italy and doesn't like France.	0	353
+1402	He once lived in France.	0	353
+1403	That the man was too sick to go to the dance.	1	354
+1404	That the man went after it was finished.	0	354
+1405	That the man didn't enjoy the dance.	0	354
+1406	That the man went even though he didn't want to.	0	354
+1407	She assumed the man would be on time, so she hurried home.	1	355
+1408	She knew that the man would be late, so she didn't bother to go home.	0	355
+1409	She didn't know that the man was going to get a taxi.	0	355
+1410	She didn't want to bother getting a taxi.	0	355
+1411	He is not willing to lend his car.	1	356
+1412	He didn't understand her question.	0	356
+1413	He will think about her request.	0	356
+1414	He fears that the woman might have an accident.	0	356
+1415	Canceling their Internet service.	1	357
+1416	Getting a faster connection.	0	357
+1417	Spending less time on the computer.	0	357
+1418	Fixing the computer.	0	357
+1419	Go back home.	1	358
+1420	Start her day's work.	0	358
+1421	Tell the man to go away.	0	358
+1422	Clean out her desk.	0	358
+1423	He is very proud of him.	1	359
+1424	He is worried about his safety.	0	359
+1425	He thinks his son will go to prison.	0	359
+1426	Someone else bought it, not Julie.	1	360
+1427	Julie bought it for herself only.	0	360
+1428	There isn't any because Julie forgot.	0	360
+1429	Julie is going to buy it later.	0	360
+1430	It helps reduce stress.	1	361
+1431	It helps burn calories.	0	361
+1432	It helps you become fitter.	0	361
+1433	The link between health and nutrition.	1	362
+1434	How to diet effectively.	0	362
+1435	Family support and health.	0	362
+1436	As soon as possible.	1	363
+1437	I love pasta.	0	363
+1438	Any kind you want.	0	363
+1439	It's almost 7 o'clock.	0	363
+1440	Depression.	1	364
+1441	Sleeping problems.	0	364
+1442	Skin problems.	0	364
+1443	Paper.	1	365
+1444	A pen.	0	365
+1445	Computer disks.	0	365
+1446	A copy machine.	0	365
+1447	Why Abraham Lincoln grew a beard.	1	366
+1448	Abraham Lincoln's appearance.	0	366
+1449	How Abraham Lincoln became President of the United States.	0	366
+1450	Do you have your receipt?	1	367
+1451	What time does the store close?	0	367
+1452	Can you find me a blue one?	0	367
+1453	Which one would you like?	0	367
+1454	She doesn't enjoy exercising.	1	368
+1455	She doesn't want to pay the money.	0	368
+1456	She doesn't think she needs to get fit.	0	368
+1457	She doesn't have the time.	0	368
+1458	No, I work full-time now.	1	369
+1459	No, I'm from Brazil.	0	369
+1460	No, I'm not a teacher.	0	369
+1461	No, I like to study.	0	369
+1462	Pretending to be ill.	1	370
+1463	Going to the doctor.	0	370
+1464	Staying in bed.	0	370
+1465	Getting out of town.	0	370
+1466	Decide to give up all cigarettes at one time.	1	371
+1467	Gradually reduce the number of cigarettes.	0	371
+1468	Replace cigarettes with food such as turkey.	0	371
+1469	One floor up.	1	372
+1470	In the main office.	0	372
+1471	In another building.	0	372
+1472	To the left of the woman's desk.	0	372
+1473	The man has finished the book but not the woman.	1	373
+1474	The man liked the book but the woman didn't.	0	373
+1475	The man didn't like the book and the woman has stopped reading it.	0	373
+1476	Neither of them liked the book.	0	373
+1477	The results of an Internet survey.	1	374
+1478	Statistics about the world economy.	0	374
+1479	Differences between Colombia and Brazil.	0	374
+1480	Listen to Jill's message.	1	375
+1481	Return Jill's call.	0	375
+1482	Read Jill's message.	0	375
+1483	Visit Jill's home.	0	375
+1484	He is not dressed appropriately.	1	376
+1485	He wants to go to a fair.	0	376
+1486	He has bought a new jacket and tie.	0	376
+1487	He didn't reply to the invitation.	0	376
+1488	A popular movie.	1	377
+1489	A theater in Las Vegas.	0	377
+1490	A sports team.	0	377
+1491	A vacation they took.	0	377
+1492	The man can't use his fifty dollar bill.	1	378
+1493	The man doesn't have enough money.	0	378
+1494	The woman is trying to cheat the man.	0	378
+1495	The woman made a mistake when she added up the price.	0	378
+1496	A dental receptionist.	1	379
+1497	A doctor's assistant.	0	379
+1498	A bank teller.	0	379
+1499	A sales clerk.	0	379
+1500	I don't live around here.	1	380
+1501	It's in the kitchen.	0	380
+1502	It leaves in 10 minutes.	0	380
+1503	I don't know Tracy.	0	380
+1504	To be on time.	1	381
+1505	To make a phone call.	0	381
+1506	To go to the concert.	0	381
+1507	To get ready.	0	381
+1508	How safe their credit cards are.	1	382
+1509	How the government uses the Internet to keep track of people.	0	382
+1510	Spending too much money.	0	382
+1511	Someone who helps smokers overcome their addiction.	1	383
+1512	A representative from the American Cancer Society.	0	383
+1513	A surgeon for people who've had heart attacks and strokes.	0	383
+1514	Tickets cost $20 each.	1	384
+1515	There will be two performances.	0	384
+1516	It will start at 7 p.m.	0	384
+1517	To have his hair cut.	1	385
+1518	To have pants altered.	0	385
+1519	To have his car fixed.	0	385
+1520	To have his house painted.	0	385
+1521	Make flight reservations.	1	386
+1522	Take a vacation to Denver.	0	386
+1523	Drive to Los Angeles.	0	386
+1524	Arrive three hours earlier.	0	386
+1525	His question was very nice.	1	387
+1526	She likes the candy he gave her.	0	387
+1527	He missed her birthday already.	0	387
+1528	He shouldn't ask about her age.	0	387
+1529	I sleep in on the weekend.	1	388
+1530	It's only 11 o'clock.	0	388
+1531	I usually have a light breakfast.	0	388
+1532	I can go and get it.	0	388
+1533	Ice-skating.	1	389
+1534	Ballroom dancing.	0	389
+1535	Hockey.	0	389
+1536	To encourage listeners to donate different items to a good cause.	1	390
+1537	To inform listeners about the history of the Navajo Nation.	0	390
+1538	To ask the state to provide basic services to the Navajo Reservation.	0	390
+1539	She shouldn't come to the concert.	1	391
+1540	She needs to take a rest.	0	391
+1541	She might enjoy the concert.	0	391
+1542	She might like to be a baby sitter.	0	391
+1543	They were unwise to get back together again.	1	392
+1544	Brad doesn't want to date Lisa anymore.	0	392
+1545	They should have gone back to their first house.	0	392
+1546	Lisa should consider taking Brad back.	0	392
+1547	She is still in school.	1	393
+1548	She is now looking for work.	0	393
+1549	She wants to take a big vacation.	0	393
+1550	She lived at home while she was in school.	0	393
+1551	House prices might go up in the future.	1	394
+1552	100% financing is available only for a short period.	0	394
+1553	It will cost more to get pre-approved in the future.	0	394
+1554	They both thought it was a poor survey.	1	395
+1555	They disagree about whether to trust the survey.	0	395
+1556	They both thought it was a good survey.	0	395
+1557	Only one sandwich.	1	396
+1558	Two sandwiches.	0	396
+1559	A different food, not sandwiches.	0	396
+1560	Nothing.  He is waiting to order.	0	396
+1561	It is not a nice place to stay.	1	397
+1562	It is very expensive.	0	397
+1563	It is too far away.	0	397
+1564	It is hard to get a room there.	0	397
+1565	She is going on a trip.	1	398
+1566	She lives in another town.	0	398
+1567	She needs more time to prepare.	0	398
+1568	She plans to rest this week.	0	398
+1569	We've run out.	1	399
+1570	I'll have a Pepsi.	0	399
+1571	I'm not on a diet.	0	399
+1572	He died last month.	0	399
+1573	Not all smokers who quit will gain weight.	1	400
+1574	Smokers who quit typically gain over 30 pounds in weight.	0	400
+1575	Even small gains in weight can cause major health problems.	0	400
+1576	He may change his mind about his plans.	1	401
+1577	He is thinking of quitting his job.	0	401
+1578	He has had to move two times already.	0	401
+1579	He has decided to move away.	0	401
+1580	Mark's chances of getting a job.	1	402
+1581	Invitations to Mark's party.	0	402
+1582	Whether Mark has decided to accept a job offer.	0	402
+1583	Mark's election campaign.	0	402
+1584	She didn't know how to reach him.	1	403
+1585	Her phone was out of order.	0	403
+1586	She tried but got the wrong number.	0	403
+1587	She was robbed while leaving her house.	0	403
+1588	He once had a weight problem himself.	1	404
+1589	He is a diet specialist.	0	404
+1590	He works at the Hilton Hotel.	0	404
+1591	She agrees with him.	1	405
+1592	She doesn't understand him.	0	405
+1593	She thinks he is being unfair.	0	405
+1594	She doesn't believe him.	0	405
+1595	Online retailers.	1	406
+1596	E-mail users.	0	406
+1597	The government.	0	406
+1598	We'll easily beat them.	1	407
+1599	I don't think it's possible.	0	407
+1600	The other team won by 4 points.	0	407
+1601	The score is tied at 7.	0	407
+1602	A better way of settling divorces.	1	408
+1603	Legal services.	0	408
+1604	Marriage counseling.	0	408
+1605	He usually goes to bed at a reasonable time.	1	409
+1606	He used to stay up late.	0	409
+1607	He can't keep staying there.	0	409
+1608	He gets up in the middle of the night.	0	409
+1609	She is sorry that Mark and Julie didn't come with them.	1	410
+1610	She is glad that Mark and Julie were able to go to the zoo.	0	410
+1611	She hopes that Mark and Julie can come to the zoo.	0	410
+1612	She wishes that Mark and Julie hadn't come too.	0	410
+1613	A physician specializing in heart disease.	1	411
+1614	A psychotherapist.	0	411
+1615	A public speaker on diet and exercise.	0	411
+1616	Dallas.	1	412
+1617	Europe.	0	412
+1618	Mexico.	0	412
+1619	He is sick.	1	413
+1620	He is afraid of losing his glass.	0	413
+1621	He does not have good eyesight.	0	413
+1622	He is worried about the cold weather.	0	413
+1623	It is a factor in helping patients to live longer.	1	414
+1624	No one knows if there is a link or not.	0	414
+1625	People with serious illnesses can get emotional support from their loved ones.	0	414
+1626	In America.	1	415
+1627	In Paris and Switzerland.	0	415
+1628	In Scandinavia.	0	415
+1629	It satisfies people's hunger.	1	416
+1630	It reduces negative feelings.	0	416
+1631	It burns calories.	0	416
+1632	It is less expensive.	1	417
+1633	It is faster.	0	417
+1634	It is more confidential.	0	417
+1635	Moving into an apartment.	1	418
+1636	Learning how to use his new camera.	0	418
+1637	Painting a wall.	0	418
+1638	Opening a new bank account.	0	418
+1639	Emotional and physical health	1	419
+1640	Overcoming depression and loneliness	0	419
+1641	Reversing heart disease	0	419
+1642	Take an eye exam and written test.	1	420
+1643	Pay $25 and bring a guardian.	0	420
+1644	Bring in their social security card.	0	420
+1645	It will leave on time.	1	421
+1646	It will be delayed for 30 minutes.	0	421
+1647	It will depart from a different gate.	0	421
+1648	To encourage people to go to a seminar.	1	422
+1649	To help people lose weight.	0	422
+1650	To advertise a special dinner at the Hilton Hotel.	0	422
+1651	Small amounts of alcohol don't help reduce the danger of heart attacks significantly.	1	423
+1652	The more alcohol you drink, the more likely you are to have a heart attack.	0	423
+1653	Having even one or two drinks a day can be harmful to your health.	0	423
+1654	They lost their appetite.	1	424
+1655	They took special pills.	0	424
+1656	They were put on a low calorie diet.	0	424
+1657	He was not planning to go to the party.	1	425
+1658	He would be arriving late for the party.	0	425
+1659	He was hosting a Halloween party.	0	425
+1660	He found something to wear to the party.	0	425
+1661	Ask for an absentee ballot.	1	426
+1662	Register at the county clerk's office.	0	426
+1663	Get a mail-in registration form from the post office.	0	426
+1664	Women with breast cancer who joined support groups survived longer than those who didn't.	1	427
+1665	Women with serious diseases lived longer if they were in loving relationships.	0	427
+1666	Family support was found to be as important as medical treatment in the treatment of cancer patients.	0	427
+1667	He became a conductor.	1	428
+1668	He left Russia and settled in Europe.	0	428
+1669	He started touring America as a pianist.	0	428
+1670	Participants undergo hypnosis.	1	429
+1671	Instruction is given on how to stick to a diet.	0	429
+1672	Dr. Barton prepares low calorie meals and snacks.	0	429
+1673	He is glad that Leo has a seat on the flight.	1	430
+1674	He wants Sarah to take care of Nicole.	0	430
+1675	He wants to know how long the flight is.	0	430
+1676	He is pleased that Sarah booked the flight.	0	430
+1677	fruit	1	431
+1678	vegetables	0	431
+1679	bread	0	431
+1680	meat	0	431
+1681	close	1	432
+1682	finish	0	432
+1683	end	0	432
+1684	stop	0	432
+1685	tired	1	433
+1686	thirsty	0	433
+1687	old	0	433
+1688	happy	0	433
+1689	weather	1	434
+1690	food	0	434
+1691	health	0	434
+1692	show	0	434
+1693	remembered	1	435
+1694	planned	0	435
+1695	hoped	0	435
+1696	wanted	0	435
+1697	often	1	436
+1698	much	0	436
+1699	fast	0	436
+1700	well	0	436
+1701	dirty	1	437
+1702	new	0	437
+1703	summer	0	437
+1704	large	0	437
+1705	quiet	1	438
+1706	expensive	0	438
+1707	small	0	438
+1708	delicious	0	438
+1709	dry	1	439
+1710	torn	0	439
+1711	dirty	0	439
+1712	new	0	439
+1713	day	1	440
+1714	week	0	440
+1715	month	0	440
+1716	year	0	440
+1717	address	1	441
+1718	name	0	441
+1719	number	0	441
+1720	e-mail	0	441
+1721	near	1	442
+1722	good	0	442
+1723	slow	0	442
+1724	little	0	442
+1725	alive	1	443
+1726	alone	0	443
+1727	afraid	0	443
+1728	angry	0	443
+1729	old	1	444
+1730	smart	0	444
+1731	heavy	0	444
+1732	tall	0	444
+1733	cold	1	445
+1734	warm	0	445
+1735	small	0	445
+1736	full	0	445
+1737	speak	1	446
+1738	tell	0	446
+1739	say	0	446
+1740	talk	0	446
+1741	wide	1	447
+1742	tall	0	447
+1743	long	0	447
+1744	deep	0	447
+1745	favorite	1	448
+1746	backward	0	448
+1747	whole	0	448
+1748	narrow	0	448
+1749	first	1	449
+1750	next	0	449
+1751	middle	0	449
+1752	previous	0	449
+1753	easy	1	450
+1754	soft	0	450
+1755	little	0	450
+1756	cheap	0	450
+1757	refuse	1	451
+1758	want	0	451
+1759	send	0	451
+1760	destroy	0	451
+1761	answer	1	452
+1762	fact	0	452
+1763	understanding	0	452
+1764	mistake	0	452
+1765	exit	1	453
+1766	gate	0	453
+1767	road	0	453
+1768	way	0	453
+1769	pages	1	454
+1770	pounds	0	454
+1771	miles	0	454
+1772	dollars	0	454
+1773	healthy	1	455
+1774	late	0	455
+1775	worried	0	455
+1776	right	0	455
+1777	heavy	1	456
+1778	loud	0	456
+1779	expensive	0	456
+1780	strange	0	456
+1781	safe	1	457
+1782	fast	0	457
+1783	expensive	0	457
+1784	comfortable	0	457
+1785	dark	1	458
+1786	heavy	0	458
+1787	quiet	0	458
+1788	strong	0	458
+1789	size	1	459
+1790	shape	0	459
+1791	style	0	459
+1792	kind	0	459
+1793	heard	1	460
+1794	said	0	460
+1795	obtained	0	460
+1796	acquired	0	460
+1797	full	1	461
+1798	hungry	0	461
+1799	satisfied	0	461
+1800	finished	0	461
+1801	worried	1	462
+1802	increased	0	462
+1803	expected	0	462
+1804	advanced	0	462
+1805	color	1	463
+1806	form	0	463
+1807	height	0	463
+1808	style	0	463
+1809	busy	1	464
+1810	unable	0	464
+1811	asleep	0	464
+1812	old	0	464
+1813	graduate	1	465
+1814	end	0	465
+1815	finish	0	465
+1816	complete	0	465
+1817	point	1	466
+1818	direct	0	466
+1819	line	0	466
+1820	swing	0	466
+1821	tell	1	467
+1822	say	0	467
+1823	speak	0	467
+1824	talk	0	467
+1825	new	1	468
+1826	young	0	468
+1827	cheap	0	468
+1828	clean	0	468
+1829	serious	1	469
+1830	broken	0	469
+1831	public	0	469
+1832	extra	0	469
+1833	a different	1	470
+1834	a similar	0	470
+1835	a larger	0	470
+1836	a closer	0	470
+1837	attended	1	471
+1838	received	0	471
+1839	comprehended	0	471
+1840	finished	0	471
+1841	choose	1	472
+1842	buy	0	472
+1843	prepare	0	472
+1844	try	0	472
+1845	cost	1	473
+1846	price	0	473
+1847	value	0	473
+1848	pay	0	473
+1849	leave	1	474
+1850	relax	0	474
+1851	pretend	0	474
+1852	damage	0	474
+1853	make	1	475
+1854	come	0	475
+1855	finish	0	475
+1856	use	0	475
+1857	kind	1	476
+1858	style	0	476
+1859	variety	0	476
+1860	manner	0	476
+1861	modern	1	477
+1862	further	0	477
+1863	often	0	477
+1864	lazy	0	477
+1865	miss	1	478
+1866	like	0	478
+1867	fail	0	478
+1868	regret	0	478
+1869	part	1	479
+1870	space	0	479
+1871	time	0	479
+1872	floor	0	479
+1873	group	1	480
+1874	pile	0	480
+1875	package	0	480
+1876	meeting	0	480
+1877	fail	1	481
+1878	take	0	481
+1879	miss	0	481
+1880	complete	0	481
+1881	think about	1	482
+1882	work on	0	482
+1883	finish up	0	482
+1884	throw out	0	482
+1885	thin	1	483
+1886	poor	0	483
+1887	tired	0	483
+1888	hungry	0	483
+1889	know	1	484
+1890	believe	0	484
+1891	feel	0	484
+1892	like	0	484
+1893	beautiful	1	485
+1894	expensive	0	485
+1895	horrible	0	485
+1896	perfect	0	485
+1897	left	1	486
+1898	wrong	0	486
+1899	near	0	486
+1900	side	0	486
+1901	stay	1	487
+1902	work	0	487
+1903	try	0	487
+1904	listen	0	487
+1905	ill	1	488
+1906	nil	0	488
+1907	lull	0	488
+1908	null	0	488
+1909	short	1	489
+1910	low	0	489
+1911	small	0	489
+1912	narrow	0	489
+1913	meet	1	490
+1914	understand	0	490
+1915	recognize	0	490
+1916	put	0	490
+1917	taking	1	491
+1918	passing	0	491
+1919	making	0	491
+1920	running	0	491
+1921	touch	1	492
+1922	hold	0	492
+1923	connection	0	492
+1924	communication	0	492
+1925	gloves	1	493
+1926	socks	0	493
+1927	scarf	0	493
+1928	coat	0	493
+1929	borrow	1	494
+1930	rent	0	494
+1931	lend	0	494
+1932	give	0	494
+1933	soft	1	495
+1934	easy	0	495
+1935	dry	0	495
+1936	weak	0	495
+1937	earn	1	496
+1938	gain	0	496
+1939	win	0	496
+1940	spend	0	496
+1941	satisfied	1	497
+1942	concluded	0	497
+1943	accepted	0	497
+1944	interested	0	497
+1945	fault	1	498
+1946	blame	0	498
+1947	problem	0	498
+1948	credit	0	498
+1949	gentle	1	499
+1950	sudden	0	499
+1951	absent	0	499
+1952	bold	0	499
+1953	spilled	1	500
+1954	climbed	0	500
+1955	folded	0	500
+1956	entered	0	500
+1957	easy	1	501
+1958	full	0	501
+1959	real	0	501
+1960	dark	0	501
+1961	landed	1	502
+1962	turned	0	502
+1963	started	0	502
+1964	happened	0	502
+1965	made up	1	503
+1966	straightened out	0	503
+1967	worked over	0	503
+1968	turned on	0	503
+1969	expensive	1	504
+1970	complicated	0	504
+1971	modern	0	504
+1972	delightful	0	504
+1973	lost	1	505
+1974	missing	0	505
+1975	oriented	0	505
+1976	hungry	0	505
+1977	take	1	506
+1978	bring	0	506
+1979	buy	0	506
+1980	drink	0	506
+1981	take	1	507
+1982	last	0	507
+1983	need	0	507
+1984	go	0	507
+1985	often	1	508
+1986	seldom	0	508
+1987	sometimes	0	508
+1988	never	0	508
+1989	tickets	1	509
+1990	drinks	0	509
+1991	seats	0	509
+1992	times	0	509
+1993	lost	1	510
+1994	dropped	0	510
+1995	missed	0	510
+1996	discovered	0	510
+1997	realize	1	511
+1998	say	0	511
+1999	understand	0	511
+2000	feel	0	511
+2001	support	1	512
+2002	tolerate	0	512
+2003	bear	0	512
+2004	stand	0	512
+2005	reached	1	513
+2006	arrived	0	513
+2007	grasped	0	513
+2008	achieved	0	513
+2009	lose	1	514
+2010	decrease	0	514
+2011	reduce	0	514
+2012	cut	0	514
+2013	least	1	515
+2014	under	0	515
+2015	down	0	515
+2016	bottom	0	515
+2017	corner	1	516
+2018	center	0	516
+2019	door	0	516
+2020	town	0	516
+2021	shallow	1	517
+2022	full	0	517
+2023	wide	0	517
+2024	high	0	517
+2025	piece	1	518
+2026	item	0	518
+2027	article	0	518
+2028	part	0	518
+2029	associate	1	519
+2030	plan	0	519
+2031	success	0	519
+2032	experience	0	519
+2033	sociable	1	520
+2034	sensible	0	520
+2035	generous	0	520
+2036	ambitious	0	520
+2037	advantage	1	521
+2038	velocity	0	521
+2039	equation	0	521
+2040	phenomenon	0	521
+2041	an appointment	1	522
+2042	a date	0	522
+2043	a meeting	0	522
+2044	an engagement	0	522
+2045	predictions	1	523
+2046	sculptures	0	523
+2047	repairs	0	523
+2048	grades	0	523
+2049	dam	1	524
+2050	curb	0	524
+2051	slot	0	524
+2052	spine	0	524
+2053	an important	1	525
+2054	an unknown	0	525
+2055	a locked	0	525
+2056	a secret	0	525
+2057	experience	1	526
+2058	happening	0	526
+2059	development	0	526
+2060	occurrence	0	526
+2061	vacation	1	527
+2062	project	0	527
+2063	accident	0	527
+2064	surprise	0	527
+2065	helpful	1	528
+2066	expensive	0	528
+2067	growing	0	528
+2068	important	0	528
+2069	appreciation	1	529
+2070	hassle	0	529
+2071	criticism	0	529
+2072	advantage	0	529
+2073	capable	1	530
+2074	probable	0	530
+2075	deniable	0	530
+2076	variable	0	530
+2077	changed	1	531
+2078	altered	0	531
+2079	switched	0	531
+2080	reversed	0	531
+2081	surprised	1	532
+2082	misled	0	532
+2083	amused	0	532
+2084	baffled	0	532
+2085	conservative	1	533
+2086	dynamic	0	533
+2087	enchanted	0	533
+2088	hazardous	0	533
+2089	tube	1	534
+2090	bar	0	534
+2091	can	0	534
+2092	bottle	0	534
+2093	runs	1	535
+2094	takes	0	535
+2095	leads	0	535
+2096	heads	0	535
+2097	excuse	1	536
+2098	apology	0	536
+2099	cause	0	536
+2100	sorrow	0	536
+2101	spend	1	537
+2102	give	0	537
+2103	part	0	537
+2104	pay	0	537
+2105	dentist	1	538
+2106	mechanic	0	538
+2107	banker	0	538
+2108	clerk	0	538
+2109	look	1	539
+2110	watch	0	539
+2111	see	0	539
+2112	notice	0	539
+2113	injured	1	540
+2114	wounded	0	540
+2115	damaged	0	540
+2116	harmed	0	540
+2117	specific	1	541
+2118	prestigious	0	541
+2119	efficient	0	541
+2120	voluntary	0	541
+2121	fans	1	542
+2122	audience	0	542
+2123	onlookers	0	542
+2124	viewers	0	542
+2125	sore	1	543
+2126	famous	0	543
+2127	plastic	0	543
+2128	colorful	0	543
+2129	completed	1	544
+2130	rejected	0	544
+2131	modified	0	544
+2132	advertised	0	544
+2133	hobby	1	545
+2134	work	0	545
+2135	season	0	545
+2136	memory	0	545
+2137	started	1	546
+2138	changed	0	546
+2139	damaged	0	546
+2140	strengthened	0	546
+2141	knows about	1	547
+2142	agrees with	0	547
+2143	responds to	0	547
+2144	apologizes for	0	547
+2145	quick	1	548
+2146	painful	0	548
+2147	full	0	548
+2148	complicated	0	548
+2149	reduce	1	549
+2150	stop	0	549
+2151	heal	0	549
+2152	cure	0	549
+2153	female	1	550
+2154	feminine	0	550
+2155	effeminate	0	550
+2156	lady	0	550
+2157	tired	1	551
+2158	excited	0	551
+2159	missing	0	551
+2160	quiet	0	551
+2161	finances	1	552
+2162	leads	0	552
+2163	plans	0	552
+2164	documents	0	552
+2165	mainly	1	553
+2166	partially	0	553
+2167	initially	0	553
+2168	ideally	0	553
+2169	recovered	1	554
+2170	cured	0	554
+2171	treated	0	554
+2172	healed	0	554
+2173	worried	1	555
+2174	proud	0	555
+2175	sleepy	0	555
+2176	offended	0	555
+2177	endure	1	556
+2178	enjoy	0	556
+2179	avoid	0	556
+2180	ignore	0	556
+2181	developed	1	557
+2182	diminished	0	557
+2183	attacked	0	557
+2184	multiplied	0	557
+2185	familiar	1	558
+2186	aware	0	558
+2187	knowledgeable	0	558
+2188	informed	0	558
+2189	brand	1	559
+2190	highly	0	559
+2191	dead	0	559
+2192	recently	0	559
+2193	short	1	560
+2194	bloody	0	560
+2195	terrible	0	560
+2196	decisive	0	560
+2197	smell	1	561
+2198	color	0	561
+2199	noise	0	561
+2200	flavor	0	561
+2201	feet	1	562
+2202	hands	0	562
+2203	fingers	0	562
+2204	legs	0	562
+2205	living	1	563
+2206	work	0	563
+2207	career	0	563
+2208	profession	0	563
+2209	behavior	1	564
+2210	health	0	564
+2211	effort	0	564
+2212	work	0	564
+2213	denied	1	565
+2214	appreciated	0	565
+2215	refused	0	565
+2216	completed	0	565
+2217	pretend	1	566
+2218	decide	0	566
+2219	agree	0	566
+2220	ignore	0	566
+2221	growing	1	567
+2222	selling	0	567
+2223	smuggling	0	567
+2224	using	0	567
+2225	subscriptions	1	568
+2226	fluctuations	0	568
+2227	inhibitions	0	568
+2228	distortions	0	568
+2229	valid	1	569
+2230	ethnic	0	569
+2231	liable	0	569
+2232	bleak	0	569
+2233	brag	1	570
+2234	hear	0	570
+2235	cry	0	570
+2236	speak	0	570
+2237	announcement	1	571
+2238	hearing	0	571
+2239	report	0	571
+2240	conference	0	571
+2241	postpone	1	572
+2242	cancel	0	572
+2243	hold	0	572
+2244	attend	0	572
+2245	achievement	1	573
+2246	death	0	573
+2247	ability	0	573
+2248	endurance	0	573
+2249	for	1	574
+2250	at	0	574
+2251	while	0	574
+2252	during	0	574
+2253	living	1	575
+2254	alive	0	575
+2255	lively	0	575
+2256	live	0	575
+2257	enormous	1	576
+2258	new	0	576
+2259	wild	0	576
+2260	unpopulated	0	576
+2261	fight	1	577
+2262	maintain	0	577
+2263	increase	0	577
+2264	cure	0	577
+2265	unanimously	1	578
+2266	utterly	0	578
+2267	unitedly	0	578
+2268	consistently	0	578
+2269	signs	1	579
+2270	organizations	0	579
+2271	records	0	579
+2272	theories	0	579
+2273	precisely	1	580
+2274	hardly	0	580
+2275	delicately	0	580
+2276	nearly	0	580
+2277	plentiful	1	581
+2278	useful	0	581
+2279	expensive	0	581
+2280	scarce	0	581
+2281	saying	1	582
+2282	stating	0	582
+2283	explaining	0	582
+2284	telling	0	582
+2285	extreme	1	583
+2286	mild	0	583
+2287	unique	0	583
+2288	rare	0	583
+2289	suspicious	1	584
+2290	puzzling	0	584
+2291	successful	0	584
+2292	dangerous	0	584
+2293	fingers	1	585
+2294	legs	0	585
+2295	hands	0	585
+2296	arms	0	585
+2297	strong	1	586
+2298	violent	0	586
+2299	high	0	586
+2300	loyal	0	586
+2301	Drop	1	587
+2302	Give	0	587
+2303	Write	0	587
+2304	Make	0	587
+2305	courteous	1	588
+2306	obnoxious	0	588
+2307	anxious	0	588
+2308	pretentious	0	588
+2309	reliable	1	589
+2310	marginal	0	589
+2311	edible	0	589
+2312	statistical	0	589
+2313	copied	1	590
+2314	influenced	0	590
+2315	studied	0	590
+2316	praised	0	590
+2317	wrote	1	591
+2318	discussed	0	591
+2319	supervised	0	591
+2320	fought	0	591
+2321	worthless	1	592
+2322	valueless	0	592
+2323	priceless	0	592
+2324	invaluable	0	592
+2325	widespread	1	593
+2326	total	0	593
+2327	large	0	593
+2328	extreme	0	593
+2329	knowledge	1	594
+2330	facts	0	594
+2331	information	0	594
+2332	suggestion	0	594
+2333	excellent	1	595
+2334	famous	0	595
+2335	awkward	0	595
+2336	colorful	0	595
+2337	insufficient	1	596
+2338	ambiguous	0	596
+2339	confusing	0	596
+2340	extensive	0	596
+2341	dying	1	597
+2342	wondering	0	597
+2343	anticipating	0	597
+2344	dreading	0	597
+2345	extensive	1	598
+2346	comprehensive	0	598
+2347	total	0	598
+2348	complete	0	598
+2349	evacuated	1	599
+2350	extradited	0	599
+2351	eradicated	0	599
+2352	extinguished	0	599
+2353	different	1	600
+2354	ruling	0	600
+2355	weak	0	600
+2356	reckless	0	600
+2357	steady	1	601
+2358	firm	0	601
+2359	continuous	0	601
+2360	fixed	0	601
+2361	hard-and-fast	1	602
+2362	safe-and-sound	0	602
+2363	high-and-dry	0	602
+2364	short-and-sweet	0	602
+2365	copy	1	603
+2366	produce	0	603
+2367	alter	0	603
+2368	distinguish	0	603
+2369	equaled	1	604
+2370	exceeded	0	604
+2371	contradicted	0	604
+2372	followed	0	604
+2373	fatal	1	605
+2374	mortal	0	605
+2375	lethal	0	605
+2376	terminal	0	605
+2377	muttered	1	606
+2378	screamed	0	606
+2379	concealed	0	606
+2380	complained	0	606
+2381	very well	1	607
+2382	in good time	0	607
+2383	of a sudden	0	607
+2384	in all	0	607
+2385	scoops	1	608
+2386	pieces	0	608
+2387	spoons	0	608
+2388	balls	0	608
+2389	constant	1	609
+2390	repaired	0	609
+2391	supported	0	609
+2392	measured	0	609
+2393	sociable	1	610
+2394	numerous	0	610
+2395	fertile	0	610
+2396	curious	0	610
+2397	verify	1	611
+2398	select	0	611
+2399	change	0	611
+2400	reserve	0	611
+2401	invented	1	612
+2402	used	0	612
+2403	adapted	0	612
+2404	popularized	0	612
+2405	working	1	613
+2406	training	0	613
+2407	studying	0	613
+2408	consulting	0	613
+2409	give-or-take	1	614
+2410	touch-and-go	0	614
+2411	by-and-large	0	614
+2412	up-and-about	0	614
+2413	foreseeable	1	615
+2414	noticeable	0	615
+2415	predictable	0	615
+2416	understandable	0	615
+2417	challenged	1	616
+2418	supported	0	616
+2419	explained	0	616
+2420	strengthened	0	616
+2421	remote	1	617
+2422	alone	0	617
+2423	far	0	617
+2424	detached	0	617
+2425	altered	1	618
+2426	developed	0	618
+2427	produced	0	618
+2428	finished	0	618
+2429	clever	1	619
+2430	complicated	0	619
+2431	amazing	0	619
+2432	dangerous	0	619
+2433	comes	1	620
+2434	gets	0	620
+2435	changes	0	620
+2436	turns	0	620
+2437	went off	1	621
+2438	turned on	0	621
+2439	blew out	0	621
+2440	worked over	0	621
+2441	healing	1	622
+2442	practical	0	622
+2443	cultural	0	622
+2444	educational	0	622
+2445	bland	1	623
+2446	frigid	0	623
+2447	gentle	0	623
+2448	precise	0	623
+2449	hungry	1	624
+2450	tired	0	624
+2451	frightened	0	624
+2452	worried	0	624
+2453	stories	1	625
+2454	experiences	0	625
+2455	descriptions	0	625
+2456	beliefs	0	625
+2457	Hardly	1	626
+2458	Only	0	626
+2459	Almost	0	626
+2460	Always	0	626
+2461	spotlessly	1	627
+2462	fully	0	627
+2463	deeply	0	627
+2464	purely	0	627
+2465	limited	1	628
+2466	located	0	628
+2467	associated	0	628
+2468	intended	0	628
+2469	eligible	1	629
+2470	available	0	629
+2471	permitted	0	629
+2472	permissible	0	629
+2473	broad	1	630
+2474	wide	0	630
+2475	open	0	630
+2476	steady	0	630
+2477	diverted	1	631
+2478	distracted	0	631
+2479	diversified	0	631
+2480	distributed	0	631
+2481	call	1	632
+2482	make	0	632
+2483	end	0	632
+2484	put	0	632
+2485	edgewise	1	633
+2486	sideways	0	633
+2487	halfway	0	633
+2488	anywhere	0	633
+2489	decided	1	634
+2490	argued	0	634
+2491	assumed	0	634
+2492	claimed	0	634
+2493	graciously	1	635
+2494	pleasantly	0	635
+2495	sympathetically	0	635
+2496	nicely	0	635
+2497	an all-out	1	636
+2498	a one-and-all	0	636
+2499	an all-in-all	0	636
+2500	a catch-all	0	636
+2501	thin	1	637
+2502	clear	0	637
+2503	empty	0	637
+2504	plain	0	637
+2505	conscientious	1	638
+2506	conscious	0	638
+2507	consistent	0	638
+2508	constitutional	0	638
+2509	deterrent	1	639
+2510	consequence	0	639
+2511	prevention	0	639
+2512	hindrance	0	639

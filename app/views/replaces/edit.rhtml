@@ -1,0 +1,127 @@
+<div class="testresult">
+        <div class="testresultext">
+	        <h1><%= t(:congratulations)%></h1>
+	        <p><%= t(:enroll_speakeng)%><b><%= t("s#{@test_result.score.to_i}") %></b></p>
+	       
+	</div>
+	
+	<% if not @test_result.skill_results.blank? %>
+	<table class="table90">
+		<tr>
+			<td class="table90_bgcolour"><%=t(:skill_name)%></td>
+			<td class="table90_bgcolour"><%=t(:level)%></td>
+			<td class="table90_bgcolour"><%=t(:score)%></td>
+		</tr>
+		<% @test_result.skill_results.each do |item|%>
+		<tr>
+			<td><%= show_skill(item.evaluation_activity_id) %></td>
+			<td><%= item.level %></td>
+			<td><%= item.score %></td>
+		</tr>
+		<% end %>
+	</table>
+	<% end %>
+	
+	<br />
+	 <h1><%= t(:overall_level)%><%= @test_result.level%></h1>
+	 
+	<table class="table90">
+		<tr>
+			<th class="tableblue">SpeagENG Level</th>
+			<th class="tableblue">TOEIC</th>
+			<th class="tableblue">PBT TOEFL</th>
+			<th class="tableblue">CBT TOEFL</th>
+			<th class="tableblue">iBT TOEFL</th>
+		</tr>
+		<tr>
+			<td rowspan="2">12 [高级(三)]</td>
+			<td>980－990</td>
+			<td>660－677</td>
+			<td>287－300</td>
+			<td>117-120</td>
+		</tr>
+		<tr>
+			<td>950－975</td>
+			<td>640－660</td>
+			<td>273－387</td>
+			<td>112－117</td>
+		</tr>
+		<tr>
+			<td rowspan="2">11 [高级(二)]</td>
+			<td>910－945</td>
+			<td>607-640</td>
+			<td>253-273</td>
+			<td>102-112</td>
+		</tr>
+		<tr>			
+			<td>875-905</td>
+			<td>597-607</td>
+			<td>247-253</td>
+			<td>99-102</td>
+		</tr>
+		<tr>
+			<td rowspan="2">10 [高级(一)]</td>
+			<td>835-870</td>
+			<td>580-597</td>
+			<td>237-247</td>
+			<td>93-99</td>
+		</tr>
+		<tr>			
+			<td>790-830</td>
+			<td>563-580</td>
+			<td>213-237</td>
+			<td>85-93</td>
+		</tr>
+		<tr>
+			<td rowspan="2">9[中级]</td>
+			<td>750-785</td>
+			<td>550-563</td>
+			<td>207-213</td>
+			<td>80-85</td>
+		</tr>
+		<tr>			
+			<td>705-745</td>
+			<td>537-550</td>
+			<td>207-223</td>
+			<td>76-80</td>
+		</tr>
+		<tr>
+			<td>8[中级]</td>
+			<td>650-700</td>
+			<td>523-537</td>
+			<td>193-207</td>
+			<td>70-76</td>
+		</tr>
+		<tr>
+			<td>7 [中级]</td>
+			<td>600-650</td>
+			<td>503-523</td>
+			<td>177-193</td>
+			<td>63-70</td>
+		</tr>
+		<tr>
+			<td>6 [初级(二)]</td>
+			<td>545-595</td>
+			<td>493-503</td>
+			<td>167-177</td>
+			<td>58-63</td>
+		</tr>
+		<tr>
+			<td>5 [初级(一)]</td>
+			<td>490-540</td>
+			<td>490-493</td>
+			<td>163-167</td>
+			<td>57-58</td>
+		</tr>
+		<tr>
+			<td>1-4 [入门级]</td>
+			<td>~490</td>
+			<td>~490</td>
+			<td>~163</td>
+			<td>~57</td>
+		</tr>
+	</table>
+	<br />
+	
+	
+</div>

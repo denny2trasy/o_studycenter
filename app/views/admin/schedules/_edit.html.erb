@@ -1,0 +1,58 @@
+<%=form_for @event, :remote =>true,:url => {:action => :update} , :before => "$('#updating_events').show();", :complete => "$('#updating_events').hide();" do |f| %>
+<p>
+  <%=f.label :title %>
+  <br/>
+  <%=f.text_field :title %>
+</p>
+<p>
+  <%=f.label :description %>
+  <br/>
+  <%=f.text_area :description, :rows => 4, :cols => 30 %>
+</p>
+<p>
+	<%= f.label :ppt%>
+	<%= select_tag :slide,options_from_collection_for_select(@slide,:id,:name,:selected =>@event.slide_id)%>
+</p>
+<p>
+	<%= f.label :content_type%>
+	<%= f.select :content_type, { "Ellis" =>"Lesson","Scenario"=>"Scenario","Chinacache"=>"Chinacache","Thinkingcap"=>"Thinkingcap"}%>
+</p>
+<div id="lesson_select">
+	<%= f.label :content_id%>
+</div>
+<p>
+	<%= f.label :teacher%>
+	<%= select_tag :teacher,options_from_collection_for_select(@teachers,:id,:login,:selected =>@event.teacher_id)%>
+</p>
+<p>
+  <%=f.label :course_start_at, 'Start Time' %>
+  <br/>
+  <%=f.datetime_select :course_start_at %>
+</p>
+<p>
+  <%=f.label :course_end_at, 'End Time' %>
+  <br/>
+  <%=f.datetime_select :course_end_at %>
+</p>
+
+
+<%=f.hidden_field :id, :value => @event.id%>
+<p>
+	 
+  <%=f.submit 'Update'%>
+  <span id = "updating_events" style = "display:none;">Updating, Please wait...</span>
+</p>
+<%end %>
+<script>
+$(document).ready(function(){
+	getContents(<%= @event.content_id.to_s%>);
+	
+	$("#schedule_content_type").change(function(){   
+	 	  getContents(0);
+	 });
+});
+function selected_content(content_id){
+	getContents(0);
+	
+}
+</script>

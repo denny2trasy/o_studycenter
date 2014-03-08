@@ -1,0 +1,8 @@
+<% @item_groups.each do |group|%>
+	<div>
+	<%= group.name%>
+	</div>
+	<% group.examinations.count%>
+	<%= link_to group.name, list_homeworks_path(:group_id =>group.id)%>
+	
+<% end%>

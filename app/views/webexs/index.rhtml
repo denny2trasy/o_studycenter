@@ -1,0 +1,42 @@
+
+	<div class="month_schedule">
+	         <div class="webexs_dowload" >
+	<%= t(:download_plugins)%>
+		<img src="/el_studycenter/images/el/icon/ie.png"  width="16" height="16" /><%= link_to "IE(Windows)","https://eleutian.webex.com.cn/client/T27LD/atecie.msi"%></span>
+		<img src="/el_studycenter/images/el/icon/firefox.png"  width="16" height="16" /><%= link_to "Firefox or Chrome(Windows)","https://eleutian.webex.com.cn/client/T27LD/atecns.msi"%>
+		<img src="/el_studycenter/images/el/icon/imac.png"  width="16" height="16" /><%= link_to "Mac","https://eleutian.webex.com.cn/client/T27LD/mac/intel/webexec_intel.dmg"%>
+		</div>
+	<div class="month_class">
+	        
+	<!--span class="ppt_page"><img src="/el_studycenter/images/el/icon/ppts.png" height="24" width="24"><%= link_to "外教授课 PPT", ppts_path %></span-->
+	
+	<img src="/el_studycenter/images/el/icon/calendar.png"  width="16" height="16" /><%= link_to "当月课表", month_schedule_webexs_path %></div>
+	</div>
+	
+	<div id="schedule" class="bcast_class_content" >
+		<%= render :partial => 'schedule' %>
+	</div>
+	
+	<!--div style="width:900px; padding:15px;font-size:16px; color:#f00; background:#f3f0d8; border:1px solid #f9d470;float:left;margin-bottom:10px;">同学们，由于7月14号的课程出现问题，我们会在近期予以补课，请关注相关通知，给您造成的不便请谅解。</div-->
+	<% if current_user.from_partner == 'english_salon'%>
+
+	<% else%>
+		<div class="ppt_vedion">
+		        <h1>如何使用 TeachCast</h1>
+	    		<div class="howtouse_vdeio">
+	    				<embed src="http://player.youku.com/player.php/sid/XNDIzNTM1NDA0/v.swf" allowFullScreen="true" quality="high" width="460" height="360" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+	    	  </div>
+
+
+	    		<div class="pptdownload_wrap">
+	                      <h1>左边的视频是关于英语学习平台的使用介绍：</h1>
+
+	                         <p> 1、如何登陆并参加外教授课</p>
+	                         <p> 2、如何与老师和其他学生交流</p>
+	                         <p> 3、如何使用系统的基本功能</p>
+	                         <p>该视频能更好的帮助您了解并掌握英语学习平台的使用！</p>
+	    		</div>
+
+	    	</div>
+	<% end%>
+

@@ -1,0 +1,12 @@
+<br />
+<br />
+
+<br />
+<%= list_table_for(@issues) do |item,col|
+	col.add   :user,	item.user.login
+	col.add   :content
+	col.add   :created_at,	item.created_at.to_s(:db)
+	col.add   :action,	link_to(t(:show),issue_path(item))
+end %>
+
+<%= paginate @issues %>

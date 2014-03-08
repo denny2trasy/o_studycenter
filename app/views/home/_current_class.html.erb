@@ -1,0 +1,22 @@
+<div class="content_left">
+  <div id="Current_courses"><!--当前课程-->
+    <h1 class="headline_h1a">	<%=t(:current_class)%></h1>
+    <%= show_current_course_for_student(@item)%>
+    </div><!--Current_courses_text-->
+  </div>
+ <div class="viewContent">
+	
+	<h2><%= @item_group.name%></h2>
+	<ul>
+		<% @item_group.items.each do |item|%>
+		<li class="<%= "viewContent_active" if @item == item %>">
+			<a href="<%= item.lesson_link%>" title="<%= item.content.name%>">Lesson<%= item.position%></a>
+		</li>
+		<% end%>
+	</ul>
+	
+  </div>
+	<div class="headline_bottom"></div>
+  <%= render :partial=>"course_package"%>
+  
+</div><!--left-->

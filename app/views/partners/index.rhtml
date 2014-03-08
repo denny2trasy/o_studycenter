@@ -1,0 +1,29 @@
+<%= stylesheet_link_tag 'el_base', 'fullcalendar', 'el_lc_v2' ,'el_'+I18n.locale.to_s %>
+
+	<div class="month_schedule">
+	         <div class="webexs_dowload" >
+	<%= t(:download_plugins)%>
+		<img src="/el_studycenter/images/el/icon/ie.png"  width="16" height="16" /><%= link_to "IE(Windows)","https://eleutian.webex.com.cn/client/T27LD/atecie.msi"%></span>
+		<img src="/el_studycenter/images/el/icon/firefox.png"  width="16" height="16" /><%= link_to "Firefox or Chrome(Windows)","https://eleutian.webex.com.cn/client/T27LD/atecns.msi"%>
+		<img src="/el_studycenter/images/el/icon/imac.png"  width="16" height="16" /><%= link_to "Mac","https://eleutian.webex.com.cn/client/T27LD/mac/intel/webexec_intel.dmg"%>
+		</div>
+	<div class="month_class">
+	
+	
+	
+	<img src="/el_studycenter/images/el/icon/calendar.png"  width="16" height="16" /><%= link_to "当月课表", month_schedule_partners_path %>
+	
+	</div>
+	</div>
+	
+	<div id="schedule" class="bcast_class_content" >
+		<%= render :partial => 'schedule' %>
+	</div>
+	
+	
+
+
+
+
+
+

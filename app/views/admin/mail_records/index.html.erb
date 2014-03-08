@@ -1,0 +1,19 @@
+<div>
+  <div id= "toolbar">
+    <%= search_form_for(MailRecord, :title, :from, :to, :mail_template_id) %>
+    <%= link_to "All" %>
+    | <%= link_to "Succeed", {:q => {:status => "succeed"}} %>
+    | <%= link_to "Fail", {:q => {:status => "fail"}} %>
+  </div>
+
+  <%= list_table_for(@mail_records) do |mail, col|
+    col.add :mail_title, mail.title
+    col.add :mail_template, mail.mail_template_id
+    col.add :mail_from, mail.from
+    col.add :mail_to, mail.to
+    col.add :status, mail.status
+    col.add :error_message, mail.error_message
+    col.add :created_at, mail.created_at.strftime("%Y-%m-%d %H:%M:%S")
+    col.add :sent_at, mail.sent_at ? mail.sent_at.strftime("%Y-%m-%d %H:%M:%S") : ""
+  end %>
+</div>

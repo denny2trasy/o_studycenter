@@ -1,0 +1,640 @@
+﻿0	What _ this?	-3.51	1	NULL	0	0	5	NULL
+1	Who _ you?	-3.36	1	NULL	1	0	6	NULL
+2	Where _ they?	-3.23	1	NULL	2	0	4	NULL
+3	_ from Spain?	-3.01	1	NULL	3	0	9	NULL
+4	_ are late.	-2.92	1	NULL	4	0	2	NULL
+5	_ are you from?	-2.83	1	NULL	5	0	7	NULL
+6	_ am from Korea.	-2.74	1	NULL	6	0	1	NULL
+7	He _ from Japan.	-2.40	1	NULL	7	0	11	NULL
+8	Please give it to _.	-2.33	1	NULL	8	0	47	NULL
+9	Please be quiet. We _ to study.	-2.22	1	NULL	9	0	45	NULL
+10	_ is Jane so late?	-2.17	1	NULL	10	0	8	NULL
+11	What _ this weekend?	-2.07	1	NULL	11	0	38	NULL
+12	_ our teacher?	-2.01	1	NULL	12	0	10	NULL
+13	_ wife is very sick.	-2.01	1	NULL	13	0	17	NULL
+14	Where is _ car?	-1.96	1	NULL	14	0	18	NULL
+15	Where did you meet _?	-1.93	1	NULL	15	0	46	NULL
+16	Did you see _ on TV?	-1.93	1	NULL	16	0	48	NULL
+17	I'd like _ apple, please.	-1.81	1	NULL	17	0	27	NULL
+18	I once knew the president, but that was thirty years _.	-1.81	1	NULL	18	0	139	NULL
+19	Please ask _ to come in.	-1.73	1	NULL	19	0	49	NULL
+20	_ from Canada.	-1.69	1	NULL	20	0	3	NULL
+21	I have an appointment _ 3 o'clock.	-1.62	1	NULL	21	0	56	NULL
+22	Let's get _ chocolate chip cookies.	-1.57	1	NULL	22	0	82	NULL
+23	We _ from Mexico.	-1.54	1	NULL	23	0	12	NULL
+24	_ friends aren't here yet.	-1.50	1	NULL	24	0	16	NULL
+25	Can you visit us _ Monday?	-1.50	1	NULL	25	0	57	NULL
+26	They're coming, _?	-1.46	1	NULL	26	0	34	NULL
+27	It's a beautiful day, _?	-142.00	1	NULL	27	0	32	NULL
+28	What time _ get up?	-1.42	1	NULL	28	0	25	NULL
+29	Could you come over as _ possible?	-1.37	1	NULL	29	0	159	NULL
+30	Would you like _ cup of coffee?	-1.37	1	NULL	30	0	182	NULL
+31	_ my birthday today.	-1.35	1	NULL	31	0	21	NULL
+32	_ from Italy, aren't they?	-1.32	1	NULL	32	0	35	NULL
+33	What did you _ last night?	-1.32	1	NULL	33	0	55	NULL
+34	He's _ a shower at the moment.	-1.25	1	NULL	34	0	39	NULL
+35	Tom and Sue _ for a new apartment.	-1.25	1	NULL	35	0	42	NULL
+36	_ house is very nice.	-1.21	1	NULL	0	1	15	NULL
+37	A placebo is a harmless substance _ a doctor gives to a patient instead of a drug.	-1.13	1	NULL	1	1	117	NULL
+38	It all depends on _ or not the tickets are free.	-1.13	1	NULL	2	1	215	NULL
+39	Is this _ house?	-1.12	1	NULL	3	1	19	NULL
+40	We don't have _ bread left.	-1.07	1	NULL	4	1	31	NULL
+41	_ are not my shoes.	-1.06	1	NULL	5	1	20	NULL
+42	It gets very cold _ night.	-1.06	1	NULL	6	1	58	NULL
+43	_ a good time last night?	-1.04	1	NULL	7	1	97	NULL
+44	_ you going out anywhere tonight?	-1.00	1	NULL	8	1	40	NULL
+45	When were you thinking of _?	-0.99	1	NULL	9	1	168	NULL
+46	I have no idea _ or not Rachel is planning to move out of her apartment.	-0.96	1	NULL	10	1	218	NULL
+47	Do you have _?	-0.93	1	NULL	11	1	26	NULL
+48	We have _ minutes left.	-0.93	1	NULL	12	1	51	NULL
+49	I was very _ when he told me he had quit his job.	-0.89	1	NULL	13	1	126	NULL
+50	Are they _ or not?	-0.88	1	NULL	14	1	44	NULL
+51	It has now been four years _ I started school.	-0.87	1	NULL	15	1	133	NULL
+52	Bill had a heart attack while he _ in the park.	-0.86	1	NULL	16	1	61	NULL
+53	Why _ late for class?	-0.85	1	NULL	17	1	129	NULL
+54	That was one of _ meals I've had for a long time.	-0.84	1	NULL	18	1	162	NULL
+55	Can you please stop _ on the piano? I'm trying to concentrate.	-0.84	1	NULL	19	1	170	NULL
+56	I'd like _ oranges.	-0.84	1	NULL	20	1	30	NULL
+57	He still has the book I gave him, _?	-0.82	1	NULL	21	1	128	NULL
+58	The Japanese model is actually _ all the others.	-0.81	1	NULL	22	1	160	NULL
+59	If I _ you, I'd start over again.	-0.81	1	NULL	23	1	167	NULL
+60	Helen _ wearing casual clothes.	-0.78	1	NULL	24	1	66	NULL
+61	What time _ home last night?	-0.78	1	NULL	25	1	62	NULL
+62	When _ arriving?	-0.77	1	NULL	26	1	43	NULL
+63	I really think that would be _ solution.	-0.76	1	NULL	27	1	161	NULL
+64	Jill has decided not _ the job after all.	-0.76	1	NULL	28	1	169	NULL
+65	What time _?	-0.75	1	NULL	29	1	53	NULL
+66	_ a foreign language requires a lot of patience.	-0.75	1	NULL	30	1	86	NULL
+67	Are you worried _ a job when you finish your studies?	-0.74	1	NULL	31	1	81	NULL
+68	Are you going to apply _ the job?	-0.72	1	NULL	32	1	173	NULL
+69	You've met my cousin, _?	-0.71	1	NULL	33	1	120	NULL
+70	_ to invite to dinner this Sunday?	-0.69	1	NULL	34	1	106	NULL
+71	Could you look _ my dog for the weekend? We're going out of town.	-0.68	1	NULL	35	1	98	NULL
+72	There's_ program on TV tonight.	-0.67	1	NULL	36	1	73	NULL
+73	I _ there's a bank down the road on the left.	-0.65	1	NULL	0	2	69	NULL
+74	When Emily was in high school, she _ to play a lot of tennis.	-0.62	1	NULL	1	2	83	NULL
+75	Jeff insisted on _ right away.	-0.55	1	NULL	2	2	207	NULL
+76	Hurry up. We don't have _ time.	-0.54	1	NULL	3	2	71	NULL
+77	We _ right away.	-0.52	1	NULL	4	2	41	NULL
+78	I just baked _ dinner rolls. Help yourself.	-0.51	1	NULL	5	2	175	NULL
+79	You don't have a hope of passing _ you put in a lot more effort.	-0.49	1	NULL	6	2	212	NULL
+80	We often _ out for a meal on the weekend.	-0.49	1	NULL	7	2	63	NULL
+81	That was the most _ movie I have ever seen.	-0.48	1	NULL	8	2	116	NULL
+82	Linda and Fred have been _ for forty years now.	-0.47	1	NULL	9	2	102	NULL
+83	When I got up this morning , it _ heavily.	-0.47	1	NULL	10	2	13	NULL
+84	Did you _ there on time?	-0.47	1	NULL	11	2	54	NULL
+85	Brad is not _ sociable as his brother.	-0.47	1	NULL	12	2	158	NULL
+86	Don't forget _ off the heating before you leave.	-0.45	1	NULL	13	2	157	NULL
+87	Sue was so tired that she slept _ ten hours.	-0.43	1	NULL	14	2	148	NULL
+88	_ husband is from Brazil.	-0.43	1	NULL	15	2	14	NULL
+89	There _ someone at the door.	-0.43	1	NULL	16	2	28	NULL
+90	How much _?	-0.42	1	NULL	17	2	68	NULL
+91	Do you have any _ colors available?	-0.42	1	NULL	18	2	181	NULL
+92	How much _?	-0.41	1	NULL	19	2	24	NULL
+93	I've found some of my missing books.  But where are _?	-0.38	1	NULL	20	2	87	NULL
+94	I bought _ book that my friend Joe recently read.	-0.36	1	NULL	21	2	137	NULL
+95	You're not ready for the test, _?	-0.35	1	NULL	22	2	127	NULL
+96	What time shall I pick you _ from the hotel?	-0.35	1	NULL	23	2	99	NULL
+97	I'm not too late, _?	-0.35	1	NULL	24	2	121	NULL
+98	Can I show _ something?	-0.34	1	NULL	25	2	50	NULL
+99	Leadbelly is an American folk singer _ deeply rooted in the early African-American tradition.	-0.33	1	NULL	26	2	225	NULL
+100	Where is the man _ pen I borrowed?	-0.25	1	NULL	27	2	131	NULL
+101	Emily _ late.	-0.23	1	NULL	28	2	37	NULL
+102	She's from New York, _?	-0.21	1	NULL	29	2	33	NULL
+103	Matt's birthday is _ August.	-0.19	1	NULL	30	2	60	NULL
+104	The sidewalks are all wet this morning.  It _ have rained last night.	-0.14	1	NULL	31	2	132	NULL
+105	What _?	-0.12	1	NULL	32	2	67	NULL
+106	_ you mind giving me a hand with this desk? It's too heavy for me.	-0.11	1	NULL	33	2	77	NULL
+107	_ not here right now.	-0.11	1	NULL	34	2	22	NULL
+108	_ in this room is getting stale. Let's open the window.	-0.08	1	NULL	35	2	101	NULL
+109	Canberra, _ is the capital of Australia, is much smaller than Sydney.	-0.08	1	NULL	36	2	142	NULL
+110	When _ your exam results?	-0.05	1	NULL	37	2	92	NULL
+111	Mr. Jensen is thinking about _ on a trip to Canada.	-0.02	1	NULL	38	2	115	NULL
+112	We _ Mike will be offered the job.	-0.01	1	NULL	39	2	65	NULL
+113	A philatelist is someone_ collects stamps.	0.00	1	NULL	0	3	118	NULL
+114	I'm sure Jeff _ with you if he had the time.	0.00	1	NULL	1	3	166	NULL
+115	My parents _ when I got home, so I didn't tell them the news.	0.00	1	NULL	2	3	107	NULL
+116	Sam is looking forward to going to Orlando. He _ there before.	0.01	1	NULL	3	3	93	NULL
+117	Philip was born _ 1991.	0.02	1	NULL	4	3	59	NULL
+118	Richard _ working on his paper for three hours now. It's time for him to take a break.	0.03	1	NULL	5	3	189	NULL
+119	Why _ me? I could have easily helped you.	0.03	1	NULL	6	3	190	NULL
+120	We can start the party _.	0.03	1	NULL	7	3	124	NULL
+121	Chris stopped _ at that store because they raised their prices so much.	0.06	1	NULL	8	3	155	NULL
+122	The sun was shining, and the people on the bus _ getting too hot.	0.07	1	NULL	9	3	138	NULL
+123	I _ for over an hour and now I want to leave.	0.09	1	NULL	10	3	94	NULL
+124	His mother is very old.  She _ by the money he sends her.	0.09	1	NULL	11	3	146	NULL
+125	John _ swimming.	0.10	1	NULL	12	3	36	NULL
+126	Jessica was badly sunburned _ she was wearing sunscreen.	0.10	1	NULL	13	3	214	NULL
+127	We really _ to visit your grandparents this weekend.	0.13	1	NULL	14	3	74	NULL
+128	It's amazing to me that _ simple act can have far-reaching consequences.	0.14	1	NULL	15	3	216	NULL
+129	Tony is waiting outside. He _ forgotten his key.	0.19	1	NULL	16	3	171	NULL
+130	We are getting tired _ doing all the work while you just sit there.	0.20	1	NULL	17	3	174	NULL
+131	Stan is very strong. _, he couldn't get that jar of pickles open.	0.23	1	NULL	18	3	196	NULL
+132	_ Steve felt very tired, he decided to go to bed very early.	0.23	1	NULL	19	3	147	NULL
+133	I was told that Anna _ several hours earlier.	0.24	1	NULL	20	3	183	NULL
+134	We don't _ leave just yet. We have plenty of time.	0.25	1	NULL	21	3	75	NULL
+135	Why did Ms. Benton ask you _ allergies?	0.26	1	NULL	22	3	233	NULL
+136	Shelly is not here.  She _ to New York yesterday.	0.32	1	NULL	23	3	145	NULL
+137	_ some milk in the fridge.	0.34	1	NULL	24	3	29	NULL
+138	I would invite Ken if I _ his address.	0.34	1	NULL	25	3	163	NULL
+139	Can I borrow your car? I _ long, I promise.	0.35	1	NULL	26	3	89	NULL
+140	We don't have time to buy the groceries.  Let's get Bill _ it.	0.36	1	NULL	27	3	112	NULL
+141	These are too expensive.  Can I look at _?	0.39	1	NULL	28	3	143	NULL
+142	We need _ more time to decide.	0.41	1	NULL	29	3	72	NULL
+143	My Aunt Sophia is _ woman that I have ever known.	0.41	1	NULL	30	3	136	NULL
+144	Jill doesn't feel like _ tonight.	0.42	1	NULL	31	3	208	NULL
+145	_ food was gone before we even got there.	0.43	1	NULL	32	3	84	NULL
+146	Carol thought that her bike _ get stolen, so she went back and locked it up.	0.45	1	NULL	33	3	110	NULL
+147	The information you gave us is not _ to our current situation.	0.46	1	NULL	34	3	153	NULL
+148	I'm really pleased with myself. I _ the first three chapters of the book already.	0.46	1	NULL	35	3	187	NULL
+149	I always take a bath in the morning, _ there is no water.	0.46	1	NULL	36	3	234	NULL
+150	If you _ him, I'm sure he will help you.	0.49	1	NULL	37	3	164	NULL
+151	Just think, three weeks from today, you _ on a white, sandy beach.	0.49	1	NULL	38	3	79	NULL
+152	Do you know how long _?	0.53	1	NULL	0	4	123	NULL
+153	I have to go to the bank _ these checks.	0.56	1	NULL	1	4	91	NULL
+154	The university requires its full-time students _ health insurance.	0.58	1	NULL	2	4	224	NULL
+155	Joyce needs to get her watch _.	0.60	1	NULL	3	4	180	NULL
+156	_ of my proposals was accepted.	0.60	1	NULL	4	4	205	NULL
+157	Angela needs _ help with her homework.	0.60	1	NULL	5	4	78	NULL
+158	_ get hold of Greg last night?	0.61	1	NULL	6	4	156	NULL
+159	Our teacher let us _ together.  That made our homework easier.	0.61	1	NULL	7	4	113	NULL
+160	You're not going to eat that, _?	0.61	1	NULL	8	4	122	NULL
+161	You _ be starving after that long hike. Would you like something to eat?	0.61	1	NULL	9	4	193	NULL
+162	If we _ to come, we will definitely let you know.	0.64	1	NULL	10	4	165	NULL
+163	Guess who I _ into yesterday at the library?	0.69	1	NULL	11	4	85	NULL
+164	Tim can't go skiing with us. He _ his shoulder.	0.70	1	NULL	12	4	95	NULL
+165	You're not _ to put glass bottles in that trash can.	0.73	1	NULL	13	4	103	NULL
+166	Matt was a little unsure of himself because he _ a stick shift before.	0.74	1	NULL	14	4	80	NULL
+167	Go ask him _.	0.81	1	NULL	15	4	111	NULL
+168	The Guggenheim Museum in New York prides itself on its great collection of art, special exhibitions, and _ .	0.82	1	NULL	16	4	202	NULL
+169	My son _ to getting up very early in the morning.	0.83	1	NULL	17	4	105	NULL
+170	Would you like _ bread with that?	0.85	1	NULL	18	4	52	NULL
+171	I had already _ two glasses of orange juice when he offered me apple juice.	0.93	1	NULL	19	4	108	NULL
+172	He hopes to have a job by the time he _.	0.97	1	NULL	20	4	125	NULL
+173	I need to find out what time _ at the bus station.	0.97	1	NULL	21	4	134	NULL
+174	Not only is this brand cheaper, _ the quality is better too.	0.99	1	NULL	22	4	150	NULL
+175	The attendance was very disappointing. Fewer than twenty people showed _.	1.00	1	NULL	23	4	100	NULL
+176	Of Mice and Men, one of my favorite books, _ by John Steinbeck.	1.01	1	NULL	24	4	130	NULL
+177	I don't see Mike anywhere. I think he must _ gone home early or something.	1.01	1	NULL	25	4	191	NULL
+178	Everyone had to leave the cafeteria because there was _ in the kitchen.	1.03	1	NULL	26	4	114	NULL
+179	I think we should go hiking _ the weather turns nasty.	1.05	1	NULL	27	4	221	NULL
+180	I was stopped by the police.  I guess I _ not have been driving so fast.	1.07	1	NULL	28	4	141	NULL
+181	If you _ me about this earlier, I _ something about it.	1.14	1	NULL	29	4	192	NULL
+182	Keith is always ordering us around _ he were our king.	1.14	1	NULL	30	4	203	NULL
+183	The test will be difficult.  She _ better study for it.	1.17	1	NULL	31	4	140	NULL
+184	They asked me for directions to the museum, but I _ there before.	1.20	1	NULL	32	4	144	NULL
+185	_ first three days of school made my life very complicated.	1.22	1	NULL	33	4	149	NULL
+186	I don't ever remember _ bullied or teased at school.	1.23	1	NULL	34	4	200	NULL
+187	If you _ so much junk food, you _ more energy.	1.24	1	NULL	35	4	178	NULL
+188	The concert _ went to last night was very disappointing.	1.27	1	NULL	36	4	220	NULL
+189	Garbage is piled up on the sidewalks _ a strike by sanitation workers.	1.28	1	NULL	0	5	213	NULL
+190	I _ you to the mall three times today. I'm not going again.	1.30	1	NULL	1	5	188	NULL
+191	They were _ exhausted to complete the hike without a long break.	1.38	1	NULL	2	5	217	NULL
+192	I didn't _ like carrots, but now I do.	1.41	1	NULL	3	5	104	NULL
+193	I usually take the bus to work but this week I _ the car.	1.41	1	NULL	4	5	64	NULL
+194	They should have been here an hour ago. They seem _ their way.	1.46	1	NULL	5	5	176	NULL
+195	We haven't succeeded _ the problem yet but we're getting there.	1.52	1	NULL	6	5	194	NULL
+196	We are looking forward _ the project in a week or so.	1.52	1	NULL	7	5	195	NULL
+197	It's going to be an interesting presentation. I wish you _ with me.	1.58	1	NULL	8	5	179	NULL
+198	We _ our meal when Chris _.	1.58	1	NULL	9	5	185	NULL
+199	_ to work this morning, I saw a strange kind of bird.	1.60	1	NULL	10	5	151	NULL
+200	If you heat water to the boiling point, it _ to steam.	1.65	1	NULL	11	5	109	NULL
+201	Many students _ in the bike race and missed the special lunch.	1.66	1	NULL	12	5	198	NULL
+202	When I talked to Tom yesterday, he said he _ with us today at 9:30.	1.67	1	NULL	13	5	232	NULL
+203	Do you realize that by the end of this month, we _ here for exactly one year?	1.72	1	NULL	14	5	186	NULL
+204	If only we _ more, we _ won.	1.73	1	NULL	15	5	177	NULL
+205	I think _ sick.  Could you drive more slowly, please?	1.73	1	NULL	16	5	135	NULL
+206	If Matt _ to the doctor earlier, he _ avoided ending up in the hospital.	1.74	1	NULL	17	5	222	NULL
+207	I came _ these old family photos in the attic the other day.	1.74	1	NULL	18	5	228	NULL
+208	I'd especially like to thank Anna, without _ help I could never have finished the project.	1.77	1	NULL	19	5	119	NULL
+209	There has been _ discussion about the issues involved.	1.80	1	NULL	20	5	204	NULL
+210	_ you have passed your driving test, you will be able to get out more.	1.82	1	NULL	21	5	211	NULL
+211	_ his photography that made him famous, Ansel Adams was also a talented pianist.	1.86	1	NULL	22	5	201	NULL
+212	They are still strongly opposed _ any action that could pollute the atmosphere.	1.94	1	NULL	23	5	206	NULL
+213	My mechanic told me that he would listen to the sound my car was making and _ it as soon as possible.	1.96	1	NULL	24	5	154	NULL
+214	We look forward _ you on Sunday.	2.03	1	NULL	25	5	227	NULL
+215	I can't believe Todd quit his job!  I told him not to quit until he __ a new job.	2.22	1	NULL	26	5	184	NULL
+216	_ you leave right now?  You only just got here!	2.39	1	NULL	27	5	229	NULL
+217	Not only _ constantly late for work, but she is not very efficient.	2.67	1	NULL	28	5	209	NULL
+218	There's no point. Sally _ left by the time we get there.	2.72	1	NULL	29	5	172	NULL
+219	_ I arrive late, please start without me.	2.99	1	NULL	30	5	199	NULL
+220	Few of the candidates _ to be selected were successful.	3.02	1	NULL	31	5	219	NULL
+221	The police are investigating the theft of _.	3.12	1	NULL	32	5	230	NULL
+222	Three _ tourists who visited my country last year stayed for more than a week.	3.19	1	NULL	33	5	231	NULL
+223	Only after a lot of discussion _ to come to some sort of agreement.	3.67	1	NULL	34	5	210	NULL
+224	Only after writing several letters of complaint _ our money back.	3.67	1	NULL	35	5	223	NULL
+225	Abraham Lincoln had four children, only _ reached adulthood.	4.16	1	NULL	36	5	226	NULL
+226	NULL	-3.97	1	list_beg_q_06.mp3	0	6	6	NULL
+227	NULL	-3.68	1	list_beg_q_46.mp3	1	6	46	NULL
+228	NULL	-3.31	1	list_beg_q_32.mp3	2	6	32	NULL
+229	NULL	-3.09	1	list_beg_q_27.mp3	3	6	27	NULL
+230	NULL	-3.06	1	list_beg_q_47.mp3	4	6	47	NULL
+231	NULL	-3.03	1	list_beg_q_07.mp3	5	6	7	NULL
+232	NULL	-3.03	1	list_beg_q_14.mp3	6	6	14	NULL
+233	NULL	-2.86	1	list_beg_q_15.mp3	7	6	15	NULL
+234	NULL	-2.81	1	list_beg_q_02.mp3	8	6	2	NULL
+235	NULL	-2.77	1	list_beg_q_33.mp3	9	6	33	NULL
+236	NULL	-2.67	1	list_beg_q_09.mp3	10	6	9	NULL
+237	NULL	-2.53	1	list_beg_q_48.mp3	11	6	48	NULL
+238	NULL	-2.03	1	list_beg_q_55.mp3	12	6	55	NULL
+239	NULL	-1.92	1	list_beg_q_31.mp3	13	6	31	NULL
+240	NULL	-1.81	1	list_beg_q_35.mp3	14	6	35	NULL
+241	NULL	-1.79	1	list_beg_q_11.mp3	15	6	11	NULL
+242	NULL	-1.67	1	list_beg_q_03.mp3	16	6	3	NULL
+243	NULL	-1.62	1	list_beg_q_29.mp3	17	6	29	NULL
+244	NULL	-1.60	1	list_beg_q_10.mp3	18	6	10	NULL
+245	NULL	-1.60	1	list_beg_q_21.mp3	19	6	21	NULL
+246	NULL	-1.53	1	list_beg_q_49.mp3	20	6	49	NULL
+247	NULL	-1.44	1	list_beg_q_26.mp3	21	6	26	NULL
+248	NULL	-1.42	1	list_beg_q_24.mp3	22	6	24	NULL
+249	NULL	-1.38	1	list_beg_q_16.mp3	23	6	16	NULL
+250	NULL	-1.34	1	list_beg_q_43.mp3	24	6	43	NULL
+251	NULL	-1.28	1	list_beg_q_57.mp3	25	6	57	NULL
+252	NULL	-1.22	1	list_beg_q_37.mp3	26	6	37	NULL
+253	Where does this conversation take place?	-1.18	1	list_int_q_73.mp3	27	6	195	NULL
+254	NULL	-1.16	1	list_beg_q_56.mp3	28	6	56	NULL
+255	NULL	-1.14	1	list_beg_q_54.mp3	29	6	54	NULL
+256	What is the woman doing?	-1.12	1	list_int_q_86.mp3	30	6	208	NULL
+257	What is the woman going to do?	-1.11	1	list_int_q_01.mp3	31	6	63	NULL
+258	NULL	-1.10	1	list_beg_q_12.mp3	32	6	12	NULL
+259	NULL	-1.04	1	list_beg_q_59.mp3	33	6	59	NULL
+260	What did the woman do?	-1.00	1	list_int_q_53.mp3	0	7	175	NULL
+261	NULL	-0.98	1	list_beg_q_61.mp3	1	7	61	NULL
+262	What does the man tell the woman?	-0.93	1	list_int_q_91.mp3	2	7	213	NULL
+263	NULL	-0.87	1	list_beg_q_08.mp3	3	7	8	NULL
+264	What does the man mean?	-0.85	1	list_int_q_44.mp3	4	7	106	NULL
+265	NULL	-0.85	1	list_beg_q_51.mp3	5	7	51	NULL
+266	Where are the speakers?	-0.82	1	list_int_q_18.mp3	6	7	80	NULL
+267	What is the woman going to do next?	-0.81	1	list_int_q_77.mp3	7	7	199	NULL
+268	Why doesn't the man want to walk?	-0.74	1	list_int_q_52.mp3	8	7	174	NULL
+269	NULL	-0.73	1	list_beg_q_18.mp3	9	7	18	NULL
+270	What situation is the man in?	-0.72	1	list_int_q_68.mp3	10	7	190	NULL
+271	NULL	-0.72	1	list_beg_q_41.mp3	11	7	41	NULL
+272	What are they talking about?	-0.72	1	list_int_q_56.mp3	12	7	178	NULL
+273	NULL	-0.71	1	list_beg_q_58.mp3	13	7	58	NULL
+274	What does the woman promise the man?	-0.69	1	list_int_q_09.mp3	14	7	71	NULL
+275	NULL	-0.69	1	list_beg_q_25.mp3	15	7	25	NULL
+276	What does the woman want?	-0.61	1	list_int_q_59.mp3	16	7	181	NULL
+277	Which sentence is true?	-0.53	1	list_int_q_94.mp3	17	7	216	NULL
+278	NULL	-0.53	1	list_beg_q_30.mp3	18	7	30	NULL
+279	Will the man let the woman borrow his calculator?	-0.52	1	list_int_q_75.mp3	19	7	197	NULL
+280	NULL	-0.51	1	list_beg_q_44.mp3	20	7	44	NULL
+281	What do we know about the woman?	-0.50	1	list_int_q_51.mp3	21	7	173	NULL
+282	What can we assume about the man?	-0.48	1	list_int_q_83.mp3	22	7	205	NULL
+283	What does the man mean?	-0.44	1	list_int_q_43.mp3	23	7	105	NULL
+284	Where does this conversation take place?	-0.40	1	list_int_q_13.mp3	24	7	75	NULL
+285	What are the speakers doing?	-0.37	1	list_int_q_15.mp3	25	7	77	NULL
+286	NULL	-0.35	1	list_beg_q_19.mp3	26	7	19	NULL
+287	What are the speakers discussing?	-0.32	1	list_int_q_11.mp3	27	7	73	NULL
+288	NULL	-0.26	1	list_beg_q_38.mp3	28	7	38	NULL
+289	NULL	-0.24	1	list_beg_q_60.mp3	29	7	60	NULL
+290	NULL	-0.21	1	list_beg_q_40.mp3	30	7	40	NULL
+291	What are the two speakers discussing?	-0.20	1	list_int_q_34.mp3	31	7	96	NULL
+292	What can be inferred about the conversation?	-0.20	1	list_int_q_21.mp3	32	7	83	NULL
+293	What problem does the man have?	-0.20	1	list_int_q_92.mp3	33	7	214	NULL
+294	What does the man do next?	-0.19	1	list_int_q_22.mp3	0	8	84	NULL
+295	What can we say about Robert and the woman?	-0.18	1	list_int_q_61.mp3	1	8	183	NULL
+296	What does the man tell the woman?	-0.18	1	list_int_q_71.mp3	2	8	193	NULL
+297	Where are the speakers?	-0.17	1	list_int_q_02.mp3	3	8	64	NULL
+298	When will the man probably help the woman?	-0.16	1	list_int_q_90.mp3	4	8	212	NULL
+299	What are the speakers discussing?	-0.15	1	list_int_q_29.mp3	5	8	91	NULL
+300	What is the best conclusion about Rachmaninov's musical career?	-0.14	1	list_adv_q_48q.mp3	6	8	157	list_adv_intro_q.mp3
+301	NULL	-0.13	1	list_beg_q_53.mp3	7	8	53	NULL
+302	Why did the man change his plans?	-0.11	1	list_int_q_23.mp3	8	8	85	NULL
+303	Why did he grow a beard?	-0.11	1	list_adv_q_03a.mp3	9	8	112	list_adv_intro_a.mp3
+304	NULL	-0.11	1	list_beg_q_34.mp3	10	8	34	NULL
+305	Why did Anne leave the company?	-0.10	1	list_int_q_33.mp3	11	8	95	NULL
+306	What is the man going to do?	-0.08	1	list_int_q_70.mp3	12	8	192	NULL
+307	What is the man's job?	-0.08	1	list_int_q_88.mp3	13	8	210	NULL
+308	What is the purpose of this message?	-0.05	1	list_adv_q_17g.mp3	14	8	126	list_adv_intro_g.mp3
+309	Where does the man work?	-0.04	1	list_int_q_64.mp3	15	8	186	NULL
+310	What can be assumed about the man?	-0.03	1	list_adv_q_34m.mp3	16	8	143	list_adv_intro_m.mp3
+311	What does the woman want?	-0.02	1	list_int_q_65.mp3	17	8	187	NULL
+312	What do we know about the woman?	-0.02	1	list_int_q_84.mp3	18	8	206	NULL
+313	What does the woman mean?	0.00	1	list_int_q_41.mp3	19	8	103	NULL
+314	What are the speakers discussing?	0.01	1	list_int_q_10.mp3	20	8	72	NULL
+315	What are the speakers discussing?	0.01	1	list_beg_q_62.mp3	21	8	62	NULL
+316	What will the man probably do during the weekend?	0.02	1	list_int_q_47.mp3	22	8	109	NULL
+317	What does the man mean?	0.02	1	list_int_q_03.mp3	23	8	65	NULL
+318	What is the woman doing?	0.02	1	list_int_q_58.mp3	24	8	180	NULL
+319	What is the woman's job?	0.04	1	list_int_q_12.mp3	25	8	74	NULL
+320	Which product helps people overcome feelings of depression?	0.04	1	list_adv_q_35m.mp3	26	8	144	list_adv_intro_m.mp3
+321	NULL	0.05	1	list_beg_q_17.mp3	27	8	17	NULL
+322	What did Emily imply?	0.06	1	list_int_q_39.mp3	28	8	101	NULL
+323	NULL	0.08	1	list_beg_q_36.mp3	29	8	36	NULL
+324	NULL	0.08	1	list_beg_q_50.mp3	30	8	50	NULL
+325	What has the man recently been doing?	0.08	1	list_int_q_67.mp3	31	8	189	NULL
+326	What does the woman think about the presentation?	0.08	1	list_int_q_93.mp3	32	8	215	NULL
+327	What does the woman imply?	0.11	1	list_int_q_45.mp3	33	8	107	NULL
+328	What is generally true about Internet users compared with non-users?	0.14	1	list_adv_q_11d.mp3	0	9	120	list_adv_intro_d.mp3
+329	NULL	0.15	1	list_beg_q_28.mp3	1	9	28	NULL
+330	Why does the woman want roommates?	0.16	1	list_int_q_66.mp3	2	9	188	NULL
+331	What is this message about?	0.16	1	list_adv_q_22i.mp3	3	9	131	list_adv_intro_i.mp3
+332	NULL	0.17	1	list_beg_q_22.mp3	4	9	22	NULL
+333	What can be assumed about the woman?	0.18	1	list_int_q_27.mp3	5	9	89	NULL
+334	Who is the guest?	0.20	1	list_adv_q_55t.mp3	6	9	164	list_adv_intro_t.mp3
+335	What are they talking about?	0.24	1	list_int_q_55.mp3	7	9	177	NULL
+336	NULL	0.25	1	list_beg_q_05.mp3	8	9	5	NULL
+337	What is the man talking about?	0.26	1	list_int_q_79.mp3	9	9	201	NULL
+338	What happened to the man?	0.26	1	list_int_q_04.mp3	10	9	66	NULL
+339	What is being offered?	0.27	1	list_adv_q_04b.mp3	11	9	113	list_adv_intro_b.mp3
+340	What does the woman want the man to do?	0.28	1	list_int_q_57.mp3	12	9	179	NULL
+341	NULL	0.28	1	list_beg_q_39.mp3	13	9	39	NULL
+342	NULL	0.28	1	list_beg_q_45.mp3	14	9	45	NULL
+343	How long will they have to wait for a train?	0.30	1	list_int_q_50.mp3	15	9	172	NULL
+344	Why is the woman complaining?	0.30	1	list_int_q_35.mp3	16	9	97	NULL
+345	Which day could they meet this week?	0.30	1	list_int_q_30.mp3	17	9	92	NULL
+346	How does the woman feel about the father?	0.32	1	list_adv_q_27j.mp3	18	9	136	list_adv_intro_j.mp3
+347	According to the survey, which country is mentioned as being the least happy?	0.32	1	list_adv_q_30k.mp3	19	9	139	list_adv_intro_k.mp3
+348	When did Abraham Lincoln start growing a beard?	0.35	1	list_adv_q_02a.mp3	20	9	111	list_adv_intro_a.mp3
+349	What are the speakers discussing?	0.35	1	list_adv_q_31l.mp3	21	9	140	list_adv_intro_l.mp3
+350	What does the woman say about the restaurant?	0.38	1	list_int_q_05.mp3	22	9	67	NULL
+351	Where are the speakers?	0.39	1	list_int_q_26.mp3	23	9	88	NULL
+352	What time is it probably during this phone call?	0.39	1	list_int_q_78.mp3	24	9	200	NULL
+353	What do we know about the man?	0.39	1	list_int_q_89.mp3	25	9	211	NULL
+354	What had the woman assumed?	0.40	1	list_adv_q_59.mp3	26	9	167	NULL
+355	What does the woman mean?	0.42	1	list_int_q_24.mp3	27	9	86	NULL
+356	What does the man mean?	0.45	1	list_int_q_42.mp3	28	9	104	NULL
+357	What does the man suggest doing?	0.45	1	list_int_q_37.mp3	29	9	99	NULL
+358	What will the woman probably do next?	0.46	1	list_int_q_54.mp3	30	9	176	NULL
+359	How does the father feel about his son?	0.47	1	list_adv_q_26j.mp3	31	9	135	list_adv_intro_j.mp3
+360	What did the woman say about the paper?	0.47	1	list_int_q_85.mp3	32	9	207	NULL
+361	Why is taking up hobbies considered beneficial?	0.48	1	list_adv_q_39n.mp3	33	9	148	list_adv_intro_n.mp3
+362	What is the topic of Dr. Meyers' most recent book?	0.49	1	list_adv_q_49r.mp3	34	9	158	list_adv_intro_r.mp3
+363	NULL	0.50	1	list_beg_q_13.mp3	0	10	13	NULL
+364	What is NOT mentioned as a side effect of taking tablets?	0.51	1	list_adv_q_36m.mp3	1	10	145	list_adv_intro_m.mp3
+365	What does the woman need?	0.51	1	list_int_q_62.mp3	2	10	184	NULL
+366	What are the speakers discussing?	0.52	1	list_adv_q_01a.mp3	3	10	110	list_adv_intro_a.mp3
+367	NULL	0.52	1	list_beg_q_20.mp3	4	10	20	NULL
+368	Why will the woman probably not join the gym?	0.53	1	list_int_q_06.mp3	5	10	68	NULL
+369	NULL	0.57	1	list_beg_q_01.mp3	6	10	1	NULL
+370	What does the man suggest doing?	0.58	1	list_int_q_17.mp3	7	10	79	NULL
+371	According to the guest speaker, what is the best way to quit smoking?	0.58	1	list_adv_q_33l.mp3	8	10	142	list_adv_intro_l.mp3
+372	Where are the restrooms?	0.58	1	list_int_q_87.mp3	9	10	209	NULL
+373	What can be inferred from the conversation?	0.63	1	list_adv_q_61.mp3	10	10	168	NULL
+374	What are the speakers discussing?	0.63	1	list_adv_q_28k.mp3	11	10	137	list_adv_intro_k.mp3
+375	What will the woman probably do next?	0.64	1	list_int_q_36.mp3	12	10	98	NULL
+376	What can be inferred about Richard?	0.65	1	list_int_q_20.mp3	13	10	82	NULL
+377	What are they talking about?	0.71	1	list_int_q_69.mp3	14	10	191	NULL
+378	What is the problem?	0.72	1	list_int_q_95.mp3	15	10	217	NULL
+379	Who is the woman?	0.78	1	list_int_q_32.mp3	16	10	94	NULL
+380	NULL	0.78	1	list_beg_q_04.mp3	17	10	4	NULL
+381	What does the man want?	0.82	1	list_int_q_16.mp3	18	10	78	NULL
+382	According to the report, what worries users most about the Internet?	0.82	1	list_adv_q_13e.mp3	19	10	122	list_adv_intro_e.mp3
+383	Who is the guest?	0.83	1	list_adv_q_32l.mp3	20	10	141	list_adv_intro_l.mp3
+384	What is NOT true about the show?	0.84	1	list_adv_q_21h.mp3	21	10	130	list_adv_intro_h.mp3
+385	What does the man want?	0.84	1	list_int_q_31.mp3	22	10	93	NULL
+386	What does the woman want to do?	0.86	1	list_int_q_74.mp3	23	10	196	NULL
+387	What does the woman tell the man?	0.86	1	list_int_q_80.mp3	24	10	202	NULL
+388	NULL	0.88	1	list_beg_q_42.mp3	25	10	42	NULL
+389	What is being advertised?	0.90	1	list_adv_q_20h.mp3	26	10	129	list_adv_intro_h.mp3
+390	Why is the guest appearing on the show?	0.90	1	list_adv_q_54t.mp3	27	10	163	list_adv_intro_t.mp3
+391	What does the man imply about Annie?	0.92	1	list_int_q_46.mp3	28	10	108	NULL
+392	What does the woman say about Brad and Lisa?	0.93	1	list_int_q_07.mp3	29	10	69	NULL
+393	What can we assume about the woman?	0.95	1	list_int_q_82.mp3	30	10	204	NULL
+394	Why should buyers act now?	0.96	1	list_adv_q_05b.mp3	31	10	114	list_adv_intro_b.mp3
+395	How do the speakers feel about the survey?	0.97	1	list_adv_q_29k.mp3	32	10	138	list_adv_intro_k.mp3
+396	What did the man order?	1.02	1	list_int_q_76.mp3	33	10	198	NULL
+397	What is the man's opinion of the Royal Hotel?	1.04	1	list_int_q_60.mp3	0	11	182	NULL
+398	Why can't the woman meet on Thursday?	1.04	1	list_int_q_72.mp3	1	11	194	NULL
+399	NULL	1.08	1	list_beg_q_23.mp3	2	11	23	NULL
+400	What conclusions do recent studies reach about smokers?	1.08	1	list_adv_q_37n.mp3	3	11	146	list_adv_intro_n.mp3
+401	What does the man mean?	1.09	1	list_adv_q_60.mp3	4	11	169	NULL
+402	What are the speakers discussing?	1.09	1	list_int_q_38.mp3	5	11	100	NULL
+403	Why didn't the woman phone the man?	1.19	1	list_int_q_08.mp3	6	11	70	NULL
+404	What can be assumed about Doctor Barton?	1.19	1	list_adv_q_43o.mp3	7	11	152	list_adv_intro_o.mp3
+405	How does the woman respond to the man's opinion?	1.19	1	list_int_q_40.mp3	8	11	102	NULL
+406	Which group should be most concerned about the findings of the report?	1.24	1	list_adv_q_14e.mp3	9	11	123	list_adv_intro_e.mp3
+407	NULL	1.26	1	list_beg_q_52.mp3	10	11	52	NULL
+408	What does this advertisement offer?	1.28	1	list_adv_q_06c.mp3	11	11	115	list_adv_intro_c.mp3
+409	What does the man imply?	1.30	1	list_int_q_19.mp3	12	11	81	NULL
+410	What does the woman mean?	1.33	1	list_int_q_25.mp3	13	11	87	NULL
+411	What is Dr. Spencer's profession?	1.33	1	list_adv_q_52s.mp3	14	11	161	list_adv_intro_s.mp3
+412	Where is flight 809 going?	1.35	1	list_adv_q_44p.mp3	15	11	153	list_adv_intro_p.mp3
+413	What can we assume about the man?	1.42	1	list_int_q_81.mp3	16	11	203	NULL
+414	What does the research indicate about the connection between family support and health?	1.42	1	list_adv_q_50r.mp3	17	11	159	list_adv_intro_r.mp3
+415	Where did Rachmaninov spend most of his life in later years?	1.44	1	list_adv_q_47q.mp3	18	11	156	list_adv_intro_q.mp3
+416	What is NOT mentioned as a benefit of exercise?	1.48	1	list_adv_q_38n.mp3	19	11	147	list_adv_intro_n.mp3
+417	What is NOT mentioned in the advertisement as an advantage of Mediation USA?	1.49	1	list_adv_q_07c.mp3	20	11	116	list_adv_intro_c.mp3
+418	What is the man doing?	1.53	1	list_int_q_63.mp3	21	11	185	NULL
+419	What is the subject of his talk?	1.72	1	list_adv_q_53s.mp3	22	11	162	list_adv_intro_s.mp3
+420	Drivers moving from another state or country may only have to:	1.74	1	list_adv_q_23i.mp3	23	11	132	list_adv_intro_i.mp3
+421	What will happen to the flight?	1.78	1	list_adv_q_45p.mp3	24	11	154	list_adv_intro_p.mp3
+422	What is the purpose of this ad?	2.05	1	list_adv_q_40o.mp3	25	11	149	list_adv_intro_o.mp3
+423	What did the report conclude?	2.13	1	list_adv_q_16f.mp3	26	11	125	list_adv_intro_f.mp3
+424	How were former participants able to lose weight?	2.16	1	list_adv_q_42o.mp3	27	11	151	list_adv_intro_o.mp3
+425	What had the woman assumed about Todd?	2.16	1	list_adv_q_57.mp3	28	11	166	NULL
+426	If you are going to be away from home on election day, what should you do?	2.19	1	list_adv_q_19g.mp3	29	11	128	list_adv_intro_g.mp3
+427	What did the Stanford study show?	2.20	1	list_adv_q_51r.mp3	30	11	160	list_adv_intro_r.mp3
+428	What happened to Rachmaninov after the poor reception to his first Symphony in 1897?	2.22	1	list_adv_q_46q.mp3	31	11	155	list_adv_intro_q.mp3
+429	What happens at the seminar?	2.37	1	list_adv_q_41o.mp3	32	11	150	list_adv_intro_o.mp3
+430	What does the man mean?	2.38	1	list_adv_q_56.mp3	33	11	165	NULL
+431	A:  Is there any _?<BR>B:  Yes, there are some apples.	-5.17	1	NULL	0	12	14	NULL
+432	What time does the library <span class='prompt_blue'>open</span>?	-5.17	1	NULL	1	12	50	NULL
+433	Greg's going to bed. He's really _.	-4.48	1	NULL	2	12	5	NULL
+434	How is the _ today?  Should I take my umbrella?	-4.27	1	NULL	3	12	23	NULL
+435	Sam <span class='prompt_blue'>forgot</span> to bring money.	-4.27	1	NULL	4	12	39	NULL
+436	A:  How _ do you go swimming?<BR>B:  Every day.	-4.06	1	NULL	5	12	7	NULL
+437	I don't have any more <span class='prompt_blue'>clean</span> shirts.	-4.06	1	NULL	6	12	53	NULL
+438	This restaurant is very <span class='prompt_blue'>noisy</span>, isn't it?	-4.06	1	NULL	7	12	54	NULL
+439	Why are your clothes so <span class='prompt_blue'>wet</span>?	-3.77	1	NULL	8	12	51	NULL
+440	Which _ can you come? Monday or Tuesday?	-3.54	1	NULL	9	12	4	NULL
+441	A:  What's your _?<BR>B:   It's 2390 Harris Street.	-3.54	1	NULL	10	12	15	NULL
+442	The bookstore isn't very <span class='prompt_blue'>far</span>.	-3.36	1	NULL	11	12	58	NULL
+443	When we found the dog, it was already <span class='prompt_blue'>dead</span>.	-3.34	1	NULL	12	12	38	NULL
+444	A:  How _ are you?<BR>B:  I'm 20 in August.	-3.20	1	NULL	13	12	6	NULL
+445	It's a little <span class='prompt_blue'>hot</span> in here, don't you think?	-2.94	1	NULL	14	12	52	NULL
+446	How many languages do you _?	-2.82	1	NULL	15	12	16	NULL
+447	It's a very <span class='prompt_blue'>narrow</span> room with a low ceiling.	-2.79	1	NULL	16	12	48	NULL
+448	My _ month of the year is October.	-2.67	1	NULL	17	12	30	NULL
+449	My house is the <span class='prompt_blue'>last</span> one on the left.	-2.67	1	NULL	18	12	40	NULL
+450	This homework is too <span class='prompt_blue'>hard</span>.	-2.55	1	NULL	19	12	56	NULL
+451	Why didn't you <span class='prompt_blue'>accept</span> their invitation?	-2.51	1	NULL	20	12	42	NULL
+452	I don't know the _ to that question.	-2.47	1	NULL	21	12	20	NULL
+453	The <span class='prompt_blue'>entrance</span> to the park was hard to find.	-2.47	1	NULL	22	12	43	NULL
+454	How many _ have you read so far?	-2.47	1	NULL	23	12	10	NULL
+455	I couldn't go because I was <span class='prompt_blue'>sick</span>.	-2.39	1	NULL	24	12	61	NULL
+456	I can't lift this box. It's too _ for me.	-2.38	1	NULL	25	12	18	NULL
+457	This car is very <span class='prompt_blue'>dangerous</span>.	-2.33	1	NULL	26	12	47	NULL
+458	It was still <span class='prompt_blue'>light</span> when we got home.	-2.32	1	NULL	27	12	60	NULL
+459	These shoes are too big. I need a smaller _.	-2.20	1	NULL	28	12	2	NULL
+460	Have you _ the news about Kevin?	-2.07	1	NULL	29	12	123	NULL
+461	I can't eat another thing. I'm too _.	-1.97	1	NULL	0	13	77	NULL
+462	John was very _ about the test.	-1.95	1	NULL	1	13	33	NULL
+463	The _ of the sky is blue.	-1.93	1	NULL	2	13	1	NULL
+464	I'm too _ to go with you right now.	-1.93	1	NULL	3	13	68	NULL
+465	I want to work for a computer software company when I _ from college.	-1.85	1	NULL	4	13	122	NULL
+466	Don't _ your finger at him.  That's rude.	-1.83	1	NULL	5	13	22	NULL
+467	Unless you _ me the truth, I will never trust you again.	-1.70	1	NULL	6	13	127	NULL
+468	This is an <span class='prompt_blue'>old</span> car.	-1.62	1	NULL	7	13	57	NULL
+469	Cindy is always joking, but her sister is always _.	-1.48	1	NULL	8	13	27	NULL
+470	These two jeans are <span class='prompt_blue'>the same</span> size.	-1.39	1	NULL	9	13	45	NULL
+471	Not many people _ the lecture. The hall was half empty.	-1.33	1	NULL	10	13	128	NULL
+472	It's important to <span class='prompt_green'>select</span> the best material.	-1.31	1	NULL	11	13	100	NULL
+473	A:  How much does this book _?<BR>B:  It's on sale for $3.95.	-1.30	1	NULL	12	13	19	NULL
+474	We're late!  We should _ right now.	-1.30	1	NULL	13	13	26	NULL
+475	You need to _ up your mind by tomorrow.	-1.29	1	NULL	14	13	136	NULL
+476	What _ of pizza do you like?	-1.26	1	NULL	15	13	72	NULL
+477	The school's new computers are very _ .	-1.26	1	NULL	16	13	32	NULL
+478	We will _ you while you are away at school.	-1.24	1	NULL	17	13	73	NULL
+479	I liked the first _ of the movie, but not the rest of it.	-1.23	1	NULL	18	13	25	NULL
+480	I don't like to travel in a _.  It's much nicer with only one friend.	-1.21	1	NULL	19	13	24	NULL
+481	Did you <span class='prompt_blue'>pass</span> the exam?	-1.19	1	NULL	20	13	49	NULL
+482	We are going to <span class='prompt_green'>consider</span> your proposal.	-1.17	1	NULL	21	13	105	NULL
+483	I'm getting too <span class='prompt_blue'>fat</span>.	-1.08	1	NULL	22	13	35	NULL
+484	As you _, it takes a long time to learn a foreign language.	-1.04	1	NULL	23	13	78	NULL
+485	I think this picture is <span class='prompt_blue'>ugly</span>.	-1.01	1	NULL	24	13	55	NULL
+486	You take the first road on the <span class='prompt_blue'>right</span>.	-1.00	1	NULL	25	13	37	NULL
+487	Please <span class='prompt_green'>remain</span> for a few more minutes.	-0.97	1	NULL	26	13	102	NULL
+488	He won't be at work today.  He's _.	-0.96	1	NULL	27	13	143	NULL
+489	Dan is not as <span class='prompt_blue'>tall</span> as his brother.	-0.95	1	NULL	28	13	36	NULL
+490	Where did you _ your husband?	-0.94	1	NULL	29	13	70	NULL
+491	I have to study tonight. I'm _ a biology test tomorrow.	-0.88	1	NULL	30	13	89	NULL
+492	If you need to get in _ with me, you can always e-mail me.	-0.82	1	NULL	31	13	124	NULL
+493	Your hands are so cold. Why don't you wear your _?	-0.82	1	NULL	32	13	3	NULL
+494	Could you let me _ your car this evening? I have to go out.	-0.79	1	NULL	33	13	88	NULL
+495	The farmer tried to plant seeds in the <span class='prompt_blue'>hard</span> ground.	-0.71	1	NULL	34	13	62	NULL
+496	Will you _ enough money to be able to live in San Francisco?	-0.63	1	NULL	35	13	86	NULL
+497	She's not _ with her latest test score.	-0.63	1	NULL	36	13	140	NULL
+498	It wasn't Matt's _. He wasn't even there.	-0.58	1	NULL	0	14	83	NULL
+499	Try to be _ when you shake his hand.  He hurt it yesterday.	-0.58	1	NULL	1	14	141	NULL
+500	Ashley _ her juice on her new dress.	-0.56	1	NULL	2	14	21	NULL
+501	I got 100 percent on the test. It was _.	-0.56	1	NULL	3	14	13	NULL
+502	Our plane <span class='prompt_blue'>took off</span> twenty minutes late.	-0.52	1	NULL	4	14	44	NULL
+503	Have you _ your mind yet or are you still deciding?	-0.50	1	NULL	5	14	126	NULL
+504	That lamp is <span class='prompt_green'>costly</span>.	-0.50	1	NULL	6	14	104	NULL
+505	Take this map with you in case you get _.	-0.49	1	NULL	7	14	74	NULL
+506	Do you _ sugar with your coffee?	-0.46	1	NULL	8	14	75	NULL
+507	How long does it _ to get to the beach from here?	-0.45	1	NULL	9	14	125	NULL
+508	We see them <span class='prompt_green'>frequently</span>.	-0.40	1	NULL	10	14	106	NULL
+509	We need four _ to the game.	-0.38	1	NULL	11	14	137	NULL
+510	I <span class='prompt_blue'>found</span> my keys.	-0.34	1	NULL	12	14	41	NULL
+511	Is that the time? I didn't _ it was so late.	-0.25	1	NULL	13	14	76	NULL
+512	With a wife and four young children to _, Brad was forced to quit teaching and get a job selling computers.	-0.22	1	NULL	14	14	94	NULL
+513	We _ the top of the mountain in under two hours.	-0.19	1	NULL	15	14	131	NULL
+514	The easiest way to _ weight is to take in fewer calories.	-0.16	1	NULL	16	14	121	NULL
+515	Let's buy the _ expensive car we can find.	-0.16	1	NULL	17	14	29	NULL
+516	The restrooms are around the _ and to your left.	-0.10	1	NULL	18	14	28	NULL
+517	That lake is very <span class='prompt_blue'>deep</span>.	-0.03	1	NULL	19	14	34	NULL
+518	Greg gave me a useful _ of advice on how to improve my English.	0.00	1	NULL	20	14	65	NULL
+519	His business <span class='prompt_green'>partner</span> is very important to him.	0.02	1	NULL	21	14	149	NULL
+520	Jenna loves meeting new people. She's much more _ than I am.	0.05	1	NULL	22	14	71	NULL
+521	Her experience gave her a great _.	0.05	1	NULL	23	14	111	NULL
+522	Have you made _ with the dentist yet?	0.10	1	NULL	24	14	82	NULL
+523	Her <span class='prompt_green'>forecasts</span> are usually very good.	0.12	1	NULL	25	14	150	NULL
+524	When the _ broke, there was a huge flood.	0.15	1	NULL	26	14	142	NULL
+525	That's <span class='prompt_green'>a key</span> factor.	0.16	1	NULL	27	14	156	NULL
+526	Cindy had a rather frightening _ last night walking back from the theater.	0.17	1	NULL	28	14	81	NULL
+527	I had a big <span class='prompt_green'>break</span> last summer.	0.20	1	NULL	29	14	107	NULL
+528	It is generally accepted that the use of robots in industry is <span class='prompt_green'>beneficial</span>.	0.21	1	NULL	30	14	202	NULL
+529	She got a lot of <span class='prompt_green'>praise</span> for her performance.	0.25	1	NULL	31	14	152	NULL
+530	He can do anything.  He's very _.	0.25	1	NULL	32	14	110	NULL
+531	I've decided not to go after all. I've _ my mind.	0.30	1	NULL	33	14	114	NULL
+532	We were <span class='prompt_green'>amazed</span> by his speech.	0.33	1	NULL	34	14	145	NULL
+533	They're so _.  They don't like anything new.	0.35	1	NULL	35	14	144	NULL
+534	We need to get another _ of toothpaste.	0.37	1	NULL	36	14	66	NULL
+535	Nick _ his own business in the evenings as well as having a full-time job during the day.	0.38	1	NULL	0	15	69	NULL
+536	There's no _ for his rude behavior.	0.39	1	NULL	1	15	90	NULL
+537	That's too much money to _ on this car.	0.39	1	NULL	2	15	139	NULL
+538	I have a toothache. I have to go to the _.	0.41	1	NULL	3	15	17	NULL
+539	Always _ over your paper and fix any mistakes.	0.41	1	NULL	4	15	135	NULL
+540	Melanie has been badly _ in a car accident.	0.41	1	NULL	5	15	174	NULL
+541	I needed some very _ information, but the answer he gave me was quite general.	0.49	1	NULL	6	15	194	NULL
+542	After the football game the _ ran onto the field.	0.50	1	NULL	7	15	80	NULL
+543	I think I'll stay home today.  I have a _ throat.	0.50	1	NULL	8	15	31	NULL
+544	They <span class='prompt_green'>carried out</span> his plan.	0.51	1	NULL	9	15	151	NULL
+545	What is your favorite <span class='prompt_green'>pastime</span>?	0.52	1	NULL	10	15	101	NULL
+546	Pavarotti's 1963 debut at Covent Garden <span class='prompt_green'>launched</span> his international career.	0.52	1	NULL	11	15	163	NULL
+547	She <span class='prompt_green'>realizes</span> what he has said.	0.55	1	NULL	12	15	154	NULL
+548	After her accident, she had a <span class='prompt_green'>swift</span> recovery.	0.59	1	NULL	13	15	103	NULL
+549	Acupressure uses manipulation to <span class='prompt_green'>alleviate</span> pain.	0.62	1	NULL	14	15	159	NULL
+550	Last month a group of _ employees won a lawsuit against one of the leading automobile manufacturers.	0.62	1	NULL	15	15	171	NULL
+551	She's <span class='prompt_green'>exhausted</span>.	0.64	1	NULL	16	15	148	NULL
+552	The National Geographic Society <span class='prompt_green'>sponsors</span> many expeditions to all parts of the world.	0.73	1	NULL	17	15	158	NULL
+553	Limestone is a common type of sedimentary rock composed <span class='prompt_green'>principally</span> of calcite.	0.81	1	NULL	18	15	211	NULL
+554	Have you _ from your flu yet?	0.82	1	NULL	19	15	130	NULL
+555	Tom felt very <span class='prompt_green'>tense</span> while his brother was speaking.	0.83	1	NULL	20	15	108	NULL
+556	The ability to <span class='prompt_green'>withstand</span> intense cold is one of the penguin's greatest assets.	0.83	1	NULL	21	15	165	NULL
+557	The exhibition shows how weapons of war have <span class='prompt_green'>evolved</span> over the centuries.	0.85	1	NULL	22	15	199	NULL
+558	For those of you not _ with the aims of this organization, let me give you a brief introduction.	0.86	1	NULL	23	15	183	NULL
+559	This toaster is _-new.	0.88	1	NULL	24	15	63	NULL
+560	The battle of Lexington, a <span class='prompt_green'>brief</span> skirmish that marked the first military clash in the American Revolution, took place in April 1775.	0.89	1	NULL	25	15	215	NULL
+561	We instantly noticed the unusual <span class='prompt_green'>odor</span>.	0.91	1	NULL	26	15	153	NULL
+562	Jessica is thinking about postponing the wedding. She's getting cold _.	0.94	1	NULL	27	15	129	NULL
+563	What do you do for a _?	0.96	1	NULL	28	15	67	NULL
+564	Parole is usually granted to a prisoner in recognition of good <span class='prompt_green'>conduct</span>.	0.96	1	NULL	29	15	161	NULL
+565	The suspect _ stealing the money.	0.99	1	NULL	30	15	91	NULL
+566	You can _ that there is nothing wrong or you can face up to the reality of the situation and do something about it.	1.03	1	NULL	31	15	175	NULL
+567	Except for limited medical purposes, <span class='prompt_green'>cultivating</span> marijuana is illegal in all but a few countries.	1.04	1	NULL	32	15	157	NULL
+568	Our magazine _ are costing us too much money.	1.04	1	NULL	33	15	198	NULL
+569	This contract is not _ because it has not been signed.	1.05	1	NULL	0	16	196	NULL
+570	Did he <span class='prompt_green'>boast</span> about it?	1.06	1	NULL	1	16	155	NULL
+571	The government is due to make a public _ about the collapse of the negotiations.	1.10	1	NULL	2	16	173	NULL
+572	We've had to _ the meeting till next week.	1.10	1	NULL	3	16	85	NULL
+573	The word "marathon" commemorated the legendary <span class='prompt_green'>feat</span> of the Athenian soldier who carried the news of victory from the battle to Athens.	1.12	1	NULL	4	16	205	NULL
+574	Don't say anything about that _ now.	1.15	1	NULL	5	16	138	NULL
+575	Because Alex had no _ relatives, he gave his money to charitable organizations.	1.15	1	NULL	6	16	172	NULL
+576	The Lewis and Clark expedition mapped the <span class='prompt_green'>vast</span> territory west of the Mississippi River.	1.16	1	NULL	7	16	210	NULL
+577	Blood contains white blood cells, which <span class='prompt_green'>combat</span> infection.	1.17	1	NULL	8	16	208	NULL
+578	It was _ agreed to postpone the meeting till we had more information.	1.18	1	NULL	9	16	112	NULL
+579	One of the <span class='prompt_green'>indicators</span> that helps seismologists predict earthquakes is the emission of greater quantities of radon.	1.19	1	NULL	10	16	201	NULL
+580	That's <span class='prompt_green'>exactly</span> what I want.	1.20	1	NULL	11	16	98	NULL
+581	Aluminum is the most <span class='prompt_green'>abundant</span> metallic constituent in the crust of the earth.	1.20	1	NULL	12	16	167	NULL
+582	It goes without _ that we will support you. You can count on us.	1.21	1	NULL	13	16	118	NULL
+583	Legionnaires disease, a <span class='prompt_green'>severe</span> form of pneumonia, is characterized by headache, chest pain, and high fever.	1.23	1	NULL	14	16	214	NULL
+584	He was involved in several <span class='prompt_green'>questionable</span> dealings.	1.26	1	NULL	15	16	146	NULL
+585	Let's hope for the best. I'm keeping my _ crossed.	1.28	1	NULL	16	16	117	NULL
+586	Linda has _ views on capital punishment.	1.28	1	NULL	17	16	79	NULL
+587	_ me a line sometime if you get the time. I'd love to hear from you.	1.31	1	NULL	18	16	115	NULL
+588	While you are in class, it's important to be <span class='prompt_green'>respectful</span>.	1.34	1	NULL	19	16	99	NULL
+589	I think you need to buy a more _ car.	1.34	1	NULL	20	16	197	NULL
+590	Sinclair Lewis was an American novelist whose style was much <span class='prompt_green'>imitated</span> by later writers.	1.34	1	NULL	21	16	204	NULL
+591	President Wilson was a member of the committee that <span class='prompt_green'>drafted</span> the Covenant of the League of Nations.	1.36	1	NULL	22	16	209	NULL
+592	You've been ripped off, I'm afraid. That's just _ junk.	1.38	1	NULL	23	16	184	NULL
+593	There is a _ belief that we are already paying too many taxes.	1.38	1	NULL	24	16	187	NULL
+594	This report is accurate and complete to the best of my _.	1.40	1	NULL	25	16	97	NULL
+595	That jacket is <span class='prompt_green'>fabulous</span>.	1.43	1	NULL	26	16	147	NULL
+596	Evidence for the earliest migrations into the Americas is <span class='prompt_green'>scarce</span>.	1.44	1	NULL	27	16	170	NULL
+597	We're _ to hear about what happened at the interview. Please tell us.	1.46	1	NULL	28	16	132	NULL
+598	The explosion caused _ damage to the property.	1.46	1	NULL	29	16	93	NULL
+599	The entire school had to be _ because of the fire in the kitchen.	1.46	1	NULL	30	16	181	NULL
+600	Abraham Lincoln sought to maintain harmony with the <span class='prompt_green'>disparate</span> elements of his party by giving them representation in his cabinet.	1.46	1	NULL	31	16	217	NULL
+601	The Brown's haven't had a _ income since Brad lost his job last year.	1.47	1	NULL	32	16	188	NULL
+602	There's no _ rule about this. It just depends on the situation.	1.47	1	NULL	33	16	119	NULL
+603	Holograms are used on credit cards as security devices, because the pictures are almost impossible to <span class='prompt_green'>forge</span>.	1.53	1	NULL	34	16	169	NULL
+604	Albert Einstein was a 20th century German scientist whose work <span class='prompt_green'>ranked with</span> Isaac Newton.	1.57	1	NULL	0	17	207	NULL
+605	One of the climbers suffered _ injuries when he fell 100 feet from the top of the mountain.	1.58	1	NULL	1	17	179	NULL
+606	Paul _ something under his breath but I couldn't make out exactly what he was saying.	1.60	1	NULL	2	17	95	NULL
+607	It's all _ for you to say that, but you don't work for my boss.	1.61	1	NULL	3	17	96	NULL
+608	I'll have two _ of ice cream, please.	1.66	1	NULL	4	17	134	NULL
+609	Mushrooms are cultivated in dark cellars with a <span class='prompt_green'>fixed</span> humidity and temperature.	1.71	1	NULL	5	17	206	NULL
+610	Penguins are <span class='prompt_green'>gregarious</span> birds that gather in colonies that sometimes number in the thousands.	1.76	1	NULL	6	17	200	NULL
+611	We need to <span class='prompt_green'>confirm</span> the date.	1.78	1	NULL	7	17	109	NULL
+612	The writer Gertrude Stein <span class='prompt_green'>coined</span> the term "Lost Generation" to describe a group of American writers residing in Paris during the 1920's.	1.82	1	NULL	8	17	212	NULL
+613	While <span class='prompt_green'>practicing</span> as an architect, le Corbusier was also active as a painter and writer.	1.84	1	NULL	9	17	213	NULL
+614	The whole project cost nearly $2 million, _ a couple of thousand.	1.87	1	NULL	10	17	120	NULL
+615	I can't see myself moving from here in the _ future.	1.87	1	NULL	11	17	185	NULL
+616	Thomas Malthus' theory <span class='prompt_green'>contradicted</span> the optimistic belief in economic progress prevailing in the early 19th century.	1.92	1	NULL	12	17	160	NULL
+617	One of the most _ places on earth is the Galapagos Islands in the Pacific Ocean.	1.92	1	NULL	13	17	92	NULL
+618	Leather is animal skin that has been chemically <span class='prompt_green'>modified</span> by various processes.	1.96	1	NULL	14	17	203	NULL
+619	The French magician Houdini revolutionized the art of magic with his <span class='prompt_green'>ingenious</span> stage mechanisms.	2.03	1	NULL	15	17	218	NULL
+620	If worst _ to worst, we can always call a cab.	2.05	1	NULL	16	17	192	NULL
+621	The gun _ when he dropped it on the ground.	2.05	1	NULL	17	17	193	NULL
+622	Sigmund Freud believed the value of art was in its <span class='prompt_green'>therapeutic</span> use.	2.07	1	NULL	18	17	166	NULL
+623	James likes spicy foods, but his wife only eats _ foods.	2.07	1	NULL	19	17	195	NULL
+624	I'm <span class='prompt_green'>famished</span>.	2.12	1	NULL	20	17	162	NULL
+625	The complex nature of pain is illustrated by <span class='prompt_green'>anecdotes</span> of soldiers who are severely wounded and do not complain of pain.	2.18	1	NULL	21	17	219	NULL
+626	_ a week goes by without some awful accident happening on that stretch of road.	2.21	1	NULL	22	17	186	NULL
+627	The kitchen is small and badly equipped but _ clean.	2.29	1	NULL	23	17	190	NULL
+628	Babies have taste buds in nearly every part of their mouths, whereas the taste buds of an adult are <span class='prompt_green'>confined</span> mainly to the tongue.	2.33	1	NULL	24	17	164	NULL
+629	If you join the club, you will also be _ for special member discounts.	2.33	1	NULL	25	17	182	NULL
+630	I couldn't believe my eyes. The robbery took place in _ daylight.	2.35	1	NULL	26	17	64	NULL
+631	Traffic had to be _ because of the burst water mains.	2.39	1	NULL	27	17	178	NULL
+632	We don't seem to be making any progress here. Let's _ it a day.	2.40	1	NULL	28	17	113	NULL
+633	Stephanie wouldn't stop talking. I couldn't get a word in _.	2.41	1	NULL	29	17	116	NULL
+634	Geologists have <span class='prompt_green'>concluded</span> that the Earth has a small, solid region at the center, surrounded by a liquid core.	2.47	1	NULL	30	17	168	NULL
+635	Ben _ accepted my apology and was willing to forget the whole thing.	2.60	1	NULL	31	17	191	NULL
+636	Let's make _ effort to be punctual.	2.80	1	NULL	32	17	189	NULL
+637	The kids were playing in the backyard and then they just vanished into _ air.	2.86	1	NULL	33	17	133	NULL
+638	Your uncle Charles refused to fight in the war. He was what they call a _ objector.	2.88	1	NULL	34	17	180	NULL
+639	Capital punishment is meant to act as a _.	3.25	1	NULL	35	17	176	NULL

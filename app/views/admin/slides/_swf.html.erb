@@ -1,0 +1,13 @@
+<% if File.exist?(slide.path(:swf))%>
+<script type="text/javascript" src="/el_studycenter/javascripts/swfobject.js"></script>
+	<div id="flashcontent_<%= slide.id%>">
+	loading⋯
+	</div>
+	<script type="text/javascript">
+	   var so = new SWFObject("<%= slide.url(:swf) %>", "mymovie", "<%= width %>","<%= height %>", "7", "#336699");
+	   so.addParam("wmode", "transparent");
+	   so.write("flashcontent_<%= slide.id%>");
+	</script>
+	<% else %>
+	<%= t(:please_wait)%>...
+	<% end%>

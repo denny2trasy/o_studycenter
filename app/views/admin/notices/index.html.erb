@@ -1,0 +1,23 @@
+
+<br />
+<br/>
+
+<%= search_form_for Notice,:title%>
+<br/>
+<div id="toolbar">
+ 	<%= link_to "create notice", new_admin_notice_path%>
+</div>
+<% if flash[:notice] %>
+　　<div id="notice">
+　　<%= flash[:notice] %></div>
+<% end %>
+<br />
+<%= list_table_for(@notices) do |item,col|
+	@notice = item
+	col.add   :title, in_place_editor_field(:notice,:title)
+	col.add   :content, in_place_editor_field(:notice,:content)
+	col.add   :display,	in_place_editor_field(:notice,:display)
+	col.add	  :actions,	link_to(t(:delete),admin_notice_path(item),:confirm => "Are you sure?",:method => :delete)
+end %>
+
+<%= paginate @notices %>

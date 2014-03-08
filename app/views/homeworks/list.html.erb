@@ -1,0 +1,19 @@
+<% @examinations.each do |exam|%>
+	<% all_num = exam.examination_quizzes.count%>
+	<% right_num = exam.examination_quizzes.where(:is_correct => true).count%>
+	<% wrong_num = exam.examination_quizzes.where(:is_correct => false).count%>
+	<% undo_num = all_num-right_num-wrong_num%>
+	<%= exam.created_at%>
+		<div>complate rate</div>
+		<div class="progress">
+		  <div class="bar" style="width: <%= (right_num+wrong_num)/all_num*100%>%;"></div>
+		</div>
+		<div>correct rate</div>
+		<div class="progress">
+		  	<div class="bar bar-success" style="width: <%= right_num/all_num*100%>%;"></div>
+			  <div class="bar bar-warning" style="width: <%= wrong_num/all_num*100%>%;"></div>
+			  <div class="bar bar-danger" style="width: <%= undo_num/all_num*100%>%;"></div>
+		</div>
+		<%= link_to "result", result_homeworks_path(:exam_id=>exam.id)%>
+		</br>
+<% end%>

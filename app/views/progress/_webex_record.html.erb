@@ -1,0 +1,34 @@
+<table width="80%" border="0" cellspacing="0" cellpadding="0" class="table100">
+        <tr class="table100h3_1"><td colspan="4" >外教授课</td></tr>
+        <tr class="table100h1">
+                <td width="13%">课程</td>
+        <td width="53%">进程</td>
+        <td width="16%">上课时长</td>
+        <td width="18%">时间</td>
+        </tr>
+        <% @course_package.items.each do |item|%>
+        <% @all_time = 0%>
+        <% @progress = 0%>
+		<% @sw_records=[]%>
+                <% item.content.schedules.each do |schedule|%>
+                        <% @sw_records = @webex_records.where(:schedule_id =>schedule.id,:user_id =>current_user.id)%>
+                        <% all_time = WebexRecord.all_time(@sw_records)%>
+                        <% @all_time += all_time%>
+                        <% @progress += (schedule.du < all_time) ? 1 : (all_time/schedule.du) %>
+
+                <% end%>
+                <% if @all_time >0%>
+                <tr>
+                        <td>
+                                <%= item.content.name%>
+                        </td>
+                        <td class=" "><div class="progress_self_bg">
+                                <div class="progress_self_blue" style="width: <%= @progress*100%>%"></div>
+                        </div><div class="progress_self_show"><%= @progress*100%>%</div> </td>
+                        <td><div class="Webex_time"><%= @all_time%></div></td>
+                        <td><div class="Test_scores"><%=@sw_records.present? ? @sw_records.last.join_at.to_s(:db) : ""%></div></td>
+                </tr>
+                <% end%>
+        <% end%>
+
+</table>

@@ -1,0 +1,12 @@
+<% unless @ask_msgs.blank? %>
+  <% @ask_msgs.each do |message| %>
+  <div class="single_message">
+	<p class="message_sender">
+		<%= message.user.given_name.blank? ? message.user.login : message.user.given_name %> <%= t :says %>:
+	</p>
+	<div class="message_content">
+		<%= simple_format message.content %>
+	</div>
+  </div>
+  <% end %>
+<% end %> 

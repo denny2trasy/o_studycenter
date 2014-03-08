@@ -1,0 +1,36 @@
+tw:
+  helpers:
+    submit:
+      create: 提交
+      update: 保存
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    error_notification:
+      default_message: "Some errors were found, please take a look:"
+    labels:
+      profile:
+        login: 用戶名
+        mail: Email
+        password: 密碼
+        password_confirmation: 確認密碼
+        given_name: 姓名
+        qq: QQ
+        msn: MSN
+        mobile: 手機號碼
+        locale: 语言
+      user:
+        login: 用戶名
+        original_password: 初始密碼
+        password: 密碼
+        password_confirmation: 確認密碼
+    # hints:
+    #   username: 'User name to sign in.'
+    #   password: 'No special characters, please.'
+

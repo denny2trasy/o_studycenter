@@ -1,0 +1,23 @@
+/* LOGIN PAGES-*/
+
+.login_head {font-size: 14px; line-height:14px; float: left; width:310px; margin-top:43px; text-align:left; color: #626262; padding: 0px 30px 0px; margin-left:5px; background:url(/el_studycenter/images/el/icon/nav-arrow.png) no-repeat;}
+/*
+.login_head, x:-moz-any-link, x:default {
+	margin-top: 46px;
+} */
+.portfolio { background: #353535; width: 885px; height: 443px; margin-left: 20px; text-align: center;}
+		.portfolio-list {float: left;}
+		.portfolio-list .item{ position:absolute; bottom:0; left:0; width: 220px; height: 220px; background:url(/el_studycenter/images/el/login_img_bg.png) no-repeat; z-index:111;}
+		.portfolio-list .item p{ margin-top:150px; margin-left:15px; color:#000; font-size:13px; text-align:left; float:left;}
+		.portfolio-list li {width: 220px; height: 220px; float: left; margin-left: 1px; margin-top: 1px; position:relative;}
+		.portfolio-list li.portfolio-item-01 {display: inline;}
+		.portfolio-list li.portfolio-item-05 {display: inline;}
+		.portfolio-list li img {margin-bottom: 0px;}
+		.login_content {height: 50px; margin: 105px 10px 0px;}	
+		.login_content p {line-height: 20px; color: #333; font-size: 12px;}
+		.portfolio-list :before {clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px;}
+		.portfolio-list :after {clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px;}
+		.portfolio :after  {clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px;}
+
+
+	.logo {width: 185px; height: 70px; padding: 0px 0px 0px 0px; float: left; background: url(/el_studycenter/images/el/meijia/logo.png) no-repeat; background-position: 0px 10px;}

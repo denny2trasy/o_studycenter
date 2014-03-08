@@ -1,0 +1,428 @@
+html, body {
+background-color: #f3f3f3;	
+margin:0;
+height:100%; 
+position:relative;}
+
+#container {
+    min-height:100%; 
+    position:relative;
+}
+
+/* head  end*/
+.header_wrap {width: 100%; background: url(/el_studycenter/images/el/top_bg_v2.jpg) no-repeat; height: 110px;}
+	.header_main { position:relative; width: 940px; min-height: 90px; background: url(/el_studycenter/images/el/top_bg_center_v2.jpg) no-repeat; margin: auto; text-align: center;padding: 0px 30px;}
+	#login_top_nav {width: 135px; height: 23px; background: url(/el_studycenter/images/el/login_top_nav_bg.jpg) no-repeat; float: right; padding-top: 12px; position:absolute; z-index:111; margin-right:25px; right:0;}
+		#login_top_nav a { color:#8aa3ac; width: 20px; margin: 0px 10px;display: inline; height: 10px;  font-size:11px; text-decoration:none;}
+		#login_top_nav a:hover { color:#0088cc; }
+		.logo {width: 155px; height: 70px; padding: 25px 0px 0px 0px; float: left;}
+	#main_nav_warp { margin-left:40px; font-size: 16px; margin-top:44px; width: 735px; height: 40px; float: left; display: inline; position: relative;}
+	.language{width:100px; height:50px; float:right; margin:40px 5px 0px 0px; text-align:right;}
+	#main_nav {width: 500px; float: left; }
+	#main_nav li {float: left; text-indent: -9999px; }	
+	#main_nav_warp p {float: right; margin:15px 2px 0px 0px; font-size: 12px; color: #999; font-family: helvetica,arial,sans-serif;}
+
+		
+/* main*/		
+.main { width: 100%;background: url(/el_studycenter/images/el/content_bg.jpg) repeat-x; min-height: 450px; padding-bottom:50px;}
+	.content {width: 941px; margin: 0px auto; padding: 5px 30px; height: 100%; position:relative;}	
+	/* content_left*/
+		.content_left {width: 616px;  float: left; height: 100%;}
+	/*	.content_left {width: 596px; margin-right: 20px; float: left; height: 100%;}*/
+			.content_left .headline_h1a { color:#000; background: url(/el_studycenter/images/el/headline_h1a_left.png) no-repeat; height: 40px; font-size:14px; font-weight:bold; margin-top:0px; padding:3px 0px 0px 30px;  }	
+			.headline_bottom {float: left; background: url(/el_studycenter/images/el/headline_bottom.png) no-repeat; width: 596px; height: 30px; margin:10px 0px 0px ; }		
+			.content_left .headline_h1b {color:#000; background: url(/el_studycenter/images/el/headline_h1b_left.png) no-repeat; height: 35px;font-size:14px; font-weight:bold; padding:3px 0px 0px 30px; margin-top:0px;}
+			.headline_bottom_small {float: left; background: url(/el_studycenter/images/el/headline_bottom_small.png) no-repeat; width: 300px; height: 30px; margin-top:10px;}
+	/* content_right*/					
+		.content_right {width: 325px; float: left; height: 100%;}
+			.content_right .headline_h1a {color:#000; background: url(/el_studycenter/images/el/headline_h1a_right.jpg) no-repeat; height: 43px; font-size:14px; font-weight:bold; padding:8px 0px 0px 40px; }	
+						
+/* Livebroadcast*/
+#bcast_class {position: relative;}
+.bcast_class_content {position: relative; top: 10px; margin-bottom: 50px;}
+	/* Livebroadcast left*/
+	.content_left_a {width: 420px; margin-right: 10px; float: left; }
+		.content_left_a .headline_h1 {color:#000; background: url(/el_studycenter/images/el/headline_h1c_left.png) no-repeat; height: 50px; font-size:14px; font-weight:bold; padding:25px 0px 0px 50px; margin-top:10px;}
+		.content_left_a .headline_bottom_bcast {float: left; background: url(/el_studycenter/images/el/headline_bottom_h1c_left.png) no-repeat; height: 20px; margin-top:5px; width:470px; }
+		.left_boder {float: left; margin-left:3px; border-left:1px solid #08c;  border-top:2px solid #08c;  border-bottom:1px solid #ccc;  border-right:1px solid #a7c0cc;  width: 400px; height: 350px; padding: 10px; position: relative; border-radius: 5px;}	
+		/* Livebroadcast right*/
+	.content_right_a {float: left; width: 510px; color: #666;}
+		.content_right_a .headline_h1 {color:#000; background: url(/el_studycenter/images/el/headline_h1c_right.png) no-repeat; height: 47px;  font-weight:bold; margin-top:32px; padding:5px 0px 0px 30px;  font-size:14px;}
+		.content_right_a .headline_bottom_bcast {float: left; background: url(/el_studycenter/images/el/headline_bottom_h1c_right.png) no-repeat;  height: 20px;  width:510px; margin-top:5px;}	
+		.right_boder {float: left; border-left:1px solid #08c;  border-top:2px solid #08c;  border-bottom:1px solid #ccc;  border-right:1px solid #a7c0cc;  width: 480px; height: 350px; padding: 10px; margin-top:0px;  position: relative; margin-left:5px; border-radius: 5px;}		
+		.right_boder h2{font-size:14px; padding-left:20px; margin-top:0px; font-weight:bold; margin-bottom:5px; background:url(/el_studycenter/images/el/icon/question.png) no-repeat;}
+		
+		#ask_messages{ height:131px; overflow-y: scroll; width: 270px;  border: 1px solid #ccc; background:#ECECEC;}
+		.messages_text{ height:130px; overflow-y: scroll; width: 480px; border: 1px solid #ccc; background:#ECECEC;}
+	
+	.c_r_bcast_diss {overflow-y: scroll; width: 480px; height: 315px; border: 1px solid #ccc; background:#f9f9f9; }
+	.c_r_bcast_diss_text {float:left; width: 500px; height: 25px; padding-top: 10px;}
+	.c_r_bcast_diss_input {width: 290px; height: 19px; margin-top: 30px;  float: left; background: #f2f9fa; border-top: 1px solid #b2b2b2; border-left: 1px solid #b2b2b2;}
+	.single_message {border-bottom: 1px dotted #b2b2b2; padding: 10px; }
+	.message_sender {font-size: 14px; font-weight: bold; color: #5e7e68;}	
+    .refresh { margin:10px 0px 10px 5px; background:url(/el_studycenter/images/el/icon/refresh.png) no-repeat #d1d1d1 10px; height:80px; float:left; padding:6px 0px 0px 55px; border-top: dashed #ccc 1px; border-radius: 5px; }	
+    	.refresh h1{ font-size:14px; color:#000;}	
+	.qr {margin:10px 0px 10px 2px; background:url(/el_studycenter/images/el/icon/qr.png) no-repeat #d1d1d1 10px; height:80px; float:left; padding:6px 0px 0px 55px; border-top: dashed #ccc 1px; border-radius: 5px;}	
+		.qr h1{ font-size:14px; color:#000;}		
+	    #bcastcasthelp {margin:20px; padding:20px; background:#fff;}
+			#bcastcasthelp h1{ font-size:16px; margin-bottom:10px; font-weight:bold;  padding:5px; color:#000; border-bottom:2px solid #3c7288; color:#000;}
+			#bcastcasthelp li{  font-size:14px; line-height:20px;  padding-left:15px; padding-top:-5px; margin-left:5px; line-height:30px; list-style: none; border-bottom:1px dotted #3C7288; color:#333;}
+			#bcastcasthelp p{  font-size:16px; margin:0px 0px 10px 20px; line-height:20px;}
+	.left_boder label{ float:left; margin-bottom:15px;}
+	
+/* CLEAR FIX */
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}	
+
+/* INDEX PAGES----- */
+#Current_courses {width: 596px; float: left;  position:relative; }	
+	#Current_courses img { float: left;    margin: 0px 0px 0px 5px; padding:6px; border-left:1px solid #f1f1f1;  border-bottom:1px solid #ccc; border-top:1px solid #f1f1f1;   border-right:1px solid #f1f1f1;background:#fff;  }
+	#Current_courses_text {float: left; margin:10px 5px 5px 25px; width: 270px; height:180px;}
+	#Current_courses h2 {font-size: 20px; border-bottom: 1px solid #ccc; padding-bottom: 3px;margin-bottom: 10px; line-height:30px; }
+	#Current_courses h2 a { color:#5E7E68;}
+	#Current_courses h3 {font-size: 16px;}
+	#Current_courses p {font-size: 14px;  line-height: 20px;}
+	#Current_courses .button img {border: none;}
+	
+.nex_nre_Lesson {width: 293px; float: left; position:relative;}
+	.nex_nre_Lesson_text {float: left; margin:5px 10px; width: 130px; height:88px; position:relative;}	
+	.nex_nre_Lesson img {float: left;  margin: 0px 0px 0px 3px; padding:3px; border-left:1px solid #f1f1f1;  border-bottom:1px solid #ccc; border-top:1px solid #f1f1f1;   border-right:1px solid #f1f1f1;background:#fff; }
+	.nex_nre_Lesson h2 { font-size: 10px; border-bottom: 1px solid #ccc; padding-bottom: 2px; margin-bottom: 6px;}
+	.nex_nre_Lesson h4 a{font-size: 12px;  background: url(/el_studycenter/images/el/list_arrow.png) no-repeat; position:absolute; z-index:999; bottom:45px; left:0; width:120px; height:30px; color:#ccc; padding:4px 0px 0px 30px; text-decoration:none; } 
+	.nex_nre_Lesson h2 a { color:#5E7E68;}
+	.nex_nre_Lesson p {font-size: 12px;  line-height: 14px;}
+	.nex_nre_Lesson .button { margin-top: 10px; width: 107px; height: 46px; float: left;}
+	.nex_nre_Lesson .button img {border: none;}
+
+#Course_Information {border: 1px solid #dcd4c8; border-bottom:3px solid #8bb8cf;   border-right:2px solid #c0cacf;  background: #FFF; padding-bottom: 10px; margin-bottom:10px; margin-top:-5px;}
+	#Course_Information h2 { width: 290px; border-bottom: 1px solid #c4c4c4; padding-left: 10px; margin-left: 10px; font-size: 14px; font-weight: bold; color:#333;}	
+	#Course_Information ul {float:left; width: 290px; height: 25px; border-bottom: 1px solid #c4c4c4; padding-left: 10px; margin-left: 10px;}
+	#Course_Information li { float: left; height: 20px; margin-top: 8px; color: #5e7e68;}
+	#Course_Information .course { float: left; width: 90px; margin-right: 15px;}
+	#Course_Information .progress { float: left; width: 50px; margin-right: 15px;}
+	#Course_Information .date { float: left; width: 100px; margin-right: 15px;}
+	#Course_Information .color66 { font-weight: bold; color: #666666; margin-right: 50px;}
+	#Course_Information .headline_black { font-weight: bold; color: #333;}
+
+#index_history { border: 1px solid #dcd4c8; border-bottom:3px solid #dcb072; border-right:2px solid #dcd4c8; background: #FFF; padding-bottom: 50px; margin-bottom: 10px; position:relative; }
+	#index_history a {color: #08c; font-size: 14px; width: 200px;
+	}
+	#index_history a:hover {color: #5e7e68; text-decoration: underline;}
+	#index_history  ul{ width: 300px; margin: 0px 10px 0px 10px;
+	}
+	#index_history .headline {line-height: 25px; color: #5e7e68;   background: url(/el_studycenter/images/el/icon/right_icon.png) no-repeat;padding-left: 30px;}
+	.solid {border-bottom: 1px solid #C4C4C4; height:25px; color: #666; padding-left: 30px; margin-bottom: 5px;}
+
+#course_status {width: 596px; float: left; }
+	#course_status p { font-size: 14px; color: #5e7e68; line-height: 20px;}
+	#course_status .button { margin-top: 10px; width: 107px; height: 46px; float: left;}
+	#course_status .button img {border: none;}
+	.table90 {margin: 0px auto; width: 98%; border-collapse: collapse;  font-size: 12px;}
+	.table90_bgcolour { background: url(/el_studycenter/images/el/table_bg.jpg) repeat-x; font-weight: bold; color:#000; font-size:14px; font-weight:bold; }
+	.odd {padding: 5px; border: 1px solid #acb9c2; background-color: #e6e6e6;}
+	.even {padding: 5px; border: 1px solid #acb9c2; background-color: #fff;}
+	.table90 td {padding: 5px; border: 1px solid #acb9c2;}
+	.table90 th {padding: 8px; font-size: 14px; border: 1px solid #acb9c2;}
+	.colour_red {color: #F00;}
+	.table90 a:link {color: #08c;text-decoration: none;}
+	.table90 a:visited {color: #3366CC;ext-decoration: none;}
+	.table90 a:hover {color: #3366CC; text-decoration: none;}
+	.a_clolr_red a:link {color: #F00; text-decoration: none;}
+	.a_clolr_red a:visited {color: #F00; text-decoration: none;}
+	.a_clolr_red a:hover {color: #F00; text-decoration: none;}
+	.tableblue {background:#277dad; border-top:2px solid #006498; color:#FFF;}
+
+
+	
+.package_list{width: 596px; float: left; position:relative;}
+	.course_list {width: 596px; float: left; position:relative;}  	
+	.course_list ul { margin-left: 5px; position:relative; margin-bottom:15px;}
+	.course_list h4 a{font-size: 12px;  background: url(/el_studycenter/images/el/list_arrow.png) no-repeat; position:absolute; z-index:999; bottom:0px; width:120px; height:30px; color:#ccc; padding:4px 0px 0px 30px; text-decoration:none; } 
+	.course_list h4 a:hover { color:#cf7a01; text-decoration:none; } 
+	.course_list li{float: left; margin:0px 8px 20px 0px; height:90px; position:relative; height:90px;}
+	.course_list img {border: 2px solid #fff; background:#ccc; margin-bottom:15px; padding:3px; }
+	.course_list .button {margin-top: 10px; width: 107px; height: 46px; float: left;}
+	.course_list .button img {border: none;}
+	.unit_list{float: left; position:relative;  border-bottom: 1px dashed #5E7E68; margin-bottom:20px;  *padding-bottom:30px;}
+	.unit_list h2{width: 580px;font-size:14px; background: url(/el_studycenter/images/el/icon/li6.gif) no-repeat scroll left 6px transparent;  border-bottom: 1px dashed #5E7E68;  font-weight: bold; list-style: none outside none;  padding: 3px 0 3px 15px; margin-bottom:10px; color:#000;}	
+
+#activate_course {border: 1px solid #c4c4c4; background: #FFF; padding-bottom: 20px; border: 1px solid #dcd4c8; border-bottom:3px solid #8bb8cf;   border-right:2px solid #c0cacf; }
+	.blue_button {background: url(/el_studycenter/images/el/button/coures_activation.png) no-repeat; width: 60px; height: 26px; border: none; margin: 0px 0px 10px 0px; cursor: pointer;  padding-bottom: 2px;}
+	#activate_course p {margin: 10px 18px; font-size: 12px;}
+	#activate_course form {margin: 10px 20px;}
+	.activate_course_text {border: 1px solid #ccc; width: 160px; height: 16px;}
+	#activate_course .flash_error { background:url(/el_studycenter/images/el/icon/cry.png) no-repeat; height:29px; padding:5px 0px 0px 35px; font-size:16px; color:#a30008;}
+	#activate_course .flash_notice { background:url(/el_studycenter/images/el/icon/smile.png) no-repeat; height:29px; padding:5px 0px 0px 35px; font-size:16px; color:#5E7E68}
+	#code{width:240px;}
+#test_course {border: 1px solid #c4c4c4; background: #FFF; padding-bottom: 20px; margin-top:-5px border: 1px solid #dcd4c8; border-bottom:3px solid #dcb072;   border-right:2px solid #dcd4c8; ;}
+	#test_course p{ font-size: 13px; margin:5px 0px 5px 0px; border-bottom:1px dotted #DDDDDD; padding-bottom:10px;}
+	.test_button {background: url(/el_studycenter/images/el/button/coures_activation.png) no-repeat; width: 60px; height: 26px; border: none; margin: 0px 0px 10px 0px; cursor: pointer;  padding-bottom: 2px;}
+	.test_course_wrap{margin: 10px 20px; font-size: 12px;}
+
+#report_issue {border: 1px solid #c4c4c4; background: #FFF; padding-bottom: 20px; margin-top:-5px border: 1px solid #dcd4c8; border-bottom:3px solid #8bb8cf;   border-right:2px solid #c0cacf; }
+	#report_issue p{ font-size: 13px; margin:5px 0px 5px 0px; border-bottom:1px dotted #DDDDDD; padding-bottom:10px;}
+	.report_issue {background: url(/el_studycenter/images/el/button/coures_activation.png) no-repeat; width: 60px; height: 26px; border: none; margin: 0px 0px 10px 0px; cursor: pointer;  padding-bottom: 2px;}
+	.report_issue_wrap{margin: 10px 20px; font-size: 12px;}
+	
+	#test_01 {border: 1px solid #c4c4c4; background: #FFF; padding-bottom: 20px; margin-top:-5px;}	
+		#test_01 p{ font-size: 13px; margin:5px 25px 5px 25px;  padding-bottom:10px;}		
+	#test_questions {width: 596px; float: left;}
+		#test_questions h2 { font-size:14px; font-weight:bold; background:#4b98c2; color:#fff; border-bottom:1px solid #237bad; height:10px; padding:10px; }
+		#test_questions ol{margin-left:30px;  }
+		#test_questions span{margin:10px 0px 0px 30px;}
+		
+		.testresult p{ line-height:20px;  margin-left:10px;  }
+			.testresult h1{ font-size:14px; font-weight:bold; color:#000; margin-left:10px; }
+			.testresultext{ margin-bottom:10px; }
+				
+	#test_questions span.prompt_green {
+	 color: #347C17;
+	 margin: 0px 0px 0px 0px;
+	}
+
+	#test_questions span.prompt_blue {
+	 color: #1569C7;
+	 margin: 0px 0px 0px 0px;
+	}
+	dl.dl_style2 dd {
+	    border-bottom: 1px dotted #999;
+	    font-weight: bold;
+	    margin-top: 10px;
+	    padding: 3px 0 3px 0px;
+	}
+	dl.dl_style2 dt {
+		list-style: none;
+	    padding-bottom: 0px;
+	    padding-top: 5px;
+	}
+	dl{ list-style: none;}
+
+/* regist */
+.regist_boder {border: 1px solid #b3b3b3; background: url(/el_studycenter/images/el/regist_reset_bg.png) no-repeat; margin: 0px 0px 0px 9px; font-size: 12px; padding: 50px 0px 0px 130px; height: 360px;}
+	
+		.regist_boder .left {float: left; width: 80px; text-align: right; padding-top: 10px; font-size: 12px; color: #333; margin-right: 10px;}
+		.regist_boder .right {float: left; width: 400px;}
+		.regist_boder li {float: left; width: 600px;}
+		.regist_input {width: 282px; height: 25px; margin: 5px 10px 10px 0px; background: url(/el_studycenter/images/el/input_bg.png) no-repeat; border: none;}
+		.regist_button_border {float: left;margin: 5px 0px 10px 90px; *margin: 5px 0px 10px 45px;}	
+		.regist_text {margin-left: 160px; width:300px;}
+		
+/* reset */		
+		.reset_boder .left {float: left;width: 80px; text-align: right; padding-top: 10px; font-size: 12px; color: #333; margin-right: 10px;}		
+		.reset_input {width: 282px; height: 25px; margin: 5px 10px 5px 0px; background: url(/el_studycenter/images/el/input_bg.png) no-repeat; border: none;
+}
+		.reset_button_border {float: left;margin: 5px 0px 10px 90px; *margin: 5px 0px 10px 45px;}
+		#profile_time_zone{ float:left;  }	
+	
+/* forums JS */
+	.leftforums{width:723px; float:left;}
+	.rigthforums{width:200px; float:left; margin-top:10px;}
+	.leftforums h3{ margin: 10px 10px 0 10px; color:#FFF; font:18pt Arial, sans-serif; letter-spacing:-1px; font-weight: bold;  }
+			
+	.boxgridforums{width: 325px; height: 260px; margin:10px; float:left; background:#161613; border: solid 2px #8399AF; overflow: hidden; position: relative; }
+	.boxgridforums img{ position: absolute; top: 0; left: 0; border: 0; }
+	.boxgridforums p{ padding: 0 10px; color:#afafaf; font-weight:bold; font:10pt "Lucida Grande", Arial, sans-serif; }
+	.boxcaptionforums{float: left; position: absolute; background: #000; height: 100px; width: 100%; 
+				opacity: .8; 
+				/* For IE 5-7 */
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+				/* For IE 8 */
+				-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+ 			}
+ 	.captionfull .boxcaptionforums {top: 260;left: 0;}
+ 	.caption .boxcaptionforums {top: 220; left: 0;}
+
+/* contactus foot */
+.foot_navigationhero{ width:905px; background-color:#F0F0F0; border:1px solid #FFFFFF; margin:0px auto 15px; padding:10px;
+	-moz-box-shadow:0 0 2px gray;
+	-webkit-box-shadow:0 0 2px gray;
+	box-shadow:0 0 2px gray;
+}
+.foot_navigation{ width:905px; background-color:#F0F0F0; border:1px solid #FFFFFF; margin:0px auto 15px; padding:10px;
+	-moz-box-shadow:0 0 2px gray;
+	-webkit-box-shadow:0 0 2px gray;
+	box-shadow:0 0 2px gray;
+}
+.foot_navigation pre{  text-shadow:0 1px 1px white; font-size:14px; font-weight:bold; color:#08c;
+}
+.foot_navigation  h1{border-bottom:1px solid #CFCFCF; font-size:1.8em; font-weight:normal; margin-bottom:15px; padding:8px 15px 15px 35px; text-align:left; color:#000; background:url(/el_studycenter/images/el/icon/navigation-left.png) no-repeat; }
+
+.ourteacher, .feature, .service, .Broadcast, .contact {background-color:#E6E6E6; border:1px solid #DDDDDD; float:left; margin-left:15px; color:#999; font-size:12px; padding:10px; width:490px;
+	-moz-box-shadow:0 0 1px white;
+	-webkit-box-shadow:0 0 1px white;
+	box-shadow:0 0 1px white;
+}
+
+.heroimg{ background-color:#F5F5F5; border:2px solid white; float:left; width:360px;	
+	-moz-box-shadow:0 0 1px gray;
+	-webkit-box-shadow:0 0 1px gray;
+	box-shadow:0 0 1px gray;
+}
+.heroimgObject{ background-color:#338BC7; color:white; font-size:2em; height:100px; margin:20px auto; padding:0px 0 0; text-align:center; width:320px; cursor:pointer;
+	/* -moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px; */
+}
+
+/* The styles below are only necessary for the styling of the heroimg page: */
+
+.selectorClass{ background:url(/el_studycenter/images/el/contactus/teacher.jpg) no-repeat; width:320px; height:220px;}
+.selectorClass1{ background:url(/el_studycenter/images/el/contactus/feature.jpg) no-repeat; width:320px; height:220px;}
+.selectorClass2{ background:url(/el_studycenter/images/el/contactus/server.jpg) no-repeat; width:320px; height:220px;}
+.selectorClass3{ background:url(/el_studycenter/images/el/contactus/broadcast.jpg) no-repeat; width:320px; height:200px;}
+.selectorClass4{ background:url(/el_studycenter/images/el/contactus/broadcast1.jpg) no-repeat; width:320px; height:200px;}
+.selectorClass5{ background:url(/el_studycenter/images/el/contactus/contactus.jpg) no-repeat; width:320px; height:120px;}
+/* common */					
+.requirements_system{ width:570px;}
+	.requirements_system a{ color:#08c;}		
+	.requirements_system h1{font-size:20px; color:#000; line-height:40px; font-weight:bold; }
+	.requirements_system h2{font-size:18px; color:#000; line-height:30px;  margin-top:10px; border-bottom:1px solid #ccc; background:url(/el_studycenter/images/el/icon/system_blue.png) 3px no-repeat; padding-left:30px;}
+	.requirements_system h3{font-size:16px; color:#333; line-height:20px; margin-top:10px; margin-left:30px;}
+	.requirements_system p{font-size:14px; color:#4f783e; line-height:20px; margin-left:30px; padding-left:20px;  background:url(/el_studycenter/images/el/icon/system_green.png) 2px no-repeat;}
+	
+	.requirements_question{border-left:1px dotted #e4e4e4; width:300px; height:600px; float:left; margin-left:20px; padding-left:20px; background:url(/el_studycenter/images/el/sidebar-bg.png) no-repeat;}
+	.requirements_question h1{font-size:20px; color:#ccc; line-height:40px; font-weight:bold;}
+	.requirements_question a{ color:#08c;}
+	.all_queston { float:left;}
+	.all_queston h2{ font-size:16px; color:#333; line-height:30px; margin:20px 0px 0xp 20px; padding-left:30px; border-bottom:1px dashed #ccc;  background:url(/el_studycenter/images/el/icon/system_yellow.png) 5px no-repeat;}
+	.all_queston p{font-size:14px; color:#999; line-height:20px;  margin-left:30px; }	
+/* common */
+		.simple_form label{float: left; text-align: right;width:60px;font-weight:bold; margin-top:5px; height:23px; margin-right:5px;}
+		input[type="text"], input[type="password"], input.text, input.title, textarea {height:23px; border: 1px solid #BBBBBB; background: url(/el_studycenter/images/el/input_bg.png) repeat-x; font-family: 'lucida grande', verdana, tahoma, arial, sans-serif; padding: 2px; margin: 0px 5px 5px 0px;
+	}	.signin_input {border: 1px solid #BBBBBB; height:18px; background: url(/el_studycenter/images/el/input_bg.png) repeat-x; font-family: 'lucida grande', verdana, tahoma, arial, sans-serif; padding: 2px; margin: 0px 5px 5px 5px; width:100px; float: left;}
+		#profile_new label{float: left; text-align: right; font-weight:bold; margin-right:5px; color:#3b3b3b; width:150px;}
+		.input select { margin-left:5px; width:100px; }
+	
+		.regist_span { color:#F00; width:10px; }
+		.error_msg { background:url(/el_studycenter/images/el/icon/cry.png) no-repeat; height:29px; padding:5px 0px 5px 45px; font-size:12px; color:#a30008;  }
+        a.more, em.more, span.more { color:#08c; text-decoration:underline; white-space: nowrap; padding-right: 10px; background: url(/el_studycenter/images/el/icon/morearrow_08c.gif) no-repeat 100% 50%; cursor: pointer; zoom: 1; }
+
+
+/* new add  */
+/* selt_study */
+.selt_study{ width:294px; margin-right:12px; float:left; border:1px solid #CCC; background:#FFF; padding-bottom:10px; border-bottom:3px solid #8bb8cf; }
+	.selt_study h1{ background:url(/el_studycenter/images/el/newversion/headline_h1yellow.jpg) no-repeat; width:294px; height:40px;color: #000000;  font-size: 14px;  font-weight: bold;  
+		    padding: 8px 0 0 40px; }
+	.selt_studywrap{ margin:10px 10px 10px 20px; float: left;}
+	.selt_study p{margin:10px; }
+	.enterselfstudy a{ width:247px; height:45px; background:url(../images/el/newversion/enterselt.gif) no-repeat;   text-indent:-999px; display:block; margin:20px; }
+		.enterselfstudy a:hover{ background-position: 0px -45px; }
+		.enterselfstudygray{width:247px; height:45px; margin:20px; background:url(../images/el/newversion/enterselt.gif) no-repeat; text-indent:-999px;  background-position: 0px -90px;  }
+
+		.joinbroadcast a{ width:247px; height:45px; background:url(../images/el/newversion/joinbutton.gif) no-repeat;   text-indent:-999px; display:block; margin:20px; }
+		.joinbroadcast a:hover{ background-position: 0px -45px; }
+		.joinbroadcastgray{width:247px; height:45px; margin:20px; background:url(../images/el/newversion/joinbutton.gif) no-repeat; text-indent:-999px;  background-position: 0px -90px;  }
+
+
+/* live_borcast*/
+.live_borcast{ width:294px;  float:left; border:1px solid #CCC; background:#FFF; padding-bottom:10px;  border-bottom:3px solid #8bb8cf; }
+	.live_borcast h1{ background:url(/el_studycenter/images/el/newversion/headline_h1yellow.jpg) no-repeat; width:294px; height:40px;color: #000000;  font-size: 14px;  font-weight: bold;  
+		    padding: 8px 0 0 40px; }
+	.live_borcastwrap{margin:10px 10px 10px 20px; float: left;}
+	.live_borcast p{ margin:10px;}
+	.live_borcast_list{ border-top:1px solid #CCC;}
+	.live_borcast_list h2{ font-size:14px; font-weight:bold; color:#000; padding:10px 0px 0px 20px; }
+	.live_borcast_list ul{ padding:10px; margin-left:10px; }
+	.live_borcast_list a{ color:#08c;}
+
+	/* new login*/
+	.newlogin{  height:70px; }
+		.newloginheadline{ background:url(/el_studycenter/images/el/newversion/welcome.png) no-repeat; width:430px; height:50px; float:left; margin-top:10px; }
+			.newlogintext{ float:left;  height:40px; color:#333; font-weight:bold; font-size:13px;  }
+			.newlogin_input{ width:145px; height:23px; }
+				.newusername{ height:40px;  float:left; }
+				.newpassword{height:40px; float:left; }
+					.newpassword p a{ font-size:12px; color:#CCC; font-weight:normal;}
+				.newbutton{width:80px; height:40px; float:left; color:#fff;  }
+			input.newbuluebutton { background:url(/el_studycenter/images/el/newversion/login.jpg) no-repeat; width:134px; height:30px; border:none; color:#fff; font-size:14px; font-weight:bold; }
+			input.newbuluebutton:a{ background:url(/el_studycenter/images/el/newversion/login.jpg) no-repeat; width:134px; height:30px; border:none; color:#fff; font-size:14px; font-weight:bold; }
+			input.newbuluebutton:hover { background-position: 0px -30px;}
+			.home_forgetpassword { color:#CCC; width:100px; margin:0px 0px 0px 50px; font-size:12px; }
+/* new reigster*/
+.loginteacher{ position: absolute; bottom:0px; background:url(/el_studycenter/images/el/newversion/loginteacher.png) no-repeat; width:600px; height:450px; float:left; margin-top:55px; }
+		.newregister{ width:306px; float:right; }
+			.newregister_input{ width:240px; height:19px; }
+			.newregistertop{ width:315px; float:right; background:url(/el_studycenter/images/el/newversion/registertop.jpg) no-repeat; height:50px; }
+			.newregistercontent{ width:315px; float:right; background:url(/el_studycenter/images/el/newversion/registerbg.jpg) repeat-y; padding-bottom:20px;}
+			.newregistertext { margin-left:30px; color:#006498; font-weight:bold;}
+			.newregisterinput{ margin:0px 0px 5px 30px;}
+			.newregisterinput p{ width:250px; margin-left:10px; }
+			.newregisterbutton{background:url(/el_studycenter/images/el/newversion/submit.jpg) no-repeat; width:246px; height:40px; border:none; margin-top:10px; }
+				input.newregisterbutton:a{background:url(/el_studycenter/images/el/newversion/submit.jpg) no-repeat; width:246px; height:40px; border:none; margin-top:10px; }
+				input.newregisterbutton:hover{ background-position: 0px -41px; }
+
+		.newregistercontent h1{ font-size:26px; margin-left:20px; color:#f4f4f4; width:265px; margin-bottom:20px;}
+		.newregisterbottom{ width:315px;float:right; background:url(/el_studycenter/images/el/newversion/registerbottom.jpg) no-repeat; height:17px;}
+		.input_error{ color:#A30008;}		
+		.newerror_msg { background:url(/el_studycenter/images/el/icon/cry.png) no-repeat; height:29px; padding:5px 0px 5px 45px; font-size:12px; color:#a30008; float:left;}
+
+/* new livebrast*/
+		.webexsclass{ width:933px; }
+			.webexsclassnomal{  width:130px; border:1px  solid #999; text-align:center; font-size:14px; font-weight:bold; }	
+			.webexsclassnomal a{ color:#FFF; background:url(/el_studycenter/images/el/button/webboxheadnomal.gif) repeat-x;  height:33px; display:block; padding-top:15px; text-decoration:none; }
+			.webexsclassnomal a:hover{background:url(/el_studycenter/images/el/button/webboxheadhover.gif) repeat-x; }
+
+			.webexsclasshover{  width:130px; border:1px  solid #999; text-align:center; font-size:14px; font-weight:bold; }	
+			.webexsclasshover a{ background:url(/el_studycenter/images/el/button/webboxheadhover.gif) repeat-x; height:33px; display:block; padding-top:15px; color:#fff; text-decoration:none; }
+			.webexsclasshover a:hover{background:url(/el_studycenter/images/el/button/webboxheadhover.gif) repeat-x;}
+
+			.webexsclass02{ color:#000; width:230px; border:1px  solid #999; text-align:center; font-size:14px; font-weight:bold;  height:40px;  background:#e8e8e8}
+			.webexsclass03{ color:#333; width:230px; border:1px  solid #999; text-align:center; font-size:14px;  height:40px; background:#FFF }
+
+			.webexstart a{  background:url(/el_studycenter/images/el/button/webboxstart.gif) no-repeat; width:200px; height:32px; display:block; margin-left:10px;   margin:auto;}
+			.webexstart a:hover{ background-position: 0px -32px;}
+
+			.webexstartgray a{  background:url(/el_studycenter/images/el/button/webboxstart.gif) no-repeat; width:200px; height:32px; display:block; background-position: 0px -64px; margin:auto; }
+			.webexstartgray a:hover{ background-position: 0px -64px;}
+			
+			
+			.webexsmonthnomal { width:100px; color:#FFF; background:url(/el_studycenter/images/el/button/webboxheadnomal.gif) repeat-x;  height:40px;  padding-top:6px; text-decoration:none; }
+						.webexsmonthhover { width:100px; background:url(/el_studycenter/images/el/button/webboxheadhover.gif) repeat-x; height:40px; padding-top:6px; color:#fff; text-decoration:none; }
+						.webexsclass td{ border:1px solid #999; background:#FFF; text-align:center;  }
+						.webexsclass .date{ background: #f0efed; font-size:14px; font-weight:bold; color:#000; height:30px;}
+						.webexsclass th { border: 1px solid #999999; text-align: center; font-size:16px; font-weight:bold; }
+
+
+
+						.webexsclasslist_month{padding:1px 1px 0px 0px; width:23px; font-weight:bold; font-size:14px; color:#FFF; text-align:right; height:100px; float:right; background: url(/el_studycenter/images/el/icon/bg.png) no-repeat; }
+						.webexsclasslist{  padding:5px; text-align:left; }
+						.webexsclasslist ul{ color:#F90; padding:0px; margin:0px; }
+		
+						.month_schedule {  margin-left:400px; _margin-left:200px;  }
+									.month_schedule img { margin-right:5px; margin-bottom:-2px; }
+									.month_schedule a { color:#08c; text-decoration:underline; padding-right:10px; }
+						.speaktest{ float:left; padding:10px; }
+									.speaktest a{ color:#08c; margin-left:}
+						#live_class {border: 1px solid #c4c4c4; background: #FFF; padding-bottom: 20px; border: 1px solid #dcd4c8; border-bottom:3px solid #8bb8cf;   border-right:2px solid #c0cacf; margin-bottom:15px; }
+										#live_class a{display: inline-block; color:#08c; padding:5px 5px; font-size:16px; }
+										.live_class_content { margin-left:15px; }
+						#sub_course td{ border:1px  dotted #dddddd; }
+										#sub_course th{ border:1px  dotted #dddddd; background:#FFC; }
+/*askteacher*/										
+		.aksteacher{ float:left; width:940px; }
+				.askimg{ background: url(/el_studycenter/images/el/forums/askteacherimg.jpg) no-repeat; width:325px; height:220px; float:left; border:2px solid #8399AF; margin-left:10px;}
+				.ask_box{ margin-left:20px; background:#3da4e2; width:560px; height:220px; float:left;  border:2px solid #ccc; }
+						.ask_box p{ font-size:20px; color:#fff; padding:30px; line-height:30px;  }
+						.ask_button{ height:60px; background:#2c3035; margin-top:8px; padding:2px 20px; }
+						.ask_message{  float:left; margin-right:16px; }
+						.ask_video{float:left;  }
+										
+#issue_content{ height:60px;}
+												
+/* FOOTER */
+		.footer_warp {width: 100%; background: url(/el_studycenter/images/el/bottom_bg.jpg) no-repeat; position:absolute; bottom:0; height:56px }
+		.footer_main {width: 1000px; background: url(/el_studycenter/images/el/bottom_bg_center.jpg) no-repeat; height: 56px; margin: auto;}
+		.footer_main p { font-size: 11px; float: left; width: 400px; color: #696969; padding-top: 16px;}
+		.footer_main a { color: #696969; font-size: 11px; margin-right:5px;}
+		.footer_main a:hover {color: #08c; text-decoration: underline;}
+		.footer_main ul{width: 745px; padding-top: 15px; float: left; padding-left:18px;}
+		.footer_main li{ display: inline;margin-left: 13px; font-size: 11px;}	
+	
+	
+	
+

@@ -1,0 +1,33 @@
+<table width="80%" border="0" cellspacing="0" cellpadding="0" class="table100">
+	<tr class="table100h1">
+		<td width="13%"><%= t(:title)%></td>
+		<td width="53%"><%= t(:self_study)%></td>
+		<td width="16%"><%= t(:live_class)%></td>
+		<td width="18%"><%= t(:test)%></td>
+	</tr>
+	<% @item_groups.each do |group|%>
+	<% all_num = group.lesson_number%>
+	<% studied_num = group.lesson_studied(current_user).count
+	   webex_num = group.webex_studied_records(current_user).count
+	   test_num = group.my_examinations(current_user).count
+	   best_test_score = group.best_test_score(current_user)
+	%>
+	
+	<tr bgcolor="#F4F8FF">
+		<td><%= group.name%></td>
+		<td>
+			<%= progress_bar(studied_num*1.0/all_num)%>
+			<div class="progress_self_show"><%= studied_num%>/<%= all_num%></div>
+ 				<%= button_to_function t(:details), "getStudyRecord(#{group.id});", :class =>(studied_num == 0 ? "progress_self_detail_grey" : "progress_self_detail"), :disabled => (studied_num == 0)%>
+		</td>
+		<td>
+			<div class="Webex_time"><%= webex_num%>次</div>
+				<%= button_to_function t(:details), "getWebexRecord(#{group.id});", :class =>(webex_num == 0 ? "progress_self_detail_grey" : "progress_self_detail") , :disabled => (webex_num == 0)%>
+		</td>
+		<td>
+			<div class="Test_scores"><%= test_num%>/<%= best_test_score%>分</div>
+				<%= button_to_function t(:details), "getTestRecord(#{group.id});", :class =>(test_num == 0 ? "progress_self_detail_grey" : "progress_self_detail") , :disabled => (test_num == 0)%>
+		</td>
+	</tr>
+	<% end%>
+</table>

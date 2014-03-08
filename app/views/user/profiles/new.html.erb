@@ -1,0 +1,86 @@
+<style>
+	.input_error {
+		color: red;
+		display: none;
+		padding-left: 66px;
+	}
+</style>
+<h1 class="regist_hedlineh1"><%= t(:regist)%></h1>
+<div class="regist_boder">
+	<% if params[:msg] %>
+	<div class="error_msg">
+		<%= raw params[:msg] %>
+	</div>
+	<% end %>
+
+	<%= form_for @user, :as => :profile, :class => 'simple_form user', :url => url_of(:el_user, :profile_service) do |f| %>
+	<div class="input locale optional">
+		<label>
+			<span class="regist_span"> * </span>
+			<%= t(:login)%>
+			</label>
+		
+		<%= f.text_field :login, :id => "profile_login", :class => 'reset_input', :input_html => {:size => 30}%>
+	</div>
+	<p class="clour_gray_9999 font_12 regist_text">
+		<%= t(:login_rule)%>
+	</p>
+	<p class="input_error" id="login_error" style="display:none" >
+		<%= t(:login_error)%>
+	</p>
+	<p class="input_error" id="login_exist" style="display:none" >
+		<%= t(:login_exist)%>
+	</p>
+	<div class="input locale optional">
+				<label>
+					<span class="regist_span"> * </span>
+					 <%= t(:mail)%>
+					 		</label>
+		<%= f.text_field :mail, :id => "profile_mail", :class => 'reset_input', :input_html => {:size => 30}%>
+	</div>
+	<p class="clour_gray_9999 font_12 regist_text"><%= t(:mail_warning)%><p/>
+	<p class="input_error" id="mail_error" >
+		<%= t(:mail_rule_error)%>
+	</p>
+	<p class="input_error" id="mail_exist" >
+		<%= t(:mail_exist)%>
+	</p>
+	<div class="input locale optional">
+		<label><span class="regist_span"> * </span><%= t(:password)%> </label>
+		<%= f.password_field :password, :id => "profile_password", :class => 'reset_input', :input_html => {:size => 30} %>
+	</div>
+	<p class="clour_gray_9999 font_12 regist_text">
+		<%= t(:password_rule)%>
+	</p>
+	<p class="input_error" id="password_error" >
+		<%= t(:password_length_error)%>
+	</p>
+	<div class="input locale optional">
+		<label><span class="regist_span"> * </span><%= t(:password_confirmation)%></label>
+		<%= f.password_field :password_confirmation, :id => "profile_password_confirmation", :class => 'reset_input', :input_html => {:size => 30} %>
+	</div>
+	<p class="clour_gray_9999 font_12 regist_text">
+		<%= t(:password_confirm)%>
+	</p>
+	<p class="input_error" id="password_confirmation_error" >
+		<%= t(:password_confirm_error)%>
+	</p>
+	<div class="input locale optional">
+		<label><span class="regist_span"> * </span><%= t(:locale)%></label>
+		<%= select( "profile", "locale", { "中国大陆" => "zh", "English Countries" => 'en', "한국" =>"ko","Português" =>"pt","español"=>"es"}) %>
+		<P class="clour_gray_9999 font_12 regist_text">
+		<%= t(:select_cautious)%>
+			</p>
+	</div>
+	
+	<div class="input locale optional">
+		<label><span class="regist_span"> * </span><%= t(:time_zone)%></label>
+		<%= time_zone_select("profile","time_zone",nil,:default =>"Beijing") %>
+		
+	</div>
+	<%= f.hidden_field :from_partner, :id =>"profile_from_partner", :value =>"#{@from_partner}" %>
+	<input type="button" class="button regist_button" id="profile_submit" name="commit" value="新增User">
+	<%= hidden_field_tag :forward, root_url %>
+	<% end %> <div class="clearer"></div>
+</div>
+<%= javascript_include_tag 'el/form_validate'%> 

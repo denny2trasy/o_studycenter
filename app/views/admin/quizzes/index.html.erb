@@ -1,0 +1,23 @@
+<div id="toolbar">
+ 	<%= link_to "create quiz", new_admin_quiz_path%>
+</div>
+<% if flash[:notice] %>
+　　<div id="notice">
+　　<%= flash[:notice] %></div>
+<% end %>
+<br />
+<%= list_table_for(@quizzes) do |item,col|
+	@quiz = item
+	col.add   :id
+	col.add   :prompt, in_place_editor_field(:quiz,:prompt)
+	col.add   :position, in_place_editor_field(:quiz,:position)
+	col.add   :level,	in_place_editor_field(:quiz,:level)
+	#col.add   :q_type,	in_place_editor_field(:quiz,:q_type)
+	col.add   :q_type, in_place_editor_field(:quiz,:q_type,{}, {:field_type =>"select", :select_options => ["only_choice","drag_and_drop"]})
+	col.add   :sounds,	in_place_editor_field(:quiz,:sounds)
+	col.add   :images,	in_place_editor_field(:quiz,:images)
+
+	#col.add	  :actions,	link_to(t(:delete),admin_notice_path(item),:confirm => "Are you sure?",:method => :delete)
+end %>
+
+<%= paginate @quizzes %>

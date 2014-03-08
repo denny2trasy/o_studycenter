@@ -1,0 +1,29 @@
+ko:
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    error_notification:
+      default_message: "Some errors were found, please take a look:"
+    labels:
+      profile:
+        login:  아이디
+        mail:  이메일
+        password: 비밀번호
+        password_confirmation: 비밀번호 확인
+        given_name: 성명
+        qq: QQ
+        msn: MSN
+        mobile: 핸드폰 번호
+        locale: 지역
+        time_zone: 시간대
+      user:
+        login: 아이디
+        original_password: 원래 비밀번호
+        password: 비밀번호
+        password_confirmation: 비밀번호 확인

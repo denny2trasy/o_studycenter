@@ -1,0 +1,5 @@
+<%= list_table_for(@answers) do |item,col|
+	col.add   :name
+	col.add   :is_correct
+	# col.add	  :actions,	link_to(t(:delete),admin_question_path(item),:confirm => "Are you sure?",:method => :delete)
+end %>

@@ -1,0 +1,76 @@
+<script type="text/javascript">
+			$(document).ready(function(){
+				flash_view();
+			});
+		</script>
+
+<% if params[:msg] %>
+  <% if params[:msg] == "Invalid User"%>
+  <%= t(:invalid_user)%>
+  <% else%>
+  <%= params[:msg] %>
+  <% end%>
+<% end %> 
+
+<div class="portfolio mar_top20">
+
+     	<div class="boxgrid slideright">
+				<img  class="cover"  src="/el_studycenter/images/el/login_img_01.jpg"/>
+				<h3><%= t(:introduction1).to_html%></h3>
+				<p><%= t(:introduction1a).to_html%></p>
+			</div>
+			
+  	  <div class="boxgrid caption">
+				<img src="/el_studycenter/images/el/login_img_02.jpg"/>
+				<div class="cover boxcaption">
+					<h3><%= t(:introduction2).to_html%></h3>
+				   <p><%= t(:introduction2a).to_html%></p>
+				</div>
+		</div>
+		
+		<div class="boxgrid slideright">
+				<img  class="cover"  src="/el_studycenter/images/el/login_img_03.jpg"/>
+				<h3><%= t(:introduction3).to_html%></h3>
+				<p><%= t(:introduction3a).to_html%></p>
+			</div>
+
+   <div class="loginbox04">
+		 <div class="login_content"> <!-- url_of(:el_user, :session_service) -->
+        <%= simple_form_for @user, :url => "http://app-test.veecue.com/el_user/session_services", :class => 'login_form', :method => :post do |f| %>
+          <%= f.input :login, :input_html => {:name => 'login', :size => 12, :class => 'signin_input' }%>
+          <%= f.input :password, :input_html => {:name => 'password', :size => 12, :class => 'signin_input' }  %>
+          <%= f.button :submit, :class => 'sumit_button' %>
+          <input type="button" class="inputbutton_reg" name="" ONCLICK="window.location.href='<%= language_select%>'" />
+          <%= hidden_field_tag(:forward, redirects_url) %>
+		  <%= hidden_field_tag(:locale, @locale) %>
+        <% end %>
+       </div>
+  </div>
+	
+	
+  	<div class="boxgrid caption">
+				<img src="/el_studycenter/images/el/login_img_05.jpg"/>
+				<div class="cover boxcaption">
+					<h3><%= t(:introduction5).to_html%></h3>
+					<p><%= t(:introduction5a).to_html%></p>
+				</div>
+			</div>
+			
+		<div class="boxgrid slideright">
+				<img  class="cover"  src="/el_studycenter/images/el/login_img_06.jpg"/>
+					<h3><%= t(:introduction6).to_html%></h3>
+					<p><%= t(:introduction6a).to_html%></p>
+			</div>
+			
+			  <div class="boxgrid caption">
+				<img src="/el_studycenter/images/el/login_img_07.jpg"/>
+				<div class="cover boxcaption">
+					<h3><%= t(:introduction7).to_html%></h3>
+					<p><%= t(:introduction7a).to_html%></p>
+				</div>
+			</div>
+            
+            <div class="loginbox08">
+			</div>
+			
+</div>

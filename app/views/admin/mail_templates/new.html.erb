@@ -1,0 +1,12 @@
+<%= notice("error_messages_for(:mail_template)") %>
+<% form_tag admin_mail_templates_path do  %>
+  <dl>
+    <dt><%= t "name" %></dt><dd><%= text_field_tag "template[name]" %></dd>
+    <dt><%= t "variables" %></dt><dd><%= text_field_tag "template[variables]" %></dd>
+    <dt><%= t "description" %></dt><dd><%= text_area_tag "template[description]" %></dd>
+    <dt><%= t "in_use" %></dt><dd><%= select_tag "template[in_use]",options_for_select([['True',1],['False',0]]) %></dd>
+    <dt><%= t "used_by" %></dt><dd><%= text_field_tag "template[used_by]" %></dd>
+    <dt>Source Code</dt><dd><%= text_area_tag "template[content]", nil, :rows => 4, :cols => 60 %></dd>
+    <dt><%= submit_tag t("submit")%> </dt>
+  </dl>
+<% end %>

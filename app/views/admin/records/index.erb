@@ -1,0 +1,19 @@
+<br />
+<br />
+
+<%#= search_form_for WebexReport,:prompt%>
+
+<div id="toolbar">
+	<%= link_to "Import", new_admin_record_path%>
+</div>
+<br />
+<%= list_table_for(@webex_records) do |item,col|
+	col.add   :student, item.user.try(:login)
+	col.add   :schedule,	"#{item.schedule.id} - #{item.schedule.title}"
+	col.add   :join_at, item.join_at.to_s(:short)
+	col.add	  :leave_at,	item.leave_at.to_s(:short)
+	col.add	  :register_at,	item.register_at.to_s(:short)
+	col.add   :duration, item.duration
+end %>
+
+<%= paginate @webex_records %>

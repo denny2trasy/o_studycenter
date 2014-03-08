@@ -1,0 +1,41 @@
+<table width="80%" border="0" cellspacing="0" cellpadding="0" class="table100">
+	<tr class="table100h3_1"><td colspan="4" >Book1 Self-study</td></tr>
+	<tr class="table100h1">
+		<td width="13%">课程</td>
+		<td width="53%">进程</td>
+		<td width="16%">分数/次数</td>
+		<td width="18%">时间</td>
+	</tr>
+	<% @course_package.item_groups.each do |group| %>
+	<%	group.items.each do |item|%>
+	
+	<%		if item.content.is_a?(Thinkingcap)%>
+	<%			records = item.thinkingcap_records(current_user)%>
+			<% if records.present?%>
+			<tr>
+				<td><%= item.content.name%></td>
+			<% progress = records.present? ? records.last.progress : 0%>
+			<td class=" "><div class="progress_self_bg">
+				<div class="progress_self_blue" style="width:<%= progress*100%>%"></div>
+				</div><div class="progress_self_show"><%= progress*100%>%</div> </td>
+			<td><div class="Webex_time"><%= records.present? ? records.last.score : 0%>分</div></td>
+			<td><div class="Test_scores"><%= records.present? ? records.last.duration : ""%></div></td>
+			</tr>
+			<% end%>
+	<%		else%>
+	<%			records = item.study_records%>
+			<% if records.present?%>
+	<% 			progress = (records.present? ? 1:0)%>
+		<tr>
+		<td><%= item.content.name%></td>
+		<td class=" "><div class="progress_self_bg">
+			<div class="progress_self_blue" style="width:<%= progress%>"></div>
+			</div><div class="progress_self_show"><%= progress*100%>%</div> </td>
+		<td><div class="Webex_time"><%= records.present? ? records.count : 0%>次</div></td>
+		<td><div class="Test_scores"><%= records.present? ? records.last.created_at.to_s(:db) : ""%></div></td>
+		</tr>
+	<%		end%>
+		<% end%>
+	<% end%>
+	<% end%>
+</table>

@@ -1,0 +1,20 @@
+<br />
+<br />
+
+<%= search_form_for Question,:prompt%>
+
+<div id="toolbar">
+	
+</div>
+<br />
+<%= list_table_for(@questions) do |item,col|
+	@question = item
+	col.add   :prompt, in_place_editor_field(:question,:prompt)
+	col.add   :logit
+	col.add   :sounds,	"#{item.sounds} #{show_question_audio(item.sounds)}"
+	col.add   :instruction_sounds, "#{item.instruction_sounds} #{show_question_audio(item.instruction_sounds)}"
+	col.add	  :options,	link_to("#{item.answers.size} Options",admin_question_answers_path(item))
+	col.add	  :actions,	link_to(t(:delete),admin_question_path(item),:confirm => "Are you sure?",:method => :delete)
+end %>
+
+<%= paginate @questions %>

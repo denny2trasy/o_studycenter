@@ -1,0 +1,76 @@
+<script type="text/javascript">
+			$(document).ready(function(){
+				flash_view();
+			});
+		</script>
+
+<% if params[:msg] %>
+  <%= params[:msg] %>
+<% end %> 
+
+<div class="portfolio mar_top20">
+
+     	<div class="boxgrid slideright">
+				<img  class="cover"  src="/el_studycenter/images/el/login_img_01.jpg"/>
+				<h3><%= t(:salon1)%></h3>
+				<p><%= t(:salon1a)%></p>
+			</div>
+			
+  	  <div class="boxgrid caption">
+				<img src="/el_studycenter/images/el/login_img_02.jpg"/>
+				<div class="cover boxcaption">
+					<h3><%= t(:salon2)%></h3>
+				   <p><%= t(:salon2a)%></p>
+				</div>
+		</div>
+		
+		<div class="boxgrid slideright">
+				<img  class="cover"  src="/el_studycenter/images/el/login_img_03.jpg"/>
+				<h3><%= t(:salon3)%></h3>
+				<p><%= t(:salon3a)%></p>
+			</div>
+
+   <div class="loginbox04">
+		 <div class="login_content">
+        <%= simple_form_for @user, :url => url_of(:el_user, :session_service), :class => 'login_form', :method => :post do |f| %>
+          <%= f.input :login, :input_html => {:name => 'login', :size => 12, :class => 'signin_input' }%>
+          <%= f.input :password, :input_html => {:name => 'password', :size => 12, :class => 'signin_input' }  %>		  
+          <%= f.button :submit, :class => 'sumit_button' %>
+          <input type="button" class="inputbutton_reg" name="" ONCLICK="window.location.href='<%= language_select%>'" />
+          <%= hidden_field_tag(:forward, redirects_url) %>
+		  <%= hidden_field_tag(:locale, @locale) %>
+        <% end %>
+        
+        <div class="home_forgetpassword_salon">	<%= link_to "忘记密码？",url_of(:el_user,:forgot_password)+"?forward="+home_url,:method=>:get %>
+
+		</div>
+       </div>
+  </div>
+	
+	
+  	<div class="boxgrid caption">
+				<img src="/el_studycenter/images/el/login_img_05.jpg"/>
+				<div class="cover boxcaption">
+					<h3><%= t(:salon5)%></h3>
+					<p><%= t(:salon5a)%></p>
+				</div>
+			</div>
+			
+		<div class="boxgrid slideright">
+				<img  class="cover"  src="/el_studycenter/images/el/login_img_06.jpg"/>
+					<h3><%= t(:salon6)%></h3>
+					<p><%= t(:salon6a)%></p>
+			</div>
+			
+			  <div class="boxgrid caption">
+				<img src="/el_studycenter/images/el/login_img_07.jpg"/>
+				<div class="cover boxcaption">
+					<h3><%= t(:salon7)%></h3>
+					<p><%= t(:salon7a)%></p>
+				</div>
+			</div>
+            
+            <div class="loginbox08">
+			</div>
+			
+</div>

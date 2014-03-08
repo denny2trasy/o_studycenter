@@ -1,0 +1,306 @@
+tw:
+  signup: 注冊
+  signin: 登錄
+  setting: 設置
+  password: 密碼
+  signout: 退出
+  back: 返回
+
+  profile: 個人信息
+  password_update: 密碼修改
+  
+  # layout
+  aboutEleutian: 關于我們
+  rules: 條款	 	
+  privacy: 隱私政策
+  customer_support: 支持
+  contact: 聯系我們
+  about_us: 關於我們
+  teachers: 我們的教師
+  individuals: 個人
+  group: 組
+  assessment: 評估
+  
+  welcome_enter: 歡迎進入
+  welcome_register: 歡迎注冊
+  welcome: Welcome
+  study_center: 學習中心
+  right_reserved: 版權所有
+
+  course_status: 課程狀態
+  course_activation: 激活課程
+  current_status: 學習狀態
+  
+  # signin introduction
+  introduction1: "About"
+  introduction1a: "About"
+  introduction2: "About"
+  introduction2a: "About"
+  introduction3: "About"
+  introduction3a: "About"
+  introduction5: "About"
+  introduction5a: "About"
+  introduction6: "About"
+  introduction6a: "About"
+  introduction7: "About"
+  introduction7a: "About"
+  
+  # home view
+  start_study: 開始學習
+  last_class_time: 上次上課時間
+  next_class_time: 下次上課時間
+  
+  class_name: 課程名
+  progress: 進度
+  due_time: 到期時間
+  
+  current_class: 當前課程
+  next_class: 下節課程
+  prev_class: 上節課程 
+
+  history_record: 學習記錄
+  
+  # course_package view
+  course_package: 課程包
+  description: 描述
+  action: "Action"
+  expired: 有效期
+  class: 課節
+  input_your_active_code: 請輸入您的課程激活碼
+  
+  register_code_is_not_exist: 注冊碼不存在
+  login_already_exists: Login has already been taken.
+  email_already_exists: Email has already been taken.
+  user_is_full: 激活用戶已滿
+  register_code_used: 激活码已被使用
+  register_code_out_of_date: Register code is out of date
+  successful: 成功
+  try_again: Error, please try again!
+  activate: 激活
+  
+  # nav
+  learning_portal: 學習中心
+  my_course_package: 我的課程
+  user:  用戶信息
+  live_broadcast: Live Class
+  ppt: PPT
+  
+  set_as_current_course: 設爲當前課程
+  # slide
+  slide: 教案
+  please_wait: 處理中，請稍候
+  # live Broadcast
+  live_broadcasting: Live Broadcasting
+  live_discussion: Live Discussion
+  teacher_ppt: Lesson plan
+  broadcast_not_in_time: Live Broadcast將在%{time}開始
+  broadcast_in_time: Live Broadcast 正在加載⋯⋯
+  send: 發送
+  says: 說
+  ask: 提問
+  questions: 提問：
+  discussion: 討論
+  lesson_time_left: 本課剩余時間：
+
+  #user setting
+  setting: 設置
+  user_info: 用戶信息
+  change_password: 修改密碼
+
+  #broadcasts:
+    #no_schedule:
+  no_schedule: 您的課程已經結束，如有疑問，請聯系客服人員。
+  course_packages:
+    index:
+      course_packages: 課程列表
+  type_your_register_code: "請輸入您的課程激活碼:"
+  activate: 激活
+  # schedules
+  create_schedule: 新建課程
+  down_template: 下載EXCEL上傳模板
+  schedule: 課程表
+  Mon: 周一
+  Tue: 周二
+  Wed: 周三
+  Ths: 周四
+  Fri: 周五
+  Sat: 周六
+  Sun: 周日
+  
+  # course package
+  speakeng: 1對1課程
+  views:
+      pagination:
+        previous: "&laquo; 上一頁"
+        next: "下一頁 &raquo;"
+        first: "第一頁"
+        last: "最後頁"
+        truncate: "..."
+
+  # forum
+  forum: "欢迎来到论坛"
+  food: "食品"
+  sport: "运动"
+  art: "艺术"
+  weather: "天气"
+
+  #signup
+  regist: 註冊
+  login: 用戶名
+  mail: Email
+  password: 密碼
+  password_confirmation: 確認密碼
+  given_name: 姓名
+  qq: QQ
+  msn: MSN
+  mobile: 手機號碼
+  locale: 地區
+  time_zone:  時區
+
+  login_rule: 6~16個字符，包括字母、數字，區分大小寫
+  login_error: 用戶名格式不正確
+  login_exist: 用戶名已存在，請重新輸入！
+  mail_warning:  郵箱用于找回密碼等重要操作，請謹慎填寫！
+  mail_exist: 郵箱已存在，請重新輸入！
+  mail_rule_error: 郵箱格式不正確
+  password_rule: 6~16個字符，包括字母、數字、特殊符號，區分大小寫
+  password_length_error: 密碼長度不正確
+  password_confirm: 請確認密碼
+  password_confirm_error: 密碼確認不一致
+  select_cautious: 請慎重選擇，將決定語言版本
+  
+  requirement: system requirements
+  
+  #login
+  invalid_user: Incorrect login or password.
+  
+  # admin/questions
+  question: "测试题"
+  prompt: "题目"
+  logit: "Logit"
+  sounds: "声音文件"
+  instruction_sounds: "Instruction Sounds"
+  options: "选项"
+  
+  # replaces
+  take_test: "开始测试" 
+  score: "分数" 
+  level: "等级"
+  created_at: "测试日期"
+  
+  replace_test: "Placement Test"
+  submit: "提交"
+  next: "继续"
+  congratulations: "恭喜你完成水平测试!"
+  enroll_speakeng: "你的成绩可以学习 SpeakENG"
+  overall_level: "你等级是 "
+  skill_name: "测试项目" 
+  s99: "入门级"
+  s101: "初级(一)"
+  s102: "初级(二)"
+  s201: "中级"
+  s301: "高级(一)"
+  s302: "高级(二)"
+  s303: "高级(三)"  
+  
+  # issues
+  report_issue: "Report Issue"
+  
+  # ehome
+  self_study: "Self Study"
+  self_study_desc_1: "SpeakENG self study content combines digital audio, video, voice recording, role-play, and native language support to create an engaging and effective tool to help you learn English. "
+  self_study_desc_2: "After studying SpeakENG lessons, be sure to watch the corresponding TeachCast live broadcast sessions to further improve your English speaking and comprehension skills."
+  enter_self_study: "Enter Self Study"
+  live_broadcast_desc_1: "TeachCast live broadcasts give you the opportunity to learn English from a native, US-board-certified teacher. View the calendar to check times for upcoming sessions that correspond to the self study lessons you are enrolled in."
+  upcoming_sessions: "Upcoming Sessions:"
+  no_sessions: "There are no sessions"
+  join_the_broadcast: "Join the Broadcast"
+  
+  
+  # requirement
+  teachcast_system_requirements: TeachCAST System Requirements
+  requirements_for_using_system: "Requirements for using the TeachCAST system:"
+  approved_browser: "Approved Internet Browser:"
+  chrome: Google Chrome
+  firefox: Mozilla Firefox (v8.0+)
+  safari: Safari
+  IE: Internet Explorer 8 & Internet Explorer 9
+  internet_speed_requirement: "Internet Speed Requirements:"
+  connection_speeds: 160+kb/s connection
+  speed_test: "Test your connection here:"
+  flash_requirement: "Flash Requirements:"
+  flash_version: "Flash 10.3+, get the latest version"
+  windows_users: "Windows users"
+  supported_platforms: "Supported Platforms:"
+  windows_system: Windows XP, Windows Vista & Windows 7 
+  cpu_requirement: 2.2 GHz Pentium 4, 1.83 GHz Intel Core Duo or equivalent
+  ram_requirement: 512MB of RAM or greater
+  graphics_requirement: 64MB of Video Card RAM
+  min_windows_requirment: "Minimum Windows System Requirements:"
+  min_ram_requirement: 512MB of RAMs
+  min_graphics_requirement: 64MB of Video Card RAM or greater
+  recommended_windows_requirment: "Recommended Windows System Requirements:"
+  recommended_cpu_requirement: 2.8 GHz Pentium 4 or faster processor
+  recommended_ram_requirement: 1024MB of RAM
+  recommended_graphics_requirement: 128MB of Video Card RAM
+  mac_users: Mac users 
+  mac_system: 10.4 (Tiger or higher)
+  mac_cpu_requirement: 2.2 GHz Pentium 4, 1.83 GHz Intel Core Duo or equivalent
+  mac_ram_requirement: 512MB of RAM or greater
+  mac_graphics_requirement: 64MB of Video Card RAM
+  min_mac_requirment: "Minimum Mac System Requirements:"
+  min_mac_cpu_requirement: 1.83 GHz Intel Core Duo
+  recommended_mac_requirment: "Recommended Mac System Requirements:"
+  recommended_mac_cpu_requirement: 2.0 GHz Intel Core 2 Duo or faster
+  recommended_mac_ram_requirement: 1024MB of RAM or greater
+  recommended_mac_graphics_requirement: 128MB of Video Card RAM or greater 
+  question: Question
+  how_to_use_tc: How to use TeachCAST?
+  downdoad_instructions: Download instructions
+  question_1: Having video speed problems?
+  answer_1: TeachCAST requires that you have at least a 160Kb/s connection to our servers. Try it a few times.  You should have at least a 1.28Mb/s download speed to have high-quality video. Test out your connection here
+  question_2: What internet browser should I use?
+  answer_2: We prefer Google Chrome or Mozilla Firefox.  Safari works for people using OSX.
+  question_3: Can I use a mobile device or tablet? 
+  answer_3: We're working on getting it to work.
+  question_4: The Adobe Flash plugin has crashed with Firefox
+  answer_4_1: "1. Update Flash  Go to the <a href='http://get.adobe.com/flashplayer' target='_blank'>Flash Player download page</a> at <a href='http://www.adobe.com/' target='_blank'>Adobe.com</a> and download the Flash installer."
+  answer_4_2: "2. Update Firefox  On the menu bar, click on the Firefox menu, and select About Firefox. If updates are available, they will begin downloading automatically."
+  question_5: Anymore questions or suggestions?
+  answer_5: Contact us at teachcast@eleutian.com.
+  
+  #progress
+  progress:
+      details: Details
+      course_package: Course Package
+      self_study: Self Study
+      live_class: Live Class
+      test: Test
+      title: Title
+      lesson: Lesson
+      study_progress: Study Progress
+      
+  #admin/mail_templates
+  mail_template: Email Template
+  new_template: New Template
+  send_test_mail_to: Send test mail to
+  template_name: Template Name
+  used_by: Used by
+  variables: Variables
+  in_use: In use
+  operation: Operation
+  preview: Preview
+  delete: Delete
+  title: Title
+  mail_templates:
+    name: Template Name
+  #admin/mail_records
+  mail_records: Mail Records
+  mail_record: Mail Record
+  mail_title: Mail Title
+  mail_from: Mail From
+  mail_to: Mail To
+  status: Status
+  error_message: Error Message
+  sent_at: Sent At
+  

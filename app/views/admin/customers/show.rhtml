@@ -1,0 +1,18 @@
+<h1><%= @cp.try(:name) %></h1>
+<table class="list_table">
+	<thead>
+		<tr>
+			<th><%= t(:a_date) %></th>
+			<th><%= t(:count) %></th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<% @result.each do |r|%>
+		<tr>
+			<td><%=r[0]%></td>
+			<td><%=r[1]%></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>

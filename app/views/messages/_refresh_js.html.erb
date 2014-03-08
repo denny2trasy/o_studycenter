@@ -1,0 +1,29 @@
+<script type="text/javascript" language="javascript" charset="utf-8">
+  function refreshMessage() {
+    $.get('<%= messages_path(:id=>@lesson.id) %>', function(data) {
+      $('#messages').html(data);
+	  $('#messages').scrollTop(document.getElementById('messages').scrollHeight);
+    });
+     $.get('<%= ask_msgs_path(:id=>@lesson.id) %>', function(data) {
+      $('#ask_messages').html(data);
+	  $('#ask_messages').scrollTop(document.getElementById('ask_messages').scrollHeight);
+    });
+     $.get('<%= teacher_broadcast_path(:id=>@lesson.id) %>', function(data) {
+      $('#student_list').html(data);
+    });
+  }
+  setInterval(refreshMessage, 3000);
+
+  $(function() {
+    refreshMessage();
+    $('#message_form').bind('ajax:success', function(data, status, xhr) {
+      $('#message_content').text("");
+
+      $.get('<%= ask_msgs_path %>', function(data) {
+        $('#ask_messages').html(data);
+        $('#ask_messages').scrollTop(document.getElementById('ask_messages').scrollHeight);
+      });
+    });
+  });
+</script>
+

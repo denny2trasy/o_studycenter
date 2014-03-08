@@ -1,0 +1,19 @@
+<%= form_for @sub_quiz_answer,:url=>admin_sub_quiz_answers_path do |f|%>
+	<%= f.hidden_field :sub_quiz_id ,:value => @sub_quiz_id%>
+	<div class="field">
+	<%= f.label :title %>
+	<%= f.text_field :title%>
+	</div>
+	<div class="field">
+	<%= f.label :sounds %>
+	<%= f.text_field :sounds%>	</div>
+	<div class="field">
+	<%= f.label :images %>
+	<%= f.text_field :images%>	</div>
+	<div class="field">
+	<%= f.label :is_correct %>
+	<%= select( "sub_quiz_answer", "is_correct", { "true"=>true,"false"=>false})%>
+	</div>
+	
+	<%= f.submit "submit"%>
+<% end%>

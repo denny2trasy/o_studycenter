@@ -1,0 +1,18 @@
+<%= form_for @sub_quiz,:url=>admin_sub_quizzes_path do |f|%>
+	<%= f.hidden_field :quiz_id ,:value => @quiz_id%>
+	<div class="field">
+	<%= f.label :title %>
+	<%= f.text_field :title%>
+	</div>
+	<div class="field">
+	<%= f.label :sounds %>
+	<%= f.text_field :sounds%>	</div>
+	<div class="field">
+	<%= f.label :images %>
+	<%= f.text_field :images%>	</div>
+	<div class="field">
+	<%= f.label :order_in_quiz %>
+	<%= f.text_field :order_in_quiz%>	</div>
+	
+	<%= f.submit "submit"%>
+<% end%>

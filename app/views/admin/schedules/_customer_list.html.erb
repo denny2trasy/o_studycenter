@@ -1,0 +1,15 @@
+<table>
+<% @customers.each_with_index do |customer,index|%>
+	<% if index%2 == 0%>
+	<tr>
+	<% end%>
+	<% @customer = customer%>
+	<% @schedule = @schedule%>
+	<td>
+	<%= render :partial =>"customer"%>
+	</td>
+	<% if index%2 == 1%>
+	</tr>
+	<% end%>
+<% end%>
+</table>

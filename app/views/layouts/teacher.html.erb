@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ElStudycenter</title>
+	<link rel="shortcut icon" href="/el_studycenter/images/el/favicon.ico" type="image/x-icon" />
+    <%= stylesheet_link_tag 'el_base', 'fullcalendar', 'el_lc', 'el_speakeng' ,'el_'+I18n.locale.to_s %>
+    <%= javascript_include_tag :defaults %>
+    <%= javascript_include_tag 'fullcalendar', 'gcal', 'application','jquery/jquery-ui', 'jquery/jquery_tab' %>
+    <%= stylesheet_link_tag 'jquery-ui', 'dialog' %>
+	<%= javascript_include_tag 'frame'%>
+    <%= csrf_meta_tag %>
+  </head>
+
+  <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+  <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+  <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+  <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+  <!--[if (gt IE 9)|!(IE)]> <body> <![endif]-->
+  <body onLoad="ajaxLoad();">
+	<div id="container">
+    <% unless (params[:controller] == 'user/sessions') or 
+    	(params[:controller] == 'user/profiles' and params[:action] == 'new') %>
+      <div class="header_wrap">
+        <!--head-->
+        <div class="header_main">
+          <div class="logo"><a href="http://speakeng.eleutian.com/" target="_blank"> <img src="/el_studycenter/images/el/logo.png"/></a></div><!--logo-->
+          <div id="top_nav">
+            <% if current_user %>
+              <%= link_to t(:setting), profile_path%>
+              <%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + signin_url, :method => :get %>
+            <% else %>
+              <%= link_to t(:signin), signin_path %>
+              <%= link_to t(:signup), signup_path %>
+            <% end %>
+          </div><!--top nav-->
+          <div id="main_nav_warp">
+            <ul id="main_nav">
+		        <li id="<%= params[:controller] == 'teacher/broadcasts'  ? 'navteacheropentok_current' : 'navteacher-opentok'%>"><%= link_to "OpenTok", teacher_broadcasts_path %></li>
+				<li id="<%= params[:controller] == 'teacher/webexs'  ? 'navteacherwebex_current' : 'navteacher-webex'%>"><%= link_to "Webex",teacher_webexs_path%>
+            </ul>
+            <p>
+              <span class="clour_blue">
+                <% if current_user %>
+                  <%= current_user.login %>
+                <% end %>
+              </span> <%=t(:welcome_enter)%> Speak<span class="clour_blue_bold">E</span><span class="clour_black">NG</span> <%=t(:study_center)%>
+            </p>
+          </div><!--nav-->
+          <div class="clearer"></div>
+        </div><!--main-nav-->
+      </div>
+    <% else %>
+      <div class="header_wrap"><!--head-->
+        <div class="header_main">
+          <div class="logo"></div><!--logo-->
+         <p class="login_head"><%=t(:welcome_register)%> Speak<span class="clour_blue_bold">E</span><span class="clour_black">NG</span> <%=t(:study_center)%></p>
+        </div>
+      </div><!--head-->
+	</div>
+    <% end %>
+
+    <div class="main">
+      <div class="content group">
+        <%= yield %>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer_warp">
+      <div class="footer_main">
+        <ul class="f_ul">
+          <li class="f_li">
+            <a href="/Public/AboutUs/Overview"><%=t(:aboutEleutian)%></a>
+          </li>
+          <li class="f_li">
+            <a href="/Public/Home/Terms"><%=t(:rules)%></a>
+          </li>
+          <li class="f_li">
+            <a href="/Public/Home/PrivacyInformation"><%=t(:privacy)%></a>
+          </li>
+          <li class="f_li">
+            <a href="/Public/CustomerService/LiveSupport"><%=t(:customer_support)%></a>
+          </li>
+          <li class="f_li">
+            <a href="/Public/AboutUs/ContactUs"><%=t(:contact)%></a>
+          </li>
+		  <li class="f_li">
+          COPYRIGHT (C) 2006-2009 ELEUTIAN TECHNOLOGY,LLC.  <%=t(:right_reserved)%>。
+          </li>
+        </ul>
+       <div class="footer_logo"></div>
+      </div>
+    </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+ <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+       var pageTracker = _gat._getTracker("UA-1010763-3");
+       pageTracker._trackPageview();
+       } catch(err) {}</script>
+
+<script>
+  
+  $(document).ready(function(){
+      // page is now ready, initialize the calendar...
+      $('#fullcalendar').fullCalendar({
+          editable: true,
+          header: {
+              left: 'prev,next today',
+              center: 'title',
+              right: 'month,agendaWeek,agendaDay'
+          },
+          defaultView: 'agendaWeek',
+          height: 500,
+          slotMinutes: 15,
+          loading: function(bool){
+              if (bool) 
+                  $('#loading').show();
+              else 
+                  $('#loading').hide();
+          },
+          events: "/el_studycenter/user/schedules/get_my_course",
+          timeFormat: 'h:mm t{ - h:mm t} ',
+          dragOpacity: "0.5",
+          
+          eventClick: function(event, jsEvent, view){
+              showEventDetails(event);
+          }
+      
+      
+      
+      
+      });
+  });
+</script>
+<div>
+  <div id='fullcalendar'>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<%= form_for "search", :url => admin_webex_users_path, :html => {:method => :get} do |f| %>
+	
+	<%= f.label "id", "ID"  %> 
+ 	<%= f.text_field "id" %> <br />
+ 	<%= f.submit t(:search) %>
+<% end %>
+
+<%= label_tag @schedule.title%>
+<%= label_tag @schedule.course_start_at.to_s(:db)%>
+<br />
+<%= list_table_for(@enroll_webexs) do |item,col|
+	col.add   :login, link_to(item.user.login,admin_user_path(item.user))
+	col.add   :name,	item.user.given_name
+	col.add	  :email,   item.user.mail
+	col.add   :customer_company, item.user.course_package_users.first.try(:customer_company_name)
+	col.add   :enrolled_at,	item.created_at.to_s(:db)
+	col.add   :updated_at,	item.updated_at.to_s(:db)
+
+end %>
+

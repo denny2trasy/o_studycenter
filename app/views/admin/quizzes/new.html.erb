@@ -1,0 +1,52 @@
+<%= form_for @quiz,:url=>admin_quizzes_path do |f|%>
+	<%= f.label :course_type %><br />
+	
+	    <%= f.select(
+	      :course_type,
+			options_for_select([["oxford","oxford"],["scenario","scenario"],["ellis","ellis"]]),
+			{:include_blank=>true}
+	      
+	      )%>
+	
+	<div class="field">
+	<%= f.label :prompt %>
+	<%= f.text_field :prompt%>
+	</div>
+	<div class="field">
+	<%= f.label :sounds %>
+	<%= f.text_field :sounds%>	</div>
+	<div class="field">
+	<%= f.label :images %>
+	<%= f.text_field :images%>	</div>
+	<div class="field">
+	<%= f.label :position %>
+	<%= f.text_field :position%>	</div>
+	<div class="field">
+	<%= f.label :level %>
+	<%= f.number_field :level%>	</div>
+	<div class="field">
+	<%= f.label :q_type %>
+	<%= select( "quiz", "q_type", { "only_choice"=>"only_choice","drag_and_drop"=>"drag_and_drop"})%>
+	</div>
+	<%= f.submit "submit"%>
+<% end%>
+<!--
+<script>
+	$(function() {
+	    $("#course_type_list").change(function() {
+	        $.ajax({url: '<%= url_for :action => 'get_items',:controller => "/courses" %>',
+	        data: 'course=' + this.value,
+	        dataType: 'script',
+			success: function(data){
+				lessons = JSON.parse(data);
+				for(var i=0;i<lessons.length;i++){
+					var id = lessons[i].id;
+					var name = lessons[i].name;
+					$("#lesson_list").html("<option value='"+id+"'>"+id+"-"+name+"</value>");
+					}
+				}
+			})
+	    });
+	});
+</script>
+-->

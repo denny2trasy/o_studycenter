@@ -1,0 +1,89 @@
+<% form_for @event, :url => {:action => :create}, :before => "$('#creating_events').show();", :complete => "$('#creating_events').hide();",:remote =>true do |f| %>
+<p>
+  <%= f.label :title %>
+  <br/>
+  <%= f.text_field :title %>
+</p>
+<p>
+  <%= f.label :description %>
+  <br/>
+  <%= f.text_area :description, :rows => 4, :cols => 30 %>
+</p>
+<p>
+	<%= f.label :ppt%>
+	<%= select_tag :slide,options_from_collection_for_select(@slide,:id,:name)%>
+</p>
+<p>
+	<%= f.label :content_type%>
+	<%= f.select :content_type, { "Ellis" =>"Lesson","Scenario"=>"Scenario","Chinacache"=>"Chinacache","Thinkingcap"=>"Thinkingcap"}%>
+</p>
+<div id="lesson_select">
+	<%= f.label :content_id%>
+</div>
+<p>
+	<%= f.label :teacher%>
+	<%= select_tag :teacher,options_from_collection_for_select(@teachers,:id,:login)%>
+</p>
+<p> 
+	<%= f.label :webex%>
+	<%= radio_button_tag :video,"webex",false %>
+	<%= f.label :opentok%>
+	<%= radio_button_tag :video,"opentok",true %>
+</p>
+
+<p>
+  <%=f.label :course_start_at, 'Start Time' %>
+  <br/>
+  <%=f.datetime_select :course_start_at %>
+</p>
+<p>
+  <%=f.label :course_end_at, 'End Time' %>
+  <br/>
+  <%=f.datetime_select :course_end_at %>
+</p>
+
+<%=f.hidden_field :id, :value => @event.id %>
+<p>
+  <%=f.submit 'Create' %> <span id = "creating_events" style = "display:none;">Creating, Please wait...</span>
+</p>
+<%end %>
+<script>
+$(document).ready(function(){
+	webexLogin("<%= Webex::API_USER%>","<%= Webex::APE_PWD%>");
+	getContents(0);
+	$("#schedule_content_type").change(function(){   
+	 	  getContents(0);
+	 });
+});
+// 
+// function getContents(){
+// 	 $.ajax({
+// 		type: "get",
+// 		url: '<%= get_items_contents_path %>',
+//       	data: 'content_type='+$("#schedule_content_type").val(),
+//        	dataType: 'json',
+// 
+// 		beforeSend: function(XMLHttpRequest){
+// 
+// 		//ShowLoading();
+// 		},
+// 		success: function(data, textStatus){
+// 			var datas = data;
+// 			$("#lesson_select").html("<select name='schedule[content_id]' id='schedule_content_id'></select>");  
+// 			$.each(datas,function(i){   
+//           		$("<option value='"+datas[i].id+"'>Lesson"+datas[i].id+"---"+datas[i].name+"</option>").appendTo($("#schedule_content_id"));   
+//       		});
+// 		},
+// 
+// 		complete: function(XMLHttpRequest, textStatus){
+// 		//HideLoading();
+// 		},
+// 		error: function(){
+// 			$("<option value='error'>Error</option>").appendTo($("#content_id")); 
+// 		//请求出错处理
+// 		}
+// 		});
+// };
+
+
+</script>

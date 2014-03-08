@@ -1,0 +1,71 @@
+<head>
+
+	<script>
+	   $(function() {
+	       $( "#droppable_blank" ).droppable({
+	           drop: function( event, ui ) {
+					ui.draggable.addClass("ui-state-highlight");
+					$("#answer").attr("value",ui.draggable.attr("value"));
+					alert(ui.draggable.attr("id"));
+					$(this).droppable( 'disable' );
+					//$( this ).addClass( "ui-state-default" );
+	           },
+				out: function(event,ui){
+					$( this ).removeClass( "ui-state-highlight" );
+					ui.draggable.removeClass("ui-state-highlight");
+					//alert("out");
+				}
+	       });
+});
+	   </script>
+
+   
+</head>
+
+
+<%= form_tag(submit_homeworks_path(),:method => :post) do %>
+	<div id="container" class="well">
+		<legend><%= @index %> / <%= @total %></legend>
+		<%= hidden_field_tag "exam_quiz",@examination_quiz.id%>
+		<%= hidden_field_tag "answer"%>
+		<%= hidden_field_tag "NO",@index%>
+
+
+		<p class="lead"><%= @quiz.prompt.html_safe %></p>
+		<div id="droppable_blank" class="ui-state-default">
+			<p class="lead">
+				<%= (@sub_quiz = @quiz.sub_quizzes.first).title %>
+			</p>
+		</div>
+		<% if @sub_quiz.images.present? %><img src="<%= @sub_quiz.images%>" class="img-rounded">
+		<% end%>
+		<% if @sub_quiz.sounds.present? %>
+		 <audio src="<%= @sub_quiz.sounds%>" preload="auto">
+	      	Your browser does not support the audio tag.
+	      </audio>
+		<% end%>
+		<% @sub_quiz.sub_quiz_answers.each_with_index do |answer,index| %>
+				<div id="draggable_<%= @quiz.id%>_<%= answer.id%>" class="ui-state-default ui-corner-all" value='<%= {"sub_quiz_"+@sub_quiz.id.to_s => answer.id }.to_json%>'>
+				    <p><%= answer.title%></p>
+					<% if  answer.images.present? %>
+						<img src="<%= answer.images%>" class="img-rounded" width="100" height="100">
+					<% end%>
+				</div>
+				<script>
+					$( "#draggable_<%= @quiz.id%>_<%= answer.id%>" ).draggable({ snap: "#droppable_blank", snapMode: "inner", snapTolerance: 20, containment: "#container", revert: "invalid"});
+				</script>
+				
+			
+		<% end%>
+		
+		
+		<div class="form-actions">
+			<div class="span6 offset6">
+				<%= submit_tag "Prev", :class=>"btn btn-large",:style=>"width:180px;"%>
+				<%= submit_tag "Next", :class=>"btn btn-primary btn-large",:style=>"width:200px;"%>
+			</div>
+		</div>
+
+	</div>
+
+<% end %>

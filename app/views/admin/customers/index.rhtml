@@ -1,0 +1,78 @@
+<br />
+<br />
+<%= link_to t("recent_weekly"), admin_customers_path(:stat=>"weeks")%>
+<%= link_to t("recent_monthly"), admin_customers_path(:stat=>"months")%>
+<%= link_to t("recent_yearly"), admin_customers_path(:stat=>"years")%>
+<br />
+<%#= list_table_for(@results) do |item,col|
+	customer = Customer.find_by_id(item.customer_id)
+	col.add   :customer, customer.try(:company_name) || customer.try(:short_name)
+	col.add   :course_package,	CoursePackage.find_by_id(item.course_package_id).try(:name)
+	col.add	  :count,	link_to(item.c,admin_customer_path(item.course_package_id))
+end %>
+
+<%#= paginate @results %>
+
+<table class="list_table">
+	<thead>
+		<tr>
+			<th><%= t(:customer) %></th>
+			<th><%= t(:course_package) %></th>
+			<th><%= t(:count) %></th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<% @results.each do |item|%>
+		<% customer = Customer.find_by_id(item.customer_id)%>
+		<tr>
+			<td><%= customer.try(:company_name) || customer.try(:short_name) %></td>
+			<td><%= CoursePackage.find_by_id(item.course_package_id).try(:name)%></td>
+			<td><%= link_to(item.c,admin_customer_path(item.course_package_id)) %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
+
+
+<br />
+
+<% if not @stats.blank? %>
+
+	<% rows = @stats[0] %>
+	<% cols = @stats[1] %>
+	<% data = @stats[2] %>
+	
+	<table class="list_table">
+		<thead>
+			<tr>
+				<th><%= t(:customer) %></th>
+				<% cols.each do |col|%>
+					<th><%= col %></th>
+				<% end %>
+				<th><%= t(:total) %></th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			
+			<% rows.each do |row| %>
+				<% customer = Customer.find_by_id(row) %>
+				<tr>
+					<td><%= customer.try(:company_name) || customer.try(:short_name) %></td>
+					<% total = 0 %>
+					<% cols.each do |col|%>
+						<% key = "#{row}-#{col}"%>
+						<% total += data[key].to_i%>
+						<td><%= data[key]%></td>
+					<% end %>
+					<td><%= total %></td>
+				</tr>
+			<% end %>
+			
+		</tbody>		
+		
+	</table>	
+	
+	
+<% end %>	

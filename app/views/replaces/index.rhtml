@@ -1,0 +1,28 @@
+<h1 class="headline_h1a"><%= t(:course_test)%></h1>
+<div class="test_course_wrap">
+	<p>
+	<%= t(:test_introduction).to_html%> <%= link_to t(:take_test),replace_path(0),:class => "more"%>
+	</p>
+<%#= list_table_for(@test_results) do |item,col|
+	col.add   :score
+	col.add	  :level
+	col.add   :created_at,	item.created_at.to_s(:short)
+end%>
+<% if not @test_results.blank? %>
+<table class="table90">
+	<tr>
+		<td class="table90_bgcolour"><%=t(:score)%></td>
+		<td class="table90_bgcolour"><%=t(:level)%></td>
+		<td class="table90_bgcolour"><%=t(:created_at)%></td>
+	</tr>
+	<% @test_results.each do |item|%>
+	<tr>
+		<td><%= t("s#{item.score.to_i}") %></td>
+		<td><%= item.level %></td>
+		<td><%= item.created_at.to_s(:short) %></td>
+	</tr>
+	<% end %>
+</table>
+<% end %>
+
+</div>

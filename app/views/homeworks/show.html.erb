@@ -1,0 +1,5 @@
+<% if @quiz.q_type == "only_choice"%>
+	<%= render :partial=>"choice"%>
+<% elsif @quiz.q_type == "drag_and_drop"%>
+	<%= render :partial=>"drag"%>
+<% end%>

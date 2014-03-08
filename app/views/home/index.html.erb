@@ -1,0 +1,11 @@
+<% if @course_package.blank?  %>
+	<% if current_user.from_partner == "cambridge"%>
+		<%= render :partial=>"cambridge"%>
+	<% else%>
+	<%= render :partial=>"test"%>
+	<% end%>
+<% else%>
+	<%= render :partial=>"current_class"%>
+<% end%>
+<%= render :partial=>"right"%>
+

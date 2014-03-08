@@ -1,0 +1,29 @@
+<h1>我的教案</h1>
+<form action="" method="get" onsubmit="">
+	<input id="name" name="name" type="text" value="">
+	<input type="submit" value="搜 索">
+</form>
+<%= link_to "添加教案", new_admin_slide_path %>
+<table class="list_table">
+ <tr>
+   <th>课程名</th>
+   <th>PPT</th>
+   <th>lesson ID</th>
+   <th>Download?</th>
+   <th>Course type</th>
+   <th colspan="2">操作</th>
+ </tr>
+
+ <% @slides.each do |slide| %>
+   <tr>
+     <td><%= slide.name %></td>
+     <td><%= render :partial => "swf", :locals => {:slide => slide, :width => 300, :height => 150} %></td>
+   	 <td><%= slide.lesson_id %></td>
+     <td><%= slide.download %></td>
+	 <td><%= slide.course_type %></td>
+     <td><%= link_to '编辑', edit_admin_slide_path(slide) %></td>
+     <td><%= link_to '删除', admin_slide_path(slide), :confirm => '确定删除?', :method => :delete %></td>
+   </tr>
+ <% end %>
+</table>
+<%= paginate @slides %>

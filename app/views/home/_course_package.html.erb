@@ -1,0 +1,79 @@
+<%= show_studied_records(@course_packages)%>
+
+<div id="course_status">
+  <h1  class="headline_h1a"><%=t(:course_status)%></h1>
+  <table width="80%" border="0" cellspacing="0" cellpadding="0" class="table90">
+    <tr>
+      <td class="table90_bgcolour"><%=t(:course_package)%></td>          
+	  <td class="table90_bgcolour"><%=t(:expired)%></td>
+      <td class="table90_bgcolour"><%=t(:class)%></td>
+	  <td class="table90_bgcolour"><%=t(:action)%></td>
+    </tr>
+    <% @course_packages.each do |course_package| %>
+      <tr class="odd">
+        <td> 
+			<%= link_to_function("#{course_package.name}","$('#course_group_list_#{course_package.id}').slideToggle('slow')")%>
+		</td>            
+		<td><%= course_package.expired_for(current_user).to_date.to_s(:db)%></td>
+        <td><%= course_package.lesson_number%> <%= course_package.is_speakeng_course ? link_to(t(:speakeng),sso_path) : ""%></td>
+		<td><%= link_to_unless current_user.current_course_package?(course_package), t(:set_as_current_course), current_course_package_path(course_package), :method => :put %> </td>
+      </tr>
+	<tr class="even" >
+		<td colspan="5">
+			<div id='course_group_list_<%= course_package.id %>' style="display:<%= current_user.current_course_package?(course_package) ? 'block' : 'none'%>"> 
+				<table id="sub_course" width="100%"> 
+					<tr>
+						<th>分类</th>
+						<th>总课程数</th>
+						<th>已学习</th>
+						<th>未学习</th>
+					</tr>
+					<% course_package.item_groups.each do |i_group|%>
+					<tr><% lesson_studied = i_group.lesson_studied(current_user)%>
+						<td>
+						<%= link_to(i_group.name,course_package_path(course_package,:item_group_id => i_group.id))%>
+						</td>
+						<td><%= i_group.items.count%></td>
+						<td style="color:#08c" class="group_<%= i_group.id%>"><%= lesson_studied.count%> </td>
+						<td><%= i_group.items.count - lesson_studied.count%></td>
+					</tr>	
+					<% end %>
+				</table>
+		
+			</div>
+		</td>
+	</tr>
+
+
+    <% end %>
+  </table>
+<div class="headline_bottom"></div>
+</div><!--c_l_dqkc-->
+<script>
+  this.getRecords = function(group_id,package_id){	
+	$.getJSON("/el_studycenter/study_records/show_records?group_id="+group_id ,function(result){
+		var str = "<div id='schedule_"+group_id+"' style='position:absolute;background-color:#FFFFE6;font-size:12px;padding:3px;border:1px solid #FFCC99;display:none'><table>";
+		str += "<tr><th>课程</th><th>标题</th><th>学习时间</th></tr>";
+		$.each(result, function(i,record){
+			str += "<tr>";
+			str += ("<td>lesson "+record["lesson_id"]+"</td>");
+			str += ("<td>"+record["lesson_name"]+"</td>")
+			str += ("<td>"+record["updated_at"]+"</td>");
+			str += "</tr>";
+		});
+		str += "</div></table>";
+		$("body").append(str); 
+	});
+	
+};
+
+
+	$(document).ready(function() {
+
+	  // 表格行颜色交替显示效果
+	  $('table90 tr:even, .even').removeClass('odd').addClass('even');
+	  $('table90 tr:odd, .odd').removeClass('even').addClass('odd');
+		imagePreview();
+	});
+	
+</script>

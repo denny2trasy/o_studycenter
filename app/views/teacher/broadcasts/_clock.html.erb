@@ -1,0 +1,55 @@
+<table cellpadding="1"style="float:right"><td bgcolor="black">
+<img src="/el_studycenter/images/el/clock/dg8.gif" name="hr1"><img 
+src="/el_studycenter/images/el/clock/dg8.gif" name="hr2"><img 
+src="/el_studycenter/images/el/clock/dgc.gif"><img 
+src="/el_studycenter/images/el/clock/dg8.gif" name="mn1"><img 
+src="/el_studycenter/images/el/clock/dg8.gif" name="mn2"><img 
+src="/el_studycenter/images/el/clock/dgc.gif"><img 
+src="/el_studycenter/images/el/clock/dg8.gif" name="se1"><img 
+src="/el_studycenter/images/el/clock/dg8.gif" name="se2"><!--<img 
+src="/el_studycenter/images/el/clock/dgpm.gif" name="ampm">--></td></table>
+
+<script type="text/javascript">
+//set this to the number of hours offset from GMT
+
+var im_src="/el_studycenter/images/el/clock/"
+dg0=new Image();dg0.src=im_src+"dg0.gif";
+dg1=new Image();dg1.src=im_src+"dg1.gif";
+dg2=new Image();dg2.src=im_src+"dg2.gif";
+dg3=new Image();dg3.src=im_src+"dg3.gif";
+dg4=new Image();dg4.src=im_src+"dg4.gif";
+dg5=new Image();dg5.src=im_src+"dg5.gif";
+dg6=new Image();dg6.src=im_src+"dg6.gif";
+dg7=new Image();dg7.src=im_src+"dg7.gif";
+dg8=new Image();dg8.src=im_src+"dg8.gif";
+dg9=new Image();dg9.src=im_src+"dg9.gif";
+//dgam=new Image();dgam.src=im_src+"dgam.gif";
+//dgpm=new Image();dgpm.src=im_src+"dgpm.gif";
+
+var time = parseInt(<%= @lesson.course_end_at.to_i - Time.now.to_i %>) ;
+
+//alert(time);
+function dotime(){ 
+theTime=setTimeout('dotime()',1000);
+
+var hr = Math.floor(time/3600+100);
+var mn = Math.floor((time%3600)/60+100);
+var se = Math.floor((time%3600)%60+100);
+
+tot=''+hr+mn+se;
+document.hr1.src=im_src+'dg'+tot.substring(1,2)+'.gif';
+document.hr2.src=im_src+'dg'+tot.substring(2,3)+'.gif';
+document.mn1.src=im_src+'dg'+tot.substring(4,5)+'.gif';
+document.mn2.src=im_src+'dg'+tot.substring(5,6)+'.gif';
+document.se1.src=im_src+'dg'+tot.substring(7,8)+'.gif';
+document.se2.src=im_src+'dg'+tot.substring(8,9)+'.gif';
+//document.ampm.src=im_src+'dg'+am_pm+'.gif';
+if(hr == 100 && mn == 100 && se == 100){
+clearTimeout(theTime);
+location.reload(true);
+}
+time -= 1;
+}
+dotime();
+
+</script>

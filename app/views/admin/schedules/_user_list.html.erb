@@ -1,0 +1,9 @@
+<h2>Enter Schedule User List </h2>
+
+
+<%= list_table_for(@schedule.broad_records) do |item,col|
+	col.add   :user,	item.user.login
+	col.add   :enter_at,	(item.started_at.blank? ? "-" : item.started_at.to_s(:db))
+	col.add   :leave_at,	(item.completed_at.blank? ? "-" : item.completed_at.to_s(:db))
+	col.add	  :times,	item.times
+end %>

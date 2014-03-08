@@ -1,0 +1,29 @@
+/* LOGIN PAGES-*/
+
+.login_head {font-size: 14px; line-height:14px; float: left; width:400px; margin-top:38px; text-align:left; color: #626262; padding: 0px 30px 0px; margin-left:5px; background:url(/el_studycenter/images/el/icon/nav-arrow.png) no-repeat;}
+
+.footer_logo{width: 210px; height: 56px; padding: 0px 0px 0px 0px; float: left; background: url(/el_studycenter/images/el/footer_logo.png) no-repeat; background-position: 0px 0px;}
+
+/*
+.login_head, x:-moz-any-link, x:default {
+	margin-top: 46px;
+} */
+
+.portfolio { background: #353535; width: 925px; height: 463px; margin-left: 10px; text-align: center;}
+.portfolio h3{ color: #333333;font-size:20px; font-weight:bold; margin-top:10px;}
+	.login_content { height: 50px;margin: 105px 10px 0;}
+	.loginbox04 {width: 230px; height: 230px; margin:1px 0px 0px 1px; float:left; border: solid 0px #8399AF; overflow: hidden; position: relative; background: url(/el_studycenter/images/el/login_img_04.jpg) no-repeat; }
+	.boxgrid{ width: 230px; height: 230px; margin:1px 0px 0px 1px; float:left; background:#161613; border: solid 0px #8399AF; overflow: hidden; position: relative; }
+	.boxgrid img{position: absolute; top: 0; left: 0; border: 0; }
+	.boxgrid p{ padding: 0 15px;color:#afafaf; margin-top:5px; font-weight:bold; font:10pt "Lucida Grande", Arial, sans-serif; }
+	.boxcaption{ float: left; position: absolute; background: #fff; height: 100px; width: 100%; 
+			opacity: .8; 
+			/* For IE 5-7 */
+			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+			/* For IE 8 */
+			-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+			}
+	.captionfull .boxcaption {top: 260; left: 0;}
+	.caption .boxcaption {bottom: 0;left: 0; }
+
+

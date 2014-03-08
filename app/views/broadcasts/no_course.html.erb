@@ -1,0 +1,11 @@
+<script type="text/javascript">
+	var time = parseInt(<%= @next_lesson.course_start_at.to_i - Time.now.to_i %>) ;
+	theTime=setTimeout('refresh()',time*1000);
+	function refresh(){
+		clearTimeout(theTime);
+		location.reload(true);
+	}
+
+</script>
+<%= render :partial => 'user/schedules/schedule' %>
+<%= t :broadcast_not_in_time,:time=>l(@next_lesson.course_start_at,:format=>:long) %>

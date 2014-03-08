@@ -1,0 +1,36 @@
+<%= form_for "search", :url => admin_users_path, :html => {:method => :get} do |f| %>
+
+<%= f.label "user[login_or_given_name_contains]", '用户名包含' %>
+<%= f.text_field "user[login_or_given_name_contains]"%><br />
+
+<%= f.label "customer[company_name_or_short_name_contains]", '客户名包含' %>
+<%= f.text_field "customer[company_name_or_short_name_contains]" %><br />
+
+
+<%= f.submit "搜索" %>
+<% end %>
+<h2>一共<%= @course_package_users.total_count %>个激活用户</h2>
+<table class="list_table">
+	<tr>
+		<th>用户ID</th>
+		<th>login</th>
+		<th>用户名</th>
+		<th>客户</th>
+		<th>课程包</th>
+		<th>激活时间</th>
+		<th>激活码</th>
+	</tr>
+
+	<% @course_package_users.each do |cp_user| %>
+	<tr>
+		<td><%= cp_user.user_id %></td>
+		<td><%= link_to(cp_user.user_login, admin_user_path(cp_user.user_id)) %></td>
+		<td><%= cp_user.user_given_name %></td>
+		<td><%= cp_user.customer_company_name %></td>
+		<td><%= cp_user.course_package.name%></td>
+		<td><%= cp_user.created_at.to_s(:db) %></td>
+		<td><%= cp_user.register_code_code%></td>
+	</tr>
+	<% end %>
+</table>
+<%= paginate @course_package_users %>

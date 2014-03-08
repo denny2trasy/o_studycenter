@@ -1,0 +1,128 @@
+<html>
+	<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>OpenTok API Sample &#151; Archiving Tutorial</title>
+	<script src="http://staging.opentok.com/v0.91/js/TB.min.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css" media="screen">
+			body {
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			.swfContainer {
+				float:left;
+				width: 264;
+				margin-left: 5px;
+			}
+			#links {
+				margin-left: 5px;
+				margin-bottom: 12px;
+			}
+			#links a {
+				display:none;
+			}
+		</style>
+
+		<script type="text/javascript" charset="utf-8">
+			var API_KEY = "375171"; //"1127"; // Replace with your API key.
+			// var SESSION_ID = "1_MX4xMjMyMDgxfn4yMDExLTEwLTA3IDE5OjQ4OjE0LjUzNDMyOCswMDowMH4wLjQ1OTExMDY1MDIyOH4"; // Replace with your own session ID.
+			
+			var SESSION_ID = "<%= @schedule.session_id %>";  // "1_MX4zNzUxNzF-fjIwMTEtMTEtMjkgMDI6MTI6MjMuODM5NTAyKzAwOjAwfjAuOTkyNjE4NjQ5ODQ1fg";
+			
+								 // For staging, see https://staging.tokbox.com/hl/session/create
+			var TOKEN = "<%= @token %>";
+			var subscribers = {};
+
+			var mySession;
+			var archive;
+			var ARCHIVE_ID = "<%= @schedule.archive_id %>";
+			
+			alert("Session ID " + SESSION_ID);
+			alert("Token " + TOKEN);
+			alert("Archive ID " + ARCHIVE_ID);
+			
+			mySession = TB.initSession(SESSION_ID);
+
+			// TB.setLogLevel(TB.ALL);
+			TB.addEventListener(TB.EXCEPTION, exceptionHandler);
+			
+			
+			
+			
+			mySession.addEventListener("sessionConnected", sessionConnectedHandler);
+
+
+			mySession.connect(API_KEY, TOKEN); // Add values for API_KEY and TOKEN.
+
+			function sessionConnectedHandler(event) {
+			    
+			
+				if (mySession.capabilities.playback) {
+					mySession.addEventListener("archiveLoaded", archiveLoadedHandler);
+					mySession.addEventListener("playbackStarted", playbackStartedHandler);
+					mySession.addEventListener("playbackStopped", playbackStoppedHandler);
+				}
+			
+				mySession.loadArchive(ARCHIVE_ID); // You will need to store this.
+			}
+
+			function archiveLoadedHandler(event) {
+			    loadedArchive = event.archives[0];
+			    loadedArchive.startPlayback();
+			alert("here");
+			}
+			
+			
+			function playbackStartedHandler(event) {
+				// show("stopPlaybackLink");
+			}
+
+			/* Called in response to the moderator clicking the "Stop playback" link.
+			 * Stops playing back the archive.
+			 */
+			function stopPlayback() {
+				myArchive.stopPlayback();
+				// hide("stopPlaybackLink");
+			}
+			
+			// Called in response to the playbackStopped event. The moderator can now (optionally) play back the archive again.
+			function playbackStoppedHandler(event) {
+				// hide("stopPlaybackLink");
+				// show("startPlaybackLink");
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+			function exceptionHandler(event) {
+				alert("Exception! msg: " + event.message + " title: " + event.title + " code: " + event.code);
+			}
+
+		</script>
+	</head>
+	<body >
+		<div id="links">
+
+           <a href="#" onClick="stopPlayback(); return false;" id="stopPlaybackLink">Stop Playback</a>
+		</div>
+		<div id="publisherContainer" class="swfContainer"></div>
+	</body>
+</html>

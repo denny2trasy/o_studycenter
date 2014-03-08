@@ -1,0 +1,29 @@
+pt:
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    error_notification:
+      default_message: "Some errors were found, please take a look:"
+    labels:
+      profile:
+        login: Nome de login
+        mail: Email
+        password: Senha
+        password_confirmation: Confirme a senha
+        given_name: Nome completo
+        qq: QQ
+        msn: MSN
+        mobile: Número de celular
+        locale: Área
+        time_zone: Fuso horário
+      user:
+        login: Login
+        original_password: a senha original
+        password: Password
+        password_confirmation: Confirme a senha

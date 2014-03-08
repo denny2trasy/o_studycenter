@@ -1,0 +1,64 @@
+  <div class="content_left">
+  	<div class="selt_study">
+            <h1><%= t(:self_study)%></h1>
+             <div class="selt_studywrap">
+             	<img src='/el_studycenter/images/el/newversion/enterimg.gif' width='132' height='94' />
+             </div>
+			
+             <p><%=t(:self_study_desc_1)%></p>
+			 <p><%=t(:self_study_desc_2)%></p>
+            
+			<div class="<%= @current_course_package.blank? ? 'enterselfstudygray' : 'enterselfstudy' %>">
+				<%= link_to t(:enter_self_study), (@current_course_package.blank? ? "javascript:show_no_course_message()" : sso_path()) %>
+			</div> 
+
+				
+			
+    	</div>
+    
+    <div class="live_borcast">
+    	<h1><%=t(:live_broadcast)%></h1>
+             <div class="live_borcastwrap">
+             	<img src='/el_studycenter/images/el/newversion/liveteacher.gif' width='132' height='94' />
+             </div>
+             <p><%=t(:live_broadcast_desc_1)%></p>
+             <div class="live_borcast_list">				
+             	<h2><%=t(:upcoming_sessions)%></h2>
+				<% unless @upcoming_sessions.blank? %>
+                 <ul>
+					<% @upcoming_sessions.each do |schedule|%>
+						<% title = "#{schedule.title} - #{schedule.course_start_at.strftime('%m/%d/%Y %I:%M%p')}"%>
+						<li><%= link_to title,broadcasts_path()%></li>
+					<% end %>
+                 </ul>
+				<% else %>
+					<p><%= t(:no_sessions)%></p>
+				<% end %>
+             </div>
+            <div class="<%= @current_course_package.blank? ? 'joinbroadcastgray' : 'joinbroadcast' %>">
+				<%= link_to(t(:join_the_broadcast),(@current_course_package.blank? ? "javascript:show_no_course_message()" : broadcasts_path()))%>
+			</div> 
+            
+            
+    </div>  
+  
+  
+  </div><!--left-->
+
+
+<div class="content_right">
+	<div id="activate_course" class="mar_b15">
+		<h1 class="headline_h1a"><%= t(:course_activation)%></h1>
+		<p><%=t(:input_your_active_code)%>：</p>
+		<%= form_tag activate_course_packages_path do %>
+		<input name="code" id="code" type="text" class="activation_text">
+		<%=hidden_field_tag(:flag,"com")%>
+		<%= submit_tag t(:activate) , :class => 'blue_button'%>
+		<% end %>
+		<%=raw show_flash %>
+	</div><!--激活-->
+	<div id="report_issue" class="mar_b15">
+		<%=raw show_report %>
+		<%= javascript_tag("ajaxLoad('report_issue', '#{new_issue_path()}')")%>		
+	</div><!--激活-->
+</div><!--right-->

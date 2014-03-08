@@ -1,0 +1,25 @@
+<table width="80%" border="0" cellspacing="0" cellpadding="0" class="table100">
+	<tr class="table100h3_1"><td colspan="4" >homework and test</td></tr>
+	   	<tr class="table100h1">
+	   		<td width="13%">ItemGroup</td>
+	    	<td width="53%">Progress</td>
+	    	<td width="16%">Test Time</td>
+	     	<td width="18%">Score</td>
+	   	</tr>
+		<% @examinations.each do |exam|%>
+		<% all_num = exam.examination_quizzes.count%>
+		<% right_num = exam.examination_quizzes.where(:is_correct => true).count%>
+		<% wrong_num = exam.examination_quizzes.where(:is_correct => false).count%>
+		<% undo_num = all_num-right_num-wrong_num%>
+		<% complate_rate = (right_num+wrong_num)/(all_num == 0 ? 1 : all_num)%>
+		<% right_rate = right_num/all_num%>
+	    <tr>
+	   		<td><%= exam.item_group.name %>
+	    	<td class=" "><div class="progress_self_bg">
+				<div class="progress_self_blue" style="width: <%=  complate_rate*100%>%"></div>
+				</div><div class="progress_self_show"><%=  complate_rate*100%>%</div> </td>
+	    	<td><div class="Webex_time"><%= exam.created_at.to_s(:db) %></div></td>
+	     	<td><div class="Test_scores"><%= right_rate*100%>分</div><div class="progress_self_detail"><%= link_to "查看", result_homeworks_path(:exam_id=>exam.id)%></div></td>
+	   	</tr>
+		<% end%>
+</table>

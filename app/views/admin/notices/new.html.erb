@@ -1,0 +1,14 @@
+<%= form_for @notice,:url=>admin_notices_path do |f|%>
+	<div class="field">
+	<%= f.label :title %>
+	<%= f.text_field :title%>
+	</div>
+	<div class="field">
+	<%= f.label :content %>
+	<%= f.text_field :content%>	</div>
+	<div class="field">
+	<%= f.label :display %>
+	<%= select( "notice", "display", { "false"=>false,"true"=>true})%>
+	</div>
+	<%= f.submit "submit"%>
+<% end%>

@@ -1,0 +1,46 @@
+<%= class_content_js%>
+<table class="webexsclass">
+<% time = Time.now %>
+	<% beginning_month = time.beginning_of_month %>
+	<% end_month = time.end_of_month %>
+	<% row = (Time.days_in_month(time.month) + beginning_month.end_of_week.day - beginning_month.day)/7 +1 %>
+	<tr>
+		<th class="webexsmonthhover">Sun</th>
+		<th class="webexsmonthnomal">Mon</th>
+		<th class="webexsmonthnomal">Tue</th>
+		<th class="webexsmonthnomal">Wed</th>
+		<th class="webexsmonthnomal">Thu</th>
+		<th class="webexsmonthnomal">Fri</th>
+		<th class="webexsmonthhover">Sat</th>
+	</tr>
+	<% first_day = beginning_month %>
+	<% current_day = first_day %>
+	<% row.times do |row_index| %>
+	<tr>
+		<% if current_day < first_day.next_week.yesterday %>
+			<% present_days = current_day.end_of_week.day - first_day.day %>
+			<% blank_days = 7 - present_days %>
+			<% blank_days.times do %>
+				<td>...</td>
+			<% end %>
+			<% present_days.times do %>
+			
+				<%= show_current_class(current_day)%>
+				<% current_day += 1.days %>
+		    <% end %>
+		<% else %>
+		<% 7.times do %>
+		<% if current_day > end_month%>
+			<td>...</td>
+		<% else%>
+			<%= show_current_class(current_day)%>
+		<% end%>
+		<% current_day += 1.days %>
+		<% end %>
+		<% end %>
+	<% end %>
+	</tr>
+	
+</table>
+
+

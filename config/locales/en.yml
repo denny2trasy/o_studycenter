@@ -1,0 +1,372 @@
+en:
+  signup: Signup
+  signin: Signin
+  setting: Setting
+  password: Password
+  signout: Signout
+  back: Back
+
+  profile: Profile
+  password_update: Password Update
+  
+  # layout
+  aboutEleutian: About Us
+  rules: Rules
+  privacy: Privacy
+  customer_support: Customer Support
+  contact: Contact
+  about_us: About Us
+  teachers: Our Teachers
+  individuals: Individuals
+  group: Group
+  assessment: Assessment
+  
+  welcome_enter: Welcome to
+  welcome_register: Welcome to
+  welcome: Welcome
+  study_center: Registry
+  right_reserved: Right Reserved
+  
+  course_status: My Registered Courses
+  course_notice: Notice
+  course_activation: Activate a Course
+  current_status: Current status
+  
+  # signin introduction
+  introduction1: "Welcome"
+  introduction1a: "Eleutian Technology’s TeachCast Platform."
+  introduction2: "Flexibility "
+  introduction2a: "TeachCast: Self-study Content + Live Video Teaching Daily"
+  introduction3: "Content"
+  introduction3a: "TeachCast uses content from Pearson Education’s ELLIS Program."
+  introduction5: "Live Video Teaching"
+  introduction5a: "Our teachers provide live interactive lessons for your students."
+  introduction6: "Customize"
+  introduction6a: "Add your logo to ours.  Build your brand."
+  introduction7: "Community"
+  introduction7a: "Unlimited live Face-to-Face practice with your classmates on Forum."
+  
+  salon1: "Interactive Learning Program "
+  salon1a: "A virtual experience that resembles real-life conversations with native English speakers."
+  salon2: "Our Teachers "
+  salon2a: "SpeakENG Teachers are Certified American Public & Private School Teachers"
+  salon3: "Certified "
+  salon3a: "All teachers hold both a college degree and teacher certification "
+  salon5: "Specialized "
+  salon5a: "Specialized training in teaching English Language Learners"
+  salon6: "Customized"
+  salon6a: "Students have the opportunity to ask questions "
+  salon7: "Convenient Scheduling"
+  salon7a: "Choose a teacher, date and time that work for you"
+  # home view
+  start_study: Begin
+  last_class_time: Last Class Time
+  next_class_time: Next Class Time
+  
+  class_name: Class Name
+  progress: Progress
+  due_time: Due Time
+  
+  current_class: Current Class
+  next_class: Next Class
+  prev_class: Previous Class 
+
+  history_record: History Record
+  
+  # course_package view
+  course_package: Course Package
+  description: Description
+  action: "Action"
+  expired: Expires in
+  class: Lessons Available
+  input_your_active_code: Add a new course by inputting your code
+  
+  register_code_is_not_exist: This product code does not exist.
+  login_already_exists: Login has already been taken.
+  email_already_exists: Email has already been taken.
+  user_is_full: User_is_full
+  register_code_used: This registration code has already been used.
+  register_code_out_of_date: Register code is out of date
+  successful: Successful
+  try_again: Error, please try again!
+  activate: Activate
+  course_test: SpeakENG Level Test 
+  test_introduction: Hello, and welcome to SpeakENG. Your first step to learning English is to allow us to evaluate your current SpeakENG level. In order to do so, we have created a test that will test your English speaking ability. 
+  assessment: Assessment 
+  assessment_introduction: The SpeakENG assessment system accurately determines the applicant's level of English understanding and ability using customized questions based on their responses.  
+  
+  #user setting
+  setting: Settings
+  user_info: User Information
+  change_password: Change password
+
+  # nav
+  learning_portal: Learning Portal
+  my_course_package: My Course Package
+  user:  User
+  live_broadcast: Live Class
+  ppt: PPT
+  
+  set_as_current_course: Set As Current Course
+  # slide
+  slide: Slide
+  please_wait: Please Wait
+  # live Broadcast
+  live_broadcasting: Live Broadcasting
+  live_discussion: Live Discussion
+  teacher_ppt: Teacher PPT
+  broadcast_not_in_time: Live Broadcast will begin at %{time}
+  broadcast_in_time: Live Broadcast id loading⋯⋯
+  send: Send
+  says: says
+  ask: Ask
+  questions: "Questions for the Teacher:"
+  discussion: Discussion
+  lesson_time_left: "Time left in this session:"
+
+  #broadcasts:
+    #no_schedule:
+  no_schedule: No Schedule
+  course_packages:
+    index:
+      course_packages: Course Packages
+  #type_your_register_code: "Type your register code:"
+  activate: Activate
+  # schedules
+  create_schedule: Create Schedule
+  down_template: Download Template
+  schedule: Schedule
+  Mon: Mon
+  Tue: Tue
+  Wed: Wed
+  Ths: Ths
+  Fri: Fri
+  Sat: Sat
+  Sun: Sun
+  
+  # course package
+  speakeng: Speakeng
+  views:
+      pagination:
+        previous: "&laquo; Previous"
+        next: "Next &raquo;"
+        first: "First"
+        last: "Last"
+        truncate: "..."
+        
+  # forum
+  forum: "Welcome to Forum"
+  food: "Food"
+  sport: "Sport"
+  art: "Art"
+  weather: "Weather"
+  
+  
+  #signup
+  regist: Register
+  login: Username
+  registername: Desired Username
+  name: Name
+  mail: Email
+  password: Password
+  password_confirmation: Confirm Password
+  given_name: Full Name
+  qq: QQ
+  msn: MSN
+  mobile: Cell Phone Number
+  locale: Language
+  time_zone: Time Zone
+
+  login_rule: 6－16 characters in length, case-sensitive, numbers allowed
+  login_error: Invalid login name
+  login_exist: Login name is unavailable , please choose a new name.
+  mail_warning: As your email is used for security and registration purposes, please verify it is filled in correctly.
+  mail_exist: The email you entered is already tied to another account, please retry.
+  mail_rule_error: Invalid login name
+  password_rule: 6－16 characters, case-sensitive, numbers, symbols allowed
+  password_length_error: Invalid password, please try again
+  password_confirm: Please confirm password
+  password_confirm_error: Passwords do not match
+  select_cautious: Please choose correct language and time zone!
+  
+  requirement: System Requirements
+  
+  #login
+  invalid_user: Incorrect login or password.
+        
+  # admin/questions
+  question: "Question"
+  prompt: "Prompt"
+  logit: "Logit"
+  sounds: "Sounds"
+  instruction_sounds: "Instruction Sounds"
+  options: "Options"
+  
+  # admin layout
+  issue: "Issue"
+  notice: "Notice"
+  record: "Record"
+  quiz: "Quiz"
+  
+  # admin/records
+  student: "Student"
+  join_at: "Join At"
+  leave_at: "Leave At"
+  register_at: "Register At"
+  duration: "Duration"
+  
+  # replaces
+  take_test: "Take Test" 
+  score: "Score" 
+  level: "Level"
+  created_at: "Created At"
+  
+  replace_test: "Placement Test"
+  submit: "Submit"
+  next: "Next"
+  congratulations: "Congratulations you have finished the Placement test!"
+  enroll_speakeng: "Now you're ready to enroll in a course, Your score qualifies you for SpeakENG"
+  overall_level: "Your Overrall Level is "
+  skill_name: "Skill Name"
+  s99: "SpeakENG99"
+  s101: "SpeakENG101"
+  s102: "SpeakENG102"
+  s201: "SpeakENG201"
+  s301: "SpeakENG301"
+  s302: "SpeakENG302"
+  s303: "SpeakENG303"
+  
+  # issues
+  report_issue: "Report a Bug or Issue"
+  
+  # ehome
+  self_study: "Self Study"
+  self_study_desc_1: "SpeakENG self study content combines digital audio, video, voice recording, role-play, and native language support to create an engaging and effective tool to help you learn English. "
+  self_study_desc_2: "After studying SpeakENG lessons, be sure to watch the corresponding TeachCast live broadcast sessions to further improve your English speaking and comprehension skills."
+  enter_self_study: "Enter Self Study"
+  live_broadcast_desc_1: "TeachCast live broadcasts give you the opportunity to learn English from a native, US-board-certified teacher. View the calendar to check times for upcoming sessions that correspond to the self study lessons you are enrolled in."
+  upcoming_sessions: "Upcoming Sessions:"
+  no_sessions: "There are no sessions"
+  join_the_broadcast: "Join the Broadcast"
+  
+  # webex
+  month_schedule: Month Schedule
+  download_plugins: Download plugins first
+  enroll_id: Registration ID
+  
+  # admin/customers
+  customer: "Customer"
+  count: "Count"
+  
+  # requirement
+  teachcast_system_requirements: TeachCAST System Requirements
+  requirements_for_using_system: "Requirements for using the TeachCAST system:"
+  approved_browser: "Approved Internet Browser:"
+  chrome: Google Chrome
+  firefox: Mozilla Firefox (v8.0+)
+  safari: Safari
+  IE: Internet Explorer 8 & Internet Explorer 9
+  internet_speed_requirement: "Internet Speed Requirements:"
+  connection_speeds: 160+kb/s connection
+  speed_test: "Test your connection here:"
+  flash_requirement: "Flash Requirements:"
+  flash_version: "Flash 10.3+, get the latest version"
+  windows_users: "Windows users"
+  supported_platforms: "Supported Platforms:"
+  windows_system: Windows XP, Windows Vista & Windows 7 
+  cpu_requirement: 2.2 GHz Pentium 4, 1.83 GHz Intel Core Duo or equivalent
+  ram_requirement: 512MB of RAM or greater
+  graphics_requirement: 64MB of Video Card RAM
+  min_windows_requirment: "Minimum Windows System Requirements:"
+  min_ram_requirement: 512MB of RAMs
+  min_graphics_requirement: 64MB of Video Card RAM or greater
+  recommended_windows_requirment: "Recommended Windows System Requirements:"
+  recommended_cpu_requirement: 2.8 GHz Pentium 4 or faster processor
+  recommended_ram_requirement: 1024MB of RAM
+  recommended_graphics_requirement: 128MB of Video Card RAM
+  mac_users: Mac users 
+  mac_system: 10.4 (Tiger or higher)
+  mac_cpu_requirement: 2.2 GHz Pentium 4, 1.83 GHz Intel Core Duo or equivalent
+  mac_ram_requirement: 512MB of RAM or greater
+  mac_graphics_requirement: 64MB of Video Card RAM
+  min_mac_requirment: "Minimum Mac System Requirements:"
+  min_mac_cpu_requirement: 1.83 GHz Intel Core Duo
+  recommended_mac_requirment: "Recommended Mac System Requirements:"
+  recommended_mac_cpu_requirement: 2.0 GHz Intel Core 2 Duo or faster
+  recommended_mac_ram_requirement: 1024MB of RAM or greater
+  recommended_mac_graphics_requirement: 128MB of Video Card RAM or greater 
+  question: Question
+  how_to_use_tc: How to use TeachCAST?
+  downdoad_instructions: Download instructions
+  question_1: Having video speed problems?
+  answer_1: TeachCAST requires that you have at least a 160Kb/s connection to our servers. Try it a few times.  You should have at least a 1.28Mb/s download speed to have high-quality video. Test out your connection here
+  question_2: What internet browser should I use?
+  answer_2: We prefer Google Chrome or Mozilla Firefox.  Safari works for people using OSX.
+  question_3: Can I use a mobile device or tablet? 
+  answer_3: We're working on getting it to work.
+  question_4: The Adobe Flash plugin has crashed with Firefox
+  answer_4_1: "1. Update Flash  Go to the <a href='http://get.adobe.com/flashplayer' target='_blank'>Flash Player download page</a> at <a href='http://www.adobe.com/' target='_blank'>Adobe.com</a> and download the Flash installer."
+  answer_4_2: "2. Update Firefox  On the menu bar, click on the Firefox menu, and select About Firefox. If updates are available, they will begin downloading automatically."
+  question_5: Anymore questions or suggestions?
+  answer_5: Contact us at teachcast@eleutian.com.
+  
+  #progress
+  progress:
+      table: "Table"
+      chart: "Chart"
+      details: Details
+      course_package: Course Package
+      self_study: Self Study
+      live_class: Live Class
+      test: Test
+      title: Title
+      lesson: Lesson
+      study_progress: Study Progress
+      
+  #progress_records
+  progress_records:      
+      recent_week: "Recent Week"
+      recent_month: "Recent Month"
+      self_study: "Self Study"
+      live_class: "Live Class"
+      all_record: "All Record"
+      
+  #admin/customers
+  recent_weekly: "Recent Week"
+  recent_monthly: "Recent Month"
+  recent_yearly: "Recent Year" 
+  customer: "Customer"
+  course_package: "Course Package"
+  count: "Count"
+  total: "Total"
+  a_date: "Date"
+  
+  #admin/mail_templates
+  mail_template: Email Template
+  new_template: New Template
+  send_test_mail_to: Send test mail to
+  template_name: Template Name
+  used_by: Used by
+  variables: Variables
+  in_use: In use
+  operation: Operation
+  preview: Preview
+  delete: Delete
+  title: Title
+  mail_templates:
+    name: Template Name
+  #admin/mail_records
+  mail_records: Mail Records
+  mail_record: Mail Record
+  mail_title: Mail Title
+  mail_from: Mail From
+  mail_to: Mail To
+  status: Status
+  error_message: Error Message
+  sent_at: Sent At
+
+       
+      
+      
+
+

@@ -1,0 +1,23 @@
+<br />
+<br />
+
+<%= form_for "search", :url => admin_users_path, :html => {:method => :get} do |f| %>
+	
+	<%= f.label "login", t(:login)  %> 
+ 	<%= f.text_field "login" %> <br />
+ 	<%= f.submit t(:search) %>
+<% end %>
+<br />
+<%= list_table_for(@users) do |item,col|
+	col.add   :login, link_to(item.login,admin_user_path(item))
+	col.add   :name,	item.given_name
+	col.add   :created_at,	item.created_at.to_s(:db)
+	col.add   :updated_at,	item.updated_at.to_s(:db)
+	col.add	  :customer,	item.course_package_users.first.try(:customer_company_name)
+	col.add   :course_package,	"#{item.course_package_users.count} CoursePackages"
+	col.add	  :broad_record,	"#{item.broad_records.count} BroadCasts"
+	col.add   :replace_test,	"#{item.test_results.count} Tests"
+	col.add	  :study_record,	"#{item.study_records.count} Records"
+end %>
+
+<%= paginate @users %>

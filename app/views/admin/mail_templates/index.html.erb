@@ -1,0 +1,31 @@
+<br>
+<div class="hmenu1">
+  <ul>
+    <li><%= popup t(:new_template), new_admin_mail_template_path %></li>
+    <li><%= link_to t(:mail_record), admin_mail_records_path %></li>
+    <li><% form_tag mail_services_path, :remote =>true do -%>
+		<%= t(:send_test_mail_to)%>
+		<%= email_field_tag "mail_to"%>
+        <%= submit_tag t("send") %>
+        <% end -%>
+    </li>
+  </ul>
+</div>
+<div class="clear_float"></div>
+<div id="toolbar">
+  <%= search_form_for(MailTemplate, :name, :used_by ) %>
+</div>
+<p id="notice_area"><%= notice %></p>
+<div class="clear_float"></div>
+<div>
+  <%= list_table_for(@templates) do |template, col|
+    @mail_template = template
+    col.add :id, @mail_template.id
+    col.add :name, link_to(@mail_template.name, admin_mail_template_path(@mail_template)), :order => :name
+    col.add :description, in_place_editor_field(:mail_template, :description)
+    col.add :in_use, in_place_editor_field(:mail_template, :in_use)
+    col.add :used_by, in_place_editor_field(:mail_template, :used_by), :order => :used_by
+    col.add :created_at, template.created_at.to_s(:long)
+    col.add :operation, (link_to t(:preview), preview_admin_mail_template_path(template), :popup => true) + " | " + (link_to t(:edit), edit_admin_mail_template_path(template)) + " | " + (link_to "delete", admin_mail_template_path(template),:method=>:delete) + " | "
+  end %>  
+</div>

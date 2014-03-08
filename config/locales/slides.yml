@@ -1,0 +1,7 @@
+zh:
+  activerecord:
+    models:
+      slide: 教案
+    attributes:
+      slide:
+        name: 课程名

@@ -1,0 +1,78 @@
+<% if current_user%>
+<!--浮动QQ客服代码开始 -->
+<DIV id="STATICMENU" 
+     style="Z-INDEX: 999; FILTER:alpha(opacity=90); LEFT: 88%; VISIBILITY: visible; WIDTH: 109px; POSITION: absolute; TOP: 100px;">
+  <table width="106" border="0" cellspacing="0" cellpadding="0" style="line-height:0px;">
+      <tr>
+      <td colspan="3" height="34" >
+      <img src="/el_studycenter/images/qq_services/qq_top.gif" width="109" height="34" border="0" usemap="#MapForQQ"></td>
+      </tr>
+
+      <tr>
+      <td width="6"   background="/el_studycenter/images/qq_services/qq_life.gif" >
+      </td>
+
+      <td width="96" align="center" bgcolor="#FFFFFF"><TABLE cellSpacing=0 cellPadding=0 width=90 align=center border=0>
+        <TBODY>
+          <TR>
+            <TD height="39" align="center"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1534068434&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1534068434:41 &r=0.16142657199908655" alt="点击这里联系客服" title="点击这里联系客服"></a></TD>
+          </TR>
+
+        </TBODY>
+      </TABLE></td>
+      <td width="7" background="/el_studycenter/images/qq_services/qq_right.gif">
+      </td>
+     </tr>
+
+      <tr>
+      <td colspan="3">
+      <img src="/el_studycenter/images/qq_services/qq_logo.gif" width="109" height="17">
+      </td>
+    </tr>
+  </table>
+  <SCRIPT>
+$(document).ready(function(){
+     
+      var bodyTop = 0;
+      var selfHeight = $("#STATICMENU").height();
+      if (typeof window.pageYOffset != 'undefined') {
+          bodyTop = window.pageYOffset;
+      } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+          bodyTop = document.documentElement.scrollTop;
+      }else if (typeof document.body != 'undefined') {
+         bodyTop = document.body.scrollTop;
+     }
+     $("#STATICMENU").css("top", bodyTop+document.body.clientHeight-selfHeight-5);    
+ });
+ 
+ 
+ 
+ $(window).scroll(function() {
+     var bodyTop = 0;
+     var selfHeight = $("#STATICMENU").height();
+     if (typeof window.pageYOffset != 'undefined') {
+         bodyTop = window.pageYOffset;
+     } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+         bodyTop = document.documentElement.scrollTop;
+     }else if (typeof document.body != 'undefined') {
+         bodyTop = document.body.scrollTop;
+     }
+     
+     //靠上端方式
+     $("#STATICMENU").css("top", 100 + bodyTop);
+ 
+     //靠下端方式
+     //$("#STATICMENU").css("top", bodyTop+document.body.clientHeight-selfHeight-5);
+ });
+  </SCRIPT>
+  <SCRIPT>
+    function  closeQQ(){
+        STATICMENU.style.display='none';
+    }
+  </SCRIPT>
+</DIV>
+<map name="MapForQQ">
+  <area shape="circle" coords="89,17,11" href="javascript:closeQQ();">
+</map>
+<!--浮动QQ客服代码结束 -->
+<% end%>

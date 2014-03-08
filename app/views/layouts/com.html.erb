@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TeachCast</title>
+<%= stylesheet_link_tag 'el_base', 'el_lc', 'el_speakeng' ,'el_'+I18n.locale.to_s,'fullcalendar'%>
+<%= javascript_include_tag :defaults %>
+<%= javascript_include_tag 'fullcalendar', 'gcal', 'application','jquery/jquery-ui', 'jquery/jquery_tab' ,'flash_view'%>
+<%= javascript_include_tag 'frame'%>
+
+<%= csrf_meta_tag %>
+
+</head>
+ <body onLoad="ajaxLoad();">
+	<div id="container">
+
+      <div class="header_wrap">
+        <!--head-->
+
+        <div class="header_main">
+          <div class="logo"><a href="/el_studycenter/signin"> <img src="/el_studycenter/images/el/logo.png"/></a></div><!--logo-->
+          <div id="top_nav">
+              <%= link_to t(:setting), profile_path%>
+              <%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + signin_url, :method => :get %>
+          </div><!--top nav-->
+         
+          <div id="main_nav_warp">
+
+            <ul id="main_nav">
+	
+	          <li id="<%= params[:controller] == 'home' || params[:controller] == 'lessons' ? 'study_current' : 'nav-study'%>" ><%= link_to t(:learning_portal), ehome_index_path %></li>
+              <li id="<%= params[:controller] == 'course_packages' ? 'course_current' : 'nav-course'%>"><%= link_to t(:self_study), (@current_course_package.blank? ? "javascript:show_no_course_message()" : sso_path()) %></li>
+              <li id="<%= params[:controller] == 'broadcasts' ? 'live_current' : 'nav-live'%>" ><%= link_to t(:live_broadcast), (@current_course_package.blank? ? "javascript:show_no_course_message()" : broadcasts_path()) %></li>
+            </ul>
+
+			<div style="float:left; margin-top:5px;"><a href="/el_studycenter/requirements" target="_blank"><img src="/el_studycenter/images/el/icon/help.png" width="22" height="22" /></a></div>
+            <p>
+              <span class="clour_blue">
+                <% if current_user %>
+                  <%= current_user.given_name.blank? ? current_user.login : current_user.given_name %>
+                <% end %>
+              </span> <%=t(:welcome)%> Teach<span class="clour_blue_bold">C</span><span class="clour_black">ast</span> <% t(:study_center)%>
+            </p>
+          </div><!--nav-->
+        
+        </div><!--main-nav-->
+      </div>
+
+    <div class="main">
+	 
+      <div class="content group">
+		<div id="no_course_message" class="input_error"></div>
+        <%= yield %>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer_warp">
+      <div class="footer_main">
+        <ul class="f_ul">
+                <li class="f_li">
+                  <a href="http://www.eleutian.com" target="_blank"><%=t(:about_us)%></a>
+                </li>
+                 <!--li class="f_li">
+                  <a href="/el_studycenter/contact" target="_blank"><%=t(:teachers)%></a>
+                /li-->
+                <!--li class="f_li">
+                  <a href="/el_studycenter/contact" target="_blank"><%=t(:individuals)%></a>
+                </li-->
+                <!--li class="f_li">
+                  <a href="/el_studycenter/contact" target="_blank"><%=t(:group)%></a>
+                </li-->
+                <!--li class="f_li">
+                  <a href="/el_studycenter/contact" target="_blank"><%=t(:assessment)%></a>
+                </li-->
+		  <li class="f_li">
+          COPYRIGHT (C) 2006-2012 ELEUTIAN TECHNOLOGY,LLC. 京ICP备11043505号-1<%=t(:right_reserved)%>。
+          </li>
+        </ul>
+       <div class="footer_logo"></div>
+      </div>
+    </div>
+
+</div>
+  </body>
+</html>

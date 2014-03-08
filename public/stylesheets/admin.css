@@ -1,0 +1,341 @@
+html{background-color: #ebebeb;
+}
+.header_frame{ width:100%; background: url(/el_studycenter/images/el/top_bg.jpg) no-repeat; height:90px; }
+.header_frame_center{ width:940px; height:90px; background:url(/el_studycenter/images/el/top_bg_center.jpg) no-repeat; margin:auto; text-align:center; padding:0px 30px;}
+.logo{ width:200px; height:70px; padding:20px 0px 0px 0px ; float:left; background:url(/el_studycenter/images/el/logo.png) no-repeat; background-position: 0px 30px;}
+#top_nav{width:120px; height:20px; background:url(/el_studycenter/images/el/top_nav_bg.jpg) no-repeat; float:right; padding-top:15px;}
+#top_nav a{ width:20px; margin:0px 10px; margin-top:15px; display:inline; height:10px; color: #CCC;}
+
+#main_nav_layout{  font-size:16px; font-weight:bold; padding:9px 0px 0px 35px; width:700px;  height:30px; float:left;  display:inline; position:relative; }
+#main_nav{ width:500px;}
+#main_nav li{ float:left;}
+#main_nav_layout p{float:right; font-size:12px; color:#696969; }
+
+
+/* link */
+#nav-slide a { background-position: 0px 0px;  margin-right:20px; width:105px; display:block; text-decoration:none; height:24px;}
+#nav-schedule a { margin-right:20px; width:100px;  display:block; text-decoration:none; background-position: -100px 0px; height:24px; }
+#nav-live a {   margin-right:20px; width:100px; display:block; text-decoration:none;  background-position: -205px 0px;  height:24px;}
+
+/*  hover  */
+#nav-study a:hover { background-position: 0px -25px; text-decoration:none; }
+#nav-course a:hover {  background-position: -110px -25px; }
+#nav-live a:hover { background-position: -215px -25px;}
+
+/* active */
+#nav-study a:active { background-position: -0px -25px; text-decoration:none;}
+#nav-course a:active { background-position: -110px -25px;}
+#nav-live a:active {  background-position: -215px -25px; }
+
+
+
+/* head */
+
+.simple_form label{float: left; text-align: right;width:52px;font-weight:bold; margin-top:5px;}
+.button{ background:url(/el_studycenter/images/el/reset_button.png) no-repeat; width:}
+
+input.reset_button{ background:url(/el_studycenter/images/el/reset_button.png) no-repeat; width:131px; height:43px; border:none; cursor: pointer;   text-indent: -9999px; margin-left:50px;}
+input.reset_button:link {background-position: 0px 0px;}
+input.reset_button:visited {background-position: 0px 0px;}
+input.reset_button:hover {background-position: 0px -43px;}
+input.reset_button:active {background-position: 0px -43px;}
+
+input[type="text"], input[type="password"], input.text, input.title, textarea {border: 1px solid #BBBBBB;
+background:url(/el_studycenter/images/el/input_bg.png) repeat-x;font-family: 'lucida grande',verdana,tahoma,arial,sans-serif;
+    padding: 2px; margin: 0px 5px 5px 5px; height: 18px;}
+
+
+
+/* CLOUR */
+.clour_blue{color: #08c;}
+.clour_red{ color:#f00}
+.clour_green5e7e68{ color:#5e7e68; font-weight:bold;}
+.clour_gray_9999{ color:#999999}
+
+/* MG*/
+.mar_b15{ margin-bottom:15px;}
+.mar_top15{ margin-top:15px;}
+.pad_top15{ padding-top:15px;}
+
+/* FONT */
+.font_12{ font-size:12px;}
+
+/* LAYOUT -----c{content}*/
+.main{ width:100%; background:url(/el_studycenter/images/el/content_bg.jpg) repeat-x; min-height:600px; padding-bottom:70px;}
+.content{ width:941px; margin: 0px auto ; padding:0px 30px; height:100%; }
+.c_l{ width:596px; margin-right:20px;  float:left; height:100%;}
+.c_r{ width:325px; float:left;height:100%; }
+
+/* Livebroadcast*/
+#bcast_class{ position:relative; }
+.bcast_button{ background: url(/el_studycenter/images/el/borast_class_button.png) no-repeat; width:138px; height:20px; padding:10px; position:absolute; top:5px;}
+.bcast_class_content{position:relative; top:50px; margin-bottom:50px;
+	}
+
+.c_l_bcast{ width:460px; margin-right:30px;  float:left; margin-top:45px; margin-left:0px; }
+.c_l_bcast_bottom{  float:left; background:url(/el_studycenter/images/el/borast_bottom_bg.png) no-repeat; width:449px; height:28px; }
+.c_l_bcast{ float:left; width:460px; }
+.c_l_bcast h1{ background: url(/el_studycenter/images/el/borast_headline_livescreen.png) no-repeat; height:35px; width:460px;}
+.c_l_bcast_border { float:left;  background:url(/el_studycenter/images/el/borast_screen_bg.png) no-repeat; width:421px; height:350px; padding:10px; margin:0px 13px;  position:relative; }
+.c_r_bcast{ float:left; width:325px; margin-top:15px; color: #666;}
+.c_r_bcast_border { float:left;  background:url(/el_studycenter/images/el/borast_discussion_bg.png) no-repeat; width:420px; height:345px; padding:10px; margin:-2px 10px 0px;  position:relative; }
+.c_r_bcast h1{ background: url(/el_studycenter/images/el/borast_headline_discuss.png) no-repeat; height:70px; width:454px;}
+.c_r_bcast_diss { overflow-y: scroll; width:390px; height:300px; border:1px solid #ccc; margin-left:5px;}
+
+input.c_r_bcast_send{ background:url(/el_studycenter/images/el/borast_send.png) no-repeat; width: 60px; height:25px; border:none; cursor:pointer; display:block; float:left; margin:0px 0px 0px 10px;  text-indent: -9999px;}
+input.c_r_bcast_send:hover {background-position: 0px -25px;}
+input.c_r_bcast_send:active {background-position: 0px -25px;}
+
+.c_r_bcast_diss_text {  width:400px; height:45px;padding-top:10px;}
+
+.c_r_bcast_diss_input{ width:310px; height:19px; margin-top:30px; float:left;  background:#f2f9fa; border-top:1px solid #b2b2b2; border-left:1px solid #b2b2b2;}
+
+.single_message{border-bottom:1px dotted #b2b2b2; padding:10px; margin:0px  0px 0px 0px; }
+.message_sender{ font-size:14px; font-weight:bold; color:#5e7e68;}
+.message_content{}
+
+/* CLEAR FIX */
+ .group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* LOGIN PAGES-----PORTFOLIO THUMBS */
+.login_head{ font-size:14px; margin-left:37px; float:left; margin-top:46px !important;  margin-top:46px; *margin-top:45px;  color:#666666; border-bottom:3px solid #0582ac; padding:0px 30px; background:url(/el_studycenter/images/el/nav-arrow.png) no-repeat;}
+.login_head x:-moz-any-link, x:default { margin-top:18px; }
+
+
+.portfolio { background:#353535; width: 885px; height:443px; margin-left:20px; text-align:center; }
+.portfolio-list { float: left; }
+.portfolio-list li { width: 220px; height:220px; float: left;  margin-left:1px; margin-top:1px;}
+.portfolio-list li.portfolio-item-01{display:inline;}
+.portfolio-list li.portfolio-item-05{ display:inline;}
+.portfolio-list li img { margin-bottom: 0px; }
+
+.portfolio-item-04{ background:url(/el_studycenter/images/el/login_img_04.jpg) no-repeat; border-bottom: none; }
+.login_content{ height:50px; margin:105px 10px 0px; }
+
+
+.signin_input{border: 1px solid #BBBBBB;
+background:url(/el_studycenter/images/el/input_bg.png) repeat-x;font-family: 'lucida grande',verdana,tahoma,arial,sans-serif;
+    padding: 2px; margin: 0px 5px 5px 5px; height: 18px; float:left;}
+input.inputbutton_reg{ background:url(/el_studycenter/images/el/inputbutton_regist.png) no-repeat; width:50px; height:27px; border:none;  cursor: pointer; text-indent: -9999px;}
+input.sumit_button{ background:url(/el_studycenter/images/el/inputbutton_login.png) no-repeat; width:50px; height:27px; border:none;  cursor: pointer; margin-left:10px; text-indent: -9999px;}
+
+
+input.sumit_button:hover {background-position: 0px -27px;}
+input.sumit_button:active {background-position: 0px -27px;}
+
+input.inputbutton_reg:hover {background-position: 0px -27px;}
+input.inputbutton_reg:active {background-position: 0px -27px;}
+
+.login_content p{ line-height:20px; color:#333; font-size:12px;}
+
+.portfolio-list :before { clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px; }
+.portfolio-list :after { clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px; }
+.portfolio :after { clear: both; display: block; margin: 0; padding: 0; height: 0; line-height: 1px; font-size: 1px; }
+
+/* regist */
+.regist_boder{border: 1px solid #b3b3b3; width:696px;  background:url(/el_studycenter/images/el/regist_text_bg.png) no-repeat; margin:0px 0px 0px 94px; font-size:12px; padding:20px 0px 0px 90px;  height:350px; }
+.regist_boder  h1{ font-size:20px; margin-left:18px;margin-bottom:10px;}
+.regist_boder .left{ float:left; width:80px; text-align:right; padding-top:10px; font-size:12px; color:#333; margin-right:10px; }
+.regist_boder .right{ float:left; width:400px; }
+.regist_boder li{ float:left; width:600px; }
+.regist_input{ width:282px; height:25px; margin:5px 10px 10px 0px; background:url(/el_studycenter/images/el/input_bg.png) no-repeat; border:none;}
+.regist_button_border{ float:left; margin:5px 0px 10px 90px; *margin:5px 0px 10px 45px;}
+input.regist_button{ background:url(/el_studycenter/images/el/regist_button.png) no-repeat; width:151px; height:49px; border:none; cursor: pointer;  text-indent: -9999px; margin:10px 0px 0px 50px;}
+input.regist_button:link {background-position: 0px 0px;}
+input.regist_button:visited {background-position: 0px 0px;}
+input.regist_button:hover {background-position: 0px -62px;}
+input.regist_button:active {background-position: 0px -124px;}
+.regist_text {margin-left:60px;}
+
+.reset_boder{border: 1px solid #b3b3b3; width:696px;  background:url(/el_studycenter/images/el/regist_text_bg.png) no-repeat; margin:0px 0px 0px 94px; font-size:12px; padding:20px 0px 0px 90px;  height:350px; }
+.reset_boder .left{ float:left; width:80px; text-align:right; padding-top:10px; font-size:12px; color:#333; margin-right:10px; }
+.reset_boder h1{ font-size:20px; }
+.reset_boder .right{ float:left; width:500px; }
+
+.reset_input{ width:282px; height:25px; margin:5px 10px 5px 0px; background:url(/el_studycenter/images/el/input_bg.png) no-repeat; border:none;}
+
+.reset_button_border{ float:left; margin:5px 0px 10px 90px; *margin:5px 0px 10px 45px;}
+.tab_nav{ float: left; display:inline; width:360px; margin:30px 0px 20px ; border-bottom:2px solid #000;}
+.tab_nav li{ float: left; display:inline;}
+.usual ul a.selected {
+	    background:  url(/el_studycenter/images/el/tab_selected.png) no-repeat; width:77px; height:21px;
+    color: #FFFFFF;
+    display: block;
+    font: 10px Verdana; text-align:center;
+   padding:4px 0px 0px;
+    text-decoration: none !important;
+	font-size:14px;
+}
+
+.usual ul a {
+    background:  url(/el_studycenter/images/el/tab_hover.png) no-repeat; width:77px; height:21px;
+    color: #ccc;
+    display: block;
+    font: 10px Verdana; text-align:center;
+   padding:4px 0px 0px;
+    text-decoration: none !important;
+	font-size:14px;
+}
+/* 娉ㄥ唽璁剧疆*/
+
+
+
+
+/* INDEX PAGES----- */
+/* DQKC*/
+#index_c_l_dqkc { width:596px; float:left; }
+#index_c_l_dqkc h1{ background:url(/el_studycenter/images/el/headline_dqkc.png) no-repeat; height:47px;}
+#index_c_l_dqkc img{ float:left; border:1px solid #535353;  margin:0px 0px 0px 5px;  }
+#index_c_l_dqkc_text{ float:left; margin:0px 15px ; width:260px;}
+#index_c_l_dqkc h2{ font-size:20px; border-bottom:1px solid #ccc; padding-bottom:3px; margin-bottom:10px;}
+#index_c_l_dqkc h3{font-size:16px;}
+#index_c_l_dqkc p{font-size:14px; color:#5e7e68; line-height:20px;}
+
+.study_button a{ cursor: pointer;  margin-top:10px; width:113px; height:45px; background: url(/el_studycenter/images/el/button_yellow_big.png) no-repeat; text-indent: -9999px; display:block;}
+.study_button a:hover {background-position: 0px -45px; }
+.study_button a:active {background-position: 0px -90px;}
+
+.study_button_small a{ position:relative;  margin-top:10px; width:55px; height:21px; float:left; background: url(/el_studycenter/images/el/button_blue_small.png) no-repeat; text-indent: -9999px;  cursor: pointer; }
+.study_button_small a:visited {background-position: 0px 0px;}
+.study_button_small a:hover {background-position: 0px -21px;}
+.study_button_small a:active {background-position: 0px -42px;}
+
+
+#index_c_l_dqkc .button img{ border:none;}
+ .headline_bottom{ float:left; background:url(/el_studycenter/images/el/headline_bottom.png) no-repeat;  width:596px; height:30px;}
+/* DQKC*/
+
+/* XJKC*/
+#index_c_l_xjke{ width:293px; float:left;}
+#index_c_l_xjke h1{ background:url(/el_studycenter/images/el/headline_xjkc.png) no-repeat; height:40px; margin-top:5px;}
+#index_c_l_xjke img{ float:left; border:1px solid #535353; margin:0px 0px 0px 5px;  }
+#index_c_l_xjke_text{ float:left; margin:0px 10px ; width:140px;}
+#index_c_l_xjke h2{ font-size:14px; border-bottom:1px solid #ccc; padding-bottom:2px; margin-bottom:2px; }
+#index_c_l_xjke p{font-size:12px; color:#5e7e68; line-height:14px; height:23px;}
+#index_c_l_xjke .button{ margin-top:10px; width:107px; height:46px; float:left;}
+#index_c_l_xjke .button img{ border:none;}
+ .headline_bottom_small{ float:left; background:url(/el_studycenter/images/el/headline_bottom_small.png) no-repeat;  width:293px; height:30px;}
+/* XJKC*/
+
+
+/* SJKC*/
+#index_c_l_sjke{ width:291px; float:right;}
+#index_c_l_sjke h1{ background:url(/el_studycenter/images/el/headline_sjkc.png) no-repeat; height:40px; margin-top:5px;}
+#index_c_l_sjke img{ float:left; border:1px solid #535353;  margin:0px 0px 0px 5px;  }
+#index_c_l_sjke_text{ float:left; margin:0px 10px ; width:140px;}
+#index_c_l_sjke h2{ font-size:14px; border-bottom:1px solid #ccc; padding-bottom:2px; margin-bottom:2px; }
+#index_c_l_sjke p{font-size:12px; color:#5e7e68; line-height:14px;  height:23px;}
+#index_c_l_sjke .button{ margin-top:10px; width:107px; height:46px; float:left;}
+#index_c_l_sjke .button img{ border:none;}
+ .c_l_sjke_bottom{ float:left; background:url(/el_studycenter/images/el/headline_bottom_small.png) no-repeat; width:291px; height:30px;}
+/* SJKC*/
+
+
+/* KCXX*/
+#index_c_r_kcxx{ border:1px solid #c4c4c4; background:#FFF; padding-bottom:20px;}
+#index_c_r_kcxx h1{ background:url(/el_studycenter/images/el/headline_kcxx.jpg) no-repeat; height:47px; }
+#index_c_r_kcxx h2{ width:290px; border-bottom:1px solid #c4c4c4; padding-left:10px; margin-left:10px; font-size:14px; font-weight: bold;}
+#index_c_r_kcxx ul{width:290px; height:25px; border-bottom:1px solid #c4c4c4; padding-left:10px; margin-left:10px; }
+#index_c_r_kcxx li { float:left;  margin-right:30px; height:20px; margin-top:8px; color:#5e7e68;}
+#index_c_r_kcxx .course { float:left; width:90px; margin-right:15px;  }
+#index_c_r_kcxx .progress { float:left; width:30px;  margin-right:15px; }
+#index_c_r_kcxx .date { float:left; width:120px; margin-right:15px;  }
+
+#index_c_r_kcxx .color66{ font-weight: bold; color:#666666; margin-right:50px;}
+#index_c_r_kcxx .headline_black{ font-weight: bold; color:#000;}
+
+/* KCXX*/
+/* KCXX*/
+
+/* LSJL*/
+#index_c_r_lsjl{ border:1px solid #c4c4c4; background:#FFF; padding-bottom:50px; margin-bottom:10px;}
+#index_c_r_lsjl h1{ background:url(/el_studycenter/images/el/headline_lshjl.jpg) no-repeat; height:47px; }
+#index_c_r_lsjl .c_r_lsjl_ul {border-bottom:1px solid #c4c4c4; width:270px; background:url(/el_studycenter/images/el/right_icon.png) no-repeat left top;}
+#index_c_r_lsjl .c_r_lsjl_ul  a{ color:#666666; font-size:14px; width:200px;}
+#index_c_r_lsjl .c_r_lsjl_ul  a:hover { color:#08c; text-decoration:underline;}
+
+#index_c_r_lsjl ul .headline {margin:0px 25px 0px 10px; line-height:25px;color:#5e7e68; background: url(/el_studycenter/images/el/right_icon.png) no-repeat; width:290px;  padding-left: 30px;}
+
+.solid {width:270px;  border-bottom: 1px solid #C4C4C4; margin:0px 25px 0px 10px; line-height:25px;color:#5e7e68; padding-left: 30px; margin-bottom:5px; }
+
+.chkankech_button a{z-index:-999; float:right; width:60px;  height:21px; line-height:20px;  background: url(/el_studycenter/images/el/chkan_button.png) no-repeat; text-indent: -9999px;  cursor: pointer; }
+.chkankech_button a:visited {background-position: 0px 0px;}
+.chkankech_button a:hover {background-position: 0px -21px;}
+.chkankech_button a:active {background-position: 0px -42px;}
+
+/* LSJL*/
+
+/* 鎴戠殑璇剧▼ PAGES----- */
+
+/* KCHZHUANGTAI*/
+#course_c_l_kechzht{ width:596px; float:left; }
+#course_c_l_kechzht h1{ background:url(/el_studycenter/images/el/headline_kechzht.png) no-repeat; height:47px;}
+#course_c_l_kechzht p{font-size:14px; color:#5e7e68; line-height:20px; }
+#course_c_l_kechzht .button{ margin-top:10px; width:107px; height:46px; float:left;}
+#course_c_l_kechzht .button img{ border:none;}
+.table90 {
+	margin:0px auto;
+	width:98%;
+	border-collapse:collapse;
+	margin-bottom:16px;
+	font-size:12px;
+}
+.table90_bgcolour { background: url(/el_studycenter/images/el/table_bg.jpg) repeat-x; font-weight:bold;}
+.table90 td {
+
+	padding:5px;
+	border:1px solid #acb9c2;
+	background-color:#f2f6f9;
+}
+
+
+.table90 th {
+	padding:8px;
+	font-size:14px;
+	border:1px solid #acb9c2;
+	
+}
+.colour_red{ color:#F00; }
+
+.table90 a:link { color:#3366CC; text-decoration:none; }
+.table90 a:visited { color:#3366CC; text-decoration:none; }
+.table90 a:hover { color:#3366CC; text-decoration:none; }
+
+.a_clolr_red a:link { color:#F00; text-decoration:none; }
+.a_clolr_red a:visited { color:#F00; text-decoration:none; }
+.a_clolr_red a:hover { color:#F00; text-decoration:none; }
+
+/* KCHZHUANGTAI*/
+
+/* KECHLIBIAO*/
+#course_c_l_kechlieb{ width:596px; float:left; }
+#course_c_l_kechlieb h1{background:url(/el_studycenter/images/el/headline_kechlibiao.png) no-repeat; height:33px; padding:13px 0px 0px 35px; font-size:15px;}
+
+#course_c_l_kechlieb ul { margin-left:5px;}
+#course_c_l_kechlieb h4 { font-size:14px;}
+#course_c_l_kechlieb li { float:left; margin-right:16px;}
+#course_c_l_kechlieb img { border:1px solid #1f1f1f;   }
+#course_c_l_kechlieb .button{ margin-top:10px; width:107px; height:46px; float:left;}
+#course_c_l_kechlieb .button img{ border:none;}
+
+/* KECHLIBIAO*/
+
+
+/* JIHUOKECH*/
+#course_c_r_jihuoke{ border:1px solid #c4c4c4; background:#FFF; padding-bottom:20px;}
+#course_c_r_jihuoke h1{ background:url(/el_studycenter/images/el/headline_jhkech.jpg) no-repeat; height:47px; }
+#course_c_r_jihuoke p{ margin: 10px 20px; font-size:12px;}
+#course_c_r_jihuoke form{margin:10px 20px;}
+.activation_text{ border:1px solid #ccc; width:160px; height:16px;}
+.activation_button{ background:url(/el_studycenter/images/el/activation.png) no-repeat; width:46px; height:21px; border:none; margin:0px 10px 10px 10px; cursor: pointer; text-indent: -9999px; padding-bottom:2px;}
+/* JIHUOKECH*/
+
+/* FOOTER */
+.footer_bg{width:100%; background:url(/el_studycenter/images/el/bottom_bg.jpg) no-repeat; position:fixed; bottom:0px;z-index:999;}
+.footer_content{ width:1000px; background:url(/el_studycenter/images/el/bottom_bg_center.jpg)  no-repeat; height:56px;  margin:auto;}
+.footer_content p{ font-size:12px; float:left; width:400px; color:#696969;  padding-top:18px; }
+.footer_content a{ color:#696969;  }
+.footer_content a:hover{ color: #08c;  text-decoration: underline;  }
+
+.f_ul{ width:300px; padding-top:15px;  float:left; padding-left:100px;}
+.f_li{ display:inline; margin-left:13px; font-size:12px;}

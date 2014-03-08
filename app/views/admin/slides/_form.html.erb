@@ -1,0 +1,43 @@
+<%= form_for(@slide, :url => {:action => params[:action] == "edit" ? :update : :create}, :html => {:multipart => true}) do |f| %>
+	<% if @slide.errors.any? %>
+	<div id="error_explanation">
+		<ul>
+			<% @slide.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+			<% end %>
+		</ul>
+	</div>
+	<% end %>
+	<br />
+	<div class="field">
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+	</div>
+	<div class="field">
+		<%= f.label :lesson_id %>
+		<%= f.number_field :lesson_id %>
+	</div>
+	<div class="field">
+		<%= f.label :download %>
+		<%= f.select( :download, { "false"=>false,"true" =>true }) %>		
+	</div>
+	<div class="field">
+		<%= f.label :course_type %>
+		<%= f.select( :course_type, { "ellis"=>"ellis","cambridge" =>"cambridge","let's go"=>"lets go","business venture"=>"business venture" }) %>		
+	</div>
+	<div class="field">
+		<%= f.label :ppt, "PPT" %>
+		<%= f.file_field :ppt %>
+	</div>
+
+
+	<% if params[:action] == "edit"%>
+	<div>
+		<%= render :partial => "swf", :locals => {:slide => @slide, :width => 300, :height => 150} %>
+	</div>
+	<% end %>
+
+	<div class="actions">
+		<%= f.submit %>
+	</div>
+	<% end %>

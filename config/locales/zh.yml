@@ -1,0 +1,369 @@
+zh:
+  signup: 注册
+  signin: 登录
+  setting: 设置
+  password: 密码
+  signout: 退出
+  back: 返回
+
+  profile: 个人信息
+  password_update: 密码修改
+  
+  # layout
+  aboutEleutian: 关于我们
+  rules: 条款
+  privacy: 隐私政策
+  customer_support: 支持
+  contact: 联系我们
+  about_us: 关于我们
+  teachers: 我们的教师
+  individuals: 个人
+  group: 组
+  assessment: 评估
+  
+  welcome_enter: 欢迎进入
+  welcome_register: 欢迎注册
+  welcome: 欢迎
+  study_center: 学习中心
+  right_reserved: 版权所有
+
+
+  course_status: 课程状态
+  course_notice: 通知
+  course_activation: 激活课程
+  current_status: 学习状态
+  
+  # signin introduction
+  introduction1: "交换搭档"
+  introduction1a: "我们与美国怀俄明州西北大学教师培训中心合作。 我们开发的认证教师培训课程采用最新的最佳方法，给英语学生教授英语课程。"
+  introduction2: "认证 "
+  introduction2a: "所有教师有大学学历和教师资格"
+  introduction3: "专业化"
+  introduction3a: "给英语学生提供专业化培训"  
+  introduction5: "定制"
+  introduction5a: "教师在每次上课之前查看学生的进度，有针对性地准备每个视频会话。学生可以提问题"
+  introduction6: "方便的时间安排"
+  introduction6a: "选择一位教师，以及方便的日期和时间。"
+  introduction7: "互动学习课程"
+  introduction7a: "通过个性化授课和与美国公立学校教师进行一对一视频会话提高水平"
+  
+  salon1: "交换搭档"
+  salon1a: "我们与美国怀俄明州西北大学教师培训中心合作。 我们开发的认证教师培训课程采用最新的最佳方法，给英语学生教授英语课程。"
+  salon2: "认证 "
+  salon2a: "所有教师有大学学历和教师资格"
+  salon3: "专业化"
+  salon3a: "给英语学生提供专业化培训"  
+  salon5: "定制"
+  salon5a: "教师在每次上课之前查看学生的进度，有针对性地准备每个视频会话。学生可以提问题"
+  salon6: "方便的时间安排"
+  salon6a: "选择一位教师，以及方便的日期和时间。"
+  salon7: "互动学习课程"
+  salon7a: "通过个性化授课和与美国公立学校教师进行一对一视频会话提高水平"
+  
+  # home view
+  start_study: 开始学习
+  last_class_time: 上次上课时间
+  next_class_time: 下次上课时间
+  
+  class_name: 课程名
+  progress: 进度
+  due_time: 到期时间
+  
+  current_class: 当前课程
+  next_class: 下节课程
+  prev_class: 上节课程 
+
+  history_record: 学习记录
+  
+  # course_package view
+  course_package: 课程包
+  description: 描述
+  action: "操作"
+  expired: 有效期  
+  class: 课节
+  input_your_active_code: 请输入您的课程激活码
+  
+  register_code_is_not_exist: 注册码不存在
+  login_already_exists: 用户名已经被使用。
+  email_already_exists: Email 已经被使用。
+  user_is_full: 激活用户已满
+  register_code_used: 激活码已被使用
+  register_code_out_of_date: 激活码已过期
+  successful: 成功
+  try_again: 激活失败，请重试！
+  activate: 激活
+  course_test: 水平测试
+  test_introduction: Hello, and welcome to SpeakENG. Your first step to learning English is to allow us to evaluate your current SpeakENG level. In order to do so, we have created a test that will test your English speaking ability. 
+  assessment: 评估
+  assessment_introduction: SpeakENG评估系统准确确定学生的英语理解水平，以及使用根据其反应量身定做的题目的能力。    
+  
+  # nav
+  learning_portal: 学习中心
+  my_course_package: 我的课程
+  user:  用户信息
+  live_broadcast: 外教授课
+  ppt: 教材中心
+  
+  set_as_current_course: 设为当前课程
+  # slide
+  slide: 教案
+  please_wait: 处理中，请稍候
+  
+  #user setting
+  setting: 设置
+  user_info: 用户信息
+  change_password: 修改密码
+      
+  # live Broadcast
+  live_broadcasting: Live Broadcasting
+  live_discussion: Live Discussion
+  teacher_ppt: Lesson plan
+  broadcast_not_in_time: Live Broadcast将在%{time}开始
+  broadcast_in_time: Live Broadcast 正在加载⋯⋯
+  send: 发送
+  says: 说
+  ask: 提问
+  questions: 提问：
+  discussion: 讨论
+  lesson_time_left: 本课剩余时间：
+
+  #broadcasts:
+    #no_schedule:
+  no_schedule: 您的课程已经结束，如有疑问，请联系客服人员。
+  course_packages:
+    index:
+      course_packages: 课程列表
+  type_your_register_code: "请输入您的课程激活码:"
+  activate: 激活
+  # schedules
+  create_schedule: 新建课程
+  down_template: 下载EXCEL上传模板
+  schedule: 课程表
+  Mon: 周一
+  Tue: 周二
+  Wed: 周三
+  Ths: 周四
+  Fri: 周五
+  Sat: 周六
+  Sun: 周日
+  
+  # course package
+  speakeng: 1对1课程
+  views:
+      pagination:
+        previous: "&laquo; 上一页"
+        next: "下一页 &raquo;"
+        first: "第一页"
+        last: "最后页"
+        truncate: "..."
+
+  # forum
+  forum: "欢迎来到论坛"
+  food: "食品"
+  sport: "运动"
+  art: "艺术"
+  weather: "天气"
+  
+  #signup
+  regist: "注册"
+  login: "用户名"
+  registername: " 用户名"
+  name: "姓名"
+  mail: "Email"
+  password: "密码"
+  password_confirmation: "确认密码"
+  given_name: "姓名"
+  qq: "QQ"
+  msn: "MSN"
+  mobile: "手机号码"
+  locale: "语言"
+  time_zone: "时区"
+  
+  login_rule: 6~16个字符，包括字母、数字，区分大小写
+  login_error: 用户名格式不正确
+  login_exist: 用户名已存在，请重新输入！
+  mail_warning: 邮箱用于找回密码等重要操作，请谨慎填写！
+  mail_exist: 邮箱已存在，请重新输入！
+  mail_rule_error: 邮箱格式不正确
+  password_rule: 6~16个字符，包括字母、数字、特殊符号，区分大小写
+  password_length_error: 密码长度不正确
+  password_confirm: 请确认密码
+  password_confirm_error: 密码确认不一致
+  select_cautious: 请慎重选择，将决定语言版本
+  
+  requirement: 系统需求
+  
+  #login
+  invalid_user: 用户名或密码错误！
+  
+  # admin/questions
+  question: "测试题"
+  prompt: "题目"
+  logit: "Logit"
+  sounds: "声音文件"
+  instruction_sounds: "Instruction Sounds"
+  options: "选项"
+  
+  # admin layout
+  issue: "咨询疑问"
+  notice: "通知"
+  record: "上课记录"
+  quiz: "练习题"
+  
+  # admin/records
+  student: "学生用户名"
+  join_at: "进入课堂时间"
+  leave_at: "离开课堂时间"
+  register_at: "注册时间"
+  duration: "上课时间"
+  
+  # replaces
+  take_test: "开始测试" 
+  score: "分数" 
+  level: "等级"
+  created_at: "测试日期"
+  
+  replace_test: "Placement Test"
+  submit: "提交"
+  next: "继续"
+  congratulations: "恭喜你完成水平测试!"
+  enroll_speakeng: "你的成绩可以学习 "
+  overall_level: "你等级是 "
+  skill_name: "测试项目" 
+  s99: "入门级"
+  s101: "初级(一)"
+  s102: "初级(二)"
+  s201: "中级"
+  s301: "高级(一)"
+  s302: "高级(二)"
+  s303: "高级(三)"
+  
+  # issues
+  report_issue: "报告建议"
+  
+  # ehome
+  self_study: "Self Study"
+  self_study_desc_1: "SpeakENG self study content combines digital audio, video, voice recording, role-play, and native language support to create an engaging and effective tool to help you learn English. "
+  self_study_desc_2: "After studying SpeakENG lessons, be sure to watch the corresponding TeachCast live broadcast sessions to further improve your English speaking and comprehension skills."
+  enter_self_study: "Enter Self Study"
+  live_broadcast_desc_1: "TeachCast live broadcasts give you the opportunity to learn English from a native, US-board-certified teacher. View the calendar to check times for upcoming sessions that correspond to the self study lessons you are enrolled in."
+  upcoming_sessions: "Upcoming Sessions:"
+  no_sessions: "There are no sessions"
+  join_the_broadcast: "Join the Broadcast"
+  
+  # webex
+  month_schedule: "当月课表"
+  download_plugins: "上课前请先下载插件"
+  enroll_id: 注册ID
+  
+  # admin/customers
+  customer: "客户"
+  count: "激活总数" 
+  
+  # requirement
+  teachcast_system_requirements: TeachCast系统要求
+  requirements_for_using_system: "TeachCast系统使用要求:"
+  approved_browser: "支持的浏览器:"
+  chrome: 谷歌浏览器
+  firefox: 火狐浏览器 (v8.0+)
+  safari: Safari
+  IE: Internet Explorer 8 & Internet Explorer 9
+  internet_speed_requirement: "网速要求:"
+  connection_speeds: 连接速度大于 160kb/s
+  speed_test: "点击这里测试您的网速:"
+  flash_requirement: "Flash 要求:"
+  flash_version: "Flash 10.3 以上版本, 获取最新版本"
+  windows_users: "Windows 用户"
+  supported_platforms: "支持的系统:"
+  windows_system: Windows XP, Windows Vista & Windows 7 
+  cpu_requirement: 2.2 GHz Pentium 4, 1.83 GHz Intel Intel Core Duo 或者是同等配置
+  ram_requirement: 512MB 内存或者更高
+  graphics_requirement: 64MB 显卡
+  min_windows_requirment: "最低 Windows 系统配置:"
+  min_ram_requirement: 512MB 内存
+  min_graphics_requirement: 64MB 显卡
+  recommended_windows_requirment: "推荐的 Windows 系统配置 :"
+  recommended_cpu_requirement: 2.8 GHz Pentium 4 或者更高频率的处理器
+  recommended_ram_requirement: 1024MB 内存
+  recommended_graphics_requirement: 128MB 显卡
+  mac_users: Mac 系统用户
+  mac_system: 10.4 (Tiger 或者更高版本)
+  mac_cpu_requirement: 2.2 GHz Pentium 4, 1.83 GHz Intel Core Duo 或者同等配置
+  mac_ram_requirement: 512MB 内存或者更高
+  mac_graphics_requirement: 64MB 显卡
+  min_mac_requirment: "最低 Mac 系统配置:"
+  min_mac_cpu_requirement: 1.83 GHz Intel Core Duo
+  recommended_mac_requirment: "推荐的 Mac 系统配置:"
+  recommended_mac_cpu_requirement: 2.0 GHz Intel Core 2 Duo 或者更高频率的处理器
+  recommended_mac_ram_requirement: 1024MB 内存或更高
+  recommended_mac_graphics_requirement: 128MB 显卡 
+  question: 问题
+  how_to_use_tc: 如何使用 TeachCAST?
+  downdoad_instructions: 使用说明书下载
+  question_1: 视频不流畅，声音卡怎么办?
+  answer_1: TeachCAST 要求您至少 160Kb/s 的速度连接到我们的服务器. 要想获得高质量的视频体验，您应该至少 1.28Mb/s 的下载速度。 点击这里测试您的网速
+  question_2: 应该使用什么样的浏览器?
+  answer_2: 我们推荐使用谷歌浏览器或者火狐浏览器，如果是Mac用户您也可以使用Safari， 如果要使用IE，请您至少要升级到IE8。
+  question_3: 能使用手机或者平板电脑上课吗? 
+  answer_3: 我们正在努力实现在移动设备上上课。
+  question_4: 在火狐上安装flash插件会死机，怎么办？
+  answer_4_1: "升级Flash 转到 <a href='http://www.adobe.com/' target='_blank'>Adobe.com</a> 上的 <a href='http://get.adobe.com/flashplayer' target='_blank'>Flash Player 下载</a>页面，然后下载 Flash 安装程序。"
+  answer_4_2: "更新Firefox 在菜单栏，点击Firefox菜单后选择 关于Firefox，Firefox立即开始检查更新，如果更新存在则Firefox会自动下载更新。"
+  question_5: 如果您有任何问题或建议
+  answer_5: 请与我们联系 teachcast@eleutian.com
+  
+  #progress
+  progress:
+      table: "表格形式"
+      chart: "图表形式"
+      details: 查看
+      course_package: 课程包
+      self_study: 自学课程
+      live_class: 外教课程
+      test: 测试
+      title: 标题
+      lesson: 课程
+      study_progress: 学习进度
+     
+  #progress_records
+  progress_records:      
+      recent_week: "最近一周"
+      recent_month: "最近一月"
+      self_study: "自学课程"
+      live_class: "外教课程"
+      all_record: "全部课程"
+      
+  #admin/customers
+  recent_weekly: "最近一周"
+  recent_monthly: "最近一月"
+  recent_yearly: "最近一年"   
+  customer: "客户"
+  course_package: "课程包"
+  count: "个数"
+  total: "总数"
+  a_date: "日期"      
+  
+  #admin/mail_templates
+  mail_template: "邮件模板"
+  new_template: "新建模板"
+  send_test_mail_to: "发送测试邮件到"
+  template_name: "模板名称"
+  used_by: "属于"
+  variables: "变量"
+  in_use: "使用"
+  operation: "操作"
+  preview: "预览"
+  delete: "删除"
+  title: "标题"
+  mail_templates:
+    name: "模板名称"
+  #admin/mail_records
+  mail_records: "邮件记录"
+  mail_record: "邮件记录"
+  mail_title: "邮件标题"
+  mail_from: "邮件来自"
+  mail_to: "邮件至"
+  status: "状态"
+  error_message: "错误信息"
+  sent_at: "发送时间"
+      

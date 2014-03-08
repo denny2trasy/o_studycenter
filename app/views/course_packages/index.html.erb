@@ -1,0 +1,46 @@
+
+  <div class="content_left">
+    <div id="course_status">
+      <h1  class="headline_h1a"><%=t(:course_status)%></h1>
+      <table width="80%" border="0" cellspacing="0" cellpadding="0" class="table90">
+        <tr>
+          <td class="table90_bgcolour"><%=t(:course_package)%></td>          
+		  <td class="table90_bgcolour"><%=t(:expired)%></td>
+          <td class="table90_bgcolour"><%=t(:class)%></td>
+          <td class="table90_bgcolour"><%=t(:progress)%></td>
+		  <td class="table90_bgcolour"><%=t(:action)%></td>
+        </tr>
+        <% @course_packages.each do |course_package| %>
+          <tr class="odd">
+            <td> 
+				<%= link_to_function("#{course_package.name}","$('#course_group_list_#{course_package.id}').slideToggle('slow')")%>
+			</td>            
+			<td><%= distance_of_time_in_words_to_now(course_package.expired_for(current_user),false)%></td>
+            <td><%= course_package.lesson_number%> <%= course_package.is_speakeng_course ? link_to(t(:speakeng),sso_path) : ""%></td>
+            <td><%= course_package.study_progress(current_user.id)%>%</td>
+			<td> <%= link_to_unless current_user.current_course_package?(course_package), t(:set_as_current_course), current_course_package_path(course_package), :method => :put %> </td>
+          </tr>
+		<tr class="even">
+			<td colspan="5">
+		<div id='course_group_list_<%= course_package.id %>'>  
+			<ul class="liststyle1">
+			<% course_package.item_groups.each do |i_group|%>
+				<li>
+					<%= link_to(i_group.name,course_package_path(course_package,:item_group_id => i_group.id))%>
+				</li>	
+			<% end %>
+			</ul>
+		</div>
+		</td>
+		</tr>
+
+
+        <% end %>
+      </table>
+	<div class="headline_bottom"></div>
+    </div><!--c_l_dqkc-->
+    
+
+  </div><!--left-->
+  <%= render "form" %>
+

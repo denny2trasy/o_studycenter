@@ -1,0 +1,31 @@
+<div class="content_right_a">
+	<h1 class="headline_h1"><%=t(:live_discussion)%></h1>
+	<div class="right_boder" >
+		 <h2><%=t(:questions)%> </h2>
+		<div id="ask_messages"></div>	
+		   <div id="subscribers" class="publisherContainer" style="top:10px;left:290px;width:200px;height: 156px;position: absolute;">
+			<p id="info" style="padding-top:50px">
+				Loading...
+			</p>
+		  </div>
+		<h2><%= t(:discussion)%></h2>
+		<div id="messages" class="messages_text"></div>
+		<div class="c_r_bcast_diss_text">
+			<form id="message_form" onsubmit="return false;">
+				<%= hidden_field_tag "message[schedule_id]", value = (@lesson.blank? ? 0 : @lesson.id) %>
+				<%= text_field_tag "message[content]", '', :class => 'c_r_bcast_diss_input' %>
+				<%= hidden_field_tag "message[msg_type]", value = false%>
+					
+				<input id="msg_button" class="c_r_bcast_send" type="button" value="<%= t(:send)%>" >
+				<input id="ask_button" class="c_r_bcast_send" type="button" value="<%= t(:ask)%>" >
+			</form>
+		</div>
+	</div>
+	<div class="headline_bottom_bcast"></div>
+	<div class="refresh"> 
+              <h1>Common Broadcast Questions and Fixes:</h1>
+              <p>Having video problems?  Want to see a list of common questions for our teachers?  Click here to <%= popup "learn more",helper_broadcasts_path ,:class=>"more"%></p>
+        </div>	
+</div><!--right-->
+
+<%=javascript_include_tag 'el/msg_submit'%>

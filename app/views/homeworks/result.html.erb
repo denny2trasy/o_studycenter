@@ -1,0 +1,29 @@
+	<% @examination_quizzes.each do |eq|%>
+		<%= eq.position%>
+		<%= eq.quiz.prompt%>
+		<%  submits = ActiveSupport::JSON.decode(eq.submit_answer)%>
+		<% eq.quiz.sub_quizzes.each do |sub_q|%>
+			<%= sub_q.title%>
+			<% sub_q.sub_quiz_answers.each do |answer|%>
+			<% if answer.images.present? %>
+				<img src="<%= answer.images%>" class="img-rounded" width="100" length="100">
+			<% end%>
+				<% if answer.is_correct == true%>
+					<div><!--标记正确答案 -->
+						<%= answer.title%>
+					</div>
+				<% else%>
+					<%= answer.title%>
+				<% end%>	
+			<% end%>
+			your answer is:
+			<% answer = sub_q.sub_quiz_answers.find_by_id(submits["sub_quiz_#{sub_q.id}"].to_i)%>
+			<% if answer.images.present? %>
+				<img src="<%= answer.images%>" class="img-rounded" width="100" length="100">
+			<% else%>
+				<%= answer.title%>
+			<% end%>
+			</br>
+			
+		<% end%>
+	<% end%>

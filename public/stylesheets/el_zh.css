@@ -1,0 +1,110 @@
+	/*  topnav  */
+	#top_nav {width: 130px; height: 23px; background: url(/el_studycenter/images/el/zh/top_nav_bg.jpg) no-repeat; float: right; padding-top: 12px; position:absolute; z-index:111; margin-right:30px; right:0;}
+	#top_nav a { color:#8aa3ac; width: 20px; margin: 0px 10px;display: inline; height: 10px;  font-size:11px; text-decoration:none;}
+	#top_nav a:hover { color:#0088cc; }
+
+		/* nav  normal  */
+		#nav-study a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat; background-position: 0px 0px;  display: block;  height: 36px; }
+		#nav-course a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat;   background-position: -121px 0px;  display: block;  height: 36px; }
+		#nav-live a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat;   background-position: -242px 0px;  display: block;  height: 36px;}
+		#nav-forum a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat;   background-position: -363px 0px;  display: block;  height: 36px;}
+		/*  hover  */
+		#nav-study a:hover {background-position: 0px -44px; }
+		#nav-course a:hover {background-position: -121px -44px;}
+		#nav-live a:hover {background-position: -242px -44px;}
+		#nav-forum a:hover {background-position: -363px -44px;}
+		/*  visit  */
+		#study_current a { width: 121px; background: url(../images/el/zh/nav.png) no-repeat;  background-position: 0px -88px;  display: block; height: 39px; }
+		#course_current a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat;  background-position: -121px -88px;  display: block;  height: 39px;}
+		#live_current a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat;  background-position: -242px -88px;  display: block;  height: 39px;}
+		#forum-current a {width: 121px; background: url(../images/el/zh/nav.png) no-repeat;  background-position: -363px -88px;  display: block;  height: 39px;}	
+	
+		/* PPT nav  normal  */
+		#nav-study_v2 a {width: 96px;background: url(../images/el/zh/nav_ppt.png) no-repeat; background-position: 0px 0px;  display: block;  height: 36px; }
+		#nav-live_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;   background-position: -96px 0px;  display: block;  height: 36px; }
+		#nav-progress_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;   background-position: -192px 0px;  display: block;  height: 36px; }
+		#nav-ppt_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;   background-position: -288px 0px;  display: block;  height: 36px; }
+		#nav-forum_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;   background-position: -384px 0px;  display: block;  height: 36px;}
+		#nav-qa_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;   background-position: -480px 0px;  display: block;  height: 36px}
+
+		/*  hover  */
+		#nav-study_v2 a:hover {background-position: 0px -44px; }
+		#nav-live_v2 a:hover {background-position: -96px -44px;}
+		#nav-progress_v2 a:hover {background-position: -192px -44px;}
+		#nav-ppt_v2 a:hover {background-position: -288px -44px;}
+		#nav-forum_v2 a:hover {background-position: -384px -44px;}
+		#nav-qa_v2 a:hover {background-position: -480px -44px;}
+
+		/*  visit  */
+		#study_current_v2 a { width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;  background-position: 0px -88px;  display: block; height: 39px; }
+		#live_current_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;  background-position: -96px -88px;  display: block;  height: 39px;}
+		#progress_current_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;  background-position: -192px -88px;  display: block;  height: 39px;}
+		#ppt_current_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;  background-position: -288px -88px;  display: block;  height: 39px;}
+		#forum_current_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;  background-position: -384px -88px;  display: block;  height: 39px;}
+		#qa-current_v2 a {width: 96px; background: url(../images/el/zh/nav_ppt.png) no-repeat;  background-position: -480px -88px;  display: block;  height: 39px;}
+
+					/* xinhangdao nav  normal  */
+								#nav-study_combridge a {width: 105px;background: url(../images/el/zh/nav_combridge.png) no-repeat; background-position: 0px 0px;  display: block;  height: 36px; }
+								#nav-live_combridge a {width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;   background-position: -105px 0px;  display: block;  height: 36px; }
+								#nav-forum_combridge a {width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;   background-position: -210px 0px;  display: block;  height: 36px; }
+								#nav-support_combridge a {width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;   background-position: -315px 0px;  display: block;  height: 36px;}
+
+								/*  hover  */
+								#nav-study_combridge a:hover {background-position: 0px -44px; }
+								#nav-live_combridge a:hover {background-position: -105px -44px;}
+								#nav-forum_combridge a:hover {background-position: -210px -44px;}
+								#nav-support_combridge a:hover {background-position: -315px -44px;}
+
+								/*  visit  */
+								#study_current_combridge a { width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;  background-position: 0px -88px;  display: block; height: 39px; }
+								#live_current_combridge a {width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;  background-position: -105px -88px;  display: block;  height: 39px;}
+								#forum_current_combridge a {width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;  background-position: -210px -88px;  display: block;  height: 39px;}
+								#support_current_combridge a {width: 105px; background: url(../images/el/zh/nav_combridge.png) no-repeat;  background-position: -315px -88px;  display: block;  height: 39px;}
+	
+	/*  home study*/	
+	.study_button a {color:#666; font-size:14px; line-height:14px; bottom:5px;  cursor: pointer; margin-top: 10px; width: 98px; height: 33px; background: url(/el_studycenter/images/el/button/study_button_a.png) no-repeat; display: block; position:absolute;  padding:15px 0px 0px 24px;  text-decoration:none; position:absolute; bottom:0px; margin-top: 10px; float: left;}
+	.study_button a:hover {background-position: 0px -50px;}
+	
+	.study_button_small a { color:#666; padding:5px 0px 0px 9px; font-size:10px; line-height:12px; text-decoration:none; position:absolute; bottom:0px; width: 55px; height: 18px; float: left; background: url(/el_studycenter/images/el/button/study_button_b.png) no-repeat;  cursor: pointer;}
+	.study_button_small a:visited {background-position: 0px 0px;}
+	.study_button_small a:hover {background-position: 0px -22px;  text-decoration:none; }
+	
+/*  login  regist*/	
+.loginbox08 {width: 230px; height: 230px; margin:1px 0px 0px 1px; float:left; border: solid 0px #8399AF; overflow: hidden; position: relative; background: url(/el_studycenter/images/el/zh/login_img_08.jpg) no-repeat; }
+.regist_hedlineh1{ background:url(/el_studycenter/images/el/zh/regist_h1.png) no-repeat bottom; width:155px; height:52px; text-indent:-999px; margin:0px 0px 0px 8px; text-indent:-999px;}
+	.reset_boder {border: 1px solid #b3b3b3; background: url(/el_studycenter/images/el/regist_reset_bg.png) no-repeat; margin: 0px 0px 0px 9px; font-size: 11px; padding: 20px 0px 0px 80px;height: 390px;}
+		.reset_hedlineh1{ background:url(/el_studycenter/images/el/zh/reset_h1.png) no-repeat bottom; width:155px; height:52px; text-indent:-999px; margin-left:8px;}
+			.tab_nav {float: left; display: inline; width: 300px; margin: 30px 0px 20px 65px; border-bottom: 2px solid #9db0bc;}
+			.tab_nav li { float: left; display: inline; }
+			.usual ul a.selected { background: url(/el_studycenter/images/el/zh/tab_selected.png) no-repeat; width: 150px; height:22px; color: #000; display: block; font: 10px Verdana; font-weight:bold; text-align: center; padding: 4px 0px 0px; text-decoration: none  !important; font-size: 12px;}
+			.usual ul a {background: url(/el_studycenter/images/el/zh/tab_hover.png) no-repeat; width: 150px; height: 22px; color: #000; font-weight:bold; display: block; font: 10px Verdana; text-align: center; padding: 4px 0px 0px; text-decoration: none  !important; font-size: 12px;}
+		
+/* input and button */
+
+ 	/* bcast pages */
+	.bcast_fullcalendar_button {background: url(/el_studycenter/images/el/zh/borast_class_button.png) no-repeat; width: 138px; height: 40px; position: absolute; top:15px; right:0px;}
+	input.c_r_bcast_send:hover {background-position: 0px -25px;}
+	input.c_r_bcast_send:active {background-position: 0px -25px;}	
+	input.c_r_bcast_send {background: url(/el_studycenter/images/el/button/borast_send.png) no-repeat; width: 80px; height: 25px; border: none; cursor: pointer;display: block; float: left; margin: 0px 0px 0px 10px; }
+
+ 	/* login pages */
+	
+		input.inputbutton_reg {background: url(/el_studycenter/images/el/zh/signup.png) no-repeat; width: 48px; height: 27px; border: none; margin-left:8px; cursor: pointer; text-indent: -9999px; float: left;}
+		input.sumit_button {background: url(/el_studycenter/images/el/zh/login.png) no-repeat; width: 48px; height: 27px; border: none; cursor: pointer; margin-left: 66px; text-indent: -9999px; float: left;}
+		input.sumit_button:hover {background-position: 0px -27px;}
+		input.sumit_button:active {background-position: 0px -27px;}
+		input.inputbutton_reg:hover {background-position: 0px -27px;}
+		input.inputbutton_reg:active {background-position: 0px -27px;}
+		
+ 	/* reset and regist pages */
+		input.reset_button{ background: url(/el_studycenter/images/el/zh/save.png) no-repeat; width: 490px; height: 43px;  margin:5px 0px 0px 60px;  border: none; cursor: pointer; text-indent: -9999px; }
+		input.reset_button:hover {background-position: 0px -41px;}
+		input.reset_button:active {background-position: 0px -41px;}
+		
+		input.regist_button {background: url(/el_studycenter/images/el/zh/submit.png) no-repeat; width: 490px; height: 43px; margin:5px 0px 0px 156px; border: none; cursor: pointer; text-indent: -9999px; }
+		input.regist_button:hover {background-position: 0px -41px;}
+		input.regist_button:active {background-position: 0px -41px;}
+		
+		
+		
+

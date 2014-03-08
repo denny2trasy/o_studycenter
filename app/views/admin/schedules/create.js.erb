@@ -1,0 +1,12 @@
+<% if @event %>
+  <% if @event.save %>
+    $('#fullcalendar').fullCalendar( 'refetchEvents' );
+    $('#create_event_dialog').dialog('destroy');
+	<% if @create_webex %>
+		<% url= schedule_meeting_admin_schedules_url(:id=>@event.id,:EN=>@event.title,:JPW=>@event.webex_pwd,:YE=>@event.course_start_at.year,:MO=>@event.course_start_at.month,:DA=>@event.course_start_at.day,:HO=>@event.course_start_at.hour,:MI=>@event.course_start_at.min,:DU=>@event.du)%>
+		window.location.href = "<%= url.html_safe%>";
+	<% else%>
+	<% end%>
+ <% else  %> alert("<%= @event.errors.full_messages.join("\n") %>") 
+ <% end %>
+<% end %>

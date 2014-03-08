@@ -1,0 +1,56 @@
+<%= content_tag :head do %> <script src="http://static.opentok.com/v0.91/js/TB.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+var apiKey = <%= OpenTok::API_KEY %>;
+var sessionId = '<%= @lesson.session_id %>';
+var token = '<%= @token %>';
+var userId = "<%= current_user.id %>";
+var path = '<%= broadcasts_path %>';
+var scheduleId = '<%= @lesson.id %>';
+
+	function show_schedule() {
+		$("schedule").slideToggle();
+		//if(document.getElementById("schedule").style.display != "none")
+		//	document.getElementById("schedule").style.display = "none";
+		//else
+		//	document.getElementById("schedule").style.display = "block";
+	}
+</script>
+
+<%= javascript_include_tag 'opentok_student' %>
+<%= render :partial => 'messages/refresh_js'%>
+<% end %>
+	<div id="bcast_class">
+		<a href="javascript:void(0);" onclick="$('#schedule').slideToggle()" id="sch"><div class="bcast_fullcalendar_button"></div> </a>
+	</div>
+	<div id="schedule" class="bcast_class_content" <%if @is_course_time %> style="display:block"<%end%>>
+		<%= render :partial => 'user/schedules/schedule' %>
+	</div>
+	<div class="content_left_a">
+		<h1 class="headline_h1"><%= t(:teacher_ppt)%></h1>
+		<div class="left_boder" style="margin:0;">
+			<div class="span-12 last">
+				<%= render :partial => "admin/slides/swf", :locals => {:slide => @slide, :width => 400, :height => 300} %>
+			</div>
+			<div>
+				<%= label_tag 'time_left' , t(:lesson_time_left)%>
+				<%= render :partial => "teacher/broadcasts/clock"%>
+			</div>
+		</div>
+		
+		<script>
+		window.onload=function(){
+			$('#schedule').slideToggle();
+		}
+		</script>
+		<div class="headline_bottom_bcast"></div>
+		<div class="qr"> 
+                     <h1>What is a QR Code?</h1>
+                     <p>A QR code (or Quick Response code) is a type of barcode first designed for the automotive industry,  
+<%= popup "learn more",qr_broadcasts_path ,:class=>"more"%></p>
+                </div>
+	</div><!--left-->
+	<% if not @slide.nil?%>
+	<%= render :partial => 'messages/form'%>
+	<% end%>
+
+

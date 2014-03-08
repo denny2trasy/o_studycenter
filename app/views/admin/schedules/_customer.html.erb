@@ -1,0 +1,39 @@
+<%# form_tag customer_schedule_admin_schedules_path :remote =>true%>
+<label for="<%= @customer.id.to_s%>">
+<%= check_box_tag(@customer.id.to_s, @customer.short_name, @customer.customer_schedules.find_by_schedule_id(@schedule.id)) %>
+<%= @customer.short_name%>
+</label><span id="span_<%= @customer.id.to_s%>" class="green" style="display:none"></span>
+<script>
+	$(function($) {
+	    $("#<%= @customer.id.to_s%>").change(function() {
+	        $.ajax({
+			type: "get",
+			url: '<%= customer_schedule_admin_schedules_path %>',
+	        data: 'customer_id=<%= @customer.id%>&schedule_id=<%= @schedule.id%>',
+	        dataType: 'json',
+			
+			beforeSend: function(XMLHttpRequest){
+
+			//ShowLoading();
+			},
+			success: function(data, textStatus){
+				$("#<%= @customer.id.to_s%>").attr("checked",data.checked);
+				$("#span_<%= @customer.id.to_s%>").text(data.status);
+				$("#span_<%= @customer.id.to_s%>").css("background-color","green");
+				$("#span_<%= @customer.id.to_s%>").slideToggle();
+			},
+
+			complete: function(XMLHttpRequest, textStatus){
+				$("#span_<%= @customer.id.to_s%>").slideToggle();
+			//HideLoading();
+			},
+			error: function(){
+				$("#span_<%= @customer.id.to_s%>").text("error!");
+				$("#span_<%= @customer.id.to_s%>").css("background-color","red");
+			//请求出错处理
+			}
+	})
+	    });
+	});
+</script>
+

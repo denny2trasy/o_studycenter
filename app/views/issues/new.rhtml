@@ -1,0 +1,7 @@
+<h1 class="headline_h1a"><%= t(:report_issue)%></h1>
+<div class="report_issue_wrap">
+	<%= form_for @issue do |f| %>
+	  <%= f.text_area :content, :cols => "20", :rows => "40" %>
+	  <%= submit_tag(t(:submit),:class=>"blue_button") %>
+	<% end %>
+</div>

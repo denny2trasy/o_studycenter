@@ -1,0 +1,90 @@
+
+<head>
+
+	<script>
+	   $(function() {
+	        $( "#draggable1_a" ).draggable({ snap: "#droppable_blank1", snapMode: "inner", snapTolerance: 20, containment: "#q1", revert: "invalid"});
+			$( "#draggable1_b" ).draggable({ snap: "#droppable_blank1", snapMode: "inner", snapTolerance: 20, containment: "#q1", revert: "invalid"});
+			$( "#draggable1_c" ).draggable({ snap: "#droppable_blank1", snapMode: "inner", snapTolerance: 20, containment: "#q1", revert: "invalid"});
+			$( "#draggable1_d" ).draggable({ snap: "#droppable_blank1", snapMode: "inner", snapTolerance: 20, containment: "#q1", revert: "invalid"});
+
+			$( "#draggable2_a" ).draggable({ snap: "#droppable_blank2", snapMode: "inner", snapTolerance: 20, containment: "#q2", revert: "invalid"});
+			$( "#draggable2_b" ).draggable({ snap: "#droppable_blank2", snapMode: "inner", snapTolerance: 20, containment: "#q2", revert: "invalid"});
+			$( "#draggable2_c" ).draggable({ snap: "#droppable_blank2", snapMode: "inner", snapTolerance: 20, containment: "#q2", revert: "invalid"});
+			$( "#draggable2_d" ).draggable({ snap: "#droppable_blank2", snapMode: "inner", snapTolerance: 20, containment: "#q2", revert: "invalid"});
+
+	       $( "#droppable_blank1" ).droppable({
+	           drop: function( event, ui ) {
+	               //$( this ).addClass( "ui-state-highlight" );
+					ui.draggable.addClass("ui-state-highlight");
+					alert(ui.draggable.attr("id"));
+					//$(this).droppable( 'destroy' );
+					$(this).droppable( 'disable' );
+					//$( this ).addClass( "ui-state-default" );
+	           },
+				out: function(event,ui){
+					$( this ).removeClass( "ui-state-highlight" );
+					ui.draggable.removeClass("ui-state-highlight");
+					//alert("out");
+				}
+	       });
+
+
+
+			$( "#droppable_blank2" ).droppable({
+				accept: "#draggable2_d" ,
+				//activeClass: "ui-state-highlight" ,
+				tolerance: "intersect",
+	           drop: function( event, ui ) {
+	               $( this )
+	                  // .addClass( "ui-state-highlight" )
+	                   .find( "p" )
+	                       .html( "right!" );
+					ui.draggable.addClass("ui-state-highlight");
+	           }
+	       });
+	   });
+	   </script>
+
+   
+</head>
+
+ <div id="q1">1. He can do anything. He's very 	<div id="droppable_blank1" class="ui-state-default">
+	    <p>_______</p>
+	</div>.
+	<div id="draggable1_a" class="ui-state-default ui-corner-all">
+	    <p>capable</p>
+	</div>
+	<div id="draggable1_b" class="ui-state-default ui-corner-all">
+	    <p>deniable</p>
+	</div>
+	<div id="draggable1_c" class="ui-state-default ui-corner-all">
+	    <p>probable</p>
+	</div>
+	<div id="draggable1_d" class="ui-state-default ui-corner-all">
+	    <p>variable</p>
+	</div>
+</div>
+
+</br>
+<div id="q2">
+	<p>2. He can do anything. He's very<p/> 	
+	<div id="droppable_blank2" class="ui-state-default">
+	    <p>_______</p>
+	</div>.
+	<div id="draggable2_a" class="ui-state-default ui-corner-all">
+	    <p>capable</p>
+	</div>
+	<div id="draggable2_b" class="ui-state-default ui-corner-all">
+	    <p>deniable</p>
+	</div>
+	<div id="draggable2_c" class="ui-state-default ui-corner-all">
+	    <p>probable</p>
+	</div>
+	<div id="draggable2_d" class="ui-state-default ui-corner-all">
+	    <p>variable</p>
+	</div>
+</div>
+
+
+ 

@@ -1,0 +1,39 @@
+<table class="webexsclass">
+	<tr>
+		<% @the_day = params[:day].nil? ? Time.now.to_date.to_s : params[:day] %>
+	<% (@start_day.to_date).step(@start_day.since(1.week).to_date) do |day|%>
+		<th class="<%= @the_day == day.to_s  ? 'webexsclasshover' : 'webexsclassnomal'%>"><%= link_to day.to_formatted_s(:short), teacher_webexs_path(:day => day)%></th>
+	<% end %>
+	</tr>
+</table>
+
+<table id="class_list" class="">
+	<tr>
+		<td class="webexsclass02">Topic</td>
+		<td class="webexsclass02">Start Time</td>
+		<td class="webexsclass02">End Time</td>
+		<td class="webexsclass02">Status</td>
+			
+	</tr>
+	<% @classes.each do |c|%>
+	<% if c.webex_id.present?%>
+	<tr>
+		<td class="webexsclass03"><%= c.title%></td>
+		<td class="webexsclass03"><%= c.course_start_at.to_s(:short)%></td>
+		<td class="webexsclass03"><%= c.course_end_at.to_s(:short)%></td>
+		<td class="webexsclass03">
+			<% if c.course_start_at > Time.current.since(15.minute)%>
+			<div class="webexstartgray"><a href="#"></a></div>
+			<% elsif c.course_end_at >= Time.current%>
+			<div class="webexstart">
+			<%= link_to " ", Webex.instance.login(Webex.instance.start_meeting(c.webex_id, teacher_webexs_url))  if c.webex_id.present?%>
+			</div>
+			<% else%>
+			Finished!
+			<% end%>
+		</td>	
+	</tr>
+	<% end%>
+	<% end%>
+	
+</table>

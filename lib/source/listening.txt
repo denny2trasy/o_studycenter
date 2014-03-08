@@ -1,0 +1,205 @@
+4052	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_06.mp3	216	-3.97	0	6
+4053	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_46.mp3	216	-3.68	0	46
+4054	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_32.mp3	216	-3.31	0	32
+4055	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_27.mp3	216	-3.09	0	27
+4056	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_47.mp3	216	-3.06	0	47
+4057	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_07.mp3	216	-3.03	0	7
+4058	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_14.mp3	216	-3.03	0	14
+4059	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_15.mp3	216	-2.86	0	15
+4060	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_02.mp3	216	-2.81	0	2
+4061	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_33.mp3	216	-2.77	0	33
+4062	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_09.mp3	216	-2.67	0	9
+4063	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_48.mp3	216	-2.53	0	48
+4064	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_55.mp3	216	-2.03	0	55
+4065	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_31.mp3	216	-1.92	0	31
+4066	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_35.mp3	216	-1.81	0	35
+4067	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_11.mp3	216	-1.79	0	11
+4068	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_03.mp3	216	-1.67	0	3
+4069	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_29.mp3	216	-1.62	0	29
+4070	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_10.mp3	216	-1.6	0	10
+4071	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_21.mp3	216	-1.6	0	21
+4072	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_49.mp3	216	-1.53	0	49
+4073	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_26.mp3	216	-1.44	0	26
+4074	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_24.mp3	216	-1.42	0	24
+4075	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_16.mp3	216	-1.38	0	16
+4076	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_43.mp3	216	-1.34	0	43
+4077	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_57.mp3	216	-1.28	0	57
+4078	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_37.mp3	216	-1.22	0	37
+4079	Click on the BEST ANSWER to the question.	NULL	Where does this conversation take place?	list_int_q_73.mp3	216	-1.18	0	195
+4080	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_56.mp3	216	-1.16	0	56
+4081	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_54.mp3	216	-1.14	0	54
+4082	Click on the BEST ANSWER to the question.	NULL	What is the woman doing?	list_int_q_86.mp3	216	-1.12	0	208
+4083	Click on the BEST ANSWER to the question.	NULL	What is the woman going to do?	list_int_q_01.mp3	216	-1.11	0	63
+4084	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_12.mp3	216	-1.1	0	12
+4085	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_59.mp3	216	-1.04	0	59
+4086	Click on the BEST ANSWER to the question.	NULL	What did the woman do?	list_int_q_53.mp3	216	-1	1	175
+4087	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_61.mp3	216	-0.98	1	61
+4088	Click on the BEST ANSWER to the question.	NULL	What does the man tell the woman?	list_int_q_91.mp3	216	-0.93	1	213
+4089	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_08.mp3	216	-0.87	1	8
+4090	Click on the BEST ANSWER to the question.	NULL	What does the man mean?	list_int_q_44.mp3	216	-0.85	1	106
+4091	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_51.mp3	216	-0.85	1	51
+4092	Click on the BEST ANSWER to the question.	NULL	Where are the speakers?	list_int_q_18.mp3	216	-0.82	1	80
+4093	Click on the BEST ANSWER to the question.	NULL	What is the woman going to do next?	list_int_q_77.mp3	216	-0.81	1	199
+4094	Click on the BEST ANSWER to the question.	NULL	Why doesn't the man want to walk?	list_int_q_52.mp3	216	-0.74	1	174
+4095	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_18.mp3	216	-0.73	1	18
+4096	Click on the BEST ANSWER to the question.	NULL	What situation is the man in?	list_int_q_68.mp3	216	-0.72	1	190
+4097	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_41.mp3	216	-0.72	1	41
+4098	Click on the BEST ANSWER to the question.	NULL	What are they talking about?	list_int_q_56.mp3	216	-0.72	1	178
+4099	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_58.mp3	216	-0.71	1	58
+4100	Click on the BEST ANSWER to the question.	NULL	What does the woman promise the man?	list_int_q_09.mp3	216	-0.69	1	71
+4101	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_25.mp3	216	-0.69	1	25
+4102	Click on the BEST ANSWER to the question.	NULL	What does the woman want?	list_int_q_59.mp3	216	-0.61	1	181
+4103	Click on the BEST ANSWER to the question.	NULL	Which sentence is true?	list_int_q_94.mp3	216	-0.53	1	216
+4104	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_30.mp3	216	-0.53	1	30
+4105	Click on the BEST ANSWER to the question.	NULL	Will the man let the woman borrow his calculator?	list_int_q_75.mp3	216	-0.52	1	197
+4106	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_44.mp3	216	-0.51	1	44
+4107	Click on the BEST ANSWER to the question.	NULL	What do we know about the woman?	list_int_q_51.mp3	216	-0.5	1	173
+4108	Click on the BEST ANSWER to the question.	NULL	What can we assume about the man?	list_int_q_83.mp3	216	-0.48	1	205
+4109	Click on the BEST ANSWER to the question.	NULL	What does the man mean?	list_int_q_43.mp3	216	-0.44	1	105
+4110	Click on the BEST ANSWER to the question.	NULL	Where does this conversation take place?	list_int_q_13.mp3	216	-0.4	1	75
+4111	Click on the BEST ANSWER to the question.	NULL	What are the speakers doing?	list_int_q_15.mp3	216	-0.37	1	77
+4112	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_19.mp3	216	-0.35	1	19
+4113	Click on the BEST ANSWER to the question.	NULL	What are the speakers discussing?	list_int_q_11.mp3	216	-0.32	1	73
+4114	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_38.mp3	216	-0.26	1	38
+4115	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_60.mp3	216	-0.24	1	60
+4116	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_40.mp3	216	-0.21	1	40
+4117	Click on the BEST ANSWER to the question.	NULL	What are the two speakers discussing?	list_int_q_34.mp3	216	-0.2	1	96
+4118	Click on the BEST ANSWER to the question.	NULL	What can be inferred about the conversation?	list_int_q_21.mp3	216	-0.2	1	83
+4119	Click on the BEST ANSWER to the question.	NULL	What problem does the man have?	list_int_q_92.mp3	216	-0.2	1	214
+4120	Click on the BEST ANSWER to the question.	NULL	What does the man do next?	list_int_q_22.mp3	216	-0.19	2	84
+4121	Click on the BEST ANSWER to the question.	NULL	What can we say about Robert and the woman?	list_int_q_61.mp3	216	-0.18	2	183
+4122	Click on the BEST ANSWER to the question.	NULL	What does the man tell the woman?	list_int_q_71.mp3	216	-0.18	2	193
+4123	Click on the BEST ANSWER to the question.	NULL	Where are the speakers?	list_int_q_02.mp3	216	-0.17	2	64
+4124	Click on the BEST ANSWER to the question.	NULL	When will the man probably help the woman?	list_int_q_90.mp3	216	-0.16	2	212
+4125	Click on the BEST ANSWER to the question.	NULL	What are the speakers discussing?	list_int_q_29.mp3	216	-0.15	2	91
+4126	Click on the BEST ANSWER to the question.	list_adv_intro_q.mp3	What is the best conclusion about Rachmaninov's musical career?	list_adv_q_48q.mp3	216	-0.14	2	157
+4127	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_53.mp3	216	-0.13	2	53
+4128	Click on the BEST ANSWER to the question.	NULL	Why did the man change his plans?	list_int_q_23.mp3	216	-0.11	2	85
+4129	Click on the BEST ANSWER to the question.	list_adv_intro_a.mp3	Why did he grow a beard?	list_adv_q_03a.mp3	216	-0.11	2	112
+4130	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_34.mp3	216	-0.11	2	34
+4131	Click on the BEST ANSWER to the question.	NULL	Why did Anne leave the company?	list_int_q_33.mp3	216	-0.1	2	95
+4132	Click on the BEST ANSWER to the question.	NULL	What is the man going to do?	list_int_q_70.mp3	216	-0.08	2	192
+4133	Click on the BEST ANSWER to the question.	NULL	What is the man's job?	list_int_q_88.mp3	216	-0.08	2	210
+4134	Click on the BEST ANSWER to the question.	list_adv_intro_g.mp3	What is the purpose of this message?	list_adv_q_17g.mp3	216	-0.05	2	126
+4135	Click on the BEST ANSWER to the question.	NULL	Where does the man work?	list_int_q_64.mp3	216	-0.04	2	186
+4136	Click on the BEST ANSWER to the question.	list_adv_intro_m.mp3	What can be assumed about the man?	list_adv_q_34m.mp3	216	-0.03	2	143
+4137	Click on the BEST ANSWER to the question.	NULL	What does the woman want?	list_int_q_65.mp3	216	-0.02	2	187
+4138	Click on the BEST ANSWER to the question.	NULL	What do we know about the woman?	list_int_q_84.mp3	216	-0.02	2	206
+4139	Click on the BEST ANSWER to the question.	NULL	What does the woman mean?	list_int_q_41.mp3	216	0	2	103
+4140	Click on the BEST ANSWER to the question.	NULL	What are the speakers discussing?	list_int_q_10.mp3	216	0.01	2	72
+4141	Click on the BEST ANSWER to the question.	NULL	What are the speakers discussing?	list_beg_q_62.mp3	216	0.01	2	62
+4142	Click on the BEST ANSWER to the question.	NULL	What will the man probably do during the weekend?	list_int_q_47.mp3	216	0.02	2	109
+4143	Click on the BEST ANSWER to the question.	NULL	What does the man mean?	list_int_q_03.mp3	216	0.02	2	65
+4144	Click on the BEST ANSWER to the question.	NULL	What is the woman doing?	list_int_q_58.mp3	216	0.02	2	180
+4145	Click on the BEST ANSWER to the question.	NULL	What is the woman's job?	list_int_q_12.mp3	216	0.04	2	74
+4146	Click on the BEST ANSWER to the question.	list_adv_intro_m.mp3	Which product helps people overcome feelings of depression?	list_adv_q_35m.mp3	216	0.04	2	144
+4147	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_17.mp3	216	0.05	2	17
+4148	Click on the BEST ANSWER to the question.	NULL	What did Emily imply?	list_int_q_39.mp3	216	0.06	2	101
+4149	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_36.mp3	216	0.08	2	36
+4150	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_50.mp3	216	0.08	2	50
+4151	Click on the BEST ANSWER to the question.	NULL	What has the man recently been doing?	list_int_q_67.mp3	216	0.08	2	189
+4152	Click on the BEST ANSWER to the question.	NULL	What does the woman think about the presentation?	list_int_q_93.mp3	216	0.08	2	215
+4153	Click on the BEST ANSWER to the question.	NULL	What does the woman imply?	list_int_q_45.mp3	216	0.11	2	107
+4154	Click on the BEST ANSWER to the question.	list_adv_intro_d.mp3	What is generally true about Internet users compared with non-users?	list_adv_q_11d.mp3	216	0.14	3	120
+4155	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_28.mp3	216	0.15	3	28
+4156	Click on the BEST ANSWER to the question.	NULL	Why does the woman want roommates?	list_int_q_66.mp3	216	0.16	3	188
+4157	Click on the BEST ANSWER to the question.	list_adv_intro_i.mp3	What is this message about?	list_adv_q_22i.mp3	216	0.16	3	131
+4158	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_22.mp3	216	0.17	3	22
+4159	Click on the BEST ANSWER to the question.	NULL	What can be assumed about the woman?	list_int_q_27.mp3	216	0.18	3	89
+4160	Click on the BEST ANSWER to the question.	list_adv_intro_t.mp3	Who is the guest?	list_adv_q_55t.mp3	216	0.2	3	164
+4161	Click on the BEST ANSWER to the question.	NULL	What are they talking about?	list_int_q_55.mp3	216	0.24	3	177
+4162	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_05.mp3	216	0.25	3	5
+4163	Click on the BEST ANSWER to the question.	NULL	What is the man talking about?	list_int_q_79.mp3	216	0.26	3	201
+4164	Click on the BEST ANSWER to the question.	NULL	What happened to the man?	list_int_q_04.mp3	216	0.26	3	66
+4165	Click on the BEST ANSWER to the question.	list_adv_intro_b.mp3	What is being offered?	list_adv_q_04b.mp3	216	0.27	3	113
+4166	Click on the BEST ANSWER to the question.	NULL	What does the woman want the man to do?	list_int_q_57.mp3	216	0.28	3	179
+4167	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_39.mp3	216	0.28	3	39
+4168	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_45.mp3	216	0.28	3	45
+4169	Click on the BEST ANSWER to the question.	NULL	How long will they have to wait for a train?	list_int_q_50.mp3	216	0.3	3	172
+4170	Click on the BEST ANSWER to the question.	NULL	Why is the woman complaining?	list_int_q_35.mp3	216	0.3	3	97
+4171	Click on the BEST ANSWER to the question.	NULL	Which day could they meet this week?	list_int_q_30.mp3	216	0.3	3	92
+4172	Click on the BEST ANSWER to the question.	list_adv_intro_j.mp3	How does the woman feel about the father?	list_adv_q_27j.mp3	216	0.32	3	136
+4173	Click on the BEST ANSWER to the question.	list_adv_intro_k.mp3	According to the survey, which country is mentioned as being the least happy?	list_adv_q_30k.mp3	216	0.32	3	139
+4174	Click on the BEST ANSWER to the question.	list_adv_intro_a.mp3	When did Abraham Lincoln start growing a beard?	list_adv_q_02a.mp3	216	0.35	3	111
+4175	Click on the BEST ANSWER to the question.	list_adv_intro_l.mp3	What are the speakers discussing?	list_adv_q_31l.mp3	216	0.35	3	140
+4176	Click on the BEST ANSWER to the question.	NULL	What does the woman say about the restaurant?	list_int_q_05.mp3	216	0.38	3	67
+4177	Click on the BEST ANSWER to the question.	NULL	Where are the speakers?	list_int_q_26.mp3	216	0.39	3	88
+4178	Click on the BEST ANSWER to the question.	NULL	What time is it probably during this phone call?	list_int_q_78.mp3	216	0.39	3	200
+4179	Click on the BEST ANSWER to the question.	NULL	What do we know about the man?	list_int_q_89.mp3	216	0.39	3	211
+4180	Click on the BEST ANSWER to the question.	NULL	What had the woman assumed?	list_adv_q_59.mp3	216	0.4	3	167
+4181	Click on the BEST ANSWER to the question.	NULL	What does the woman mean?	list_int_q_24.mp3	216	0.42	3	86
+4182	Click on the BEST ANSWER to the question.	NULL	What does the man mean?	list_int_q_42.mp3	216	0.45	3	104
+4183	Click on the BEST ANSWER to the question.	NULL	What does the man suggest doing?	list_int_q_37.mp3	216	0.45	3	99
+4184	Click on the BEST ANSWER to the question.	NULL	What will the woman probably do next?	list_int_q_54.mp3	216	0.46	3	176
+4185	Click on the BEST ANSWER to the question.	list_adv_intro_j.mp3	How does the father feel about his son?	list_adv_q_26j.mp3	216	0.47	3	135
+4186	Click on the BEST ANSWER to the question.	NULL	What did the woman say about the paper?	list_int_q_85.mp3	216	0.47	3	207
+4187	Click on the BEST ANSWER to the question.	list_adv_intro_n.mp3	Why is taking up hobbies considered beneficial?	list_adv_q_39n.mp3	216	0.48	3	148
+4188	Click on the BEST ANSWER to the question.	list_adv_intro_r.mp3	What is the topic of Dr. Meyers' most recent book?	list_adv_q_49r.mp3	216	0.49	3	158
+4189	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_13.mp3	216	0.5	4	13
+4190	Click on the BEST ANSWER to the question.	list_adv_intro_m.mp3	What is NOT mentioned as a side effect of taking tablets?	list_adv_q_36m.mp3	216	0.51	4	145
+4191	Click on the BEST ANSWER to the question.	NULL	What does the woman need?	list_int_q_62.mp3	216	0.51	4	184
+4192	Click on the BEST ANSWER to the question.	list_adv_intro_a.mp3	What are the speakers discussing?	list_adv_q_01a.mp3	216	0.52	4	110
+4193	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_20.mp3	216	0.52	4	20
+4194	Click on the BEST ANSWER to the question.	NULL	Why will the woman probably not join the gym?	list_int_q_06.mp3	216	0.53	4	68
+4195	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_01.mp3	216	0.57	4	1
+4196	Click on the BEST ANSWER to the question.	NULL	What does the man suggest doing?	list_int_q_17.mp3	216	0.58	4	79
+4197	Click on the BEST ANSWER to the question.	list_adv_intro_l.mp3	According to the guest speaker, what is the best way to quit smoking?	list_adv_q_33l.mp3	216	0.58	4	142
+4198	Click on the BEST ANSWER to the question.	NULL	Where are the restrooms?	list_int_q_87.mp3	216	0.58	4	209
+4199	Click on the BEST ANSWER to the question.	NULL	What can be inferred from the conversation?	list_adv_q_61.mp3	216	0.63	4	168
+4200	Click on the BEST ANSWER to the question.	list_adv_intro_k.mp3	What are the speakers discussing?	list_adv_q_28k.mp3	216	0.63	4	137
+4201	Click on the BEST ANSWER to the question.	NULL	What will the woman probably do next?	list_int_q_36.mp3	216	0.64	4	98
+4202	Click on the BEST ANSWER to the question.	NULL	What can be inferred about Richard?	list_int_q_20.mp3	216	0.65	4	82
+4203	Click on the BEST ANSWER to the question.	NULL	What are they talking about?	list_int_q_69.mp3	216	0.71	4	191
+4204	Click on the BEST ANSWER to the question.	NULL	What is the problem?	list_int_q_95.mp3	216	0.72	4	217
+4205	Click on the BEST ANSWER to the question.	NULL	Who is the woman?	list_int_q_32.mp3	216	0.78	4	94
+4206	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_04.mp3	216	0.78	4	4
+4207	Click on the BEST ANSWER to the question.	NULL	What does the man want?	list_int_q_16.mp3	216	0.82	4	78
+4208	Click on the BEST ANSWER to the question.	list_adv_intro_e.mp3	According to the report, what worries users most about the Internet?	list_adv_q_13e.mp3	216	0.82	4	122
+4209	Click on the BEST ANSWER to the question.	list_adv_intro_l.mp3	Who is the guest?	list_adv_q_32l.mp3	216	0.83	4	141
+4210	Click on the BEST ANSWER to the question.	list_adv_intro_h.mp3	What is NOT true about the show?	list_adv_q_21h.mp3	216	0.84	4	130
+4211	Click on the BEST ANSWER to the question.	NULL	What does the man want?	list_int_q_31.mp3	216	0.84	4	93
+4212	Click on the BEST ANSWER to the question.	NULL	What does the woman want to do?	list_int_q_74.mp3	216	0.86	4	196
+4213	Click on the BEST ANSWER to the question.	NULL	What does the woman tell the man?	list_int_q_80.mp3	216	0.86	4	202
+4214	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_42.mp3	216	0.88	4	42
+4215	Click on the BEST ANSWER to the question.	list_adv_intro_h.mp3	What is being advertised?	list_adv_q_20h.mp3	216	0.9	4	129
+4216	Click on the BEST ANSWER to the question.	list_adv_intro_t.mp3	Why is the guest appearing on the show?	list_adv_q_54t.mp3	216	0.9	4	163
+4217	Click on the BEST ANSWER to the question.	NULL	What does the man imply about Annie?	list_int_q_46.mp3	216	0.92	4	108
+4218	Click on the BEST ANSWER to the question.	NULL	What does the woman say about Brad and Lisa?	list_int_q_07.mp3	216	0.93	4	69
+4219	Click on the BEST ANSWER to the question.	NULL	What can we assume about the woman?	list_int_q_82.mp3	216	0.95	4	204
+4220	Click on the BEST ANSWER to the question.	list_adv_intro_b.mp3	Why should buyers act now?	list_adv_q_05b.mp3	216	0.96	4	114
+4221	Click on the BEST ANSWER to the question.	list_adv_intro_k.mp3	How do the speakers feel about the survey?	list_adv_q_29k.mp3	216	0.97	4	138
+4222	Click on the BEST ANSWER to the question.	NULL	What did the man order?	list_int_q_76.mp3	216	1.02	4	198
+4223	Click on the BEST ANSWER to the question.	NULL	What is the man's opinion of the Royal Hotel?	list_int_q_60.mp3	216	1.04	5	182
+4224	Click on the BEST ANSWER to the question.	NULL	Why can't the woman meet on Thursday?	list_int_q_72.mp3	216	1.04	5	194
+4225	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_23.mp3	216	1.08	5	23
+4226	Click on the BEST ANSWER to the question.	list_adv_intro_n.mp3	What conclusions do recent studies reach about smokers?	list_adv_q_37n.mp3	216	1.08	5	146
+4227	Click on the BEST ANSWER to the question.	NULL	What does the man mean?	list_adv_q_60.mp3	216	1.09	5	169
+4228	Click on the BEST ANSWER to the question.	NULL	What are the speakers discussing?	list_int_q_38.mp3	216	1.09	5	100
+4229	Click on the BEST ANSWER to the question.	NULL	Why didn't the woman phone the man?	list_int_q_08.mp3	216	1.19	5	70
+4230	Click on the BEST ANSWER to the question.	list_adv_intro_o.mp3	What can be assumed about Doctor Barton?	list_adv_q_43o.mp3	216	1.19	5	152
+4231	Click on the BEST ANSWER to the question.	NULL	How does the woman respond to the man's opinion?	list_int_q_40.mp3	216	1.19	5	102
+4232	Click on the BEST ANSWER to the question.	list_adv_intro_e.mp3	Which group should be most concerned about the findings of the report?	list_adv_q_14e.mp3	216	1.24	5	123
+4233	Click on the BEST ANSWER to the question.	NULL	NULL	list_beg_q_52.mp3	216	1.26	5	52
+4234	Click on the BEST ANSWER to the question.	list_adv_intro_c.mp3	What does this advertisement offer?	list_adv_q_06c.mp3	216	1.28	5	115
+4235	Click on the BEST ANSWER to the question.	NULL	What does the man imply?	list_int_q_19.mp3	216	1.3	5	81
+4236	Click on the BEST ANSWER to the question.	NULL	What does the woman mean?	list_int_q_25.mp3	216	1.33	5	87
+4237	Click on the BEST ANSWER to the question.	list_adv_intro_s.mp3	What is Dr. Spencer's profession?	list_adv_q_52s.mp3	216	1.33	5	161
+4238	Click on the BEST ANSWER to the question.	list_adv_intro_p.mp3	Where is flight 809 going?	list_adv_q_44p.mp3	216	1.35	5	153
+4239	Click on the BEST ANSWER to the question.	NULL	What can we assume about the man?	list_int_q_81.mp3	216	1.42	5	203
+4240	Click on the BEST ANSWER to the question.	list_adv_intro_r.mp3	What does the research indicate about the connection between family support and health?	list_adv_q_50r.mp3	216	1.42	5	159
+4241	Click on the BEST ANSWER to the question.	list_adv_intro_q.mp3	Where did Rachmaninov spend most of his life in later years?	list_adv_q_47q.mp3	216	1.44	5	156
+4242	Click on the BEST ANSWER to the question.	list_adv_intro_n.mp3	What is NOT mentioned as a benefit of exercise?	list_adv_q_38n.mp3	216	1.48	5	147
+4243	Click on the BEST ANSWER to the question.	list_adv_intro_c.mp3	What is NOT mentioned in the advertisement as an advantage of Mediation USA?	list_adv_q_07c.mp3	216	1.49	5	116
+4244	Click on the BEST ANSWER to the question.	NULL	What is the man doing?	list_int_q_63.mp3	216	1.53	5	185
+4245	Click on the BEST ANSWER to the question.	list_adv_intro_s.mp3	What is the subject of his talk?	list_adv_q_53s.mp3	216	1.72	5	162
+4246	Click on the BEST ANSWER to the question.	list_adv_intro_i.mp3	Drivers moving from another state or country may only have to:	list_adv_q_23i.mp3	216	1.74	5	132
+4247	Click on the BEST ANSWER to the question.	list_adv_intro_p.mp3	What will happen to the flight?	list_adv_q_45p.mp3	216	1.78	5	154
+4248	Click on the BEST ANSWER to the question.	list_adv_intro_o.mp3	What is the purpose of this ad?	list_adv_q_40o.mp3	216	2.05	5	149
+4249	Click on the BEST ANSWER to the question.	list_adv_intro_f.mp3	What did the report conclude?	list_adv_q_16f.mp3	216	2.13	5	125
+4250	Click on the BEST ANSWER to the question.	list_adv_intro_o.mp3	How were former participants able to lose weight?	list_adv_q_42o.mp3	216	2.16	5	151
+4251	Click on the BEST ANSWER to the question.	NULL	What had the woman assumed about Todd?	list_adv_q_57.mp3	216	2.16	5	166
+4252	Click on the BEST ANSWER to the question.	list_adv_intro_g.mp3	If you are going to be away from home on election day, what should you do?	list_adv_q_19g.mp3	216	2.19	5	128
+4253	Click on the BEST ANSWER to the question.	list_adv_intro_r.mp3	What did the Stanford study show?	list_adv_q_51r.mp3	216	2.2	5	160
+4254	Click on the BEST ANSWER to the question.	list_adv_intro_q.mp3	What happened to Rachmaninov after the poor reception to his first Symphony in 1897?	list_adv_q_46q.mp3	216	2.22	5	155
+4255	Click on the BEST ANSWER to the question.	list_adv_intro_o.mp3	What happens at the seminar?	list_adv_q_41o.mp3	216	2.37	5	150
+4256	Click on the BEST ANSWER to the question.	NULL	What does the man mean?	list_adv_q_56.mp3	216	2.38	5	165

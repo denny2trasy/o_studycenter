@@ -1,0 +1,34 @@
+<div class="span-17 append-1">
+
+<h3 class="title1"><span><%= t '.course_packages' %></span></h3>
+
+<!-- Here need support by gem for format -->
+
+<table class="list_table">
+  <tr>
+    <th>Course name</th>
+    <th>Description</th>
+    <th>Lesson number</th>
+  </tr>
+  <% @course_packages.each do |course_package| %>
+    <tr>
+      <td>
+        <%= link_to course_package.name, course_package %>
+        <%= link_to_unless current_user.current_course_package?(course_package), t(:set_as_current_course), current_course_package_path(course_package), :method => :put %>
+      </td>
+	  <td><%= course_package.description%></td>
+	  <td><%= course_package.lesson_number%> <%= course_package.is_speakeng_course ? link_to(t(:speakeng),sso_path) : ""%></td>
+    </tr>
+  <% end %>
+</table>
+
+
+
+</div>
+
+<div class="span-6 last">
+<h4 class="title1"><span>sidebar</span></h4>
+
+<%= render "form" %>
+
+</div>

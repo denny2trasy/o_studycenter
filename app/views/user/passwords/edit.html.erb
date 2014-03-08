@@ -1,0 +1,11 @@
+<h3><%= t :password_update %></h3>
+
+<%= simple_form_for @user, :url => url_of(:el_user, :update_password_service), :method => :put do |f| %>
+  <%= f.input :original_password do %>
+    <%= password_field_tag 'original_password' %>
+  <% end %>
+  <%= f.input :password, :input_html => {:name => 'password'} %>
+  <%= f.input :password_confirmation, :input_html => {:name => 'password_confirmation'} %>
+  <%= f.button :submit %>
+  <%= hidden_field_tag 'login', current_user.login %>
+<% end %>

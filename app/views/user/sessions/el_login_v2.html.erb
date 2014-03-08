@@ -1,0 +1,140 @@
+
+<div class="newlogintext">
+
+			<%= form_tag(url_of(:el_user,:session_service),:method => :post) do %>
+				<div class="newusername">
+              	<%=t(:login)%>: <%= text_field_tag("login",@user.login,:class => 'newlogin_input')%>
+              </div>
+              <div class="newpassword">
+              	<%=t(:password)%>: <%= password_field_tag("password",nil,{:id=>"lll",:class => 'newlogin_input'})%>
+              </div>
+              <div class="newbutton">
+					<%= submit_tag("",:class=>"newbuluebutton")%>	                    
+              </div>
+		<span class="home_forgetpassword">	<%= link_to "忘记密码？",url_of(:el_user,:forgot_password)+"?forward="+home_url,:method=>:get %>
+				<%= hidden_field_tag(:forward, home_path) %>
+			  	<%= hidden_field_tag(:locale, @locale) %>
+			<% end %>
+			</span>
+			
+			<% if params[:msg] %>
+			<div class ="newerror_msg">
+			  <% if params[:msg] == "Invalid User"%>
+			  <%= t(:invalid_user)%>
+			  <% elsif params[:msg] == "<p>Login has already been taken</p>"%>
+			  <%= t(:login_already_exists)%>
+			  <% elsif params[:msg] == "<p>Email has already been taken</p>"%>
+			  <%= t(:email_already_exists)%>
+			  <% elsif params[:msg] == "<p>Login has already been taken</p><p>Email has already been taken</p>"%>
+			  <%= t(:login_already_exists)%></br>
+			  <%= t(:email_already_exists)%>
+			  <% else%>
+			  <%= params[:msg] %>
+			  <% end%>
+			</div>
+			<% end %>
+
+      </div>
+  <!--end-->    
+    <div class="loginteacher">
+    </div> 
+     
+		<div class="newregister">
+ 		<div class="newregistertop" ></div>
+      <div class="newregistercontent" >
+      	<h1></h1>
+		<% if params[:msg] and params[:controller] == "profiles"%>
+		<div class="error_msg">
+			<%= raw params[:msg] %>
+		</div>
+		<% end %>
+			<%= form_for @user, :as => :profile, :class => 'simple_form user', :url => url_of(:el_user, :profile_service) do |f| %>
+			
+			<div class="newregistertext">
+					<span class="regist_span"> * </span><%= t(:registername)%>
+			</div>
+			<div class="newregisterinput">
+				<%= f.text_field :login, :id => "profile_login",:class => 'newregister_input'%>
+				<p><%= t(:login_rule)%></p>
+				<p class="input_error" id="login_error" style="display:none" ><%= t(:login_error)%></p>
+				<p class="input_error" id="login_exist" style="display:none" ><%= t(:login_exist)%></p>
+			</div>	
+			
+			<div class="newregistertext">
+					<span class="regist_span"> * </span><%= t(:name)%>
+			</div>
+			<div class="newregisterinput">
+				<%= f.text_field :given_name, :id => "profile_give_name",:class => 'newregister_input'%>
+				<p><% t(:name_rule)%></p>
+				<p class="input_error" id="login_error" style="display:none" ><%= t(:login_error)%></p>
+				<p class="input_error" id="login_exist" style="display:none" ><%= t(:login_exist)%></p>
+			</div>			
+
+			
+			
+			<div class="newregistertext">
+					<span class="regist_span"> * </span><%= t(:mail)%>
+			</div>
+			<div class="newregisterinput">
+				<%= f.text_field :mail, :id => "profile_mail",:class => 'newregister_input'%>
+				<p><%= t(:mail_warning)%><p/>
+				<p class="input_error" id="mail_error"  style="display:none" ><%= t(:mail_rule_error)%></p>
+				<p class="input_error" id="mail_exist"  style="display:none" ><%= t(:mail_exist)%></p>
+			</div>
+
+			
+			
+			<div class="newregistertext">
+				<span class="regist_span"> * </span><%= t(:password)%>
+			</div>
+			<div class="newregisterinput">
+				<%= f.password_field :password, :id => "profile_password",:class => 'newregister_input'%>
+				<p><%= t(:password_rule)%></p>
+				<p class="input_error" id="password_error"  style="display:none" ><%= t(:password_length_error)%></p>
+			</div>
+
+			
+			
+			
+			<div class="newregistertext">
+				<span class="regist_span"> * </span><%= t(:password_confirmation)%>
+			</div>
+			<div class="newregisterinput">	
+				<%= f.password_field :password_confirmation, :id => "profile_password_confirmation",:class => 'newregister_input' %>
+				
+				<p class="input_error" id="password_confirmation_error"  style="display:none" ><%= t(:password_confirm_error)%></p>					
+			</div>
+
+			
+			
+			
+			<div class="newregistertext">
+				<span class="regist_span"> * </span><%= t(:locale)%>
+			</div>
+			<div class="newregisterinput">
+				<%= select( "profile", "locale", { "中国大陆" => "zh", "English Countries" => 'en', "한국" =>"ko","Português" =>"pt","español"=>"es"}) %>
+				
+			</div>
+
+			<div class="newregistertext">
+				<span class="regist_span"> * </span><%= t(:time_zone)%>
+			</div>
+			<div class="newregisterinput">
+				<%= time_zone_select("profile","time_zone",nil,{:default => "Beijing"}) %>
+			</div>
+			
+			<%= f.hidden_field :from_partner, :id =>"profile_from_partner", :value =>"#{@from_partner}" %>				
+			<%= hidden_field_tag :forward, home_path %>
+							
+			<div class="newregistertext">
+				<input type="button" class="newregisterbutton" id="profile_submit" name="commit" value="">
+			</div>
+			
+			<% end %>
+
+      </div>
+      <div class="newregisterbottom" ></div>
+   </div>
+   <!--div style=" position:absolute; bottom:0; background:#fff; width:250px; height:150px; border:1px solid #CCC; ">
+       	<img src="../images/el/newversion/add.jpg" />
+       </div-->

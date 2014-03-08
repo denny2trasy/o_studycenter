@@ -1,0 +1,77 @@
+
+<head>
+	<%= javascript_include_tag "html5/audiojs/audio.min.js" %>
+	<script>
+		audiojs.events.ready(function() {
+		    var as = audiojs.createAll();
+		  });
+		
+	</script>
+
+    <%= csrf_meta_tag %>
+</head>
+
+      <div class="row">
+        <% flash.each do |name, msg| %>
+          <div class="alert">
+            <%= content_tag :div, msg, :id => "flash_#{name}" %>
+          </div>
+        <% end %>              
+      </div>
+
+<%= form_tag(submit_homeworks_path(),:method => :post) do %>
+	<div id="container" class="well">
+		<legend><%= @index %> / <%= @total %></legend>
+		<%= hidden_field_tag "exam_quiz",@examination_quiz.id%>
+		<%= hidden_field_tag "answer"%>
+		<%= hidden_field_tag "NO",@index%>
+
+
+		<p class="lead"><%= @quiz.prompt.html_safe %></p>
+		<p class="lead">
+			<%= (@sub_quiz = @quiz.sub_quizzes.first).title %>
+		</p><% if @sub_quiz.images.present? %><img src="<%= @sub_quiz.images%>" class="img-rounded">
+		<% end%>
+		<% if @sub_quiz.sounds.present? %>
+		 <audio src="<%= @sub_quiz.sounds%>" preload="auto">
+	      	Your browser does not support the audio tag.
+	      </audio>
+		<% end%>
+		<ul class="nav nav-pills nav-stacked">
+		<% @sub_quiz = @quiz.sub_quizzes.first%>
+		<% @sub_quiz.sub_quiz_answers.each_with_index do |answer,index| %>
+			<li id="options_<%= @quiz.id%>_<%= answer.id%>" onclick="selectAnswer(<%= @quiz.id%>,<%= @sub_quiz.id%>,<%= answer.id%>)">
+				<a href="#" >
+				<label class="radio" style="font-size:16px;">
+					<% if answer.images.present? %>
+						<img src="<%= answer.images%>" class="img-rounded" width="100" length="100">
+					<% end%>
+				  <input type="radio" name="options_<%=@quiz.id%>" id="options_<%= @quiz.id%>_<%= answer.id%>" value="<%= answer.id %>" ><%= answer.title%>
+				</lable>
+				</a>
+			</li>
+			
+		<% end%>
+		</ul>
+		<div class="form-actions">
+			<div class="span6 offset6">
+				<%= submit_tag "Prev", :class=>"btn btn-large",:style=>"width:180px;"%>
+				<%= submit_tag "Next", :class=>"btn btn-primary btn-large disabled",:style=>"width:200px;disabled:true;"%>
+			</div>
+		</div>
+
+	</div>
+
+<% end %>
+
+
+	<script>
+		function selectAnswer(q_id,subq_id,a_id){
+			$("li").removeClass("active");
+			$("li#options_"+q_id+"_"+a_id).addClass("active");
+			$("input#options_"+q_id+"_"+a_id).attr("checked",true);
+			var answer = "{'sub_quiz_"+subq_id+"':"+a_id+"}"
+			$("#answer").attr("value",answer)
+			//alert("li#options_"+id);
+		}
+	</script>

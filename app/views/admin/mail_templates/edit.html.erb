@@ -1,0 +1,16 @@
+<script>
+  function a() {
+    var w = window.open('', '', '');
+    w.document.open("text/html", "replace");
+    w.document.write('ac');
+    w.document.close();
+  }
+</script>
+<br>
+<div class="clear_float"></div>
+<% form_tag admin_mail_template_path(@mail_template), :method => :put do -%>
+<%= text_area_tag :mail_content, @mail_template.content, :rows => 33, :cols => 150 %>
+<br/>
+<%= submit_tag t(:submit) %>
+<%= link_to(t(:cancel), "javascript:history.go(-1)") %>
+<% end -%>

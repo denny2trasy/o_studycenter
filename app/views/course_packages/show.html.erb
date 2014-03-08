@@ -1,0 +1,19 @@
+
+<div class="content_left">
+
+	<!--课程状态-->
+	<% if not @course_package.blank? %>
+		<div class='course_list'>
+       		<h1 class='headline_h1a'><%= link_to(@course_package.name,course_packages_path()) %></h1>
+  			<div class="package_list">
+				<%= show_unit_for_student(@item_group)%>
+				<%#= show_course_package_for_student(@course_package)%>
+			</div>
+     </div>
+     <div class='headline_bottom'><p>&nbsp;</p><p>&nbsp;</p></div>
+	<% end %>
+	
+  
+
+</div><!--left-->
+<%= render "home/right" %>

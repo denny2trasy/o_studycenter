@@ -1,0 +1,34 @@
+<div class="content_right_a">
+	<h1 class="headline_h1"><%=t(:live_discussion)%></h1>
+	<div class="right_boder" >	
+	 	 <h2><%=t(:ask)%> </h2>
+		 <div id="ask_messages"></div>	
+		   <div id="myCamera" class="publisherContainer" style="top:10px;left:290px;width:200px;height: 156px;position: absolute;">
+			<!-- <input type='button' id='createArchive' value='B Arc'  onClick="createArchive(); return false;"/>
+						<input type='button' id='startRecording' value='B Rec' disabled="disabled" onClick="recordSession(); return false;"/> 
+						<input type='button' id='stopRecording' value='E Rec' disabled="disabled" onClick="stopRecordingSession(); return false;"/>
+						<input type='button' id='closeArchive' value='E Arc' disabled="disabled" onClick="closeArchive(); return false;"/> -->
+			<p id="info" style="padding-top:50px">
+				Loading...
+			</p>		
+
+		  </div>
+     	<h2><%= t(:discussion)%></h2>
+		<div id="messages" class="messages_text"></div>
+		<div class="c_r_bcast_diss_text">
+			<form id="message_form" onsubmit="return false;">
+				<%= hidden_field_tag "message[schedule_id]", value = (@lesson.blank? ? 0 : @lesson.id) %>
+				<%= hidden_field_tag "message[msg_type]", value = false %>
+				<%= text_field_tag "message[content]", '', :class => 'c_r_bcast_diss_input' %>
+				<input id="msg_button" class="c_r_bcast_send" type="button" value="<%=t(:send)%>" >
+			</form>
+			</div>
+	</div>
+	<div class="headline_bottom_bcast"></div>
+	<div class="refresh"> 
+              <h1>Having video problems?</h1>
+              <p>TeachCast's preferred browsers are Firefox or Chrome. Also, make sure you have the latest version of Adobe Flash installed. If you are having video problems, try refreshing the window!</p>
+        </div>		
+</div><!--right-->
+<%=javascript_include_tag 'el/msg_submit'%>
+

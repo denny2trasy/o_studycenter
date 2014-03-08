@@ -1,0 +1,21 @@
+<div class="content_right">
+	<div id="activate_course" class="mar_b15">
+		<h1 class="headline_h1a"><%= t(:course_activation)%></h1>
+		<p><%=t(:input_your_active_code)%>：</p>
+		<%= form_tag activate_course_packages_path do %>
+		<input name="code" id="code" type="text" class="activation_text">
+		<%= submit_tag t(:activate) , :class => 'blue_button'%>
+		<% end %>
+		<%=raw show_flash %>
+	</div><!--激活-->
+	<div id="test_course" class="mar_b15">		
+		<%= javascript_tag("ajaxLoad('test_course', '#{replaces_path()}')")%>		
+	</div><!--激活-->
+	<div id="report_issue" class="mar_b15">
+		<%=raw show_report %>
+		<%= javascript_tag("ajaxLoad('report_issue', '#{new_issue_path()}')")%>		
+	</div><!--激活-->
+</div><!--right-->
+
+
+

@@ -1,0 +1,62 @@
+<script type="text/javascript">
+			$(document).ready(function(){
+				flash_view();
+			});
+		</script>
+      		<div class="aksteacher">
+            	        <div class="askimg">
+                        </div>
+                        <div class="ask_box">
+                	        <p>Submit an English question to a US-certified teacher and they will respond within 24 hours!  You can choose to send the question in video or writing!</p>
+                                <div class="ask_button">
+                    	                <div class="ask_message">
+                        	                <a href="mailto:Askateacher@eleutian.com"><img src="/el_studycenter/images/el/forums/ask_message.jpg" width="252" height="55" /></a>
+                                        </div>
+
+                                        <div class="ask_video">
+                                                <script src="https://api.opentok.com/hl/recorder/2recc0c16ef2e6c29df0b99941a545dd8564a8a0/button.js?recorderTime=2" type="text/javascript" charset="utf-8"></script>
+                                        </div>
+                                </div><!--ask_box-->	
+                </div>	<!--askteacher-->
+		
+<!--left-->		
+<div class="leftforums">	
+	<!--hello-->
+	<div class="boxgridforums captionfull">
+		<%= link_to(image_tag("/el_studycenter/images/el/forums/hello.jpg"),forum_path(1,:key=>"1embc4409ecc129801d22b0732aded66fb5a9586"),:target => "_blank")%>
+		<div class="cover boxcaption">
+			<h3><%= link_to("Introductions",forum_path(1,:key=>"1embc4409ecc129801d22b0732aded66fb5a9586"),:target => "_blank")%></h3>
+			<p>Come get to know new friends! 20 Users allowed</p>	
+		</div>	
+	</div><!--hello end-->
+	
+	<!--sports-->
+	<div class="boxgridforums caption">
+		<%= link_to(image_tag("/el_studycenter/images/el/forums/sports.jpg"),forum_path(1,:key=>"2emb4c1997d14bba3c70254acfbabb53630167ad"),:target => "_blank")%>
+			<div class="cover boxcaption">
+			<h3><%= link_to("Sports",forum_path(1,:key=>"2emb4c1997d14bba3c70254acfbabb53630167ad"),:target => "_blank")%></h3>
+			<p>Talk about games and athletes! 20 Users allowed</p>
+			</div>
+	</div><!--sports end-->
+
+	<!--travel-->
+	<div class="boxgridforums slideright">
+		<%= link_to(image_tag("/el_studycenter/images/el/forums/travel.jpg",:class=>"cover"),forum_path(1,:key=>"2emb4c1997d14bba3c70254acfbabb53630167ad"),:target => "_blank")%>
+		<h3><%= link_to("Travel",forum_path(1,:key=>"2emb4c1997d14bba3c70254acfbabb53630167ad"),:target => "_blank")%></h3>
+		<p>Discuss places you'd like to go! 20 Users allowed</p>		
+	</div><!--travel end-->
+	
+	<!--videogames-->
+	<div class="boxgridforums slidedown">
+		<%= link_to(image_tag("/el_studycenter/images/el/forums/videogames.jpg",:class=>"cover"),forum_path(1,:key=>"1emb3ff8add0674e1125adfb1e52a15c13811046"),:target => "_blank")%>
+		<h3><%= link_to("Video Games",forum_path(1,:key=>"1emb3ff8add0674e1125adfb1e52a15c13811046"),:target => "_blank")%></h3>
+		<p>Gamer talk only. Pwned. 20 Users allowed</p>		
+	</div><!--videogames end-->
+</div><!--end left-->	
+	
+<!--right-->		
+<div class="rigthforums">	
+	<img src="/el_studycenter/images/el/forums/sidebar_forums.png" alt="">
+</div>
+<!--end right-->			
+	

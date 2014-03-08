@@ -1,0 +1,217 @@
+<div class="content_left">
+  	<div id="course_status">
+		<div style="float:right; margin-top:-5px;">
+			<div class="btn_progerss_table"><%= link_to t(:table), progress_path()%></div>
+			<div class="btn_progerss_records"><%= link_to t(:chart), progress_records_path()%></div>
+		</div>
+  		<h1 class="headline_h1a"><%= t(:study_progress)%></h1>
+  			<table width="80%" border="0" cellspacing="0" cellpadding="0" class="table100">
+	   			<tr class="table100h1">
+	   				<td width="13%"><%= t(:course_package)%></td>
+	    			<td width="53%"><%= t(:self_study)%></td>
+	    			<td width="16%"><%= t(:live_class)%></td>
+	     			<td width="18%"><%= t(:test)%></td>
+	   			</tr>
+	  			<tr bgcolor="#F4F8FF">
+	   				<td><%= @course_package.name%></td>
+	    			<td><%= progress_bar(@studied_num*1.0/@lesson_num)%><div class="progress_self_show"><%= @studied_num%>/<%= @lesson_num%></div></td>
+	    			<td><div class="Webex_time"><%= @webex_num%>次</div></td>
+	     			<td><div class="Test_scores"><%= @exam_num%></div></td>
+	   			</tr>
+			</table>
+			<div>
+				<%= render :partial =>"item_groups"%>
+			</div>
+			<div id="records"></div>
+			<!-- <% @item_groups.each do |group|%>
+			<div id="item_group_<%= group.id%>_study"></div>
+			<% end%>
+			<% @item_groups.each do |group|%>
+			<div id="item_group_<%= group.id%>_webex"></div>
+			<% end%>
+			<% @item_groups.each do |group|%>
+			<div id="item_group_<%= group.id%>_test"></div>
+			<% end%>
+		 -->
+	</div>
+</div>
+	
+	<%= render :partial=>"home/right"%>
+<script>
+function getStudyRecord(group_id){
+	var obj = $("#records");
+	//var obj = $("#item_group_"+group_id+"_study");
+	 $.ajax({
+		type: "get",
+		url: '/el_studycenter/progress/group_study_records',
+      	data: 'id='+group_id,
+       	dataType: 'json',
+
+		beforeSend: function(XMLHttpRequest){
+			showLoading(obj);
+			slideTo(obj);
+		},
+		success: function(data, textStatus){
+			if(data.length >0){
+			var header = "<table width='80%' border='0' cellspacing='0' cellpadding='0' class='table100'>"
+				header += "<tr class='table100h3_1'><td colspan='4' >Self Study---"+data[0].group+"</td></tr>"
+				header += "<tr class='table100h1'>"
+				header += "	<td width='13%'>课程</td>"
+				header += "	<td width='53%'>进度</td>"
+				header += "	<td width='16%'>分数/次数</td>"
+				header += "	<td width='18%'>时间</td>"
+				header += "</tr>";
+				
+			var body=""
+			$.each(data,function(i){  
+				body += "<tr>"
+				body += "<td>"+data[i].value.name+"</td>"
+				body += "<td>"+progressBar(data[i].value.progress,true)+"</td>"
+				if(data[i].value.score){
+					body += "<td><div class='Webex_time'>"+data[i].value.score+"分</div></td>"	
+				}
+				if(data[i].value.times){
+					body += "<td><div class='Webex_time'>"+data[i].value.times+"次</div></td>"	
+				}
+				body += "<td><div class='Test_scores'>"+data[i].value.time_at+"</div></td>"
+				body += "</tr>"		
+      		});
+			obj.html(header+body+"</table>");
+		};
+		},
+
+		complete: function(XMLHttpRequest, textStatus){
+			removeLoading(obj);
+			slideTo(obj);
+		//HideLoading();
+		},
+		error: function(){
+			obj.html("Error, please try again!")
+		//请求出错处理
+		}
+		});
+};
+
+function getWebexRecord(group_id){
+	var obj = $("#records");
+	//var obj = $("#item_group_"+group_id+"_webex");
+	 $.ajax({
+		type: "get",
+		url: '/el_studycenter/progress/group_webex_records',
+      	data: 'id='+group_id,
+       	dataType: 'json',
+
+		beforeSend: function(XMLHttpRequest){
+			showLoading(obj);
+			slideTo(obj);
+		},
+		success: function(data, textStatus){
+			if(data.length >0){
+			var header = "<table width='80%' border='0' cellspacing='0' cellpadding='0' class='table100'>"
+				header += "<tr class='table100h3_2'><td colspan='4' >外教授课---"+data[0].group+"</td></tr>"
+				header += "<tr class='table100h1'>"
+				header += "	<td width='13%'>课程</td>"
+				header += "	<td width='53%'>进度</td>"
+				header += "	<td width='16%'>上课时长</td>"
+				header += "	<td width='18%'>时间</td>"
+				header += "</tr>";
+				
+			var body=""
+			$.each(data,function(i){  
+				body += "<tr>"
+				body += "<td>"+data[i].value.name+"</td>"
+				body += "<td>"+progressBar(data[i].value.progress,true)+"</td>"
+				body += "<td><div class='Webex_time'>"+data[i].value.all_time+"分</div></td>"	
+				body += "<td><div class='Test_scores'>"+data[i].value.time_at+"</div></td>"
+				body += "</tr>"		
+      		});
+			obj.html(header+body+"</table>");
+		};
+		},
+
+		complete: function(XMLHttpRequest, textStatus){
+			removeLoading(obj);
+			slideTo(obj);
+		},
+		error: function(){
+			obj.html("Error, please try again!")
+		//请求出错处理
+		}
+		});
+};
+function getTestRecord(group_id){
+	var obj = $("#records");
+	//var obj = $("#item_group_"+group_id+"_test");
+	 $.ajax({
+		type: "get",
+		url: '/el_studycenter/progress/group_test_records',
+      	data: 'id='+group_id,
+       	dataType: 'json',
+
+		beforeSend: function(XMLHttpRequest){
+			showLoading(obj);
+			slideTo(obj);
+		},
+		success: function(data, textStatus){
+			if(data.length >0){
+			var header = "<table width='80%' border='0' cellspacing='0' cellpadding='0' class='table100'>"
+				header += "<tr class='table100h3_3'><td colspan='4' >Test---"+data[0].group+"</td></tr>"
+				header += "<tr class='table100h1'>"
+				header += "	<td width='13%'>标题</td>"
+				header += "	<td width='53%'>进度</td>"
+				header += "	<td width='16%'>测试时间</td>"
+				header += "	<td width='18%'>分数</td>"
+				header += "</tr>";
+				
+			var body=""
+			$.each(data,function(i){  
+				body += "<tr>"
+				body += "<td>"+data[i].value.name+"</td>"
+				body += "<td>"+progressBar(data[i].value.progress,true)+"</td>"
+				body += "<td><div class='Webex_time'>"+data[i].value.time_at+"</div></td>"	
+				body += "<td><div class='Test_scores'>"+data[i].value.score+"</div></td>"
+				body += "</tr>"		
+      		});
+			obj.html(header+body+"</table>");
+		};
+		},
+
+		complete: function(XMLHttpRequest, textStatus){
+			removeLoading(obj);
+			slideTo(obj);
+		},
+		error: function(){
+			obj.html("Error, please try again!")
+		}
+		});
+};
+function progressBar(rate,dis_num){
+	var bar = "<div class='progress_self_bg'><div class=";
+	if(rate*3.0 < 1){
+		bar += "'progress_self_red'";
+
+	}
+	else if(rate*3.0/2 < 1){
+		bar += "'progress_self_yellow'";
+		
+	}
+	else{
+		bar += "'progress_self_green'";
+		
+	}
+	bar += " style='width:"+rate*100+"%'></div></div>";
+	if(dis_num){
+		bar += "<div class='progress_self_show'>"+rate*100+"%</div>";
+	}
+	return bar
+}
+function showLoading(obj){
+	obj.html("<div class='loaderin'><img src='/el_studycenter/images/el/ajax_loader.gif' alt='loading...'></div>");
+}
+function removeLoading(obj){
+	obj.children("div.loaderin").remove();
+}
+function slideTo(obj){
+	$('html,body').animate({scrollTop: obj.offset().top}, 500);
+}
+</script>

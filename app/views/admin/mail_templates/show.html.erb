@@ -1,0 +1,118 @@
+<br/>
+<div class="hmenu1">
+  <ul>
+    <li><%= popup t(:new_template), new_admin_mail_template_path %></li>
+    <li><%= link_to t(:mail_record), admin_mail_records_path %></li>
+    <li><% form_tag mail_services_path, :remote =>true do -%>
+		<%= t(:send_test_mail_to)%>
+		<%= email_field_tag "mail_to"%>
+        <%= submit_tag t("send") %>
+        <% end -%>
+    </li>
+  </ul>
+</div>
+<p id="notice_area"><%= notice %></p>
+<br/><br/>
+<div class="edit_table">
+  <table style="width:100%">
+    <tr>
+      <th width="100"><%= t :name %></th>
+      <td><%= in_place_editor_field(:mail_template, :name) %></td>
+      <th width="100"><%= t :used_by %></th>
+      <td><%= in_place_editor_field(:mail_template, :used_by) %></td>
+      <th width="100"><%= t :description %></th>
+      <td><%= in_place_editor_field(:mail_template, :description) %></td>
+    </tr>
+    <tr>
+      <th><%= t :variables %></th>
+      <td><%= in_place_editor_field(:mail_template, :variables) %></td>
+      <th><%= t :in_use %></th>
+      <td <%= %{style="background-color:red"} if not @mail_template.in_use %>><%= in_place_editor_field(:mail_template, :in_use) %></td>
+      <th><%= t :operation %></th>
+      <td>
+        <%= link_to t(:preview), preview_admin_mail_template_path(@mail_template), :popup => true %>
+        <%= link_to t(:edit), edit_admin_mail_template_path(@mail_template) %>
+      </td>
+    </tr>
+  </table>
+</div>
+<% if not @mail_template.in_use %>
+<p>当前模板处于不可用状态，如果使用该模板请修改上方的红色处后刷新</p>
+<% end %>
+<br/><br/>
+<% form_tag mail_services_path, :method =>:post%>
+  <%= hidden_field_tag "mail_service[template_name]", @mail_template.name %>
+  <%= hidden_field_tag "mail_service[used_by]", @mail_template.used_by %>
+  <div class="edit_table" style="float:left">
+	<caption>根据客户发送
+
+<% form_tag mail_services_path, :method => :post, :multipart => true do %>
+  <%= hidden_field_tag "mail_service[template_name]", @mail_template.name %>
+  <%= hidden_field_tag "mail_service[used_by]", @mail_template.used_by %>
+  <%= hidden_field_tag "has_attachment", "true" %>
+  <div class="edit_table" style="float:left">
+    <table style="margin-right: 50px;">
+      <caption>批量发送模式</caption>
+      <tr>
+        <th><%= t :title %></th>
+        <td><%= text_field_tag "mail_service[title]" %></td>
+      </tr>
+      <tr>
+        <th><%= t :from %></th>
+        <td><%= text_field_tag "mail_service[from]" %></td>
+      </tr>
+      <tr>
+        <th>addrs</th>
+        <td><%= file_field_tag "file" %></td>
+      </tr>
+      <tr>
+        <th>文件格式说明</th>
+        <td>
+          <ul>
+            <li><a href="http://baike.baidu.com/view/468993.htm#3" target="_blank">CSV格式</a>（可以用Excel导出得到）</li>
+            <li>文件的第一列内容是邮件地址，从第二列起每列对应模板中的一个变量（顺序不可颠倒）</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><%= submit_tag(t(:send), :disabled => !@mail_template.in_use) %></td>
+      </tr>
+    </table>
+  </div>
+  <br/>
+<% end %>
+<% form_tag mail_services_path, :method => :post do %>
+  <div class="edit_table">
+    <table width="600">
+      <caption>发送至单人模式</caption>
+      <tr>
+        <th width="100"><%= t :title %></th>
+        <td><%= text_field_tag "mail_service[title]" %></td>
+      </tr>
+      <tr>
+        <%= hidden_field_tag "mail_service[template_name]", @mail_template.name %>
+        <%= hidden_field_tag "mail_service[used_by]", @mail_template.used_by %>
+        <th><%= t :from %></th>
+        <td><%= text_field_tag "mail_service[from]" %></td>
+      </tr>
+      <tr>
+        <th><%= t :to %></th>
+        <td>
+          <%= text_field_tag "mail_service[to]" %>
+          <label for="to_me">
+            <%= check_box_tag 'to_me', nil, nil, :onclick => "if(this.checked) {$('mail_service_to').value = '#{current_user.mail}'} else {$('mail_service_to').value = null;}" %>me
+          </label>
+        </td>
+      </tr>
+      <% @mail_template.variables.to_s.split(',').each do |var| %>
+        <tr>
+          <th><%= var %></th>
+          <td><%= text_field_tag "mail_service[#{var.strip}]" %></td>
+        </tr>
+      <% end %>
+      <tr>
+        <td colspan="2"><%= submit_tag(t(:send), :disabled => !@mail_template.in_use) %></td>
+      </tr>
+    </table>
+  </div>
+<% end %>

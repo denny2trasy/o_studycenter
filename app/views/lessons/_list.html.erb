@@ -1,0 +1,29 @@
+<div class="item_group">
+	<ol class="unit_list">
+<% course_package.item_groups.each do |item_group| %>
+	<% num = 1%>
+	<li class="clearfix">
+		<h3><%= item_group.name %></h3>
+		<ol>
+			<% item_group.lessons.each do |lesson| %>
+				<li>
+					<%= link_to image_tag("http://cdn.eleutian.com/Content/Lessons/#{lesson.image_url}") + "Lesson #{num}", lesson_path(lesson)%>		      		
+		      </li>
+			<% num = num + 1 %>
+			<% end %>
+		</ol>
+	</li>
+
+<% end %>
+</ol>
+</div>
+
+
+<!-- <blockquote></blockquote> -->
+<!-- <div class="course_image"><%#= image_tag("http://cdn.eleutian.com/Content/Lessons/#{lesson.image_url}")%></div> -->
+<!-- <p><%#= lesson.name %></p> -->
+<%# if current_user.studied_lesson?(lesson) %>
+	<%#= link_to 'Study', lesson_path(lesson), :class => "button px14" %>
+<%# else %>
+	<%#= link_to 'Study', study_records_path(:lesson_id => lesson.id), :method => :post, :class => "button px14" %>
+<%# end %>

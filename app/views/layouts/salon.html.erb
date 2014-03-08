@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ElStudycenter</title>
+	<link rel="shortcut icon" href="/el_studycenter/images/el/icon/favicon.ico" type="image/x-icon" />
+    <%= stylesheet_link_tag 'el_base', 'fullcalendar', 'el_lc_v2','el_salon', 'el_'+I18n.locale.to_s %>
+    <%= javascript_include_tag :defaults %>
+    <%= javascript_include_tag 'fullcalendar', 'gcal', 'application','jquery/jquery-ui', 'jquery/jquery_tab', 'flash_view' %>
+    <%= stylesheet_link_tag 'jquery-ui', 'dialog' %>
+	<%= javascript_include_tag 'frame'%>
+    <%= csrf_meta_tag %>
+  </head>
+
+  <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+  <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+  <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+  <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+  <!--[if (gt IE 9)|!(IE)]> <body> <![endif]-->
+  <body onLoad="ajaxLoad();">
+	<div id="container">
+    <% if current_user %>
+
+      <div class="header_wrap">
+        <!--head-->
+        <div class="header_main">
+          <div class="logo"><a href="http://ellis.es123.com" target="_blank"> <img src="/el_studycenter/images/el/shalong/logo.png"/> </a></div><!--logo-->
+          <div id="top_nav">
+              <%= link_to t(:setting), profile_path%>
+              <%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + signin_url, :method => :get %>
+
+          </div><!--top nav-->
+          <div id="main_nav_warp">
+            <ul id="main_nav">
+              <li id="<%= params[:controller] == 'home' || params[:controller] == 'lessons' ? 'study_current_v2' : 'nav-study_v2'%>" ><%= link_to t(:learning_portal), home_path %></li>
+
+			  <li id="<%= params[:controller] == 'webexs' ? 'live_current_v2' : 'nav-live_v2'%>" ><%= link_to t(:live_broadcast), webexs_path %></li>
+			  <li id="<%= params[:controller] == 'ppts' ? 'ppt_current_v2' : 'nav-ppt_v2'%>"><%= link_to t(:ppt), ppts_path%></li>
+			  
+			  <li id="<%= params[:controller] == 'forums' ? 'forum_current_v2' : 'nav-forum_v2'%>"><%= link_to t(:forum), forums_path%></li>
+            </ul>
+            <p>
+              <span class="clour_blue">
+                <% if current_user %>
+                  <%= current_user.given_name.blank? ? current_user.login : current_user.given_name %>
+                <% end %>
+              </span> <%=t(:welcome)%> 英语沙龙<sub style="font-size:8px; font-style: italic;color:#b7b7b7;">Powered by Eleutian</sub> <% t(:study_center)%>
+            </p>
+          </div><!--nav-->
+        </div><!--main-nav-->
+      </div>
+    <% else %>
+      <div class="header_wrap"><!--head-->
+        <div class="header_main">
+         <div class="logo"><a href="http://ellis.es123.com" target="_blank"> <img src="/el_studycenter/images/el/shalong/logo.png"/> </a></div><!--logo-->
+			<!--top nav-->
+         <p class="login_head"><%=t(:welcome_register)%> English Salon<%=t(:study_center)%></p>
+		 <div class="language"> <select name="select"  onchange="top.location.href=this.options[this.selectedIndex].value"> 
+			<% if params[:controller] == 'user/profiles' then @page='signup'; else @page='signin';end %>
+			<OPTION value='/el_studycenter/<%= @page %>/en' <%= 'selected' if I18n.locale.to_s == "en"%>>English</OPTION>
+			<OPTION value='/el_studycenter/<%= @page %>/zh' <%= 'selected' if I18n.locale.to_s == "zh"%>>中文</OPTION> 
+
+			</SELECT> 
+        </div>
+      </div><!--head-->
+	</div>
+    <% end %>
+
+    <div class="main">
+      <div class="content group">
+        <%= yield %>
+      </div>
+	<%= render :partial=>"layouts/qq_service"%>
+
+    </div>
+
+    <!--footer-->
+    <div class="footer_warp">
+      <div class="footer_main">
+        <ul class="f_ul">
+          <li class="f_li">
+            <a href="http://www.es123.com" target="_blank"><%=t(:about_us)%></a>
+          </li>
+          <li class="f_li">
+            <a href="/el_studycenter/contact/salon" target="_blank"><%=t(:teachers)%></a>
+          </li>
+          <!--li class="f_li">
+            <a href="/el_studycenter/contact/salon" target="_blank"><%=t(:individuals)%></a>
+          </li-->
+          <!--li class="f_li">
+            <a href="/el_studycenter/contact/salon" target="_blank"><%=t(:group)%></a>
+          </li-->
+          <!--li class="f_li">
+            <a href="/el_studycenter/contact/salon" target="_blank"><%=t(:assessment)%></a>
+          </li-->
+		  <li class="f_li">
+            <a href="/el_studycenter/contact/salon"><%=t(:contact)%></a>
+          </li>
+		   <li class="f_li">
+           COPYRIGHT (C) 2006-2012 ,LLC. <%=t(:right_reserved)%>。
+          </li>
+        </ul>
+		 <div class="footer_logo"></div>
+      </div>
+    </div>
+
+    </div>
+  </body>
+</html>
