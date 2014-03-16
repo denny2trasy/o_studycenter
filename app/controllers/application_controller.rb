@@ -3,9 +3,9 @@ class ApplicationController < ActionController::Base
     ignore_login :all
     #   
     # 
-    def current_user
-       return User.find_by_login("liupeng")
-    end
+    # def current_user
+    #    return User.find_by_login("liupeng")
+    # end
   def set_layout
     if request.domain == 'es123.com' || request.domain(2) == "es123.eleutian.asia"
       'salon'
