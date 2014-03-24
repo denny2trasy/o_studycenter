@@ -36,9 +36,9 @@
 
 			  <li id="<%= params[:controller] == 'webexs' ? 'live_current_v2' : 'nav-live_v2'%>" ><%= link_to t(:live_broadcast), webexs_path %></li>
 			 <li id="<%= params[:controller] == 'progress' ? 'progress_current_v2' : 'nav-progress_v2'%>"><%= link_to t(:progress), progress_path%></li>
-			  <li id="<%= params[:controller] == 'ppts' ? 'ppt_current_v2' : 'nav-ppt_v2'%>"><%= link_to t(:ppt), ppts_path%></li>
+			  <!-- <li id="<%#= params[:controller] == 'ppts' ? 'ppt_current_v2' : 'nav-ppt_v2'%>"><%#= link_to t(:ppt), ppts_path%></li> -->
 			  
-			  <li id="<%= params[:controller] == 'forums' ? 'forum_current_v2' : 'nav-forum_v2'%>"><%= link_to t(:forum), forums_path%></li>
+			  <!-- <li id="<%#= params[:controller] == 'forums' ? 'forum_current_v2' : 'nav-forum_v2'%>"><%#= link_to t(:forum), forums_path%></li> -->
 			  <li id="<%= params[:controller] == 'qa' ? 'qa-current_v2' : 'nav-qa_v2'%>"><%= link_to t(:requirement), requirements_path%>
             </ul>
 
@@ -88,9 +88,9 @@
     <div class="footer_warp">
       <div class="footer_main">
         <ul class="f_ul">
-                <li class="f_li">
-                  <a href="/el_studycenter/contact/about_us" target="_blank"><%=t(:about_us)%></a>
-                </li>
+                <!-- <li class="f_li">
+                                  <a href="/el_studycenter/contact/about_us" target="_blank"><%#=t(:about_us)%></a>
+                                </li> -->
                  <!--li class="f_li">
                   <a href="/el_studycenter/contact" target="_blank"><%=t(:teachers)%></a>
                 /li-->
@@ -104,7 +104,7 @@
                   <a href="/el_studycenter/contact" target="_blank"><%=t(:assessment)%></a>
                 </li-->
 		  <li class="f_li">
-          COPYRIGHT (C) 2006-2012 ELEUTIAN TECHNOLOGY,LLC. 京ICP备11043505号-1<%=t(:right_reserved)%>。
+          COPYRIGHT © 2014-2020 DENNY LI<%=t(:right_reserved)%>。
           </li>
         </ul>
        <div class="footer_logo"></div>

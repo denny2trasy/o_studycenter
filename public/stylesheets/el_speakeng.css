@@ -2,7 +2,9 @@
 
 .login_head {font-size: 14px; line-height:14px; float: left; width:400px; margin-top:38px; text-align:left; color: #626262; padding: 0px 30px 0px; margin-left:5px; background:url(/el_studycenter/images/el/icon/nav-arrow.png) no-repeat;}
 
-.footer_logo{width: 210px; height: 56px; padding: 0px 0px 0px 0px; float: left; background: url(/el_studycenter/images/el/footer_logo.png) no-repeat; background-position: 0px 0px;}
+.footer_logo{width: 210px; height: 56px; padding: 0px 0px 0px 0px; float: left; 
+/*	background: url(/el_studycenter/images/el/footer_logo.png) no-repeat; */
+	background-position: 0px 0px;}
 
 /*
 .login_head, x:-moz-any-link, x:default {

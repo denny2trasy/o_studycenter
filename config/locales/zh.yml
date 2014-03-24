@@ -244,9 +244,9 @@ zh:
   # ehome
   self_study: "Self Study"
   self_study_desc_1: "SpeakENG self study content combines digital audio, video, voice recording, role-play, and native language support to create an engaging and effective tool to help you learn English. "
-  self_study_desc_2: "After studying SpeakENG lessons, be sure to watch the corresponding TeachCast live broadcast sessions to further improve your English speaking and comprehension skills."
+  self_study_desc_2: "After studying SpeakENG lessons, be sure to watch the corresponding Oenglish live broadcast sessions to further improve your English speaking and comprehension skills."
   enter_self_study: "Enter Self Study"
-  live_broadcast_desc_1: "TeachCast live broadcasts give you the opportunity to learn English from a native, US-board-certified teacher. View the calendar to check times for upcoming sessions that correspond to the self study lessons you are enrolled in."
+  live_broadcast_desc_1: "Oenglish live broadcasts give you the opportunity to learn English from a native, US-board-certified teacher. View the calendar to check times for upcoming sessions that correspond to the self study lessons you are enrolled in."
   upcoming_sessions: "Upcoming Sessions:"
   no_sessions: "There are no sessions"
   join_the_broadcast: "Join the Broadcast"
@@ -261,8 +261,8 @@ zh:
   count: "激活总数" 
   
   # requirement
-  teachcast_system_requirements: TeachCast系统要求
-  requirements_for_using_system: "TeachCast系统使用要求:"
+  teachcast_system_requirements: Oenglish系统要求
+  requirements_for_using_system: "Oenglish系统使用要求:"
   approved_browser: "支持的浏览器:"
   chrome: 谷歌浏览器
   firefox: 火狐浏览器 (v8.0+)
@@ -298,10 +298,10 @@ zh:
   recommended_mac_ram_requirement: 1024MB 内存或更高
   recommended_mac_graphics_requirement: 128MB 显卡 
   question: 问题
-  how_to_use_tc: 如何使用 TeachCAST?
+  how_to_use_tc: 如何使用 Oenglish?
   downdoad_instructions: 使用说明书下载
   question_1: 视频不流畅，声音卡怎么办?
-  answer_1: TeachCAST 要求您至少 160Kb/s 的速度连接到我们的服务器. 要想获得高质量的视频体验，您应该至少 1.28Mb/s 的下载速度。 点击这里测试您的网速
+  answer_1: Oenglish 要求您至少 160Kb/s 的速度连接到我们的服务器. 要想获得高质量的视频体验，您应该至少 1.28Mb/s 的下载速度。 点击这里测试您的网速
   question_2: 应该使用什么样的浏览器?
   answer_2: 我们推荐使用谷歌浏览器或者火狐浏览器，如果是Mac用户您也可以使用Safari， 如果要使用IE，请您至少要升级到IE8。
   question_3: 能使用手机或者平板电脑上课吗? 

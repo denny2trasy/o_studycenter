@@ -11,9 +11,9 @@
               <div class="newbutton">
 					<%= submit_tag("",:class=>"newbuluebutton")%>	                    
               </div>
-		<span class="home_forgetpassword">	<%= link_to "忘记密码？",url_of(:el_user,:forgot_password)+"?forward="+home_url,:method=>:get %>
-				<%= hidden_field_tag(:forward, home_path) %>
-			  	<%= hidden_field_tag(:locale, @locale) %>
+		<span class="home_forgetpassword">	<%#= link_to "忘记密码？",url_of(:el_user,:forgot_password)+"?forward="+home_url,:method=>:get %>
+				<%#= hidden_field_tag(:forward, home_path) %>
+			  	<%#= hidden_field_tag(:locale, @locale) %>
 			<% end %>
 			</span>
 			

@@ -17,7 +17,7 @@ class ContactController < ApplicationController
   end
   
   def requirements
-    I18n.locale = current_user.locale || 'zh'
+    I18n.locale = current_user.try(:locale) || 'zh'
   end
   
   def about_us

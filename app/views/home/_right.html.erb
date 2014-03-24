@@ -32,15 +32,16 @@
 		<%#= link_to "Business ventures", "http://thinkingcap.eleutian.asia//Student/Course/ViewCourse.aspx?CourseID=7c92634f-0659-4e95-a76c-c919b1ef823e&ProgramID=", :target => "_blank"%>
 	</div>
 	<% end%>
-	<% if current_user.from_partner == "cambridge"%>		
-		<div id="report_issue" class="mar_b15"><h1 class="headline_h1a">报告建议</h1>
-		<div class="report_issue_wrap">
-			您在学习过程中如遇到问题，或对我们的课程有任何意见或建议，请致信我们的官方邮箱：<a href="mailto:jianqiaoqingshao@gmail.com">jianqiaoqingshao@gmail.com</a>，我们将及时对您的问题给予答复。 </div></div>
-	<% else%>
-	<div id="test_course" class="mar_b15">		
-		<%= javascript_tag("ajaxLoad('test_course', '#{replaces_path()}')")%>		
-	</div><!--SpeakENG Test-->
-	<% end%>
+	<!-- denny remove this block at 20140324 -->
+	<% #if current_user.from_partner == "cambridge"%>		
+		<!-- <div id="report_issue" class="mar_b15"><h1 class="headline_h1a">报告建议</h1> -->
+		<!-- <div class="report_issue_wrap"> -->
+			<!-- 您在学习过程中如遇到问题，或对我们的课程有任何意见或建议，请致信我们的官方邮箱：<a href="mailto:jianqiaoqingshao@gmail.com">jianqiaoqingshao@gmail.com</a>，我们将及时对您的问题给予答复。 </div></div> -->
+	<%# else%>
+	<!-- <div id="test_course" class="mar_b15">		 -->
+		<%#= javascript_tag("ajaxLoad('test_course', '#{replaces_path()}')")%>		
+	<!-- </div>SpeakENG Test-->
+	<%# end%>
 	<!--
 	<div id="report_issue" class="mar_b15">
 		<%=raw show_report %>
