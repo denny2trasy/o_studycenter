@@ -24,8 +24,10 @@
 			<%= f.time_zone_select("time_zone")%>
 
 		<%= f.button :submit, :class => 'reset_button' %>
-
-		<%= hidden_field_tag :forward, profile_url %>
+		
+		<% for_url = (Rails.env == "production" ? "http://#{request.domain}/#{profile_path}" : profile_url) %>
+		
+		<%= hidden_field_tag :forward, for_url %>
 		<% end %>
 	</div>
 	<div id="reset_password">
