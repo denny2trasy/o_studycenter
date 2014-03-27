@@ -25,7 +25,7 @@
 
 		<%= f.button :submit, :class => 'reset_button' %>
 		
-		<% for_url = (Rails.env == "production" ? "http://www.oenglish.net/el_studycenter/#{profile_path}" : profile_url) %>
+		<% for_url = (Rails.env == "production" ? "http://www.oenglish.net/#{profile_path}" : profile_url) %>
 		
 		<%= hidden_field_tag :forward, for_url %>
 		<% end %>

@@ -28,7 +28,7 @@
           <div class="logo"><a href="/el_studycenter/signin"> <img src="/el_studycenter/images/el/logo.jpg"/></a></div><!--logo-->
           <div id="top_nav">
               <%= link_to t(:setting), profile_path%>
-			  <% for_url = (Rails.env == "production" ? "http://www.oenglish.net/el_studycenter/#{signin_path}" : sigin_url) %>
+			  <% for_url = (Rails.env == "production" ? "http://www.oenglish.net/#{signin_path}" : sigin_url) %>
               <%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + for_url, :method => :get %>
           </div><!--top nav-->
           <div id="main_nav_warp">
