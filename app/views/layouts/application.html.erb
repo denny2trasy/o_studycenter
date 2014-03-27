@@ -25,7 +25,7 @@
       <div class="header_wrap">
         <!--head-->
         <div class="header_main">
-          <div class="logo"><a href="/el_studycenter/signin"> <img src="/el_studycenter/images/el/logo.png"/></a></div><!--logo-->
+          <div class="logo"><a href="/el_studycenter/signin"> <img src="/el_studycenter/images/el/logo.jpg"/></a></div><!--logo-->
           <div id="top_nav">
               <%= link_to t(:setting), profile_path%>
 			  <% for_url = (Rails.env == "production" ? "http://#{request.domain}/#{signin_path}" : sigin_url) %>
@@ -56,12 +56,12 @@
     <% else %>
       <div class="header_wrap"><!--head-->
         <div class="header_main">
-         <div class="logo"><a href="/el_studycenter/signin"> <img src="/el_studycenter/images/el/eleutianlogo.png"/></a></div><!--logo-->
+         <div class="logo"><a href="/el_studycenter/signin"> <img src="/el_studycenter/images/el/oenglishlogo.jpg"/></a></div><!--logo-->
          <div id="login_top_nav">
                        <a href="/el_studycenter/requirements"><%= t(:requirement)%></a>         
                    </div><!--top nav-->
                    
-         <p class="login_head"><%=t(:welcome_register)%> Teach<span class="clour_blue_bold">C</span><span class="clour_black">ast</span> <%=t(:study_center)%></p>
+         <p class="login_head"><%=t(:welcome_register)%> Oenglish <%=t(:study_center)%></p>
 		 <div class="language"> <select name="select"  onchange="top.location.href=this.options[this.selectedIndex].value"> 
 			<% if params[:controller] == 'user/profiles' then @page='signup'; else @page='signin';end %>
 			<OPTION value='/el_studycenter/<%= @page %>/en' <%= 'selected' if I18n.locale.to_s == "en"%>>English</OPTION>

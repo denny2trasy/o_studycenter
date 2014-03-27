@@ -385,8 +385,8 @@ position:relative;}
 		.home_forgetpassword_salon{ color:#CCC; width:100px; margin:0px 0px 0px 50px; font-size:12px; }
 
 /* new reigster*/
-.loginteacher{ position: absolute; bottom:0px; background:url(/el_studycenter/images/el/newversion/loginteacher.png) no-repeat; width:600px; height:450px; float:left; margin-top:55px; }
-.xinhangdao_loginteacher{ position: absolute; bottom:0px; background:url(/el_studycenter/images/el/xinhangdao/loginteacher.png) no-repeat; width:600px; height:500px; float:left; margin-top:55px; }
+.loginteacher{ position: absolute; bottom:0px; background:url(/el_studycenter/images/el/newversion/loginteacher.jpg) no-repeat; width:600px; height:450px; float:left; margin-top:55px; }
+.xinhangdao_loginteacher{ position: absolute; bottom:0px; background:url(/el_studycenter/images/el/xinhangdao/loginteacher.jpg) no-repeat; width:600px; height:500px; float:left; margin-top:55px; }
 		.newregister{ width:306px; float:right; }
 			.newregister_input{ width:240px; height:19px; }
 			.newregistertop{ width:315px; float:right; background:url(/el_studycenter/images/el/newversion/registertop.jpg) no-repeat; height:50px; }
