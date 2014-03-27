@@ -10,9 +10,14 @@ Net::HTTP.version_1_2
 require "Webex/WebexToSDK"
 
 module Webex
-  API_URL = "https://eleutian.webex.com.cn/eleutian/"  
-  API_USER = "denny"
-  APE_PWD = "Idapt3d"
+  # API_URL = "https://eleutian.webex.com.cn/eleutian/"  
+  # API_USER = "denny"
+  # APE_PWD = "Idapt3d"
+  # MEETING_PWD = "elotian"
+  
+  API_URL = "https://onlinieenglish.webex.com.cn/"  
+  API_USER = "dngai"
+  APE_PWD = "Dan12345"
   MEETING_PWD = "elotian"
   
   def self.instance
