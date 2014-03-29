@@ -129,7 +129,14 @@ class Admin::SchedulesController < Admin::BaseController
   
   def schedule_meeting
     #[:en],ye,mo,da,ho,mi,du,jpw,bu)
-    params[:BU] = up_schedule_admin_schedules_url(:id=>params[:id])
+    # denny edit it at 2014.3.28
+    # params[:BU] = up_schedule_admin_schedules_url(:id=>params[:id])
+    if Rails.env == "production"
+      params[:BU] = "http://www.oenglish.net/el_studycenter/#{up_schedule_admin_schedules_path(:id=>params[:id])}"
+    else
+      params[:BU] = up_schedule_admin_schedules_url(:id=>params[:id])
+    end
+    
     redirect_to Webex.instance.schedule_meeting(params)
   end
    
