@@ -25,7 +25,8 @@
         				<ul class="miscnav">
 				            <% if current_user %>
 				              <li><%= link_to t(:setting), profile_path%></li>
-				              <li><%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + signin_url, :method => :get %></li>
+				<% for_url = (Rails.env == "production" ? "http://www.oenglish.net/#{signin_path}" : signin_url) %>
+				              <li><%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + for_url, :method => :get %></li>
 				            <% else %>
 				              <li><%= link_to t(:signin), signin_path %></li>
 				              <li><%= link_to t(:signup), signup_path %></li>

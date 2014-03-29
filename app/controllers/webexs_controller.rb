@@ -36,7 +36,13 @@ class WebexsController < BaseController
     @enroll_webex.schedule_id = params[:SID]
     @enroll_webex.user_id = current_user.id
     if @enroll_webex.save
-      redirect_to  Webex.instance.join_enroll_meeting(webexs_url,params[:WID],params[:EI],params[:PWD])
+      if Rails.env.production?
+        url = "http://www.oenglish.net/#{webexs_path}"
+      else
+        url = webexs_url
+      end
+      
+      redirect_to  Webex.instance.join_enroll_meeting(url,params[:WID],params[:EI],params[:PWD])
     else
       render :text=>"enroll webex fail"
     end
@@ -54,7 +60,12 @@ class WebexsController < BaseController
       @webex_id = @enroll_webex.schedule.webex_id
       @webex_pwd = @enroll_webex.schedule.webex_pwd
       if @enroll_webex.update_attributes(:enroll_id=>params[:EI])
-        redirect_to  Webex.instance.join_enroll_meeting(webexs_url,@webex_id,params[:EI],@webex_pwd)
+        if Rails.env.production?
+          url = "http://www.oenglish.net/#{webexs_path}"
+        else
+          url = webexs_url
+        end
+        redirect_to  Webex.instance.join_enroll_meeting(url,@webex_id,params[:EI],@webex_pwd)
       end
     else
       redirect_to webexs_path

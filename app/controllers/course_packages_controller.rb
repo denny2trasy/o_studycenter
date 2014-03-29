@@ -53,7 +53,7 @@ class CoursePackagesController < BaseController
     @course_package = current_user.course_package(params[:id])
     current_user.set_current_course_package(@course_package)
 
-    redirect_to home_url
+    redirect_to home_path
   end
   
   def set_code_used(register_code)

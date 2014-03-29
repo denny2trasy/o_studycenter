@@ -27,7 +27,8 @@
           <div id="top_nav">
             <% if current_user %>
               <%= link_to t(:setting), profile_path%>
-              <%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + signin_url, :method => :get %>
+<% for_url = (Rails.env == "production" ? "http://www.oenglish.net/#{signin_path}" : signin_url) %>
+              <%= link_to t(:signout), url_of(:el_user, :signout) + "?forward=" + for_url, :method => :get %>
             <% else %>
               <%= link_to t(:signin), signin_path %>
               <%= link_to t(:signup), signup_path %>

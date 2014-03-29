@@ -29,10 +29,24 @@ module SchedulesHelper
   def webex_login_url(c)
     f_name = current_user.given_name.blank? ? current_user.login : current_user.given_name
     if en = EnrollWebex.find(:first,:conditions =>{:user_id => current_user.id,:schedule_id => c.id})
-      return Webex.instance.join_enroll_meeting(webexs_url(:SID=>c.id),c.webex_id,en.enroll_id,c.webex_pwd)
+      
+      if Rails.env.production?
+        url = "http://www.oenglish.net/#{webexs_path(:SID=>c.id)}"
+      else
+        url = webexs_url(:SID=>c.id)
+      end
+      
+      return Webex.instance.join_enroll_meeting(url,c.webex_id,en.enroll_id,c.webex_pwd)
     else
       if c.webex_id.present?
-        return Webex.instance.enroll_url(current_user.mail,f_name,"TC",c.webex_id,"eleuid",enroll_webexs_url(:SID => c.id,:WID=>c.webex_id,:PWD=>c.webex_pwd)) 
+        
+        if Rails.env.production?
+          enroll_url = "http://www.oenglish.net/#{enroll_webexs_path(:SID => c.id,:WID=>c.webex_id,:PWD=>c.webex_pwd)}"
+        else
+          enroll_url = enroll_webexs_url(:SID => c.id,:WID=>c.webex_id,:PWD=>c.webex_pwd)
+        end
+        
+        return Webex.instance.enroll_url(current_user.mail,f_name,"TC",c.webex_id,"eleuid",enroll_url) 
       end
     end
   end

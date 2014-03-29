@@ -26,7 +26,15 @@
 			<div class="webexstartgray"><a href="#"></a></div>
 			<% elsif c.course_end_at >= Time.current%>
 			<div class="webexstart">
-			<%= link_to " ", Webex.instance.login(Webex.instance.start_meeting(c.webex_id, teacher_webexs_url))  if c.webex_id.present?%>
+				<%
+					if Rails.env.production?
+						t_url = "http://www.oenglish.net/#{teacher_webexs_path}"
+					else
+						t_url = teacher_webexs_url
+					end
+				
+				%>
+			<%= link_to " ", Webex.instance.login(Webex.instance.start_meeting(c.webex_id, t_url))  if c.webex_id.present?%>
 			</div>
 			<% else%>
 			Finished!

@@ -5,7 +5,7 @@ class StudyRecordsController < BaseController
   def create
     current_user.study_records.find_or_create_by_lesson_id(params[:lesson_id], params[:package_id])
 
-    redirect_to lesson_url(params[:lesson_id])
+    redirect_to lesson_path(params[:lesson_id])
   end
   
   def show_records
