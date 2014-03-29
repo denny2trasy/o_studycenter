@@ -15,7 +15,7 @@ module Webex
   # APE_PWD = "Idapt3d"
   # MEETING_PWD = "elotian"
   
-  API_URL = "https://onlineenglish.webex.com/"  
+  API_URL = "https://onlineenglish.webex.com/onlineenglish/"  
   API_USER = "dngai"
   APE_PWD = "Dan12345"
   MEETING_PWD = "elotian"

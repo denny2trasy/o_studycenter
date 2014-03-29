@@ -132,7 +132,7 @@ class Admin::SchedulesController < Admin::BaseController
     # denny edit it at 2014.3.28
     # params[:BU] = up_schedule_admin_schedules_url(:id=>params[:id])
     if Rails.env == "production"
-      params[:BU] = "http://www.oenglish.net/el_studycenter/#{up_schedule_admin_schedules_path(:id=>params[:id])}"
+      params[:BU] = "http://www.oenglish.net/#{up_schedule_admin_schedules_path(:id=>params[:id])}"
     else
       params[:BU] = up_schedule_admin_schedules_url(:id=>params[:id])
     end
