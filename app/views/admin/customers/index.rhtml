@@ -1,78 +1,20 @@
 <br />
 <br />
-<%= link_to t("recent_weekly"), admin_customers_path(:stat=>"weeks")%>
-<%= link_to t("recent_monthly"), admin_customers_path(:stat=>"months")%>
-<%= link_to t("recent_yearly"), admin_customers_path(:stat=>"years")%>
+<div class="clear_float">
+	<%= search_form_for Customer,:short_name%>
+	<%= link_to(t(:create),new_admin_customer_path(),:class => "popup rightfloat")%>
+</div>
 <br />
-<%#= list_table_for(@results) do |item,col|
-	customer = Customer.find_by_id(item.customer_id)
-	col.add   :customer, customer.try(:company_name) || customer.try(:short_name)
-	col.add   :course_package,	CoursePackage.find_by_id(item.course_package_id).try(:name)
-	col.add	  :count,	link_to(item.c,admin_customer_path(item.course_package_id))
+<%= list_table_for(@customers) do |item,col|
+	@customer = item
+	col.add	:short_name,	in_place_editor_field(:customer,:short_name)
+	col.add	:company_name, in_place_editor_field(:customer,:company_name)
+	col.add :payment_terms
+	col.add :billing_currency
+	col.add	:packages,	link_to("#{item.course_packages.size} packages",admin_course_packages_path(:q => {:customer_id => item.id}))
+	col.add :actions,	
+			link_to(t(:add_packages),new_admin_course_package_path(:customer_id => item.id),:class => "popup") + 
+			link_to(t(:delete),admin_customer_path(item),:confirm => "Are you sure?", :method => :delete)
 end %>
 
-<%#= paginate @results %>
-
-<table class="list_table">
-	<thead>
-		<tr>
-			<th><%= t(:customer) %></th>
-			<th><%= t(:course_package) %></th>
-			<th><%= t(:count) %></th>
-		</tr>
-	</thead>
-	
-	<tbody>
-		<% @results.each do |item|%>
-		<% customer = Customer.find_by_id(item.customer_id)%>
-		<tr>
-			<td><%= customer.try(:company_name) || customer.try(:short_name) %></td>
-			<td><%= CoursePackage.find_by_id(item.course_package_id).try(:name)%></td>
-			<td><%= link_to(item.c,admin_customer_path(item.course_package_id)) %></td>
-		</tr>
-		<% end %>
-	</tbody>
-</table>
-
-
-<br />
-
-<% if not @stats.blank? %>
-
-	<% rows = @stats[0] %>
-	<% cols = @stats[1] %>
-	<% data = @stats[2] %>
-	
-	<table class="list_table">
-		<thead>
-			<tr>
-				<th><%= t(:customer) %></th>
-				<% cols.each do |col|%>
-					<th><%= col %></th>
-				<% end %>
-				<th><%= t(:total) %></th>
-			</tr>
-		</thead>
-		
-		<tbody>
-			
-			<% rows.each do |row| %>
-				<% customer = Customer.find_by_id(row) %>
-				<tr>
-					<td><%= customer.try(:company_name) || customer.try(:short_name) %></td>
-					<% total = 0 %>
-					<% cols.each do |col|%>
-						<% key = "#{row}-#{col}"%>
-						<% total += data[key].to_i%>
-						<td><%= data[key]%></td>
-					<% end %>
-					<td><%= total %></td>
-				</tr>
-			<% end %>
-			
-		</tbody>		
-		
-	</table>	
-	
-	
-<% end %>	
+<%= paginate @customers %>

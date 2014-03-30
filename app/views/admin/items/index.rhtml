@@ -1,0 +1,16 @@
+<br />
+<br />
+<div class="clear_float">
+	<%= search_form_for Scenario,:show_scenario_id,:name%>
+	<%= link_to(t(:create),new_scenario_path(),:class => "popup rightfloat")%>
+</div>
+<br />
+<%= list_table_for(@scenarios) do |item,col|
+	@scenario = item
+	col.add	:name,	in_place_editor_field(:scenario,:name)
+	col.add	:show_scenario_id, in_place_editor_field(:scenario,:show_scenario_id)
+	col.add :image_url, in_place_editor_field(:scenario,:image_url)
+	col.add :actions,link_to(t(:delete),scenario_path(item),:confirm => "Are you sure?", :method => :delete)
+end %>
+
+<%= paginate @scenarios %>

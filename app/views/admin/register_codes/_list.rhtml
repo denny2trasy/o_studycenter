@@ -1,0 +1,16 @@
+<div>
+	<%= link_to(t(:create_register_code),new_admin_register_code_path(:course_package_id => @package.id))%>
+	<%= link_to(t(:download_code),admin_register_code_path(@package.id))%>
+<div>
+
+<%= list_table_for(@contents) do |item,col|
+		@register_code = item
+		col.add	:code
+		col.add	:status
+		col.add :valid_time, item.valid_time.try(:to_s,:long)
+		col.add :desc
+		col.add :created_at,	item.created_at.to_s(:long)
+		col.add :actions,	link_to(t(:delete),admin_register_code_path(item,:course_package_id=>@package.id),:confirm => "Are you sure?",:method => :delete)
+end %>	
+
+<%= paginate @contents %>

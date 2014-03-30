@@ -1,0 +1,25 @@
+<h2>Scenario列表</h2>
+<% form_tag(items_path()) do %>
+
+<%= hidden_field_tag(:group_id,@item_group.id)%>
+<%= hidden_field_tag(:content_type,"Scenario")%>
+<div id="list">
+	<%#= items_for_select(@lessons) %>
+	<div class="items_for_select">
+		<ul>
+			<% @scenarios.each do |scenario| %>
+			<li>
+				<%= check_box_tag("content[#{scenario.id}]", scenario.id, false) %>
+				<label for="#{scenario.dom_id}">
+					<%= scenario.try(:name)%>
+				</label>
+			</li>
+			<% end %>
+		</ul>
+	</div>
+
+</div>
+<input id="all" type="checkbox" onclick="docheck(this.checked);" /> 全选
+
+<%= submit_tag(t(:submit)) %>
+<% end %>

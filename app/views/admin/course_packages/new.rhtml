@@ -1,0 +1,16 @@
+<%= simple_form_for @course_package, :url => admin_course_packages_path do |f| %>
+	<%= f.input :customer_id,	:as => :hidden%>
+	<%= f.input :name %>
+	<%= f.input :valid_for %>
+	<%# f.input :number_of_users %>
+	<%#= f.input :require_address %>
+	<!-- <div class="field"> -->
+		<%#= f.label :course_type %>
+		<%#= f.select( :course_type, { "ellis"=>"ellis","cambridge" =>"cambridge","let's go"=>"lets go","business venture"=>"business venture" }) %>
+		<%= f.input :course_type, :as => :hidden%>		
+	<!-- </div> -->
+	<%#= f.input :eleutian_course %>
+	<%#= f.input :thinkingcap_program %>
+  	<%= f.input :description, :as => :text %>  	
+  	<%= f.button :submit %>
+<% end %>

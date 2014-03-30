@@ -1,0 +1,8 @@
+<div class="hmenu2">
+        <ul>
+			<% %w{item_groups register_codes}.each do |item| %>
+				<li<% if @item == item %> class="active" <%end%>> <%= link_to "#{item.capitalize}(#{@package.send(item).size})", admin_course_package_path(@package,:item=>item)%></li>
+			<% end %>
+        </ul>
+</div> 
+<br /><br />

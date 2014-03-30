@@ -1,0 +1,16 @@
+<br />
+<br />
+<div class="clear_float">
+	<%= search_form_for Oenglish,:show_oenglish_id,:name%>
+	<%= link_to(t(:create),new_admin_oenglish_path(),:class => "popup rightfloat")%>
+</div>
+<br />
+<%= list_table_for(@oenglishs) do |item,col|
+	@oenglish = item
+	col.add	:name,	in_place_editor_field(:oenglish,:name)
+	col.add	:show_oenglish_id, in_place_editor_field(:oenglish,:show_oenglish_id)
+	col.add :video_url, in_place_editor_field(:oenglish,:video_url)
+	col.add :actions,link_to(t(:delete),admin_oenglish_path(item),:confirm => "Are you sure?", :method => :delete)
+end %>
+
+<%= paginate @oenglishs %>

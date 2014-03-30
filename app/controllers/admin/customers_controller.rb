@@ -1,19 +1,36 @@
 class Admin::CustomersController < Admin::BaseController
   
+  in_place_edit_for :customer,  :company_name
+  in_place_edit_for :customer,  :short_name
+  
   def index
+    # @customers = Customer.combo_search(params)
     
-    # @results = CoursePackageUser.page(params[:page]).per(10).select("customer_id,course_package_id,count(*) as c").where("customer_id is not null").group("customer_id").order("customer_id desc")
-    @results = CoursePackageUser.select("customer_id,course_package_id,count(*) as c").where("customer_id is not null").group("customer_id").order("customer_id desc")
-    
-    @stats = CoursePackageUser.stat_result(params[:stat]) if not params[:stat].blank?
+    conditions = (params[:q].blank? or params[:q][:short_name].blank? ? "1=1" : ("short_name like '%#{params[:q][:short_name]}%'"))
+    page = params[:page] || 1
+    @customers = Customer.page(page).per(20).where(conditions).order("updated_at desc")    
     
   end
   
-  def show
-    puts "*".center(80)
-    cp_id = params[:id]
-    @cp = CoursePackage.find_by_id(cp_id)
-    @result = CoursePackageUser.activate_users_each_day_of(cp_id)
+  def new
+    @customer = Customer.new
+  end
+  
+  def create
+    
+    flash[:notice] = Customer.create(params[:customer]) ? "Success" : "Fail"
+    redirect_to admin_customers_path
+  end
+  
+  def destroy
+    flash[:notice] = Customer.find_by_id(params[:id]).destroy ? "Success" : "Fail"
+    redirect_to admin_customers_path
+  end
+  
+  private
+  
+  def valid_coment(ddd)
+    (ddd.size>200)
   end
   
 end

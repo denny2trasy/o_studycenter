@@ -4,7 +4,7 @@
 
 <%= list_table_for(@user.course_package_users) do |item,col|
 	@course_package_user = item
-	col.add   :course_package,	item.course_package.name
+	col.add   :course_package,	item.course_package.try(:name)
 	col.add	  :customer,	item.customer.try(:company_name)
 	col.add   :activated_at,	(item.activated_at.blank? ? "-" : item.activated_at.to_s(:db))
 	col.add   :expired_at, (item.expired_at.blank? ? "-" : item.expired_at.to_s(:db))  #	 #
@@ -13,9 +13,9 @@
 end %>
 
 
-<h2><%= t(:broadcast_record)%></h2>
+<!-- <h2><%#= t(:broadcast_record)%></h2> -->
 
-<%= list_table_for(@user.broad_records) do |item,col|
+<%#= list_table_for(@user.broad_records) do |item,col|
 	col.add   :schedule,	item.schedule.id
 	col.add   :schedule_start,	item.schedule.course_start_at.to_s(:db)
 	col.add	  :schedule_end,	item.schedule.course_end_at.to_s(:db)
@@ -26,18 +26,18 @@ end %>
 
 
 
-<h2><%= t(:replace_record)%></h2>
+<!-- <h2><%#= t(:replace_record)%></h2> -->
 
-<%= list_table_for(@user.test_results) do |item,col|
+<%#= list_table_for(@user.test_results) do |item,col|
 	col.add   :score
 	col.add	  :level
 	col.add   :created_at,	item.created_at.to_s(:db)
 end %>
 
 
-<h2><%= t(:study_record)%></h2>
+<!-- <h2><%#= t(:study_record)%></h2> -->
 
-<%= list_table_for(@user.study_records) do |item,col|
+<%#= list_table_for(@user.study_records) do |item,col|
 	col.add   :id
 	col.add   :lesson_name,	item.lesson.try(:name)
 	col.add   :course_package_name,	item.course_package.try(:name)

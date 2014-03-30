@@ -1,0 +1,64 @@
+
+<div>
+	<%= link_to(t(:create_item_group),new_admin_item_group_path(:course_package_id => @package.id))%>
+<div>
+	
+
+<% if not @package.item_groups.blank? %>	
+<table class="list_table">
+	<tr>
+		<th><%= t(:position)%></th>
+		<th><%= t(:name)%></th>
+		<th><%= t(:credits)%></th>
+		<th><%= t(:course_type)%></th>
+		<th><%= t(:items)%></th>
+		<th><%= t(:quiz_level)%></th>
+		<th><%= t(:actions)%></th>
+	</tr>
+
+	<% @package.item_groups.each do |i_group| %>
+		<% @item_group = i_group %>
+		<% 
+			add_item_path = case i_group.course_type
+			when 'Scenario'
+				scenario_path(i_group.id)
+			when 'Thinkingcap'
+				thinkingcap_path(i_group.id)
+			when 'Chinacache'
+				chinacach_path(i_group.id)
+			else
+				admin_oenglish_path(i_group.id)
+			end
+		%>
+		<tr>
+			<td><%= in_place_editor_field(:item_group,:position)%></td>
+			<td><%= in_place_editor_field(:item_group,:name) %></td>
+			<td><%= i_group.credits%></td> 
+			<td><%= in_place_editor_field(:item_group,:course_type) %></td>
+			<td><%= link_to_function("#{i_group.items.size} Items","$('#item_list_#{i_group.id}').slideToggle('slow')")%></td>
+			<td><%= in_place_editor_field(:item_group,:quiz_level)%></td>
+			<td><%= link_to(t(:add_item),add_item_path)%>
+			<%= link_to(t(:delete),admin_item_group_path(i_group,:course_package_id=>i_group.course_package_id),:confirm => "Are you sure?",:method => :delete)%></td>
+		</tr>
+		
+		<tr>
+			<td colspan="7">
+				<div style='display:none' id='item_list_<%= i_group.id %>'>  
+					<ul class="liststyle1">
+					<% i_group.items.each do |item|%>
+						<% @item = item%>
+						<li>
+							<%= in_place_editor_field(:item,:position) %> - <%= item.content_type %> - 
+							<%= item.content.try(:name) %> - <%= item.content_link %> 
+							<%= link_to(t(:delete),admin_item_path(item,:group_id => i_group.id),:confirm => "Are you sure?",:method => :delete)%>
+						</li>	
+						<% end %>
+					</ul>
+				</div>
+			</td>
+		</tr>
+		
+	<% end %>
+</table>		
+<% end %>		
+		

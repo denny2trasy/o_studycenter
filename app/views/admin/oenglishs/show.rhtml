@@ -1,0 +1,25 @@
+<h2>Oenglish列表</h2>
+<% form_tag(admin_items_path()) do %>
+
+<%= hidden_field_tag(:group_id,@item_group.id)%>
+<%= hidden_field_tag(:content_type,"Oenglish")%>
+<div id="list">
+	<%#= items_for_select(@lessons) %>
+	<div class="items_for_select">
+		<ul>
+			<% @oenglishs.each do |oenglish| %>
+			<li>
+				<%= check_box_tag("content[#{oenglish.id}]", oenglish.id, false) %>
+				<label for="#{oenglish.dom_id}">
+					<%= oenglish.try(:name)%>
+				</label>
+			</li>
+			<% end %>
+		</ul>
+	</div>
+
+</div>
+<input id="all" type="checkbox" onclick="docheck(this.checked);" /> 全选
+
+<%= submit_tag(t(:submit)) %>
+<% end %>

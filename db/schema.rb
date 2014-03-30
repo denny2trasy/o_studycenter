@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130128040028) do
+ActiveRecord::Schema.define(:version => 20140330131855) do
 
   create_table "answers", :force => true do |t|
     t.integer  "question_id"
@@ -26,17 +26,6 @@ ActiveRecord::Schema.define(:version => 20130128040028) do
     t.datetime "started_at"
     t.datetime "completed_at"
     t.integer  "times",        :default => 1
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "broad_records", ["schedule_id"], :name => "index_broad_records_on_schedule_id"
-  add_index "broad_records", ["user_id"], :name => "index_broad_records_on_user_id"
-
-  create_table "chinacaches", :force => true do |t|
-    t.string   "name"
-    t.string   "show_chinacache_id"
-    t.string   "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -178,6 +167,7 @@ ActiveRecord::Schema.define(:version => 20130128040028) do
     t.datetime "sent_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "varia_content"
   end
 
   create_table "mail_templates", :force => true do |t|
@@ -206,6 +196,15 @@ ActiveRecord::Schema.define(:version => 20130128040028) do
     t.string   "title"
     t.text     "content"
     t.boolean  "display"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "oenglishes", :force => true do |t|
+    t.string   "name"
+    t.string   "video_url"
+    t.string   "show_oenglish_id"
+    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -265,17 +264,6 @@ ActiveRecord::Schema.define(:version => 20130128040028) do
     t.text     "desc"
   end
 
-  create_table "scenarios", :force => true do |t|
-    t.integer  "item_group_id"
-    t.string   "name"
-    t.integer  "show_scenario_id"
-    t.integer  "position"
-    t.string   "show_link"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "image_url"
-  end
-
   create_table "schedules", :force => true do |t|
     t.string   "title"
     t.datetime "course_start_at"
@@ -292,15 +280,6 @@ ActiveRecord::Schema.define(:version => 20130128040028) do
     t.string   "webex_pwd"
     t.integer  "content_id"
     t.string   "content_type"
-  end
-
-  create_table "session_credits", :force => true do |t|
-    t.integer  "course_package_id"
-    t.string   "session_type"
-    t.integer  "quantity"
-    t.integer  "session_length"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
   create_table "sessions", :force => true do |t|
@@ -386,25 +365,6 @@ ActiveRecord::Schema.define(:version => 20130128040028) do
     t.decimal  "duration",              :precision => 10, :scale => 1
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "thinkingcaps", :force => true do |t|
-    t.string   "name"
-    t.string   "show_course_id"
-    t.string   "image_url"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "third_contents", :force => true do |t|
-    t.integer  "item_group_id"
-    t.string   "name"
-    t.string   "show_content_id"
-    t.integer  "position"
-    t.string   "show_link"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "thinkingcap_course"
   end
 
   create_table "webex_records", :force => true do |t|

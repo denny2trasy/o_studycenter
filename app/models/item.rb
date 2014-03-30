@@ -1,5 +1,5 @@
 class Item < ActiveRecord::Base
-  acts_as_readonly :el_course
+  # acts_as_readonly :el_course
 
   belongs_to :item_group
   belongs_to :lesson
@@ -51,6 +51,21 @@ class Item < ActiveRecord::Base
   
   def my_study_records(user)
     StudyRecord.where(:item_id => self.id,:user_id=>user.id)
+  end
+  
+  def content_link
+    link = ""
+    # if self.content.is_a?(Lesson)
+    #   link = self.content.id
+    if self.content.is_a?(Scenario)
+      link = self.content.show_scenario_id
+    elsif self.content.is_a?(Thinkingcap)
+      link = self.content.show_course_id
+    elsif self.content.is_a?(Chinacache)
+      link = self.content.show_chinacache_id
+    elsif self.content.is_a?(Oenglish)
+      link = self.content.show_oenglish_id
+    end
   end
   
 end

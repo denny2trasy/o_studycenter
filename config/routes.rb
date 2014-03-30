@@ -52,13 +52,55 @@ ElStudycenter::Application.routes.draw do
       post :set_question_prompt, :on => :member
       resources :answers
     end
-    resources :customers
+    resources :customers do
+      member do
+        post "set_customer_company_name"
+        post "set_customer_short_name"
+      end
+    end
+    resources :course_packages do
+      member do
+        post "set_item_position"
+        post "set_course_package_name"
+        post "set_course_package_valid_for"
+        post "set_course_package_description"
+        post "set_course_package_eleutian_course"
+        post "set_course_package_thinkingcap_program"
+        post "set_register_code_desc"
+        post "set_course_package_customer_id"
+        post "set_scenario_name"
+        post "set_scenario_position"
+        post "set_scenario_show_scenario_id"
+        post "set_third_content_name"
+        post "set_third_content_position"
+        post "set_third_content_show_content_id"
+        post "set_third_content_show_link"
+        post "set_third_content_thinkingcap_course"
+        post "set_item_group_position"
+        post "set_item_group_name"
+        post "set_item_group_course_type"
+        post "set_item_group_quiz_level"
+        post "set_course_package_course_type"
+        get  "copy"
+      end
+    end
+    resources :item_groups
+    resources :register_codes
+    resources :items
+    resources :oenglishs do
+      member do
+        post "set_oenglish_name"
+        post "set_oenglish_video_url"
+        post "set_oenglish_show_oenglish_id"
+      end
+    end
     resources :webex_users
     resources :notices do
       post :set_notice_title, :on => :member
       post :set_notice_content, :on => :member
       post :set_notice_display, :on => :member
     end
+    resources :course_packages
     resources :quizzes do
       post :set_quiz_prompt, :on => :member
       post :set_quiz_position, :on => :member
@@ -92,6 +134,7 @@ ElStudycenter::Application.routes.draw do
         get "up_schedule"
       end
     end
+    resources :statistics
     resources :mail_templates do
       collection do
         post 'set_mail_template_name'

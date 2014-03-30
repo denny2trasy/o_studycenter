@@ -40,16 +40,19 @@
 			
 			<div class="hmenu2" style="margin-bottom:10px;">
 			        <ul>
-			            <li <% if params[:controller] =~ /slides/ %>class="active"<% end %>><%= link_to t(:slide), admin_slides_path%></li>
+			            <!-- <li <%# if params[:controller] =~ /slides/ %>class="active"<%# end %>><%#= link_to t(:slide), admin_slides_path%></li> -->
 			            <li <% if params[:controller] =~ /schedules/ %>class="active"<% end %>><%= link_to t(:schedule), admin_schedules_path %></li>
 						<li <% if params[:controller] =~ /users/ %>class="active"<% end %>><%= link_to t(:user), admin_users_path %></li>
-						<li <% if params[:controller] =~ /customers/ %>class="active"<% end %>><%= link_to t(:customer), admin_customers_path %></li>
-						<li <% if params[:controller] =~ /questions|answers/ %>class="active"<% end %>><%= link_to t(:question), admin_questions_path %></li>
-						<li <% if params[:controller] =~ /issues/ %>class="active"<% end %>><%= link_to t(:issue), issues_path %></li>
-						<li <% if params[:controller] =~ /notices/ %>class="active"<% end %>><%= link_to t(:notice), admin_notices_path %></li>
-						<li <% if params[:controller] =~ /records/ %>class="active"<% end %>><%= link_to t(:record), admin_records_path %></li>
-						<li <% if params[:controller] =~ /quizzes/ %>class="active"<% end %>><%= link_to t(:quiz), admin_quizzes_path %></li>
-						<li <% if params[:controller] =~ /mail_templates/ %>class="active"<% end %>><%= link_to t(:mail_template), admin_mail_templates_path %></li>
+						<li <% if params[:controller] =~ /statistics/ %>class="active"<% end %>><%= link_to t(:statistic), admin_statistics_path %></li>
+						<li <% if params[:controller] =~ /customer/ %>class="active"<% end %>><%= link_to t(:customer), admin_customers_path %></li>
+						<li <% if params[:controller] =~ /course_package/ %>class="active"<% end %>><%= link_to t(:course_package), admin_course_packages_path %></li>
+						<li <% if params[:controller] =~ /oenglish/ %>class="active"<% end %>><%= link_to t(:oenglish), admin_oenglishs_path %></li>
+						<!-- <li <%# if params[:controller] =~ /questions|answers/ %>class="active"<%# end %>><%#= link_to t(:question), admin_questions_path %></li> -->
+						<li <%# if params[:controller] =~ /issues/ %>class="active"<%# end %>><%#= link_to t(:issue), issues_path %></li>
+						<li <%# if params[:controller] =~ /notices/ %>class="active"<%# end %>><%#= link_to t(:notice), admin_notices_path %></li>
+						<li <%# if params[:controller] =~ /records/ %>class="active"<%# end %>><%#= link_to t(:record), admin_records_path %></li>
+						<li <%# if params[:controller] =~ /quizzes/ %>class="active"<%# end %>><%#= link_to t(:quiz), admin_quizzes_path %></li>
+						<li <%# if params[:controller] =~ /mail_templates/ %>class="active"<%# end %>><%#= link_to t(:mail_template), admin_mail_templates_path %></li>
 			        </ul>
 			</div>
 		

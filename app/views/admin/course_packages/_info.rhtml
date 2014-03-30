@@ -1,0 +1,16 @@
+<table class="list_table" style="width:90%; margin:0 auto;">
+	
+	<tr>
+		<th>Customer</th>
+		<td><%= @package.customer.short_name%></td>
+	</tr>	
+	
+	<% %w{name valid_for number_of_users description}.each do |field| %>
+		<tr>
+			<th><%= t(field.to_sym)%></th>
+			<td><%= @package.try(field.to_sym)%></td>
+		</tr>
+	<% end %>
+
+</table>
+

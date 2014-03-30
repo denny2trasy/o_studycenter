@@ -1,5 +1,5 @@
 class ItemGroup < ActiveRecord::Base
-  acts_as_readonly :el_course
+  # acts_as_readonly :el_course
 
   belongs_to :course_package
   has_many :items, :order => "lesson_id"

@@ -1,0 +1,10 @@
+<%= simple_form_for @item_group, :url => admin_item_groups_path do |f| %>
+	<%= f.input :course_package_id,	:as => :hidden%>
+	<%= f.input :name %>
+	<%= f.input :position %>
+	<%#= f.input :credits %>
+	<%#= f.label :course_type%>
+	<%#= f.select :course_type ,{"Lesson"=>"Lesson","Scenario"=>"Scenario","Thinkingcap"=>"Thinkingcap","Chinacache"=>"Chinacache"}%>
+	<%#= f.input :quiz_level%>
+  	<%= f.button :submit %>
+<% end %>

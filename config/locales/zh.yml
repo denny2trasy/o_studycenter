@@ -5,6 +5,9 @@ zh:
   password: 密码
   signout: 退出
   back: 返回
+  create: "创建"
+  actions: "操作"
+  show: "详情"
 
   profile: 个人信息
   password_update: 密码修改
@@ -258,7 +261,39 @@ zh:
   
   # admin/customers
   customer: "客户"
-  count: "激活总数" 
+  count: "激活总数"
+  short_name: "简称"
+  company_name: "公司名称"
+  payment_terms: "支付方式"
+  billing_currency: "帐单"
+  packages: "课程包"
+  add_packages: "新增课程包"  
+  
+  # admin/course_packages
+  name: "名称"
+  customer_name: "客户名称"
+  valid_for: "有效期"
+  description: "描述"
+  number_of_users: "用户数"
+  item_groups: "组"
+  register_codes: "激活码"
+  copy: "拷贝"
+  
+  # admin/item_groups
+  create_item_group: "新建组"
+  add_item: "新增课程"
+  
+  # admin/register_codes
+  create_register_code: "新建激活码"
+  download_code: "下载"
+  code: "激活码"
+  valid_time: "有效期"
+  desc: "备注"
+   
+  # admin/oenglishs
+  oenglish: "课程元素"
+  show_oenglish_id: "课程元素ID" 
+  video_url: "文件播放路径"
   
   # requirement
   teachcast_system_requirements: Oenglish系统要求
@@ -367,3 +402,5 @@ zh:
   error_message: "错误信息"
   sent_at: "发送时间"
       
+  # admin/statistics
+  statistic: "统计"

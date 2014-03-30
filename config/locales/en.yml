@@ -5,6 +5,9 @@ en:
   password: Password
   signout: Signout
   back: Back
+  create: "Create" 
+  actions: "Actions"
+  show: "Show" 
 
   profile: Profile
   password_update: Password Update
@@ -257,6 +260,38 @@ en:
   # admin/customers
   customer: "Customer"
   count: "Count"
+  short_name: "Short Name"
+  company_name: "Company Name"
+  payment_terms: "Payment Terms"
+  billing_currency: "Billing Currency"
+  packages: "Packages"
+  add_packages: "Add Packages"
+  
+  # admin/course_packages
+  name: "Name"
+  customer_name: "Customer Name"
+  valid_for: "Valid For"
+  description: "Description"
+  number_of_users: "Number of Users"
+  item_groups: "Item Groups"
+  register_codes: "Register Codes"
+  copy: "Copy"
+  
+  # admin/item_groups
+  create_item_group: "Create ItemGroup"
+  add_item: "Add Item"
+  
+  # admin/register_codes
+  create_register_code: "Create Register Code"
+  download_code: "Download"
+  code: "Code"
+  valid_time: "Valid Time"
+  desc: "Desc"
+  
+  # admin/oenglishs
+  oenglish: "Oenglish"
+  show_oenglish_id: "Show Oenglish Id"
+  video_url: "Video Url"
   
   # requirement
   teachcast_system_requirements: Oenglish System Requirements
@@ -364,6 +399,9 @@ en:
   status: Status
   error_message: Error Message
   sent_at: Sent At
+  
+  # admin/statistics
+  statistic: "Statistic"
 
        
       

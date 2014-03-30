@@ -1,0 +1,17 @@
+<div>
+	<% form_tag(admin_register_codes_path) do%>
+	<p>
+	number_of_users:
+	<%= text_field_tag :number_of_users%></p>
+	<p>
+	valid_time:
+	<%= date_select 'register_code','valid_time' %>
+	</p>
+	<p>
+	desc:
+	<%= text_area_tag :desc %>	
+	</p>
+	<%= hidden_field_tag :package_id, @package_id%>
+	<%= submit_tag(t(:submit)) %>
+	<% end%>
+</div>
