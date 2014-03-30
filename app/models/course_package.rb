@@ -2,6 +2,7 @@ class CoursePackage < ActiveRecord::Base
   # acts_as_readonly :el_course
 
   belongs_to  :customer
+  has_many :course_package_users
   has_many  :item_groups, :order => :position,  :dependent => :destroy
   has_many  :items, :through => :item_groups
   # has_many  :session_credits,  :dependent => :destroy
