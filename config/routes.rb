@@ -18,6 +18,7 @@ ElStudycenter::Application.routes.draw do
   resources :scenarios, :only => %w{show index}
   resources :chinacaches, :only => %w{show index}
   resources :thinkingcaps, :only => %w{show index}
+  resources :oenglishs, :only => %w{show index}
 
   resources :study_records, :only => %w{create show_records}  do
     get :show_records,:on => :collection
@@ -39,6 +40,8 @@ ElStudycenter::Application.routes.draw do
   resources :download ,:only =>%w{file } do
     get :file ,:on=>:collection
   end
+  
+  
   
   namespace :admin do
     resources :base

@@ -18,14 +18,15 @@ class CoursePackagesController < BaseController
 
   def activate
     @register_code = RegisterCode.find_by_code(params[:code])
-
+    debugger
     if @register_code.blank?
       flash[:error] = t(:register_code_is_not_exist)
     elsif !@register_code.register_code_valid?(params[:code])
         flash[:error] = t(:register_code_used)
     elsif (@register_code.valid_time.nil? ? Time.now.tomorrow : @register_code.valid_time) < Time.now or not @register_code.status
         flash[:error] = t(:register_code_out_of_date)
-    elsif set_code_used(@register_code)
+    # elsif set_code_used(@register_code)
+    else
         @course_package = CoursePackage.find_by_id(@register_code.course_package_id)
         this_package = CoursePackageUser.where(:user_id => current_user.id, :course_package_id => @course_package.id)
       if this_package.blank?
@@ -42,8 +43,8 @@ class CoursePackagesController < BaseController
         this_package.first.extend_time
       end
       flash[:notice] = t(:successful)
-    else
-      flash[:notice] = t(:try_again)
+    # else
+    #   flash[:notice] = t(:try_again)
     end
     path = ((not params[:flag].blank?) and params[:flag] == "com") ? ehome_index_path : home_path
     redirect_to path

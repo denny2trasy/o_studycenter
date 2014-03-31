@@ -21,6 +21,8 @@ class Item < ActiveRecord::Base
     elsif self.content.is_a?(Thinkingcap)
       #thinkingcap_path(self)
       "/el_studycenter/thinkingcaps/#{self.id}"
+    elsif self.content.is_a?(Oenglish)  
+      "/el_studycenter/oenglishs/#{self.id}"
     else
       ""
     end
@@ -36,6 +38,8 @@ class Item < ActiveRecord::Base
     elsif self.content.is_a?(Thinkingcap)
       "/el_studycenter/images/el/jianqiao/go_large.png"
       #"jianqiao/bv_large.png"
+    elsif self.content.is_a?(Oenglish)
+      "/el_studycenter/images/el/jiaqiao/go_large.png"  
     else
       ""
     end
