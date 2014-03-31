@@ -39,7 +39,7 @@ class Item < ActiveRecord::Base
       "/el_studycenter/images/el/jianqiao/go_large.png"
       #"jianqiao/bv_large.png"
     elsif self.content.is_a?(Oenglish)
-      "/el_studycenter/images/el/jiaqiao/go_large.png"  
+      "/el_studycenter/images/el/oenglish/default.jpg"  
     else
       ""
     end
