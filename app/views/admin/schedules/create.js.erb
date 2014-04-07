@@ -10,7 +10,7 @@
 		      	temp = schedule_meeting_admin_schedules_path(:id=>@event.id,:EN=>@event.title,:JPW=>@event.webex_pwd,:YE=>@event.course_start_at.year,:MO=>@event.course_start_at.month,:DA=>@event.course_start_at.day,:HO=>@event.course_start_at.hour,:MI=>@event.course_start_at.min,:DU=>@event.du)
 				url = "http://www.oenglish.net/#{temp}"
 		    else
-		      url chedule_meeting_admin_schedules_url(:id=>@event.id,:EN=>@event.title,:JPW=>@event.webex_pwd,:YE=>@event.course_start_at.year,:MO=>@event.course_start_at.month,:DA=>@event.course_start_at.day,:HO=>@event.course_start_at.hour,:MI=>@event.course_start_at.min,:DU=>@event.du)
+		      url =  schedule_meeting_admin_schedules_url(:id=>@event.id,:EN=>@event.title,:JPW=>@event.webex_pwd,:YE=>@event.course_start_at.year,:MO=>@event.course_start_at.month,:DA=>@event.course_start_at.day,:HO=>@event.course_start_at.hour,:MI=>@event.course_start_at.min,:DU=>@event.du)
 		    end
 		
 		%>			
