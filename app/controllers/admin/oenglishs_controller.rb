@@ -3,6 +3,7 @@ class Admin::OenglishsController < Admin::BaseController
   in_place_edit_for :oenglish,  :name
   in_place_edit_for :oenglish,  :show_oenglish_id
   in_place_edit_for :oenglish,  :video_url
+  in_place_edit_for :oenglish,  :description
   
   def index
     @oenglishs = Oenglish.combo_search(params.merge({:order=>"created_at desc"})) || Scenario.all

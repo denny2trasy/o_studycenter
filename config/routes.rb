@@ -95,6 +95,7 @@ ElStudycenter::Application.routes.draw do
         post "set_oenglish_name"
         post "set_oenglish_video_url"
         post "set_oenglish_show_oenglish_id"
+        post "set_oenglish_description"
       end
     end
     resources :webex_users

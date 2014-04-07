@@ -10,6 +10,7 @@
 	col.add	:name,	in_place_editor_field(:oenglish,:name)
 	col.add	:show_oenglish_id, in_place_editor_field(:oenglish,:show_oenglish_id)
 	col.add :video_url, in_place_editor_field(:oenglish,:video_url)
+	col.add :description, in_place_editor_field(:oenglish,:description)
 	col.add :actions,link_to(t(:delete),admin_oenglish_path(item),:confirm => "Are you sure?", :method => :delete)
 end %>
 

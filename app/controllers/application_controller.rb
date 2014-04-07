@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
     #   
     # 
     # def current_user
-    #    return User.find_by_login("liupeng")
+    #    return User.find_by_login("denny")
     # end
   def set_layout
     if request.domain == 'es123.com' || request.domain(2) == "es123.eleutian.asia"

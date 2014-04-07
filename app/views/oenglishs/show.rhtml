@@ -1,3 +1,7 @@
-<%= @oenglish.name %>
+<%= @oenglish.name %> <br/>
 <% src = (Rails.env == "development" ? "/flash/musicplayer.swf" : "/el_studycenter/flash/musicplayer.swf") %>
 <embed src='<%=src%>' quality='high' pluginspage='http://www.macromedia.com/go/getflashplayer' wmode='transparent' type='application/x-shockwave-flash' align='middle' allowScriptAccess='sameDomain' flashvars='song_url=<%= @oenglish.video_url%>' width='17' height='17'/>
+	
+	
+<br/>	
+<%= @oenglish.description %>	
